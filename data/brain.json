@@ -23,22 +23,26 @@
     "three": [
       {
         "title": "EO 5% update + book next month's walks",
-        "detail": "Reach out to Ryk, Willie & Amy for availability."
+        "detail": "Reach out to Ryk, Willie & Amy for availability.",
+        "done": false
       },
       {
         "title": "Team KPI targets → free my capacity",
-        "detail": "The keystone. Draft the per-role sheet with Claude, then a 30-min team walkthrough."
+        "detail": "The keystone. Draft the per-role sheet with Claude, then a 30-min team walkthrough.",
+        "done": false
       },
       {
         "title": "Capacity & the relationship",
-        "detail": "Friday session with Amanda (aim for an aligned shared goal, not just fixing problems). Judge whether this psychologist is the right fit."
+        "detail": "Friday session with Amanda (aim for an aligned shared goal, not just fixing problems). Judge whether this psychologist is the right fit.",
+        "done": false
       }
     ],
     "watching": [
       {
         "title": "Berna → set up the projects with Stafford",
         "detail": "So Stafford has a clear view of every project: what it is, which phase it's in, and what needs attention. Already discussed with Berna; she's arranging the meeting with Stafford. Follow up if it hasn't landed.",
-        "owner": "Berna"
+        "owner": "Berna",
+        "done": false
       }
     ],
     "todayQuick": []
@@ -49,19 +53,44 @@
       "name": "Strategy & Autonomy",
       "subtitle": "the leverage",
       "now": [
-        "Team clear on KPIs + targets (per role)",
-        "Define / roll out SOPs",
-        "Coaching cadence"
+        {
+          "text": "Team clear on KPIs + targets (per role)",
+          "done": false
+        },
+        {
+          "text": "Define / roll out SOPs",
+          "done": false
+        },
+        {
+          "text": "Coaching cadence",
+          "done": false
+        },
+        {
+          "text": "Map out AI structures with Mands",
+          "done": false
+        }
       ],
       "delegated": [
-        "Berna — StrengthsFinder across team, current project statuses"
+        {
+          "text": "Berna — StrengthsFinder across team, current project statuses",
+          "done": false
+        }
       ],
       "parked": [
-        "Legacy-planning webinar"
+        {
+          "text": "Legacy-planning webinar",
+          "done": false
+        }
       ],
       "bhags": [
-        "D-One → favourite subcontractor + interchangeable humans + Darren out 1 month at a time",
-        "Caleb → EU trip / honeymoon"
+        {
+          "text": "D-One → favourite subcontractor + interchangeable humans + Darren out 1 month at a time",
+          "done": false
+        },
+        {
+          "text": "Caleb → EU trip / honeymoon",
+          "done": false
+        }
       ]
     },
     {
@@ -69,22 +98,49 @@
       "name": "Claude / Systems",
       "subtitle": "the multiplier",
       "now": [
-        "Decide file-storage back-end (G:/Projects → clean up → Odoo only) — this unblocks everything else"
+        {
+          "text": "Decide file-storage back-end (G:/Projects → clean up → Odoo only) — this unblocks everything else",
+          "done": false
+        }
       ],
       "delegated": [
-        "Mekyle — train Claude on Savant / Lutron / UniFi (refine source pricing, add references)"
+        {
+          "text": "Mekyle — train Claude on Savant / Lutron / UniFi (refine source pricing, add references)",
+          "done": false
+        }
       ],
       "parked": [],
       "skillsToPolish": [
-        "Proposal (remove cost-per-option, show summary values only, simplify blurbs)",
-        "Floorplan",
-        "Tech File (+ auto-create project folder)",
-        "New DB Design skill"
+        {
+          "text": "Proposal (remove cost-per-option, show summary values only, simplify blurbs)",
+          "done": false
+        },
+        {
+          "text": "Floorplan",
+          "done": false
+        },
+        {
+          "text": "Tech File (+ auto-create project folder)",
+          "done": false
+        },
+        {
+          "text": "New DB Design skill",
+          "done": false
+        }
       ],
       "pipelines": [
-        "Pull Gmail correspondence → Odoo project notes",
-        "Room-list → quote front-end",
-        "Odoo quote template"
+        {
+          "text": "Pull Gmail correspondence → Odoo project notes",
+          "done": false
+        },
+        {
+          "text": "Room-list → quote front-end",
+          "done": false
+        },
+        {
+          "text": "Odoo quote template",
+          "done": false
+        }
       ]
     },
     {
@@ -92,14 +148,32 @@
       "name": "D-One Operations",
       "subtitle": "",
       "now": [
-        "Make the Sales Journey the canonical process, in the CRM, with Claude tracking each lead",
-        "Communication / coordination / information flow",
-        "Financial reporting rhythm"
+        {
+          "text": "Make the Sales Journey the canonical process, in the CRM, with Claude tracking each lead",
+          "done": false
+        },
+        {
+          "text": "Communication / coordination / information flow",
+          "done": false
+        },
+        {
+          "text": "Financial reporting rhythm",
+          "done": false
+        }
       ],
       "delegated": [
-        "Amanda — ops/finance/coordination",
-        "Stafford — PM/technicians",
-        "Caren — SLA/accounts"
+        {
+          "text": "Amanda — ops/finance/coordination",
+          "done": false
+        },
+        {
+          "text": "Stafford — PM/technicians",
+          "done": false
+        },
+        {
+          "text": "Caren — SLA/accounts",
+          "done": false
+        }
       ],
       "parked": []
     },
@@ -108,8 +182,14 @@
       "name": "Active Projects & Orders",
       "subtitle": "Owner per project = the discipline (Caleb design/quote · Stafford PM · Tristan/Mekyle install+program)",
       "now": [
-        "Orders now: Gnodde · JFK · Adler · Price Drive",
-        "Projects: Brandt keypad (black) · House Prinsloo · Buchu Villa · 5 Sunset Close · La Vue fire detection · Oakvale SLA · 27 Leeukoppie"
+        {
+          "text": "Orders now: Gnodde · JFK · Adler · Price Drive",
+          "done": false
+        },
+        {
+          "text": "Projects: Brandt keypad (black) · House Prinsloo · Buchu Villa · 5 Sunset Close · La Vue fire detection · Oakvale SLA · 27 Leeukoppie",
+          "done": false
+        }
       ],
       "delegated": [],
       "parked": []
@@ -119,9 +199,18 @@
       "name": "Sales Pipeline",
       "subtitle": "Every lead runs the Filter Framework score before we chase it",
       "now": [
-        "Oakvale Views — B&O, CCTV, WiFi",
-        "Horn",
-        "Mountain"
+        {
+          "text": "Oakvale Views — B&O, CCTV, WiFi",
+          "done": false
+        },
+        {
+          "text": "Horn",
+          "done": false
+        },
+        {
+          "text": "Mountain",
+          "done": false
+        }
       ],
       "delegated": [],
       "parked": []
@@ -131,12 +220,24 @@
       "name": "Wealth & Structure",
       "subtitle": "",
       "now": [
-        "SWAN Trust — sign outstanding docs (Tizane; Deidre = 3rd trustee)",
-        "Mont Vue Unit 212 purchase",
-        "GP tracking · monthly financials snapshot · HoldCo structure"
+        {
+          "text": "SWAN Trust — sign outstanding docs (Tizane; Deidre = 3rd trustee)",
+          "done": false
+        },
+        {
+          "text": "Mont Vue Unit 212 purchase",
+          "done": false
+        },
+        {
+          "text": "GP tracking · monthly financials snapshot · HoldCo structure",
+          "done": false
+        }
       ],
       "delegated": [
-        "Amanda / Caren — financials snapshot"
+        {
+          "text": "Amanda / Caren — financials snapshot",
+          "done": false
+        }
       ],
       "parked": []
     },
@@ -145,9 +246,18 @@
       "name": "Personal & Growth",
       "subtitle": "",
       "now": [
-        "EO: Learning Chair · AI event @ Oakvale 30 Sept (introduce D-One's centralised system, Justin Drennan) · 5% update",
-        "Billionaire Mindset (Daniel): Objective deal-assessment framework · Growth Wheel bottleneck check · Big Leap thermostat",
-        "Reading: The Big Leap · The Ruthless Elimination of Hurry"
+        {
+          "text": "EO: Learning Chair · AI event @ Oakvale 30 Sept (introduce D-One's centralised system, Justin Drennan) · 5% update",
+          "done": false
+        },
+        {
+          "text": "Billionaire Mindset (Daniel): Objective deal-assessment framework · Growth Wheel bottleneck check · Big Leap thermostat",
+          "done": false
+        },
+        {
+          "text": "Reading: The Big Leap · The Ruthless Elimination of Hurry",
+          "done": false
+        }
       ],
       "delegated": [],
       "parked": []
@@ -157,50 +267,139 @@
       "name": "Family",
       "subtitle": "what all of it is for",
       "now": [
-        "Amanda — the marriage: connected, intimate, present",
-        "Kenzi (12) — horse camp · Grootbos father-daughter trip",
-        "Kayden (9) — MTB helmet + bike · his room",
-        "Val de Vie · trips: KZN winter · snow (Dec) · Breede service boat"
+        {
+          "text": "Amanda — the marriage: connected, intimate, present",
+          "done": false
+        },
+        {
+          "text": "Kenzi (12) — horse camp · Grootbos father-daughter trip",
+          "done": false
+        },
+        {
+          "text": "Kayden (9) — MTB helmet + bike · his room",
+          "done": false
+        },
+        {
+          "text": "Val de Vie · trips: KZN winter · snow (Dec) · Breede service boat",
+          "done": false
+        }
       ],
       "delegated": [],
       "parked": []
     }
   ],
   "delegation": [
-    { "person": "Amanda",  "owns": "Ops, finance, coordination (Foundation)" },
-    { "person": "Caleb",   "owns": "Engineering — design, quotes, project coordination" },
-    { "person": "Stafford","owns": "Project management, technicians" },
-    { "person": "Tristan", "owns": "Installation & programming" },
-    { "person": "Mekyle",  "owns": "Install / networking / programming / remote support · training Claude" },
-    { "person": "Caren",   "owns": "Admin, SLA, accounts" },
-    { "person": "Berna",   "owns": "Coordination — project statuses, set up projects with Stafford (phase + attention view), StrengthsFinder, work WhatsApp" }
+    {
+      "person": "Amanda",
+      "owns": "Ops, finance, coordination (Foundation)"
+    },
+    {
+      "person": "Caleb",
+      "owns": "Engineering — design, quotes, project coordination"
+    },
+    {
+      "person": "Stafford",
+      "owns": "Project management, technicians"
+    },
+    {
+      "person": "Tristan",
+      "owns": "Installation & programming"
+    },
+    {
+      "person": "Mekyle",
+      "owns": "Install / networking / programming / remote support · training Claude"
+    },
+    {
+      "person": "Caren",
+      "owns": "Admin, SLA, accounts"
+    },
+    {
+      "person": "Berna",
+      "owns": "Coordination — project statuses, set up projects with Stafford (phase + attention view), StrengthsFinder, work WhatsApp"
+    }
   ],
   "salesJourney": {
     "credibility": "Establish credibility upfront (meet at showhome/site, video) — then:",
     "stages": [
-      "New lead", "Credibility", "Claude proposal to client", "Project tour",
-      "Filter Framework score (objective)", "Consulting (Claude markup · conduit schedule · spec sheet)",
-      "Quote with options", "P.Orders / architect", "Invoice hardware (schedules + markups) + Sales",
-      "Tech handover", "PM on site (sparky + builder)", "Stock received", "Install", "Program", "Snag", "Handover"
+      {
+        "text": "New lead"
+      },
+      {
+        "text": "Credibility"
+      },
+      {
+        "text": "Claude proposal to client"
+      },
+      {
+        "text": "Project tour"
+      },
+      {
+        "text": "Filter Framework score (objective)"
+      },
+      {
+        "text": "Consulting (Claude markup · conduit schedule · spec sheet)"
+      },
+      {
+        "text": "Quote with options"
+      },
+      {
+        "text": "P.Orders / architect"
+      },
+      {
+        "text": "Invoice hardware (schedules + markups) + Sales"
+      },
+      {
+        "text": "Tech handover"
+      },
+      {
+        "text": "PM on site (sparky + builder)"
+      },
+      {
+        "text": "Stock received"
+      },
+      {
+        "text": "Install"
+      },
+      {
+        "text": "Program"
+      },
+      {
+        "text": "Snag"
+      },
+      {
+        "text": "Handover"
+      }
     ],
     "question": "Does the client feel safe and have absolute clarity? Do they realise when they're the bottleneck? → Add to CRM, Claude tracks each lead."
   },
   "monthlyGoal": {
     "title": "Efficient Resting",
     "statement": "By month-end: identify what's driving the compulsive task-chasing + end-of-day burnout, and put real structure in place to protect the energy left for family.",
+    "success": "Success is not 'I stopped rushing.' It's: did I show up to look at this directly, get sharper at noticing the pattern as it happens, and put one real structural boundary in place.",
     "checklist": [
-      { "done": false, "text": "Book + attend ≥1 psychologist session focused on this pattern (not a general check-in)" },
-      { "done": false, "text": "Daily: end-of-day energy rating (1–10) + one line on whether I caught myself in chase-mode" },
-      { "done": false, "text": "Stop working from home → back to Workshop17 (physical boundary between work-mode and family-mode)" }
-    ],
-    "success": "Success is not 'I stopped rushing.' It's: did I show up to look at this directly, get sharper at noticing the pattern as it happens, and put one real structural boundary in place."
+      {
+        "text": "Book + attend ≥1 psychologist session focused on this pattern (not a general check-in)",
+        "done": false
+      },
+      {
+        "text": "Daily: end-of-day energy rating (1–10) + one line on whether I caught myself in chase-mode",
+        "done": false
+      },
+      {
+        "text": "Stop working from home → back to Workshop17 (physical boundary between work-mode and family-mode)",
+        "done": false
+      }
+    ]
   },
   "tasks": {
     "active": [
       {
         "title": "Ask EO Forum about the 'parking lot' method",
         "context": "Reach out to my EO Forum group — how the parking lot technique works + how to organize it.",
-        "tags": ["social"],
+        "tags": [
+          "social"
+        ],
+        "done": false,
         "due": null
       }
     ],
@@ -208,7 +407,10 @@
       {
         "title": "Berna — project set-up with Stafford + StrengthsFinder results / current project statuses",
         "context": "Berna arranging meeting with Stafford; also compiling project statuses and running StrengthsFinder across the team.",
-        "tags": ["d-one"],
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
         "since": "2026-08-12"
       }
     ],
@@ -217,9 +419,21 @@
   },
   "energyLog": [],
   "parkingLot": [
-    "File storage → Odoo only (decide + clean up)",
-    "Legacy-planning webinar",
-    "DB Design skill",
-    "HoldCo structure detail"
+    {
+      "text": "File storage → Odoo only (decide + clean up)",
+      "done": false
+    },
+    {
+      "text": "Legacy-planning webinar",
+      "done": false
+    },
+    {
+      "text": "DB Design skill",
+      "done": false
+    },
+    {
+      "text": "HoldCo structure detail",
+      "done": false
+    }
   ]
 }
