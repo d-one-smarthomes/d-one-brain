@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,6 +190,7 @@
     <div class="ctl">
       <label class="toggle" id="autoToggle" title="Auto-refresh every 60s"><span class="switch" id="autoSwitch"></span></label>
       <button class="btn icon" id="refreshBtn" title="Refresh">↻</button>
+      <button class="btn icon" id="lockBtn" title="Lock (forget password on this device)" style="display:none">🔒</button>
     </div>
   </div>
   <div class="updated"><span class="spin" id="spin"></span><span id="updated">Loading…</span></div>
@@ -226,7 +228,25 @@ const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&
 const arr = x => Array.isArray(x)?x:[];
 const todayISO = ()=> new Date().toISOString().slice(0,10);
 
-let DATA = {}, dirty=false, editPw=null, autoOn=false, timer=null;
+let DATA = {}, dirty=false, autoOn=false, timer=null;
+
+// -------- optional password gate --------
+// The site is open until ACCESS_PASSWORD is set in Netlify. Once set, the read/save
+// functions return 401 without the right password; we prompt for it and remember it
+// on this device so you only type it once.
+function getPw(){ try{ return localStorage.getItem('d1brain_pw')||''; }catch(e){ return ''; } }
+function setPw(v){ try{ if(v) localStorage.setItem('d1brain_pw', v); else localStorage.removeItem('d1brain_pw'); }catch(e){} }
+function pwHeaders(){ const p=getPw(); return p?{'x-access-password':p}:{}; }
+function promptUnlock(){ const p=prompt('Enter the D1Brain password:'); if(p==null||p==='') return false; setPw(p); return true; }
+function showLocked(){
+  $("#infoBanner").classList.remove('show');
+  $("#savebar").classList.remove('show');
+  $("#app").innerHTML = `<div style="text-align:center;padding:70px 20px;color:var(--ink2)">
+    <div style="font-size:44px;margin-bottom:8px">🔒</div>
+    <p style="font-size:15px;margin:0 0 16px">This brain is private.</p>
+    <button class="btn" id="unlockBtn">Unlock</button></div>`;
+  const u=$("#unlockBtn"); if(u) u.addEventListener('click', ()=>{ if(promptUnlock()) load(true); });
+}
 
 // -------- path helpers --------
 function getP(p){ return p.split('.').reduce((a,k)=> (a==null?a:a[k]), DATA); }
@@ -404,13 +424,12 @@ function toast(msg, err){ const t=$("#toast"); t.textContent=msg; t.className='t
 async function save(){
   const btn=$("#saveBtn"); btn.disabled=true; $("#saveMsg").textContent='Saving…';
   DATA.meta.updated = todayISO();
-  const payload = { data: DATA, message: 'Update brain via dashboard', password: editPw||undefined };
+  const payload = { data: DATA, message: 'Update brain via dashboard', password: getPw()||undefined };
   try{
-    const res = await fetch('/.netlify/functions/save', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
+    const res = await fetch('/.netlify/functions/save', {method:'POST', headers:{'Content-Type':'application/json', ...pwHeaders()}, body:JSON.stringify(payload)});
     if(res.status===401){
-      const pw = prompt('Enter the edit password:');
-      if(pw){ editPw=pw; btn.disabled=false; return save(); }
-      btn.disabled=false; $("#saveMsg").textContent='Unsaved changes'; return;
+      if(promptUnlock()){ btn.disabled=false; return save(); }
+      btn.disabled=false; $("#saveMsg").textContent='Unsaved changes'; toast('Locked — password needed to save', true); return;
     }
     if(!res.ok){ const j=await res.json().catch(()=>({})); throw new Error(j.error||('HTTP '+res.status)); }
     const j=await res.json();
@@ -458,6 +477,7 @@ $("#refreshBtn").addEventListener('click', ()=>{
   if(dirty && !confirm('Discard unsaved changes and reload from the server?')) return;
   load(true);
 });
+$("#lockBtn").addEventListener('click', ()=>{ setPw(''); location.reload(); });
 $("#autoToggle").addEventListener('click', ()=>{
   autoOn=!autoOn; $("#autoSwitch").classList.toggle('on',autoOn);
   if(timer){clearInterval(timer);timer=null;}
@@ -465,12 +485,20 @@ $("#autoToggle").addEventListener('click', ()=>{
 });
 
 // -------- load --------
+function updateLockBtn(show){ const b=$("#lockBtn"); if(b) b.style.display = show?'inline-flex':'none'; }
 async function load(showSpin){
   const spin=$("#spin"); if(showSpin) spin.classList.add('show');
   try{
-    const res=await fetch('/.netlify/functions/brain',{cache:'no-store'});
+    let res=await fetch('/.netlify/functions/brain',{cache:'no-store', headers: pwHeaders()});
+    if(res.status===401){
+      updateLockBtn(true);
+      if(!promptUnlock()){ showLocked(); spin.classList.remove('show'); return; }
+      res=await fetch('/.netlify/functions/brain',{cache:'no-store', headers: pwHeaders()});
+      if(res.status===401){ setPw(''); showLocked(); spin.classList.remove('show'); return; }
+    }
     if(!res.ok) throw new Error('HTTP '+res.status);
     DATA=normalize(await res.json());
+    updateLockBtn(!!getPw());
     $("#infoBanner").classList.remove('show');
     dirty=false; $("#savebar").classList.remove('show');
     render();
