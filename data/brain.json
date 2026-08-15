@@ -287,6 +287,24 @@
           "family"
         ],
         "due": null
+      },
+      {
+        "title": "Add a 'next step' CTA to the proposal flow that submits the quote",
+        "context": "In the d-one-proposal flow, after the client selects their options, add a next-step action that (1) submits/finalises the quote, (2) saves a copy for the client, and (3) pushes the deal into our CRM. Closes the loop so a client selection becomes a live opportunity automatically.",
+        "tags": [
+          "d-one",
+          "ideas"
+        ],
+        "due": null
+      },
+      {
+        "title": "Seed slogans + testimonials throughout the proposal flow",
+        "context": "Sprinkle D-One slogans (e.g. 'systems that make luxury homes easy to use, secure, beautiful and sound amazing') and client testimonials across the proposal journey to build trust and plant authority-positioning seeds as the client moves through the options.",
+        "tags": [
+          "d-one",
+          "ideas"
+        ],
+        "due": null
       }
     ],
     "waitingOn": [
