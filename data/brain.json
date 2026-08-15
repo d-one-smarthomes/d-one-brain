@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-12",
+    "updated": "2026-08-15",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -244,6 +244,47 @@
         "context": "Reach out to my EO Forum group — how the parking lot technique works + how to organize it.",
         "tags": [
           "social"
+        ],
+        "due": null
+      },
+      {
+        "title": "Do my lifeline for EO Retreat",
+        "context": "For the EO Retreat this weekend",
+        "tags": [
+          "self",
+          "social"
+        ],
+        "due": "2026-08-16"
+      },
+      {
+        "title": "Painting with Kenzie",
+        "context": "",
+        "tags": [
+          "family"
+        ],
+        "due": "2026-08-16"
+      },
+      {
+        "title": "Install USB-C modules into the plugs",
+        "context": "",
+        "tags": [
+          "home"
+        ],
+        "due": "2026-08-16"
+      },
+      {
+        "title": "Install the lights onto the ceiling",
+        "context": "",
+        "tags": [
+          "home"
+        ],
+        "due": "2026-08-16"
+      },
+      {
+        "title": "Find a house for December",
+        "context": "",
+        "tags": [
+          "family"
         ],
         "due": null
       }
