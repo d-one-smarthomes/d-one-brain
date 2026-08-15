@@ -290,31 +290,10 @@
         "text": "Quote with options"
       },
       {
-        "text": "P.Orders / architect"
+        "text": "Testimonials"
       },
       {
-        "text": "Invoice hardware (schedules + markups) + Sales"
-      },
-      {
-        "text": "Tech handover"
-      },
-      {
-        "text": "PM on site (sparky + builder)"
-      },
-      {
-        "text": "Stock received"
-      },
-      {
-        "text": "Install"
-      },
-      {
-        "text": "Program"
-      },
-      {
-        "text": "Snag"
-      },
-      {
-        "text": "Handover"
+        "text": "Submit option on proposal"
       }
     ],
     "question": "Does the client feel safe and have absolute clarity? Do they realise when they're the bottleneck? → Add to CRM, Claude tracks each lead."
