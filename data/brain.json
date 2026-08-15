@@ -30,21 +30,9 @@
         "title": "Team KPI targets → free my capacity",
         "detail": "The keystone. Draft the per-role sheet with Claude, then a 30-min team walkthrough.",
         "done": false
-      },
-      {
-        "title": "Capacity & the relationship",
-        "detail": "Friday session with Amanda (aim for an aligned shared goal, not just fixing problems). Judge whether this psychologist is the right fit.",
-        "done": true
       }
     ],
-    "watching": [
-      {
-        "title": "Berna → set up the projects with Stafford",
-        "detail": "So Stafford has a clear view of every project: what it is, which phase it's in, and what needs attention. Already discussed with Berna; she's arranging the meeting with Stafford. Follow up if it hasn't landed.",
-        "owner": "Berna",
-        "done": true
-      }
-    ],
+    "watching": [],
     "todayQuick": []
   },
   "areas": [
