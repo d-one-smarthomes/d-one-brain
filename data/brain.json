@@ -69,6 +69,14 @@
         {
           "text": "Caleb → EU trip / honeymoon",
           "done": false
+        },
+        {
+          "text": "Stafford Family to UK",
+          "done": false
+        },
+        {
+          "text": "Mekyle purchase home",
+          "done": false
         }
       ]
     },
@@ -76,13 +84,17 @@
       "key": "B",
       "name": "Claude / Systems",
       "subtitle": "the multiplier",
-      "now": [
+      "now": [],
+      "delegated": [
         {
-          "text": "Decide file-storage back-end (G:/Projects → clean up → Odoo only) — this unblocks everything else",
+          "text": "Decide file-storage back-end (G:/Projects → clean up → Odoo only) — this unblocks everything else @Amanda",
+          "done": false
+        },
+        {
+          "text": "",
           "done": false
         }
       ],
-      "delegated": [],
       "parked": [],
       "skillsToPolish": [
         {
@@ -116,7 +128,7 @@
     {
       "key": "C",
       "name": "D-One Operations",
-      "subtitle": "",
+      "subtitle": "Odoo - Claude",
       "now": [
         {
           "text": "Make the Sales Journey the canonical process, in the CRM, with Claude tracking each lead",
@@ -129,6 +141,10 @@
         {
           "text": "Financial reporting rhythm",
           "done": false
+        },
+        {
+          "text": "Integrate Odoo to Claude",
+          "done": false
         }
       ],
       "delegated": [],
@@ -140,7 +156,7 @@
       "subtitle": "Owner per project = the discipline (Caleb design/quote · Stafford PM · Tristan/Mekyle install+program)",
       "now": [
         {
-          "text": "Orders now: Gnodde · JFK · Adler · Price Drive",
+          "text": "Orders now: Gnodde · JFK · Adler · Price Drive, Mountain",
           "done": false
         },
         {
@@ -250,7 +266,7 @@
     },
     {
       "person": "Berna",
-      "owns": "Coordination — project statuses, set up projects with Stafford (phase + attention view), StrengthsFinder, work WhatsApp"
+      "owns": "Coordination — project status, whats stuck, next steps"
     }
   ],
   "salesJourney": {
@@ -380,17 +396,7 @@
         "due": "2026-08-16"
       }
     ],
-    "waitingOn": [
-      {
-        "title": "Berna — project set-up with Stafford + StrengthsFinder results / current project statuses",
-        "context": "Berna arranging meeting with Stafford; also compiling project statuses and running StrengthsFinder across the team.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "since": "2026-08-12"
-      }
-    ],
+    "waitingOn": [],
     "someday": [],
     "done": []
   },
