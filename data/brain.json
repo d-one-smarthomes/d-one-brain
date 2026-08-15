@@ -305,6 +305,15 @@
           "ideas"
         ],
         "due": null
+      },
+      {
+        "title": "Varnish the ramps with Caden",
+        "context": "Weekend project — varnish the ramps together with Caden.",
+        "tags": [
+          "home",
+          "family"
+        ],
+        "due": "2026-08-16"
       }
     ],
     "waitingOn": [
