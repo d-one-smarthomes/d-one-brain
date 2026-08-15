@@ -395,22 +395,5 @@
     "done": []
   },
   "energyLog": [],
-  "parkingLot": [
-    {
-      "text": "File storage → Odoo only (decide + clean up)",
-      "done": true
-    },
-    {
-      "text": "Legacy-planning webinar",
-      "done": true
-    },
-    {
-      "text": "DB Design skill",
-      "done": true
-    },
-    {
-      "text": "HoldCo structure detail",
-      "done": true
-    }
-  ]
+  "parkingLot": []
 }
