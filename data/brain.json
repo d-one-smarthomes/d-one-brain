@@ -89,10 +89,6 @@
         {
           "text": "Decide file-storage back-end (G:/Projects → clean up → Odoo only) — this unblocks everything else @Amanda",
           "done": false
-        },
-        {
-          "text": "",
-          "done": false
         }
       ],
       "parked": [],
@@ -111,6 +107,10 @@
         },
         {
           "text": "New DB Design skill",
+          "done": false
+        },
+        {
+          "text": "See what we can take from the horn proposal",
           "done": false
         }
       ],
@@ -348,7 +348,7 @@
       },
       {
         "title": "Find a house for December",
-        "context": "",
+        "context": "Mands on it",
         "tags": [
           "family"
         ],
@@ -400,7 +400,7 @@
         "tags": [
           "home"
         ],
-        "done": false,
+        "done": true,
         "due": "2026-08-23"
       },
       {
