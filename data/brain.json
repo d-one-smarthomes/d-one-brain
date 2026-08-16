@@ -403,6 +403,14 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Take the plants to the dump",
+        "context": "Weekend action — priority",
+        "tags": [
+          "home"
+        ],
+        "due": "2026-08-16"
       }
     ],
     "waitingOn": [],
