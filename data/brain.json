@@ -419,6 +419,14 @@
           "d-one"
         ],
         "due": "2026-08-22"
+      },
+      {
+        "title": "Confirm Saturday's rugby game with Lights by Linear",
+        "context": "Confirm attendance/arrangements for the rugby game on Sat 22 Aug with Lights by Linear.",
+        "tags": [
+          "social"
+        ],
+        "due": "2026-08-22"
       }
     ],
     "waitingOn": [],
