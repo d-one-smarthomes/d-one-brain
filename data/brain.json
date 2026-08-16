@@ -326,7 +326,7 @@
           "family"
         ],
         "done": false,
-        "due": "2026-08-16"
+        "due": "2026-08-23"
       },
       {
         "title": "Install USB-C modules into the plugs",
@@ -335,7 +335,7 @@
           "home"
         ],
         "done": false,
-        "due": "2026-08-16"
+        "due": "2026-08-23"
       },
       {
         "title": "Install the lights onto the ceiling",
@@ -344,7 +344,7 @@
           "home"
         ],
         "done": false,
-        "due": "2026-08-16"
+        "due": "2026-08-23"
       },
       {
         "title": "Find a house for December",
@@ -383,7 +383,7 @@
           "family"
         ],
         "done": false,
-        "due": "2026-08-16"
+        "due": "2026-08-23"
       },
       {
         "title": "Arrange boat service at Anchor Boat Shop",
@@ -400,7 +400,8 @@
         "tags": [
           "home"
         ],
-        "due": "2026-08-16"
+        "done": false,
+        "due": "2026-08-23"
       },
       {
         "title": "Confirm Saturday's rugby game with Lights by Linear",
@@ -408,6 +409,7 @@
         "tags": [
           "d-one"
         ],
+        "done": false,
         "due": "2026-08-22"
       },
       {
@@ -416,6 +418,7 @@
         "tags": [
           "d-one"
         ],
+        "done": false,
         "due": "2026-08-22"
       },
       {
@@ -424,6 +427,7 @@
         "tags": [
           "home"
         ],
+        "done": false,
         "due": null
       },
       {
