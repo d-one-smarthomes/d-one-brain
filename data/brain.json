@@ -454,6 +454,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Get dessert for the EO retreat",
+        "context": "Bring/organise dessert for the EO retreat.",
+        "tags": [
+          "social"
+        ],
+        "done": false,
+        "due": ""
       }
     ],
     "waitingOn": [],
