@@ -445,6 +445,25 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Prioritise Adventure & Fun — book real adventures",
+        "context": "Balance Wheel focus area (Today 4 → Want 7), my biggest gap. It lifts everything — the JBay week proved it. Deliberately plan/book surf trips, a snow season, and big Plett-energy experiences so it actually happens.",
+        "tags": [
+          "adventure",
+          "self"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Rebuild Spirituality practice — reconnect to Source",
+        "context": "Balance Wheel focus area (Today 4 → Want 7), equal biggest gap. I've felt disconnected from Source; when I reconnect I feel 'far from alone'. Rebuild a consistent practice — it elevates everything.",
+        "tags": [
+          "self"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
