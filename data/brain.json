@@ -174,11 +174,11 @@
       "now": [
         {
           "text": "Oakvale Views — B&O, CCTV, WiFi",
-          "done": false
+          "done": true
         },
         {
           "text": "Horn",
-          "done": false
+          "done": true
         },
         {
           "text": "Mountain",
