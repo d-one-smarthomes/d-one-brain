@@ -435,6 +435,16 @@
           "home"
         ],
         "due": null
+      },
+      {
+        "title": "Get North Face slippers",
+        "context": "Personal shopping",
+        "tags": [
+          "personal",
+          "shopping"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
