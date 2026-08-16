@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -186,6 +185,10 @@
   .boardnav .bn{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink2);
     font-size:12px;font-weight:700;padding:6px 11px;border-radius:999px;cursor:pointer}
   .boardnav .bn:active{transform:translateY(1px)}
+  .boardnav .bn.today{border-color:var(--blue);color:var(--blue);font-weight:800}
+  .boardnav .bn.today.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+  .boardnav .bn .tnum{display:inline-block;min-width:16px;padding:0 5px;margin-left:5px;border-radius:9px;background:rgba(19,121,201,.15);font-size:11px;font-weight:800;text-align:center}
+  .boardnav .bn.today.on .tnum{background:rgba(255,255,255,.28);color:#fff}
   .board{border:1px solid var(--line-soft);border-radius:var(--radius);
     background:linear-gradient(180deg,var(--panel),var(--bg2));box-shadow:var(--shadow);margin:14px 0;overflow:hidden}
   .board>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:11px;padding:15px 16px;user-select:none}
@@ -264,6 +267,7 @@ const arr = x => Array.isArray(x)?x:[];
 const todayISO = ()=> new Date().toISOString().slice(0,10);
 
 let DATA = {}, dirty=false, autoOn=false, timer=null;
+let todayOnly=false;   // Today view toggle (due today or overdue)
 
 // -------- optional password gate --------
 // The site is open until ACCESS_PASSWORD is set in Netlify. Once set, the read/save
@@ -331,6 +335,23 @@ function itemList(basePath, kind){
   return `<div>${rows||'<p class="empty">—</p>'}${add(basePath,kind)}</div>`;
 }
 
+// ---- Today view: active tasks due today or overdue (not done) ----
+function todayRefs(){
+  const today=todayISO(); const refs=[];
+  arr(DATA.tasks&&DATA.tasks.active).forEach((t,i)=>{
+    if(t && !t.done && t.due && t.due<=today) refs.push({col:'active', i});
+  });
+  refs.sort((a,b)=>{ const da=DATA.tasks.active[a.i].due||'', db=DATA.tasks.active[b.i].due||''; return da<db?-1:da>db?1:0; });
+  return refs;
+}
+function todayBoardHTML(refs){
+  if(!refs.length) return '<div class="grp tsk active"><p class="empty">Nothing due today \u2014 you\u2019re clear. \ud83c\udf1f</p></div>';
+  const today=todayISO();
+  let h='<div class="grp tsk active"><p class="lab">Due today &amp; overdue<span class="count">'+refs.length+'</span></p>';
+  h+= refs.map(r=>{ const t=DATA.tasks.active[r.i]; const od=(t.due&&t.due<today); return (od?'<div style="border-left:3px solid var(--blue);padding-left:2px;margin-bottom:2px">':'')+taskItem(r.col,r.i)+(od?'</div>':''); }).join('');
+  h+='</div>';
+  return h;
+}
 function render(){
   const d=DATA;
   $("#title").textContent = (d.meta&&d.meta.title) || "D-One \u00b7 Central Brain";
@@ -341,9 +362,18 @@ function render(){
   const routed = routeTasks();
 
   let h='';
+  const tRefs = todayRefs();
   h+=`<div class="boardnav">
+      <button class="bn today${todayOnly?' on':''}" data-today="1">\ud83d\udcc5 Today${tRefs.length?` <span class="tnum">${tRefs.length}</span>`:''}</button>
       <button class="bn" data-all="1">Expand all</button>
       <button class="bn" data-all="0">Minimise all</button></div>`;
+
+  // Today view: show only what's due today / overdue, then stop.
+  if(todayOnly){
+    h+= board('today','\ud83d\udcc5','Today','due today or overdue \u00b7 tap Today again for the full board', tRefs.length, true, todayBoardHTML(tRefs), true);
+    $("#app").innerHTML=h;
+    return;
+  }
 
   // 1) THIS WEEK (pinned, open by default)
   h+= board('focus','\u2b50','This Week','the only 3 that matter', d.weeklyFocus.three.length, true, focusBlock(), true);
@@ -636,6 +666,11 @@ app.addEventListener('click', e=>{
   const bn=e.target.closest('[data-all]'); if(!bn) return;
   const open = bn.getAttribute('data-all')==='1';
   document.querySelectorAll('details.board').forEach(x=>{ x.open=open; setBoardOpen(x.getAttribute('data-board'), open); });
+});
+// Today toggle
+app.addEventListener('click', e=>{
+  const tb=e.target.closest('[data-today]'); if(!tb) return;
+  todayOnly=!todayOnly; render();
 });
 $("#saveBtn").addEventListener('click', save);
 $("#refreshBtn").addEventListener('click', ()=>{
