@@ -427,6 +427,14 @@
           "social"
         ],
         "due": "2026-08-22"
+      },
+      {
+        "title": "Buy power cable for lounge light installation",
+        "context": "Power cable needed for the light installation in the lounge at home.",
+        "tags": [
+          "home"
+        ],
+        "due": null
       }
     ],
     "waitingOn": [],
