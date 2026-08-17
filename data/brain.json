@@ -467,6 +467,15 @@
         ],
         "done": false,
         "due": ""
+      },
+      {
+        "title": "Decide what to do with money in the bank",
+        "context": "Cash is sitting idle in the bank. Figure out the best home for it — grow wealth and reduce tax (see accompanying research notes). Likely needs a chat with accountant/financial advisor.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
