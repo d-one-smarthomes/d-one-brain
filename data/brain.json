@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-16",
+    "updated": "2026-08-17",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -486,5 +486,25 @@
     ]
   },
   "energyLog": [],
-  "parkingLot": []
+  "parkingLot": [
+    {
+      "title": "The Views (Oakvale) — meeting notes",
+      "date": "2026-08-17",
+      "tags": [
+        "d-one"
+      ],
+      "notes": [
+        "Phase dimming",
+        "Lumen 8 — 4 per box",
+        "FNIP 32 x D1",
+        "6 small aperture ceiling speakers",
+        "2 small aperture ceiling subs",
+        "Facial reader for front door",
+        "Rack",
+        "Lighting DB — prebuild",
+        "DB switch",
+        "A9 for tent 2"
+      ]
+    }
+  ]
 }
