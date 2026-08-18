@@ -503,9 +503,74 @@
           "home"
         ],
         "due": null
+      },
+      {
+        "title": "Amanda to complete her Vitality Age assessment (own profile)",
+        "context": "From Discovery Vitality session (Chloe Prinsloo). The Vitality Age online assessment must be done separately on Amanda's own profile (not Darren's) — Darren completed his during the call for +1500 points. Hers gives another 1500 points and, as a family, lifts discounts (travel goes to ~35%, healthy-food cashback toward 50%). Easiest via the website (brown Vitality icon, not the bank). Redo yearly.",
+        "tags": [
+          "finance",
+          "marriage"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Switch Woolies Dash & Checkers Sixty60 apps to Darren's login/loyalty card",
+        "context": "From Discovery Vitality session. To unlock 22% cashback on healthy food (items with the D-sign, capped ~R6,000/mo family spend), the shopping apps must run under Darren's name: Amanda logs out and logs back in with Darren's ID/email/OTP so the linked loyalty card is his (the Suite account holder), and pays with his Suite credit card (her virtual card on the same card works). Currently loyalty card isn't linked to him, so only base miles are earned, not the 22%.",
+        "tags": [
+          "finance",
+          "home"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Deposit R100k into a Discovery Bank savings account to reach Diamond status",
+        "context": "From Discovery Vitality session. Depositing ~R100,000 into a Discovery savings account pushes over the 80k-point threshold to Diamond status → best mile-earning rate (1 mile per R15 spent vs R30). Can use the existing (already-active) Vitality savings account; all accounts are free and funds stay accessible (not fixed). Related to existing 'Decide what to do with money in the bank' task.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Route all shopping/spend through the Discovery Suite credit card",
+        "context": "From Discovery Vitality session. Load the Suite credit card onto Checkers Sixty60 & Woolies Dash and spend from it (transfer own money in, avoid running in overdraft) for the highest mile conversion and full benefits. Consider putting business stock purchases through it and reimbursing from the company (confirm structure with accountant). Higher average card spend (~R25k/mo) also unlocks up to ~12 free lounge visits/yr for 4 people.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Buy and spend miles on the 15th (D-Day)",
+        "context": "From Discovery Vitality session. On D-Day (15th of each month) you get up to 20–30% extra miles as the registered card holder. Spend miles at partner stores (Sportsmans, Takealot, Game, Nespresso, devices, etc.) — NOT on flights/water/electricity — to capture the extra ~20%, which makes miles worth more than cash.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Review Discovery Vitality earning rate with Chloe (1-month check-in)",
+        "context": "From Discovery Vitality session. Darren asked Chloe Prinsloo to ping him in a month to review whether the mile-earning rate is picking up after making the changes (app logins, Suite card spend, Diamond deposit, Amanda's assessment).",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": "2026-09-18"
       }
     ],
-    "waitingOn": [],
+    "waitingOn": [
+      {
+        "title": "Chloe to send lounge-visit & average-spend screenshots",
+        "context": "From Discovery Vitality session. Chloe Prinsloo (Discovery consultant) to send screenshots on lounge visits and the average credit-card spend needed for full/free lounge access when booking flights.",
+        "tags": [
+          "finance"
+        ],
+        "since": "2026-08-18"
+      }
+    ],
     "someday": [],
     "done": [
       {
