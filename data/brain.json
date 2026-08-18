@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -476,6 +476,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Before saying yes, check the board first",
+        "context": "From Neurodiversity Centre session: every yes is a no to something else. Booking a session = less surf time. A blank calendar slot isn't free — other things need to go there too. So before committing to anything (even small), look at D1Brain first and ask what else could have filled that space (surf, rest, family, focus). Awareness around calendar management.",
+        "tags": [
+          "self"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
@@ -494,7 +503,16 @@
       }
     ]
   },
-  "energyLog": [],
+  "energyLog": [
+    {
+      "date": "2026-08-18",
+      "tags": [
+        "self",
+        "marriage"
+      ],
+      "note": "In a very positive place. I've taken responsibility for my own energy and Amanda has naturally responded — our intimacy and connection are in a good place. Worth acknowledging."
+    }
+  ],
   "parkingLot": [
     {
       "title": "The Views (Oakvale) — meeting notes",
@@ -513,6 +531,20 @@
         "Lighting DB — prebuild",
         "DB switch",
         "A9 for tent 2"
+      ]
+    },
+    {
+      "title": "Neurodiversity Centre — session findings (rhythm, saying yes)",
+      "date": "2026-08-18",
+      "tags": [
+        "self"
+      ],
+      "notes": [
+        "Find my OWN rhythm + structure that works for me — that's what prevents things going haywire / spiralling.",
+        "Set a few high-level outcomes I want across the week, then fit them in when it suits — flexible, not a rigid schedule.",
+        "Be very careful saying yes / committing. Every yes is a no to something else.",
+        "A blank calendar space is not automatically free — check the board first for what else could go there before agreeing.",
+        "Awareness around calendar management is the practice to build."
       ]
     }
   ]
