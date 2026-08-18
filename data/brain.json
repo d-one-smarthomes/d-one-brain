@@ -486,6 +486,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Talk to John about Brett's toad for the Oct/Nov personal development event",
+        "context": "For the personal development event in Oct/Nov. NOTE: 'toad' may be a voice-transcription slip — confirm the actual item/topic with Darren.",
+        "tags": [
+          "self",
+          "social"
+        ],
+        "due": null
       }
     ],
     "waitingOn": [],
