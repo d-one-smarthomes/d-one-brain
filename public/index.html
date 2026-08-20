@@ -218,6 +218,66 @@
     .subgrid.two{grid-template-columns:1fr 1fr;gap:16px}
     .subgrid.two .subarea{border-bottom:1px solid var(--line-soft)}
   }
+  /* ===== Daily check-in ===== */
+  .checkin{background:linear-gradient(165deg,var(--panel2),var(--panel));border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 16px 14px;margin-bottom:14px;position:relative;overflow:hidden}
+  .checkin::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(var(--blue),var(--good))}
+  .cihead{display:flex;align-items:flex-start;gap:14px;justify-content:space-between}
+  .cikick{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:800}
+  .cidate{margin:2px 0 2px;font-size:19px;color:var(--ink);font-weight:800}
+  .ciintro{margin:0;font-size:12.5px;color:var(--ink3)}
+  .streak{flex:none;text-align:center;background:var(--blue-soft);border:1px solid var(--line);border-radius:14px;
+    padding:8px 12px;min-width:74px;display:flex;flex-direction:column;align-items:center;line-height:1}
+  .streak .sn{font-size:26px;font-weight:900;color:var(--good)}
+  .streak .sl{font-size:10px;color:var(--ink2);margin-top:3px}
+  .streak.off .sn{color:var(--ink3)}
+  .prio{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:9px;margin:13px 0 4px}
+  .pcard{background:var(--bg2);border:1px solid var(--line-soft);border-radius:12px;padding:9px 11px;display:flex;flex-direction:column;gap:3px;min-width:0}
+  .pcard .pk{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);font-weight:700}
+  .pcard .pv{font-size:13px;color:var(--ink2);font-weight:600;overflow:hidden;text-overflow:ellipsis}
+  .pcard .pfrom{font-size:9.5px;color:var(--ink3);opacity:.7}
+  .pcard.day{background:linear-gradient(150deg,rgba(19,121,201,.16),var(--bg2));border-color:var(--blue-dim)}
+  .pcard.day .edit{font-size:15px;color:var(--ink);font-weight:700;min-height:20px}
+  .pcard.day .pk{color:var(--blue)}
+  .cigrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+  .cislot{background:var(--bg2);border:1px solid var(--line-soft);border-radius:12px;padding:11px 12px}
+  .cislot.ok{border-color:var(--good);background:linear-gradient(160deg,rgba(63,191,143,.09),var(--bg2))}
+  .cislot-h{display:flex;align-items:center;gap:10px}
+  .bigtick{width:34px;height:34px;flex:none;border-radius:9px;border:2px solid var(--line);background:transparent;
+    color:#fff;font-size:18px;font-weight:900;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:.12s}
+  .bigtick.on{background:var(--good);border-color:var(--good)}
+  .bigtick:hover{border-color:var(--good)}
+  .cit{display:flex;flex-direction:column;line-height:1.25}
+  .cit b{font-size:14px;color:var(--ink)}
+  .cistat{font-size:11.5px;color:var(--ink3)}
+  .cistat.good{color:var(--good);font-weight:700}
+  .cifield{margin-top:9px;display:flex;flex-direction:column;gap:2px}
+  .cflab{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);font-weight:700}
+  .cifield .edit{font-size:13px;color:var(--ink2);min-height:18px;background:var(--panel);border:1px solid var(--line-soft);border-radius:7px;padding:5px 8px}
+  .energy{margin-top:10px}
+  .edots{display:flex;gap:4px;margin-top:4px;flex-wrap:wrap}
+  .eball{width:26px;height:26px;border-radius:7px;border:1px solid var(--line);background:var(--panel);color:var(--ink3);
+    font-size:11px;font-weight:700;cursor:pointer;transition:.1s}
+  .eball:hover{border-color:var(--blue)}
+  .eball.on{background:var(--blue);border-color:var(--blue);color:#fff}
+  .chase{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+  .cihist{margin-top:13px;padding-top:11px;border-top:1px solid var(--line-soft);display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .chlab{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);font-weight:700}
+  .cidays{display:flex;gap:7px}
+  .cid{display:flex;flex-direction:column;align-items:center;gap:4px}
+  .cid.now .cidlab{color:var(--blue);font-weight:800}
+  .cidlab{font-size:9.5px;color:var(--ink3)}
+  .cidpair{display:flex;gap:3px}
+  .cdot{width:8px;height:8px;border-radius:50%;background:transparent;border:1.5px solid var(--line);display:inline-block}
+  .cdot.on{background:var(--good);border-color:var(--good)}
+  .chkey{font-size:10px;color:var(--ink3);display:inline-flex;align-items:center;gap:4px;margin-left:auto}
+  .chkey .cdot{width:7px;height:7px}
+  @media(max-width:640px){
+    .prio{grid-template-columns:1fr;gap:7px}
+    .cigrid{grid-template-columns:1fr}
+    .cihead{flex-wrap:wrap}
+    .chkey{margin-left:0;width:100%}
+  }
 </style>
 </head>
 <body>
@@ -317,7 +377,39 @@ function normalize(d){
   });
   d.parkingLot = arr(d.parkingLot).map(toItem);
   d.energyLog = arr(d.energyLog);
+  d.dailyCheckin = ensureCheckin(d.dailyCheckin, d);
   return d;
+}
+
+// keep the check-in pinned to *today*: archive the outgoing day, reset for the new one,
+// and mirror week/month priority from the single sources of truth.
+function ensureCheckin(dc, d){
+  dc = dc || {};
+  dc.intro = dc.intro || "Check in before the day starts. Debrief when it ends. My promise to myself.";
+  dc.priorities = Object.assign({day:'',week:'',month:''}, dc.priorities);
+  dc.morning = Object.assign({done:false,at:'',intention:''}, dc.morning);
+  dc.evening = Object.assign({done:false,at:'',energy:null,chaseMode:false,reflection:''}, dc.evening);
+  dc.history = arr(dc.history);
+  const today = todayISO();
+  if(!dc.date) dc.date = today;
+  if(dc.date !== today){
+    const prev = dc.date;
+    const had = dc.morning.done||dc.evening.done||dc.priorities.day||dc.morning.intention||dc.evening.reflection||dc.evening.energy!=null;
+    if(had && !dc.history.some(r=>r&&r.date===prev)){
+      dc.history.push({ date:prev, morning:!!dc.morning.done, evening:!!dc.evening.done,
+        dayPriority:dc.priorities.day||'', intention:dc.morning.intention||'',
+        energy:(dc.evening.energy==null?null:dc.evening.energy), chaseMode:!!dc.evening.chaseMode,
+        reflection:dc.evening.reflection||'' });
+    }
+    dc.history = dc.history.slice(-90);
+    dc.date = today;
+    dc.morning = {done:false,at:'',intention:''};
+    dc.evening = {done:false,at:'',energy:null,chaseMode:false,reflection:''};
+    dc.priorities.day = '';
+  }
+  dc.priorities.week  = (d.weeklyFocus && d.weeklyFocus.three && d.weeklyFocus.three[0] && d.weeklyFocus.three[0].title) || dc.priorities.week || '';
+  dc.priorities.month = (d.monthlyGoal && d.monthlyGoal.title) || dc.priorities.month || '';
+  return dc;
 }
 
 // -------- markup helpers --------
@@ -352,6 +444,74 @@ function todayBoardHTML(refs){
   h+='</div>';
   return h;
 }
+// ================= DAILY CHECK-IN =================
+function ci(){ return DATA.dailyCheckin; }
+
+// consecutive complete days (morning AND evening), ending today or (if today unfinished) yesterday
+function checkinStreak(){
+  const dc=ci(); const map={};
+  arr(dc.history).forEach(r=>{ if(r&&r.date) map[r.date]={m:!!r.morning,e:!!r.evening}; });
+  map[dc.date]={m:!!(dc.morning&&dc.morning.done), e:!!(dc.evening&&dc.evening.done)};
+  const complete=d=> map[d] && map[d].m && map[d].e;
+  const dayISO=off=>{ const t=new Date(); t.setDate(t.getDate()-off); return t.toISOString().slice(0,10); };
+  let streak=0, start=0;
+  if(!complete(dayISO(0))) start=1;   // an in-progress today shouldn't break the streak
+  for(let k=start;k<400;k++){ if(complete(dayISO(k))) streak++; else break; }
+  return streak;
+}
+function historyDots(){
+  const dc=ci(); const map={};
+  arr(dc.history).forEach(r=>{ if(r&&r.date) map[r.date]={m:!!r.morning,e:!!r.evening}; });
+  map[dc.date]={m:!!(dc.morning&&dc.morning.done), e:!!(dc.evening&&dc.evening.done)};
+  const dayISO=off=>{ const t=new Date(); t.setDate(t.getDate()-off); return t.toISOString().slice(0,10); };
+  const lab=off=>{ const t=new Date(); t.setDate(t.getDate()-off); return t.toLocaleDateString(undefined,{weekday:'short'}); };
+  let cells='';
+  for(let k=6;k>=0;k--){ const iso=dayISO(k); const s=map[iso]||{m:false,e:false}; const now=k===0;
+    cells+=`<div class="cid${now?' now':''}"><span class="cidlab">${now?'Today':esc(lab(k))}</span>`
+      +`<span class="cidpair"><i class="cdot ${s.m?'on':''}"></i><i class="cdot ${s.e?'on':''}"></i></span></div>`; }
+  return cells;
+}
+function energyRow(){
+  const e=ci().evening.energy; let h='<div class="energy"><span class="cflab">Energy 1\u201310</span><div class="edots">';
+  for(let n=1;n<=10;n++){ h+=`<button class="eball ${e===n?'on':''}" data-energy="${n}">${n}</button>`; }
+  h+=`</div></div>`; return h;
+}
+function checkinBlock(){
+  const dc=ci(); const m=dc.morning, ev=dc.evening;
+  const weekP  = (DATA.weeklyFocus.three[0] && DATA.weeklyFocus.three[0].title) || dc.priorities.week || '';
+  const monthP = (DATA.monthlyGoal && DATA.monthlyGoal.title) || dc.priorities.month || '';
+  const streak = checkinStreak();
+  let dstr=dc.date; try{ dstr=new Date(dc.date+'T00:00:00').toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'}); }catch(e){}
+  return `<section class="checkin">
+    <div class="cihead">
+      <div class="cileft"><span class="cikick">Daily check-in</span><h2 class="cidate">${esc(dstr)}</h2>
+        <p class="ciintro">${ed('dailyCheckin.intro', dc.intro, 'my promise to myself\u2026')}</p></div>
+      <div class="streak${streak>0?'':' off'}"><span class="sn">${streak}</span><span class="sl">day${streak===1?'':'s'}<br>${streak>0?'streak \ud83d\udd25':'\u2014 start today'}</span></div>
+    </div>
+    <div class="prio">
+      <div class="pcard day"><span class="pk">Today \u00b7 the ONE thing</span>${ed('dailyCheckin.priorities.day', dc.priorities.day, 'What is the one thing today?')}</div>
+      <div class="pcard week"><span class="pk">This week</span><span class="pv">${esc(weekP)||'\u2014'}</span><span class="pfrom">set in This Week</span></div>
+      <div class="pcard month"><span class="pk">This month</span><span class="pv">${esc(monthP)||'\u2014'}</span><span class="pfrom">set in Monthly goal</span></div>
+    </div>
+    <div class="cigrid">
+      <div class="cislot ${m.done?'ok':''}">
+        <div class="cislot-h"><button class="bigtick ${m.done?'on':''}" data-tick="dailyCheckin.morning.done" data-stamp="dailyCheckin.morning.at">${m.done?'\u2713':''}</button>
+          <div class="cit"><b>Morning check-in</b><span class="cistat ${m.done?'good':''}">${m.done?`Checked in${m.at?' \u00b7 '+esc(m.at):''} \u2713`:'not yet \u2014 tick before the day starts'}</span></div></div>
+        <div class="cifield"><span class="cflab">Intention</span>${ed('dailyCheckin.morning.intention', m.intention, 'how I want to show up today\u2026')}</div>
+      </div>
+      <div class="cislot ${ev.done?'ok':''}">
+        <div class="cislot-h"><button class="bigtick ${ev.done?'on':''}" data-tick="dailyCheckin.evening.done" data-stamp="dailyCheckin.evening.at">${ev.done?'\u2713':''}</button>
+          <div class="cit"><b>Evening debrief</b><span class="cistat ${ev.done?'good':''}">${ev.done?`Debriefed${ev.at?' \u00b7 '+esc(ev.at):''} \u2713`:'not yet \u2014 tick when the day ends'}</span></div></div>
+        ${energyRow()}
+        <div class="chase"><button class="tick ${ev.chaseMode?'on':''}" data-tick="dailyCheckin.evening.chaseMode">${ev.chaseMode?'\u2713':''}</button><span>Caught myself in chase-mode today</span></div>
+        <div class="cifield"><span class="cflab">Reflection</span>${ed('dailyCheckin.evening.reflection', ev.reflection, 'one line \u2014 how did today actually go?\u2026')}</div>
+      </div>
+    </div>
+    <div class="cihist"><span class="chlab">Last 7 days</span><div class="cidays">${historyDots()}</div>
+      <span class="chkey"><i class="cdot on"></i>done&nbsp;&nbsp;<i class="cdot"></i>missed &nbsp;\u00b7&nbsp; morning\u2009/\u2009evening</span></div>
+  </section>`;
+}
+
 function render(){
   const d=DATA;
   $("#title").textContent = (d.meta&&d.meta.title) || "D-One \u00b7 Central Brain";
@@ -362,6 +522,7 @@ function render(){
   const routed = routeTasks();
 
   let h='';
+  h+= checkinBlock();          // morning/evening check-in + day/week/month priority — always first
   const tRefs = todayRefs();
   h+=`<div class="boardnav">
       <button class="bn today${todayOnly?' on':''}" data-today="1">\ud83d\udcc5 Today${tRefs.length?` <span class="tnum">${tRefs.length}</span>`:''}</button>
@@ -647,7 +808,13 @@ app.addEventListener('keydown', e=>{
 });
 app.addEventListener('click', e=>{
   const t=e.target.closest('[data-tick]');
-  if(t){ const p=t.getAttribute('data-tick'); setP(p, !getP(p)); markDirty(); render(); return; }
+  if(t){ const p=t.getAttribute('data-tick'); const nv=!getP(p); setP(p, nv);
+    const stamp=t.getAttribute('data-stamp');
+    if(stamp){ setP(stamp, nv? new Date().toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'}) : ''); }
+    markDirty(); render(); return; }
+  const en=e.target.closest('[data-energy]');
+  if(en){ const n=+en.getAttribute('data-energy'); const cur=getP('dailyCheckin.evening.energy');
+    setP('dailyCheckin.evening.energy', cur===n?null:n); markDirty(); render(); return; }
   const d=e.target.closest('[data-del]');
   if(d){ const ap=d.getAttribute('data-del'); const i=+d.getAttribute('data-idx'); const a=getP(ap); a.splice(i,1); markDirty(); render(); return; }
   const a=e.target.closest('[data-add]');
