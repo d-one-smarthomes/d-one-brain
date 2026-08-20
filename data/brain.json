@@ -483,7 +483,7 @@
         "tags": [
           "social"
         ],
-        "done": false,
+        "done": true,
         "due": ""
       },
       {
@@ -496,7 +496,7 @@
         "due": null
       },
       {
-        "title": "Before saying yes, check the board first",
+        "title": "Before saying yes, check the board and calendar first",
         "context": "From Neurodiversity Centre session: every yes is a no to something else. Booking a session = less surf time. A blank calendar slot isn't free — other things need to go there too. So before committing to anything (even small), look at D1Brain first and ask what else could have filled that space (surf, rest, family, focus). Awareness around calendar management.",
         "tags": [
           "self"
@@ -511,7 +511,7 @@
           "self",
           "social"
         ],
-        "done": false,
+        "done": true,
         "due": null
       },
       {
