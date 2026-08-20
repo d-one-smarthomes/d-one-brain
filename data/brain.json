@@ -581,6 +581,15 @@
         ],
         "done": false,
         "due": "2026-09-18"
+      },
+      {
+        "title": "Build mandatory twice-daily team check-in (9am + 5pm) into the system",
+        "context": "Non-negotiable for everyone. 9am: review focus for the day, confirm tasks are in, know their priorities. 5pm: give feedback + update the system so everything stays current. Must be enforced via Amanda's app + Odoo (and the other app), not optional. Owner: Amanda.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [
@@ -629,6 +638,20 @@
     }
   ],
   "parkingLot": [
+    {
+      "title": "Team operating rhythm — mandatory twice-daily check-in",
+      "date": "2026-08-20",
+      "tags": [
+        "d-one"
+      ],
+      "notes": [
+        "Every person checks in twice a day — imperative, not optional. Everyone manages it themselves and it feeds into the system.",
+        "09:00 — Morning check-in: review your focus for the day, confirm your tasks are in, and know your priorities.",
+        "17:00 — Evening check-in: give feedback and update the system so everything stays current.",
+        "Delivered through Amanda's app + Odoo (and the other app) — the routine must be baked into the tooling so it happens by default.",
+        "Goal: everyone starts aligned on priorities and ends with the system fully up to date."
+      ]
+    },
     {
       "title": "The Views (Oakvale) — meeting notes",
       "date": "2026-08-17",
