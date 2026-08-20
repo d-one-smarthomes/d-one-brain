@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-19",
+    "updated": "2026-08-20",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -35,6 +35,28 @@
     ],
     "watching": [],
     "todayQuick": []
+  },
+  "dailyCheckin": {
+    "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
+    "date": "2026-08-20",
+    "priorities": {
+      "day": "",
+      "week": "EO 5% update + book next month's walks",
+      "month": "Efficient Resting"
+    },
+    "morning": {
+      "done": false,
+      "at": "",
+      "intention": ""
+    },
+    "evening": {
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
+    },
+    "history": []
   },
   "areas": [
     {
