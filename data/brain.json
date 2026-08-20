@@ -593,7 +593,17 @@
         "since": "2026-08-18"
       }
     ],
-    "someday": [],
+    "someday": [
+      {
+        "title": "Family outing option — visit this farm (weekend)",
+        "context": "A farm to consider for a family weekend outing — share with Amanda, Kenzi & Kayden to see if they want to go check it out. Link: https://share.google/KBud0hYBtlf0gyZlI  (couldn't auto-open the link to pull the farm name/details — open it for specifics.)",
+        "tags": [
+          "family",
+          "adventure"
+        ],
+        "due": null
+      }
+    ],
     "done": [
       {
         "title": "Do my lifeline for EO Retreat",
