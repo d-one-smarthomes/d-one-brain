@@ -206,6 +206,10 @@
         {
           "text": "Mountain",
           "done": true
+        },
+        {
+          "text": "Boukou - 11-property maintenance SLA (~R41k/mo, ~R500k/yr annuity) - keep as a D-One dept, not a separate entity",
+          "done": false
         }
       ],
       "delegated": [],
@@ -436,15 +440,6 @@
         "due": "2026-08-22"
       },
       {
-        "title": "Confirm Saturday's rugby game with Lights by Linear",
-        "context": "Confirm attendance/arrangements for the rugby game on Sat 22 Aug with supplier Lights by Linear.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "due": "2026-08-22"
-      },
-      {
         "title": "Buy power cable for lounge light installation",
         "context": "Power cable needed for the light installation in the lounge at home.",
         "tags": [
@@ -590,6 +585,52 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Add forecast + budget to Amanda's KPIs for D-One (with feedback loop)",
+        "context": "From Billionaire Mindset session (Daniel). Amanda's KPIs must include a forecast (aspirational) and a board-approved budget (fixed), plus a structured feedback loop that regularly reviews actuals vs budget to review, learn and grow. Without all three the business has no feedback loop and drifts. Owner: Amanda.",
+        "tags": [
+          "d-one",
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Discuss the Trust -> HoldCo -> OpCo structure with Amanda",
+        "context": "From Billionaire Mindset session (Daniel). Walk Amanda through the structure: Trust holds shares in HoldCo, HoldCo holds shares in OpCo. OpCo builds value/cash; keep 6 months' expenses buffer in OpCo, then pay dividends OpCo->HoldCo (company-to-company, tax-free). Never pay dividends OpCo->Trust directly (taxed in beneficiaries' hands). Keep HoldCo clean: only holds shares and invests.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Find the right legal + accounting advisors for the trust/HoldCo setup",
+        "context": "From Billionaire Mindset session (Daniel). Getting shares into the trust now that D-One already has value needs a clever accountant + lawyer. First ask FWC (family wealth) whether they can advise; if not, Claude to research suitable advisors. Related to the in-progress SWAN Trust signing.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Supply D-One systems list to Tech for the Boukou property-scoping web form",
+        "context": "From Catchup meeting (Aug 12). Tech is building a simple web form for Boukou's property manager to complete per property (address, bedrooms, entertainment areas, tenant y/n, future development y/n -> CRM lead, and systems present with brand per system: alarm, CCTV, intercom, WiFi, DSTV, lighting control, multiroom audio, home theatre). Darren to supply the systems list first so Tech can build it.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Get indicative pricing for the new Marantz Cinema 50 (Price Drive)",
+        "context": "From 44 Price Drive meeting (Aug 14). Marantz is releasing a refreshed Cinema 50 processor (US launch imminent, Europe Oct). Client can't decide whether to hold back the existing order without knowing the new unit's price + expected increase (US tariffs). Request indicative pricing from Marantz asap. Owner: Caleb.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [
@@ -701,6 +742,37 @@
         "Detachment from outcome creates space for potency.",
         "Having something to pour love into allows love to pour through me.",
         "I'm not selling. I'm sharing value — and people can buy in if they see the value."
+      ]
+    },
+    {
+      "title": "Boukou property portfolio + D-One Property Management (Catchup, Aug 12)",
+      "date": "2026-08-12",
+      "tags": [
+        "d-one",
+        "finance"
+      ],
+      "notes": [
+        "Opportunity: Boukou (a couple) own 11 properties being redeveloped into luxury homes. Inherit the maintenance SLA for all 11 now to preserve the relationship through development; they eventually become full D-One projects.",
+        "Rough SLA estimate: ~R3,800/property x 11 = ~R41k/month (~R500k/yr). Illustrative only - each property needs individual scoping. Base call-out price per property regardless of system count, then scales per system.",
+        "Subcontracting (e.g. Benji ~R450/hr + markup) is thin-margin; employing someone at R20-25k/mo likely more profitable once volume justifies. Interim: subcontract while finding the right permanent person.",
+        "Entity decision: Stafford proposed a separate 'D-One Property Management' (and possibly 'D-One Air Services'). Amanda: a separate entity doubles fixed costs and erodes margin. AGREED: keep as an internal D-One department/project with a separate P&L in Xero; annuity income raises D-One's valuation (a separate entity wouldn't). Stafford + Darren to agree profit-share internally.",
+        "After-hours support: currently all falls on Darren + Stafford, often non-D-One (ISP/electrical). Proposal: rotate duty between Tristan and Macal, remunerate staff, bill SLA clients a premium after-hours rate. Idea: WhatsApp bot (Tech/Banana framework) auto-routes after-6pm/weekend calls to the on-duty tech with a 'billed at double rate' auto-message; tag WhatsApp contacts by client.",
+        "Odoo: Darren wants an at-a-glance all-projects dashboard, tailored per role (needs live data first). Labour category linking - Caleb to classify all product subcategories as installation / cabling / programming (default at price-list level, overridable per quote).",
+        "Notifii: add Tech + Amanda as team members (paid plan, extra cost) - Tech to research multi-user access. V1593: Darren forwarding drawings to Tech to attach to the Odoo CRM task and build a proposal (likely a new prospect)."
+      ]
+    },
+    {
+      "title": "44 Price Drive - site + design meeting (Aug 14)",
+      "date": "2026-08-14",
+      "tags": [
+        "d-one"
+      ],
+      "notes": [
+        "Electricians walked the site room by room - happy with existing install, no major findings. DALI wiring briefed in full: 2 modules in main DB + 1 in guest DB = 4 DALI loops, 64 devices/loop. Pull cable to DRIVER positions (not fittings); driver positions issued by Mozza (lighting supplier). All dimmable lights need a DALI driver; non-dimmable exceptions confirmed by Terra.",
+        "Awaiting final lighting schedule from Mozza + Terra to confirm 100% compliance before cabling. Robin to confirm if DALI fits existing DBs or needs a separate lighting DB (preferred: single DB, separate power/lighting panels).",
+        "Blinds/curtains: 22 blinds + 22 curtains. Exploring Lutron control of Somfy motors via QSE-CIWCI wall box (cheaper, 8-way) - client prefers Lutron keypads over app-only. Shade schedule changed since June: entertainment-room blackout removed; entertainment/wine blackout retained; shades in gym, office, L2 living, library, bathroom; entrance north window flagged; master + guest curtains = manual. Send updated integration quote once latest schedule received.",
+        "Marantz Cinema 50 refresh imminent (US now, Europe Oct); old stock not guaranteed, price increase expected (US tariffs). Client can't decide without new price -> request indicative pricing (see task).",
+        "Next steps: Marantz pricing; updated blind/curtain quote (after latest schedule); final DB layout to client; follow up Mozza + Terra for final lighting schedule."
       ]
     }
   ]
