@@ -208,7 +208,7 @@
           "done": true
         },
         {
-          "text": "Boukou - 11-property maintenance SLA (~R41k/mo, ~R500k/yr annuity) - keep as a D-One dept, not a separate entity",
+          "text": "Buchu - 11-property maintenance SLA (~R41k/mo, ~R500k/yr annuity) - keep as a D-One dept, not a separate entity",
           "done": false
         }
       ],
@@ -389,7 +389,7 @@
           "d-one",
           "ideas"
         ],
-        "done": false,
+        "done": true,
         "due": null
       },
       {
@@ -399,7 +399,7 @@
           "d-one",
           "ideas"
         ],
-        "done": false,
+        "done": true,
         "due": null
       },
       {
@@ -511,6 +511,7 @@
           "self",
           "social"
         ],
+        "done": false,
         "due": null
       },
       {
@@ -519,6 +520,7 @@
         "tags": [
           "home"
         ],
+        "done": false,
         "due": null
       },
       {
@@ -613,24 +615,6 @@
         ],
         "done": false,
         "due": null
-      },
-      {
-        "title": "Supply D-One systems list to Tech for the Boukou property-scoping web form",
-        "context": "From Catchup meeting (Aug 12). Tech is building a simple web form for Boukou's property manager to complete per property (address, bedrooms, entertainment areas, tenant y/n, future development y/n -> CRM lead, and systems present with brand per system: alarm, CCTV, intercom, WiFi, DSTV, lighting control, multiroom audio, home theatre). Darren to supply the systems list first so Tech can build it.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "due": null
-      },
-      {
-        "title": "Get indicative pricing for the new Marantz Cinema 50 (Price Drive)",
-        "context": "From 44 Price Drive meeting (Aug 14). Marantz is releasing a refreshed Cinema 50 processor (US launch imminent, Europe Oct). Client can't decide whether to hold back the existing order without knowing the new unit's price + expected increase (US tariffs). Request indicative pricing from Marantz asap. Owner: Caleb.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "due": null
       }
     ],
     "waitingOn": [
@@ -640,6 +624,7 @@
         "tags": [
           "finance"
         ],
+        "done": false,
         "since": "2026-08-18"
       }
     ],
@@ -651,6 +636,7 @@
           "family",
           "adventure"
         ],
+        "done": false,
         "due": null
       }
     ],
@@ -680,6 +666,8 @@
   ],
   "parkingLot": [
     {
+      "text": "",
+      "done": false,
       "title": "Team operating rhythm — mandatory twice-daily check-in",
       "date": "2026-08-20",
       "tags": [
@@ -694,6 +682,8 @@
       ]
     },
     {
+      "text": "",
+      "done": false,
       "title": "The Views (Oakvale) — meeting notes",
       "date": "2026-08-17",
       "tags": [
@@ -713,6 +703,8 @@
       ]
     },
     {
+      "text": "",
+      "done": false,
       "title": "Neurodiversity Centre — session findings (rhythm, saying yes)",
       "date": "2026-08-18",
       "tags": [
@@ -727,6 +719,8 @@
       ]
     },
     {
+      "text": "",
+      "done": false,
       "title": "EO Forum retreat — reflections (Peace / State / Value)",
       "date": "2026-08-19",
       "tags": [
@@ -745,6 +739,8 @@
       ]
     },
     {
+      "text": "",
+      "done": false,
       "title": "Boukou property portfolio + D-One Property Management (Catchup, Aug 12)",
       "date": "2026-08-12",
       "tags": [
@@ -762,6 +758,8 @@
       ]
     },
     {
+      "text": "",
+      "done": false,
       "title": "44 Price Drive - site + design meeting (Aug 14)",
       "date": "2026-08-14",
       "tags": [
