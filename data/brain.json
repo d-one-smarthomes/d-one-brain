@@ -615,6 +615,42 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Add forecast + budget to Amanda's KPIs (D-One)",
+        "context": "Build the forecast → budget → actuals feedback loop into Amanda's KPIs. Accountability lives in the actuals-vs-budget comparison — the step most businesses skip. Owner: Amanda.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Discuss trust + HoldCo structure with Amanda",
+        "context": "Walk Amanda through the Trust → HoldCo → OpCo structure and legacy plan. Dividends OpCo→HoldCo (tax-free, company-to-company); never OpCo→trust directly. HoldCo kept clean: only holds shares + invests. Currently have trust in setup, no HoldCo yet.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Find legal + accounting advisors for trust/HoldCo setup",
+        "context": "Need a sharp accountant + lawyer — getting shares into the trust now that the business already carries value takes care to do properly.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Give property maintenance/management assessment data to Amanda",
+        "context": "PM proposed starting a property maintenance + management business together. Running assessments — remove emotion, hand the data to Amanda to evaluate feasibility objectively.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [
@@ -665,6 +701,34 @@
     }
   ],
   "parkingLot": [
+    {
+      "title": "Growth Wheel — capacity & responsibility (Wheels 2 & 3)",
+      "date": "2026-08-20",
+      "tags": [
+        "d-one"
+      ],
+      "notes": [
+        "Wheel 2: rate my own personal capacity in each business aspect.",
+        "Wheel 3: name who holds ultimate responsibility for each aspect, then rate their capacity.",
+        "Reveals: who the next hire should be, where training is needed, what to restructure.",
+        "Founders are typically responsible for too many things at once — this makes it visible.",
+        "Key: delegate responsibility, never abdicate it."
+      ]
+    },
+    {
+      "title": "Pricing mindset — perceived value over GP margin",
+      "date": "2026-08-20",
+      "tags": [
+        "d-one"
+      ],
+      "notes": [
+        "Shift pricing from GP-margin-based toward perceived value.",
+        "Interactive web-page proposals (vs PDF) visibly raise perceived value.",
+        "If the offering is unique and branded, there's no direct competitor to compare against.",
+        "Challenge: structure offerings so competitors can't lift a spec sheet and reprice it.",
+        "Proof point: R2M premium lighting tier chosen without pushback; corrected an over-quote on values grounds to build long-term trust."
+      ]
+    },
     {
       "text": "",
       "done": false,
