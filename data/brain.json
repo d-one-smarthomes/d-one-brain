@@ -40,21 +40,21 @@
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
     "date": "2026-08-20",
     "priorities": {
-      "day": "",
+      "day": "Followup with Pieter re New project",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": false,
-      "at": "",
-      "intention": ""
+      "done": true,
+      "at": "20:54",
+      "intention": "Present where I am"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "done": true,
+      "at": "20:55",
+      "energy": 10,
+      "chaseMode": true,
+      "reflection": "I was present, grateful and acknowledged my blessings."
     },
     "history": []
   },
@@ -702,6 +702,8 @@
   ],
   "parkingLot": [
     {
+      "text": "",
+      "done": false,
       "title": "Growth Wheel — capacity & responsibility (Wheels 2 & 3)",
       "date": "2026-08-20",
       "tags": [
@@ -716,6 +718,8 @@
       ]
     },
     {
+      "text": "",
+      "done": false,
       "title": "Pricing mindset — perceived value over GP margin",
       "date": "2026-08-20",
       "tags": [
