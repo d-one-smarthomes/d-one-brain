@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-20",
+    "updated": "2026-08-21",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -38,25 +38,36 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-20",
+    "date": "2026-08-21",
     "priorities": {
-      "day": "Followup with Pieter re New project",
+      "day": "Pieter - New project intro",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "20:54",
-      "intention": "Present where I am"
+      "at": "07:59",
+      "intention": "Present where I am."
     },
     "evening": {
-      "done": true,
-      "at": "20:55",
-      "energy": 10,
-      "chaseMode": true,
-      "reflection": "I was present, grateful and acknowledged my blessings."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
-    "history": []
+    "history": [
+      {
+        "date": "2026-08-20",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Followup with Pieter re New project",
+        "intention": "Present where I am",
+        "energy": 10,
+        "chaseMode": true,
+        "reflection": "I was present, grateful and acknowledged my blessings."
+      }
+    ]
   },
   "areas": [
     {
@@ -71,19 +82,10 @@
         {
           "text": "Define / roll out SOPs",
           "done": false
-        },
-        {
-          "text": "Coaching cadence",
-          "done": false
         }
       ],
       "delegated": [],
-      "parked": [
-        {
-          "text": "Legacy-planning webinar",
-          "done": false
-        }
-      ],
+      "parked": [],
       "bhags": [
         {
           "text": "D-One → favourite subcontractor + interchangeable humans + Darren out 1 month at a time",
@@ -108,17 +110,12 @@
       "name": "Claude / Systems",
       "subtitle": "the multiplier",
       "now": [],
-      "delegated": [
-        {
-          "text": "Decide file-storage back-end (G:/Projects → clean up → Odoo only) — this unblocks everything else @Amanda",
-          "done": false
-        }
-      ],
+      "delegated": [],
       "parked": [],
       "skillsToPolish": [
         {
           "text": "Proposal (remove cost-per-option, show summary values only, simplify blurbs)",
-          "done": false
+          "done": true
         },
         {
           "text": "Floorplan",
