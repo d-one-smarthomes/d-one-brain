@@ -50,11 +50,11 @@
       "intention": "Present where I am."
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "done": true,
+      "at": "21:10",
+      "energy": 10,
+      "chaseMode": true,
+      "reflection": "Present across meetings, padel and family time. A win."
     },
     "history": [
       {
@@ -114,10 +114,6 @@
       "parked": [],
       "skillsToPolish": [
         {
-          "text": "Proposal (remove cost-per-option, show summary values only, simplify blurbs)",
-          "done": true
-        },
-        {
           "text": "Floorplan",
           "done": false
         },
@@ -127,10 +123,6 @@
         },
         {
           "text": "New DB Design skill",
-          "done": false
-        },
-        {
-          "text": "See what we can take from the horn proposal",
           "done": false
         }
       ],
@@ -575,15 +567,6 @@
         "due": null
       },
       {
-        "title": "Harrigan SLA — fix mud room biometric (logins lost, not on tech file)",
-        "context": "Mud room is the most-used door on the Harrigan property (~30-40x/day). Biometric reader still not working per Tristan's 12 Aug service note — can't recall logins, not documented in the tech file. Recover/reset credentials, restore access, and add to the tech file so it stops recurring.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "due": null
-      },
-      {
         "title": "Contact Danelle (new lead — Longland Estate)",
         "context": "Referral from a client. Danelle needs some installation work done. Location: Longland Estate, Stellenbosch. Phone: 079 617 2547.",
         "tags": [
@@ -598,6 +581,7 @@
         "tags": [
           "marriage"
         ],
+        "done": false,
         "due": "2026-09-04"
       },
       {
@@ -606,6 +590,7 @@
         "tags": [
           "marriage"
         ],
+        "done": false,
         "due": "2026-09-04"
       },
       {
@@ -614,6 +599,7 @@
         "tags": [
           "marriage"
         ],
+        "done": false,
         "due": "2026-08-24"
       },
       {
@@ -622,6 +608,7 @@
         "tags": [
           "marriage"
         ],
+        "done": false,
         "due": null
       }
     ],
@@ -668,9 +655,9 @@
       ]
     },
     {
-      "title": "Harrigan — facial-reader security (status)",
       "text": "",
       "done": false,
+      "title": "Harrigan — facial-reader security (status)",
       "date": "2026-08-21",
       "tags": [
         "d-one"
