@@ -29,7 +29,7 @@
       },
       {
         "title": "Team KPI targets → free my capacity",
-        "detail": "The keystone. Draft the per-role sheet with Claude, then a 30-min team walkthrough.",
+        "detail": "The keystone. Per-role sheet DRAFTED (Q4 2026 'Close the year clean': Finish · Collect · Lock the annuity). Company KPI = GP; every role ladders to it (Caleb margin at bid · Stafford margin in delivery · Tristan/Mekyle kill rework+truck-rolls · Caren/Mekyle grow recurring GP · Amanda measures GP + runs cash). Per-role goals/KPIs saved under delegation. Next: calibrate targets from Odoo baseline, then 30-min team walkthrough.",
         "done": false
       }
     ],
@@ -258,31 +258,87 @@
   "delegation": [
     {
       "person": "Amanda",
-      "owns": "Ops, finance, coordination (Foundation)"
+      "owns": "Ops, finance, coordination (Foundation)",
+      "q4Goal": "Stand up a monthly GP + forecast + cash rhythm so the numbers are visible and cash is controlled without Darren driving it; Odoo live for commercial ops.",
+      "kpis": [
+        "GP reported on time — by working-day 2 each month (100%)",
+        "Forecast accuracy — actual GP vs forecast within ±10%",
+        "DSO / collections — % debtors <30 days (drive up)",
+        "Weekly cash snapshot delivered (100%)"
+      ],
+      "q4Focus": "COLLECT — DSO down, year-end close, nothing outstanding rolling into January."
     },
     {
       "person": "Caleb",
-      "owns": "Engineering — design, quotes, project coordination"
+      "owns": "Engineering — design, quotes, project coordination",
+      "q4Goal": "Quotes turned around fast, at the right margin, with specs tight enough that jobs don't bleed on site.",
+      "kpis": [
+        "Quote turnaround ≤ 3 business days (calibrate)",
+        "Quote-to-win rate (watch high-win + thin-margin = underpricing)",
+        "Quoted-GP accuracy — delivered GP vs quoted GP within ±5%",
+        "Design issues caught pre-site vs found on site (up)"
+      ],
+      "q4Focus": "Every Q4 order quoted, Filter-scored and released to Stafford with clean spec + conduit schedule so installs finish before shutdown."
     },
     {
       "person": "Stafford",
-      "owns": "Project management, technicians"
+      "owns": "Project management, technicians",
+      "q4Goal": "Projects delivered on time, on margin and snag-light, with the technician schedule planned a week ahead.",
+      "kpis": [
+        "On-time completion rate — % projects hitting planned date",
+        "Budget/margin variance per project <5% slippage (elite <3%)",
+        "Technician utilization 75–85% (billable vs available)",
+        "Snag/rework rate <5% of hours/value"
+      ],
+      "q4Focus": "Shutdown countdown — sequence every project to a completion milestone before mid-Dec; publish weekly 'what's landing this week'."
     },
     {
       "person": "Tristan",
-      "owns": "Installation & programming"
+      "owns": "Installation & programming",
+      "q4Goal": "Installs done right the first time; programming commissioned without callbacks.",
+      "kpis": [
+        "Right-first-time / commissioning pass rate ≥80% (high-perf 85%+)",
+        "Programming callbacks per project — toward 0–1",
+        "Snag-free handover rate (up)",
+        "Jobs completed to Stafford's schedule (%)"
+      ],
+      "q4Focus": "No project handed into shutdown with open programming snags — else it becomes a January truck-roll."
     },
     {
       "person": "Mekyle",
-      "owns": "Install / networking / programming / remote support · training Claude"
+      "owns": "Install / networking / programming / remote support · training Claude",
+      "q4Goal": "Rock-solid networks + remote support that fixes most issues without a site visit; grow the technical side of recurring service.",
+      "kpis": [
+        "Remote-resolution rate — % SLA issues fixed without a truck-roll (up — saves GP)",
+        "SLA response + resolution time vs SLA terms",
+        "Network uptime across managed sites",
+        "Repeat-issue rate (down)"
+      ],
+      "q4Focus": "Get every SLA site (Buchu 11 + Oakvale) onto remote monitoring before year-end so the holiday runs quiet."
     },
     {
       "person": "Caren",
-      "owns": "Admin, SLA, accounts"
+      "owns": "Admin, SLA, accounts",
+      "q4Goal": "Every SLA billed on time, renewed and administered clean; back-office turnaround fast.",
+      "kpis": [
+        "SLA on-time invoicing (100%)",
+        "SLA renewal rate ≥90%",
+        "Collections on SLA accounts / DSO (support Amanda)",
+        "Admin turnaround — docs / POs / handover packs"
+      ],
+      "q4Focus": "LOCK THE ANNUITY — every SLA contract signed, invoiced and renewed before year-end."
     },
     {
       "person": "Berna",
-      "owns": "Coordination — project status, whats stuck, next steps"
+      "owns": "Coordination — project status, whats stuck, next steps",
+      "q4Goal": "Make the board the single source of truth, always current, so anyone (incl. Darren away) can see where every project + lead stands in 60 seconds.",
+      "kpis": [
+        "Board freshness — % items updated within cadence (~100%)",
+        "Blocked-item aging — avg days 'stuck' before escalation (down)",
+        "Status cadence hit-rate — on time (100%)",
+        "Meeting/Granola action items logged same day (%)"
+      ],
+      "q4Focus": "Be the eyes while Darren steps back — the stuck-list + status view are what let him be out a month."
     }
   ],
   "salesJourney": {
@@ -607,6 +663,24 @@
         "context": "Coach to send the registration link; next session covers the Imago method, followed by the Drama Triangle.",
         "tags": [
           "marriage"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Calibrate team KPI targets from Odoo / history baseline before setting stretch",
+        "context": "Pull last 6–12 months per role from Odoo/history, then lock the stretch targets on the Q4 KPI sheet. Targets there are industry-benchmark starting points only. Owner: Amanda.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
+      },
+      {
+        "title": "Run 30-min team KPI walkthrough (per-role goals, milestones, KPIs)",
+        "context": "Walk the team through the Q4 2026 per-role KPI sheet ('Close the year clean'). Confirm each person owns their numbers + cadence (hooked to 9am/5pm check-ins). Then tick Area A 'Team clear on KPIs + targets'. Owner: Darren.",
+        "tags": [
+          "d-one"
         ],
         "done": false,
         "due": null
