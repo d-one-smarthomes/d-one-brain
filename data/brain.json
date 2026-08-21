@@ -582,6 +582,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Contact Danelle (new lead — Longland Estate)",
+        "context": "Referral from a client. Danelle needs some installation work done. Location: Longland Estate, Stellenbosch. Phone: 079 617 2547.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
