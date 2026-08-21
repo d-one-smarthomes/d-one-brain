@@ -591,6 +591,38 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Watch the coach's personality-differences video",
+        "context": "From Katie couples assessment session — note what resonates about strengths in personality differences vs seeing them as problems; bring observations to the next session.",
+        "tags": [
+          "marriage"
+        ],
+        "due": "2026-09-04"
+      },
+      {
+        "title": "Complete the couples worksheet before the next session",
+        "context": "Coach sending the worksheet alongside the personality-differences video; complete both before the follow-up session (~2 weeks out).",
+        "tags": [
+          "marriage"
+        ],
+        "due": "2026-09-04"
+      },
+      {
+        "title": "Review the relationship assessment PDF when it arrives",
+        "context": "Coach is travelling and will send the 8–10 page relationship assessment report within a couple of days — read it when it lands.",
+        "tags": [
+          "marriage"
+        ],
+        "due": "2026-08-24"
+      },
+      {
+        "title": "Book September couples sessions via the coach's calendar link",
+        "context": "Coach to send the registration link; next session covers the Imago method, followed by the Drama Triangle.",
+        "tags": [
+          "marriage"
+        ],
+        "due": null
       }
     ],
     "waitingOn": [],
