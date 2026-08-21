@@ -573,6 +573,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Harrigan SLA — fix mud room biometric (logins lost, not on tech file)",
+        "context": "Mud room is the most-used door on the Harrigan property (~30-40x/day). Biometric reader still not working per Tristan's 12 Aug service note — can't recall logins, not documented in the tech file. Recover/reset credentials, restore access, and add to the tech file so it stops recurring.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
@@ -615,6 +624,22 @@
         "Blinds/curtains: 22 blinds + 22 curtains. Exploring Lutron control of Somfy motors via QSE-CIWCI wall box (cheaper, 8-way) - client prefers Lutron keypads over app-only. Shade schedule changed since June: entertainment-room blackout removed; entertainment/wine blackout retained; shades in gym, office, L2 living, library, bathroom; entrance north window flagged; master + guest curtains = manual. Send updated integration quote once latest schedule received.",
         "Marantz Cinema 50 refresh imminent (US now, Europe Oct); old stock not guaranteed, price increase expected (US tariffs). Client can't decide without new price -> request indicative pricing (see task).",
         "Next steps: Marantz pricing; updated blind/curtain quote (after latest schedule); final DB layout to client; follow up Mozza + Terra for final lighting schedule."
+      ]
+    },
+    {
+      "title": "Harrigan — facial-reader security (status)",
+      "text": "",
+      "done": false,
+      "date": "2026-08-21",
+      "tags": [
+        "d-one"
+      ],
+      "notes": [
+        "Client: Patrick Harrigan (p.harrigan@icloud.com) — residential farm/estate on Savant, managed by D-One under 'Harrigan SLA'. QS/coordinator: Cherié Smith, SFA-QS (csmith.sa@sfa-qs.co.za).",
+        "Facial readers quoted 30 Mar 2026 (WeQuote proposal 222689) for TWO positions: farm gate + front door — plus an intercom panel at the security point and a larger network switch (existing switch was full). Darren recommended a gooseneck mount at the farm gate (behind the beam's post); Patrick approved the gooseneck.",
+        "Installed and operational by early May 2026 — confirmed up and running 11 May 2026. Enrolment plan: add workers'/staff faces (with photos) first; owners (Patrick & Sharon) enrolled on their return from travel.",
+        "Door-access users: Patrick, Sharon, Jean, Anja + enrolled workers. Service note 12 Aug 2026 (Tristan): cameras removed from Jean & Anja's app — they now have all-doors access only.",
+        "OPEN ISSUE: Mud room door biometric — the most-used door on the property (~30-40x/day). Recurring failures since Mar 2026; as of 12 Aug 2026 STILL OUTSTANDING — Tristan can't recall the logins and it's not on the tech file. Needs credentials recovered, access restored, and tech file updated. (Tracked as a task.)"
       ]
     }
   ]
