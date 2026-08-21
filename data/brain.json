@@ -239,7 +239,7 @@
       "subtitle": "",
       "now": [
         {
-          "text": "EO: Learning Chair · AI event @ Oakvale 30 Sept (introduce D-One's centralised system, Justin Drennan) · 5% update",
+          "text": "EO: Learning Chair · AI event @ Oakvale 30 Sept (introduce D-One's centralised system, Justin Drennan) · Update Lior and queries",
           "done": false
         },
         {
@@ -380,26 +380,6 @@
         "due": null
       },
       {
-        "title": "Add a 'next step' CTA to the proposal flow that submits the quote",
-        "context": "In the d-one-proposal flow, after the client selects their options, add a next-step action that (1) submits/finalises the quote, (2) saves a copy for the client, and (3) pushes the deal into our CRM. Closes the loop so a client selection becomes a live opportunity automatically.",
-        "tags": [
-          "d-one",
-          "ideas"
-        ],
-        "done": true,
-        "due": null
-      },
-      {
-        "title": "Seed slogans + testimonials throughout the proposal flow",
-        "context": "Sprinkle D-One slogans (e.g. 'systems that make luxury homes easy to use, secure, beautiful and sound amazing') and client testimonials across the proposal journey to build trust and plant authority-positioning seeds as the client moves through the options.",
-        "tags": [
-          "d-one",
-          "ideas"
-        ],
-        "done": true,
-        "due": null
-      },
-      {
         "title": "Varnish the ramps with Kayden",
         "context": "Weekend project — varnish the ramps together with Kayden.",
         "tags": [
@@ -426,15 +406,6 @@
         ],
         "done": true,
         "due": "2026-08-23"
-      },
-      {
-        "title": "Confirm Saturday's rugby game with Lights by Linear",
-        "context": "Confirm attendance/arrangements for the rugby game on Sat 22 Aug with supplier Lights by Linear.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "due": "2026-08-22"
       },
       {
         "title": "Buy power cable for lounge light installation",
@@ -475,15 +446,6 @@
         "due": null
       },
       {
-        "title": "Get dessert for the EO retreat",
-        "context": "Dessert for 8 (1 gluten-free). Fruit + ice cream + custard build-your-own bowls. SHOPPING LIST: - Vanilla ice cream (1 tub) - Chocolate nut ice cream (1 tub) - Ready-made custard (1-2 jugs/tubs) - Stone fruit (peaches/nectarines) to grill/caramelise - Fresh berries (strawberries, blueberries) - Optional: pineapple to grill All naturally gluten-free — GF portion plates the same, no separate dessert needed. (Check chocolate nut ice cream label for gluten if the GF person wants it.)",
-        "tags": [
-          "social"
-        ],
-        "done": true,
-        "due": ""
-      },
-      {
         "title": "Decide what to do with money in the bank",
         "context": "Cash is sitting idle in the bank. Figure out the best home for it — grow wealth and reduce tax (see accompanying research notes). Likely needs a chat with accountant/financial advisor.",
         "tags": [
@@ -499,16 +461,6 @@
           "self"
         ],
         "done": false,
-        "due": null
-      },
-      {
-        "title": "Talk to John about Brett's toad for the Oct/Nov personal development event",
-        "context": "For the personal development event in Oct/Nov. NOTE: 'toad' may be a voice-transcription slip — confirm the actual item/topic with Darren.",
-        "tags": [
-          "self",
-          "social"
-        ],
-        "done": true,
         "due": null
       },
       {
@@ -596,15 +548,6 @@
         "due": null
       },
       {
-        "title": "Discuss the Trust -> HoldCo -> OpCo structure with Amanda",
-        "context": "From Billionaire Mindset session (Daniel). Walk Amanda through the structure: Trust holds shares in HoldCo, HoldCo holds shares in OpCo. OpCo builds value/cash; keep 6 months' expenses buffer in OpCo, then pay dividends OpCo->HoldCo (company-to-company, tax-free). Never pay dividends OpCo->Trust directly (taxed in beneficiaries' hands). Keep HoldCo clean: only holds shares and invests.",
-        "tags": [
-          "finance"
-        ],
-        "done": false,
-        "due": null
-      },
-      {
         "title": "Find the right legal + accounting advisors for the trust/HoldCo setup",
         "context": "From Billionaire Mindset session (Daniel). Getting shares into the trust now that D-One already has value needs a clever accountant + lawyer. First ask FWC (family wealth) whether they can advise; if not, Claude to research suitable advisors. Related to the in-progress SWAN Trust signing.",
         "tags": [
@@ -614,26 +557,8 @@
         "due": null
       },
       {
-        "title": "Add forecast + budget to Amanda's KPIs (D-One)",
-        "context": "Build the forecast → budget → actuals feedback loop into Amanda's KPIs. Accountability lives in the actuals-vs-budget comparison — the step most businesses skip. Owner: Amanda.",
-        "tags": [
-          "d-one"
-        ],
-        "done": false,
-        "due": null
-      },
-      {
         "title": "Discuss trust + HoldCo structure with Amanda",
         "context": "Walk Amanda through the Trust → HoldCo → OpCo structure and legacy plan. Dividends OpCo→HoldCo (tax-free, company-to-company); never OpCo→trust directly. HoldCo kept clean: only holds shares + invests. Currently have trust in setup, no HoldCo yet.",
-        "tags": [
-          "finance"
-        ],
-        "done": false,
-        "due": null
-      },
-      {
-        "title": "Find legal + accounting advisors for trust/HoldCo setup",
-        "context": "Need a sharp accountant + lawyer — getting shares into the trust now that the business already carries value takes care to do properly.",
         "tags": [
           "finance"
         ],
@@ -650,17 +575,7 @@
         "due": null
       }
     ],
-    "waitingOn": [
-      {
-        "title": "Chloe to send lounge-visit & average-spend screenshots",
-        "context": "From Discovery Vitality session. Chloe Prinsloo (Discovery consultant) to send screenshots on lounge visits and the average credit-card spend needed for full/free lounge access when booking flights.",
-        "tags": [
-          "finance"
-        ],
-        "done": false,
-        "since": "2026-08-18"
-      }
-    ],
+    "waitingOn": [],
     "someday": [
       {
         "title": "Family outing option — Kleine Hopefield Destination Farm (weekend)",
@@ -673,19 +588,7 @@
         "due": null
       }
     ],
-    "done": [
-      {
-        "title": "Do my lifeline for EO Retreat",
-        "context": "For the EO Retreat this weekend",
-        "tags": [
-          "self",
-          "social"
-        ],
-        "done": true,
-        "due": "2026-08-16",
-        "completed": "2026-08-16"
-      }
-    ]
+    "done": []
   },
   "energyLog": [
     {
