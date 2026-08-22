@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-21",
+    "updated": "2026-08-22",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -38,23 +38,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-21",
+    "date": "2026-08-22",
     "priorities": {
-      "day": "Pieter - New project intro",
+      "day": "Be social and enjoy the rugby.",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "07:59",
-      "intention": "Present where I am."
+      "at": "09:52",
+      "intention": "Relaxed"
     },
     "evening": {
-      "done": true,
-      "at": "21:10",
-      "energy": 10,
-      "chaseMode": true,
-      "reflection": "Present across meetings, padel and family time. A win. Great sessions with couples coach."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -66,6 +66,16 @@
         "energy": 10,
         "chaseMode": true,
         "reflection": "I was present, grateful and acknowledged my blessings."
+      },
+      {
+        "date": "2026-08-21",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Pieter - New project intro",
+        "intention": "Present where I am.",
+        "energy": 10,
+        "chaseMode": true,
+        "reflection": "Present across meetings, padel and family time. A win. Great sessions with couples coach."
       }
     ]
   },
