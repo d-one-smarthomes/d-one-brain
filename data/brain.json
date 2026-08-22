@@ -685,6 +685,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Cancel Discovery credit card",
+        "context": "Cancel my Discovery Bank credit card.",
+        "tags": [
+          "finance"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
