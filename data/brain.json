@@ -697,12 +697,12 @@
       },
       {
         "title": "Yazbek — Control4 (C4) programming",
-        "context": "C4 programming for the Yazbek project.",
+        "context": "C4 programming for the Yazbek project — for Benji. Raise at the tech meeting on Monday.",
         "tags": [
           "d-one"
         ],
         "done": false,
-        "due": null
+        "due": "2026-08-24"
       }
     ],
     "waitingOn": [],
