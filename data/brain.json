@@ -694,6 +694,15 @@
         ],
         "done": false,
         "due": null
+      },
+      {
+        "title": "Yazbek — Control4 (C4) programming",
+        "context": "C4 programming for the Yazbek project.",
+        "tags": [
+          "d-one"
+        ],
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
