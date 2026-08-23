@@ -396,8 +396,10 @@
         "tags": [
           "social"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Painting with Kenzi",
@@ -405,8 +407,10 @@
         "tags": [
           "family"
         ],
-        "done": false,
-        "due": "2026-08-23"
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Install USB-C modules into the plugs",
@@ -414,8 +418,10 @@
         "tags": [
           "home"
         ],
-        "done": false,
-        "due": "2026-08-23"
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Install the lights onto the ceiling",
@@ -423,8 +429,10 @@
         "tags": [
           "home"
         ],
-        "done": false,
-        "due": "2026-08-23"
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Find a house for December",
@@ -432,8 +440,10 @@
         "tags": [
           "family"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Varnish the ramps with Kayden",
@@ -442,8 +452,10 @@
           "home",
           "family"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Arrange boat service at Anchor Boat Shop",
@@ -451,8 +463,10 @@
         "tags": [
           "adventure"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Buy power cable for lounge light installation",
@@ -460,8 +474,10 @@
         "tags": [
           "home"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": true
       },
       {
         "title": "Get North Face slippers",
@@ -470,8 +486,10 @@
           "personal",
           "shopping"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Prioritise Adventure & Fun — book real adventures",
@@ -480,8 +498,10 @@
           "adventure",
           "self"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Rebuild Spirituality practice — reconnect to Source",
@@ -489,8 +509,10 @@
         "tags": [
           "self"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Decide what to do with money in the bank",
@@ -498,8 +520,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Before saying yes, check the board and calendar first",
@@ -507,8 +531,10 @@
         "tags": [
           "self"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Get a siren for the home fire alarm",
@@ -516,8 +542,10 @@
         "tags": [
           "home"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Amanda to complete her Vitality Age assessment (own profile)",
@@ -526,8 +554,10 @@
           "finance",
           "marriage"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Switch Woolies Dash & Checkers Sixty60 apps to Darren's login/loyalty card",
@@ -536,8 +566,10 @@
           "finance",
           "home"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Deposit R100k into a Discovery Bank savings account to reach Diamond status",
@@ -545,8 +577,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Route all shopping/spend through the Discovery Suite credit card",
@@ -554,8 +588,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Buy and spend miles on the 15th (D-Day)",
@@ -563,8 +599,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Review Discovery Vitality earning rate with Chloe (1-month check-in)",
@@ -572,8 +610,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": "2026-09-18"
+        "flag": false,
+        "due": "2026-09-18",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Build mandatory twice-daily team check-in (9am + 5pm) into the system",
@@ -581,8 +621,10 @@
         "tags": [
           "d-one"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Add forecast + budget to Amanda's KPIs for D-One (with feedback loop)",
@@ -591,8 +633,10 @@
           "d-one",
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Find the right legal + accounting advisors for the trust/HoldCo setup",
@@ -600,8 +644,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Discuss trust + HoldCo structure with Amanda",
@@ -609,8 +655,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Give property maintenance/management assessment data to Amanda",
@@ -618,8 +666,10 @@
         "tags": [
           "d-one"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Contact Danelle (new lead — Longland Estate)",
@@ -627,8 +677,10 @@
         "tags": [
           "d-one"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Watch the coach's personality-differences video",
@@ -636,8 +688,10 @@
         "tags": [
           "marriage"
         ],
-        "done": false,
-        "due": "2026-09-04"
+        "flag": false,
+        "due": "2026-09-04",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Complete the couples worksheet before the next session",
@@ -645,8 +699,10 @@
         "tags": [
           "marriage"
         ],
-        "done": false,
-        "due": "2026-09-04"
+        "flag": false,
+        "due": "2026-09-04",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Review the relationship assessment PDF when it arrives",
@@ -654,8 +710,10 @@
         "tags": [
           "marriage"
         ],
-        "done": false,
-        "due": "2026-08-24"
+        "flag": false,
+        "due": "2026-08-24",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Book September couples sessions via the coach's calendar link",
@@ -663,8 +721,10 @@
         "tags": [
           "marriage"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Calibrate team KPI targets from Odoo / history baseline before setting stretch",
@@ -672,8 +732,10 @@
         "tags": [
           "d-one"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Run 30-min team KPI walkthrough (per-role goals, milestones, KPIs)",
@@ -681,8 +743,10 @@
         "tags": [
           "d-one"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Cancel Discovery credit card",
@@ -690,8 +754,10 @@
         "tags": [
           "finance"
         ],
-        "done": false,
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Yazbek — Control4 (C4) programming",
@@ -699,8 +765,10 @@
         "tags": [
           "d-one"
         ],
-        "done": false,
-        "due": "2026-08-24"
+        "flag": false,
+        "due": "2026-08-24",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Lock in a weekly social anchor (padel/surf/coffee) for the Val de Vie crew",
@@ -708,8 +776,10 @@
         "tags": [
           "social"
         ],
-        "done": false,
-        "due": "2026-08-28"
+        "flag": false,
+        "due": "2026-08-28",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "First-wave social reach-outs — set actual dates",
@@ -717,8 +787,10 @@
         "tags": [
           "social"
         ],
-        "done": false,
-        "due": "2026-08-27"
+        "flag": false,
+        "due": "2026-08-27",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Ping Dom Peters — catch him next time he's through Cape Town",
@@ -726,8 +798,10 @@
         "tags": [
           "social"
         ],
-        "done": false,
-        "due": "2026-08-27"
+        "flag": false,
+        "due": "2026-08-27",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Start monthly Cape Town catch-up — book Brett Jordaan first",
@@ -735,8 +809,10 @@
         "tags": [
           "social"
         ],
-        "done": false,
-        "due": "2026-09-05"
+        "flag": false,
+        "due": "2026-09-05",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Book quarterly call with Vince Dickson (USA)",
@@ -744,8 +820,10 @@
         "tags": [
           "social"
         ],
-        "done": false,
-        "due": "2026-09-05"
+        "flag": false,
+        "due": "2026-09-05",
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Measure Kayden's legs — check pads fit, then order",
@@ -753,8 +831,10 @@
         "tags": [
           "family"
         ],
-        "done": false,
-        "due": "2026-08-23"
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": true
       },
       {
         "title": "Set up Claude ↔ Odoo connection",
@@ -762,9 +842,11 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
         "done": true,
-        "owner": null,
-        "due": "2026-08-23"
+        "owner": null
       },
       {
         "title": "Add D-One tasks from D1Brain into Tasks, tag ‘tech meeting’",
@@ -772,9 +854,11 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
         "done": false,
-        "owner": null,
-        "due": null
+        "owner": null
       }
     ],
     "waitingOn": [],
