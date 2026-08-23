@@ -38,23 +38,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-22",
+    "date": "2026-08-23",
     "priorities": {
-      "day": "Be social and enjoy the rugby.",
+      "day": "",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "09:52",
-      "intention": "Relaxed"
+      "at": "14:10",
+      "intention": "Present. 1:1 with Kayden."
     },
     "evening": {
-      "done": true,
-      "at": "20:08",
-      "energy": 8,
-      "chaseMode": true,
-      "reflection": "Had 50mg Vyfocus. Felt amazing midday. And aggressive afternoon. Ended up shopping a lot and being a bit late for rugby."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": "Sex with Mands and mtb with Kayden made the day feel like a huge win"
     },
     "history": [
       {
@@ -76,6 +76,16 @@
         "energy": 10,
         "chaseMode": true,
         "reflection": "Present across meetings, padel and family time. A win. Great sessions with couples coach."
+      },
+      {
+        "date": "2026-08-22",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Be social and enjoy the rugby.",
+        "intention": "Relaxed",
+        "energy": 8,
+        "chaseMode": true,
+        "reflection": "Had 50mg Vyfocus. Felt amazing midday. And aggressive afternoon. Ended up shopping a lot and being a bit late for rugby."
       }
     ]
   },
@@ -755,6 +765,7 @@
         "tags": [
           "family"
         ],
+        "done": false,
         "due": "2026-08-23"
       }
     ],
@@ -774,9 +785,9 @@
   ],
   "parkingLot": [
     {
-      "title": "🧠 EO Forum notes — state, gratitude & selling as sharing",
       "text": "Personal reflections captured at EO forum.",
       "done": false,
+      "title": "🧠 EO Forum notes — state, gratitude & selling as sharing",
       "date": "2026-08-23",
       "tags": [
         "self"
@@ -794,9 +805,9 @@
       ]
     },
     {
-      "title": "🤝 Social Investment System — the 15",
       "text": "Proactive social plan. One intentional touchpoint/week: pull the top name off the queue, make the plan, send it to the back.",
       "done": false,
+      "title": "🤝 Social Investment System — the 15",
       "date": "2026-08-23",
       "tags": [
         "social"
