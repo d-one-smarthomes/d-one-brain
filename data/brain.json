@@ -748,6 +748,14 @@
         ],
         "done": false,
         "due": "2026-09-05"
+      },
+      {
+        "title": "Measure Cadence legs — check pads fit, then order",
+        "context": "Measure the Cadence legs this weekend to confirm the pads will fit. If they fit, place the order.",
+        "tags": [
+          "home"
+        ],
+        "due": "2026-08-23"
       }
     ],
     "waitingOn": [],
