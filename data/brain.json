@@ -994,6 +994,30 @@
         "due": null,
         "odoo": "task#1355 Prinsloo",
         "done": false
+      },
+      {
+        "title": "Herman Brandt — chase Caleb on internal blinds quote (send to Paul)",
+        "context": "Task #582, Herman Brandt project — assigned Caleb, deadline 21 Aug, OVERDUE. No note showing the quote was drafted or sent to Paul. Ask Caleb where it stands.",
+        "tags": [
+          "d-one",
+          "tech meeting"
+        ],
+        "flag": false,
+        "due": "2026-08-21",
+        "odoo": "task#582 Herman Brandt",
+        "done": false
+      },
+      {
+        "title": "Fix stray activity on Herman Brandt blinds task (#582)",
+        "context": "Activity #77 attached to task #582 reads 'Install office TVs on pull-out brackets' (Stafford, due 18 Aug) — unrelated to the blinds quote. Detach/relabel so the task status is clean.",
+        "tags": [
+          "d-one",
+          "tech meeting"
+        ],
+        "flag": false,
+        "due": "2026-08-18",
+        "odoo": "act#77 on task#582",
+        "done": false
       }
     ],
     "waitingOn": [
