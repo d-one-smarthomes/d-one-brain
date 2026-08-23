@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-24",
+    "updated": "2026-08-23",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -847,6 +847,149 @@
         "odoo": null,
         "done": false,
         "owner": null
+      },
+      {
+        "title": "Send proposal — 1593 Val de Vie",
+        "context": "Review Berner's design + HTML, tweak, set up a review meeting together; add reference-site links and arrange home visits (incl. Andrew's).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-17",
+        "odoo": "act#163 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Follow up with Pieter — 987 Val de Vie",
+        "context": "CRM follow-up.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-17",
+        "odoo": "act#103 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Call Paul (builder) — 13 Fishermans Bend",
+        "context": "CRM follow-up call.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-17",
+        "odoo": "act#101 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Check builder details + enquire — Val de Vie Reserve site",
+        "context": "",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-18",
+        "odoo": "act#164 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Follow up — 31 Kerzner Estate",
+        "context": "CRM to-do.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-19",
+        "odoo": "act#189 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Collect fabric + acoustic material + blinds samples from Terra (Price Drive)",
+        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-20",
+        "odoo": "act#78 + task#513",
+        "done": false
+      },
+      {
+        "title": "Follow up with Leon — Base Projects",
+        "context": "CRM follow-up.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-21",
+        "odoo": "act#106 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Advise if happy to send off — quote S1029",
+        "context": "Sales order S1029 waiting on your go-ahead.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-22",
+        "odoo": "act#258 sale.order",
+        "done": false
+      },
+      {
+        "title": "Follow up with OD — Two Rivers",
+        "context": "CRM follow-up.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-31",
+        "odoo": "act#105 crm.lead",
+        "done": false
+      },
+      {
+        "title": "Beading for kitchen cupboard LEDs — DVDV",
+        "context": "Stale since May — close or reschedule.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-05-17",
+        "odoo": "task#437 DVDV",
+        "done": false
+      },
+      {
+        "title": "Setup Walk the Talk / ITB for Sep–Oct",
+        "context": "Arrange the EO 'How I Built This' / Walk the Talk session.",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": "2026-08-10",
+        "odoo": "task#715",
+        "done": false
+      },
+      {
+        "title": "Sell SLA — Val Du Lac",
+        "context": "Convert Val Du Lac to an SLA.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-27",
+        "odoo": "task#496 Val Du Lac",
+        "done": false
+      },
+      {
+        "title": "Meeting notes — Prinsloo",
+        "context": "Capture / write up Prinsloo meeting notes.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": "task#1355 Prinsloo",
+        "done": false
       }
     ],
     "waitingOn": [
