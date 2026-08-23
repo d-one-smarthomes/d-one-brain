@@ -50,11 +50,11 @@
       "intention": "Present. Content."
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "19:11",
+      "energy": 10,
       "chaseMode": false,
-      "reflection": "Sex with Mands and mtb with Kayden made the day feel like a huge win"
+      "reflection": "Sex with Mands and mtb with Kayden and bracelet making with Kenzi made the day feel like a huge win. I felt present most of the day. Did get a bit carried away with tasks. Banking present time with family is a win."
     },
     "history": [
       {
@@ -762,8 +762,8 @@
         "tags": [
           "d-one"
         ],
+        "done": true,
         "owner": null,
-        "done": false,
         "due": "2026-08-23"
       },
       {
@@ -772,8 +772,8 @@
         "tags": [
           "d-one"
         ],
-        "owner": null,
         "done": false,
+        "owner": null,
         "due": null
       }
     ],
