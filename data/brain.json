@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-23",
+    "updated": "2026-08-24",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -837,18 +837,6 @@
         "done": true
       },
       {
-        "title": "Set up Claude ↔ Odoo connection",
-        "context": "Stand up the Claude-to-Odoo MCP/API integration (Phase 2 priority) so Claude can read pipeline, quotes, invoices and CRM directly from d-one.odoo.com. Needs Odoo API key + endpoint. Bapple/Petrie can assist.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-08-23",
-        "odoo": null,
-        "done": true,
-        "owner": null
-      },
-      {
         "title": "Add D-One tasks from D1Brain into Tasks, tag ‘tech meeting’",
         "context": "Take my D-One–tagged tasks from D1Brain and add them into Tasks, tagging each ‘tech meeting’ so they surface in the tech meeting view.",
         "tags": [
@@ -872,7 +860,20 @@
       }
     ],
     "someday": [],
-    "done": []
+    "done": [
+      {
+        "title": "Set up Claude ↔ Odoo connection",
+        "context": "Stand up the Claude-to-Odoo MCP/API integration (Phase 2 priority) so Claude can read pipeline, quotes, invoices and CRM directly from d-one.odoo.com. Needs Odoo API key + endpoint. Bapple/Petrie can assist.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": true,
+        "owner": null
+      }
+    ]
   },
   "energyLog": [
     {
