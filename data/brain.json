@@ -953,8 +953,7 @@
         "title": "Beading for kitchen cupboard LEDs — DVDV",
         "context": "Stale since May — close or reschedule.",
         "tags": [
-          "d-one",
-          "tech meeting"
+          "home"
         ],
         "flag": false,
         "due": "2026-05-17",
@@ -973,7 +972,7 @@
         "done": false
       },
       {
-        "title": "Sell SLA — Val Du Lac",
+        "title": "Val du Lac ▸ Sell SLA",
         "context": "Convert Val Du Lac to an SLA.",
         "tags": [
           "d-one",
@@ -1020,7 +1019,7 @@
         "done": false
       },
       {
-        "title": "Val du Lac — HVAC / climate control integration status",
+        "title": "Val du Lac ▸ HVAC / climate control integration status",
         "context": "Tracked in Odoo as task #495 'Climate control update/progress' (Stafford, Installation, deadline 19 Aug — OVERDUE). No dedicated 'HVAC integration' task; it ties into open #767 & #765 'System Integration' (both unassigned). Get status + assign the integration tasks.",
         "tags": [
           "d-one",
