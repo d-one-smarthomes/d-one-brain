@@ -278,6 +278,89 @@
     .cihead{flex-wrap:wrap}
     .chkey{margin-left:0;width:100%}
   }
+
+  /* ===== Action card upgrades ===== */
+  .task .thead{display:flex;align-items:flex-start;gap:8px}
+  .task .thead .t{flex:1}
+  .star{appearance:none;border:none;background:transparent;color:var(--ink3);font-size:18px;line-height:1;
+    cursor:pointer;padding:0 2px;flex:none;margin-top:-1px}
+  .star.on{color:var(--warn)}
+  .task.flagged{border-color:var(--warn);border-left:3px solid var(--warn)}
+  .task.flagged .thead .t{font-weight:750}
+
+  /* calendar date picker */
+  .datepick{position:relative;display:inline-flex;align-items:center;gap:6px;cursor:pointer;
+    border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--ink3);background:transparent}
+  .datepick:hover{border-color:var(--blue-dim);color:var(--ink2)}
+  .datepick.set{color:var(--ink2);border-color:var(--line)}
+  .datepick.over{border-color:var(--danger);color:#f3a9a9}
+  .datepick .dpi{font-size:12px}
+  .datepick input.dateinput{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;border:0;padding:0;margin:0}
+  .datepick.mini{padding:3px 9px}
+
+  /* tag chips + picker */
+  .tagrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:9px}
+  .tagadd{appearance:none;border:1px dashed var(--line);background:transparent;color:var(--ink3);
+    border-radius:999px;padding:2px 10px;font-size:11.5px;font-weight:600;cursor:pointer}
+  .tagadd:hover{color:var(--blue);border-color:var(--blue-dim)}
+  .task .chip.odoo{background:rgba(224,165,61,.16);color:var(--warn)}
+  .tagpick{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:9px;
+    background:var(--bg2);border:1px solid var(--line-soft);border-radius:12px;padding:9px 10px}
+  .tagchip{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink2);
+    border-radius:999px;padding:3px 11px;font-size:12px;font-weight:600;cursor:pointer}
+  .tagchip:hover{border-color:var(--blue-dim)}
+  .tagchip.on{background:var(--blue-soft);border-color:var(--blue-dim);color:var(--blue);font-weight:700}
+  .tagchip.odoo{border-style:dashed}
+  .tagchip.odoo.on{background:rgba(224,165,61,.18);border-color:var(--warn);color:var(--warn)}
+  .tagdone{appearance:none;border:none;background:transparent;color:var(--ink3);font-size:11.5px;
+    font-weight:700;cursor:pointer;margin-left:auto;padding:3px 6px}
+  .tagdone:hover{color:var(--blue)}
+
+  /* Odoo routing panel */
+  .odoo{margin-top:11px;border:1px solid rgba(224,165,61,.35);border-radius:12px;
+    background:linear-gradient(180deg,rgba(224,165,61,.07),var(--bg2));padding:11px 12px}
+  .odoo.synced{border-color:var(--good);background:linear-gradient(180deg,rgba(63,191,143,.08),var(--bg2))}
+  .odoo-h{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+  .odoo-badge{font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--warn);
+    background:rgba(224,165,61,.16);border-radius:6px;padding:2px 8px}
+  .odoo-status{font-size:11.5px;color:var(--ink3);font-weight:600}
+  .odoo-status.ok{color:var(--good)}
+  .odoo-dest{display:flex;align-items:center;gap:9px;margin-bottom:9px;flex-wrap:wrap}
+  .odest-row{display:flex;gap:5px;flex-wrap:wrap}
+  .odest{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink3);
+    border-radius:8px;padding:3px 10px;font-size:11.5px;font-weight:600;cursor:pointer}
+  .odest.on{background:var(--blue-soft);border-color:var(--blue-dim);color:var(--blue)}
+  .odoo-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  .of{display:flex;flex-direction:column;gap:3px;min-width:0}
+  .of-l{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);font-weight:700}
+  .of .edit{font-size:13px;color:var(--ink);background:var(--panel);border:1px solid var(--line-soft);
+    border-radius:7px;padding:5px 8px;min-height:18px}
+  .odoo-foot{display:flex;align-items:center;gap:10px;margin-top:11px;flex-wrap:wrap}
+  .odoo-push{appearance:none;border:none;background:var(--warn);color:#241a05;font-weight:800;
+    font-size:12.5px;padding:7px 14px;border-radius:9px;cursor:pointer}
+  .odoo-push.ghost{background:transparent;border:1px solid var(--line);color:var(--ink2);font-weight:700}
+  .odoo-push:disabled{opacity:.55}
+  .odoo-hint{font-size:11px;color:var(--ink3)}
+  @media(max-width:560px){ .odoo-grid{grid-template-columns:1fr} }
+
+  /* D-One: actions on top, strategy themes below */
+  .actionwrap{margin-bottom:6px}
+  .strat-head{display:flex;align-items:baseline;gap:10px;margin:20px 0 10px;padding-top:14px;border-top:1px solid var(--line-soft)}
+  .strat-head>span:first-child{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+  .strat-sub{font-size:11px;color:var(--ink3)}
+  details.theme{border:1px solid var(--line-soft);border-radius:12px;background:var(--panel);margin:8px 0;overflow:hidden}
+  details.theme>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:11px 13px;user-select:none}
+  details.theme>summary::-webkit-details-marker{display:none}
+  details.theme>summary .tname{font-weight:700;font-size:14px;color:var(--ink)}
+  details.theme>summary .tsub{color:var(--ink3);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+  details.theme>summary .tcount{margin-left:auto;font-size:10.5px;font-weight:800;color:var(--blue);
+    background:var(--blue-soft);border-radius:999px;padding:1px 9px;flex:none}
+  details.theme>summary .bchev{color:var(--ink3);transition:.2s;flex:none;font-size:11px}
+  details.theme[open]>summary .bchev{transform:rotate(180deg)}
+  details.theme[open]>summary{border-bottom:1px solid var(--line-soft)}
+  .theme .tbody{padding:6px 14px 14px}
+  .theme-title{font-size:15px;font-weight:700;margin:8px 0 2px}
+  .theme-title .theme-sub{display:block;font-size:12px;font-weight:500;color:var(--ink3);margin-top:2px}
 </style>
 </head>
 <body>
@@ -326,6 +409,25 @@ const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&
 const arr = x => Array.isArray(x)?x:[];
 const todayISO = ()=> new Date().toISOString().slice(0,10);
 
+// tags that can be assigned directly on any action (last one triggers Odoo routing)
+const TAGS = ['d-one','finance','self','social','ideas','family','marriage','home','adventure','Odoo'];
+// tasks whose tag-picker is currently expanded (kept across re-renders)
+const openTagPickers = new Set();
+
+// friendly date label, e.g. "23 Aug"
+function fmtDue(iso){ try{ return new Date(iso+'T00:00:00').toLocaleDateString(undefined,{day:'numeric',month:'short'}); }catch(e){ return iso; } }
+// sort task refs: not-done first, then flagged first, then soonest due (nulls last)
+function sortTaskRefs(refs){
+  return arr(refs).slice().sort((a,b)=>{
+    const ta=DATA.tasks[a.col][a.i], tb=DATA.tasks[b.col][b.i];
+    if(!!ta.done!==!!tb.done) return ta.done?1:-1;
+    if(!!ta.flag!==!!tb.flag) return ta.flag?-1:1;
+    const da=ta.due||ta.since||'', db=tb.due||tb.since||'';
+    if(!da&&!db) return 0; if(!da) return 1; if(!db) return -1;
+    return da<db?-1:da>db?1:0;
+  });
+}
+
 let DATA = {}, dirty=false, autoOn=false, timer=null;
 let todayOnly=false;   // Today view toggle (due today or overdue)
 
@@ -373,7 +475,11 @@ function normalize(d){
   d.monthlyGoal.checklist = arr(d.monthlyGoal.checklist).map(c=> Object.assign({text:'',done:false}, (c&&typeof c==='object')?c:{text:String(c||'')}));
   d.tasks = Object.assign({active:[],waitingOn:[],someday:[],done:[]}, d.tasks);
   ['active','waitingOn','someday','done'].forEach(col=>{
-    d.tasks[col] = arr(d.tasks[col]).map(t=> Object.assign({title:'',context:'',tags:[],done:(col==='done')}, t, {tags:arr(t&&t.tags)}));
+    d.tasks[col] = arr(d.tasks[col]).map(t=>{
+      t = Object.assign({title:'',context:'',tags:[],flag:false,due:null,odoo:null,done:(col==='done')}, t, {tags:arr(t&&t.tags)});
+      if(t.tags.includes('Odoo')) t.odoo = Object.assign({dest:'Project',project:'',assignee:'',stage:'',deadline:'',status:'pending',odooId:null,pushedAt:''}, t.odoo||{});
+      return t;
+    });
   });
   d.parkingLot = arr(d.parkingLot).map(toItem);
   d.energyLog = arr(d.energyLog);
@@ -539,14 +645,15 @@ function render(){
   // 1) THIS WEEK (pinned, open by default)
   h+= board('focus','\u2b50','This Week','the only 3 that matter', d.weeklyFocus.three.length, true, focusBlock(), true);
 
-  // 2) D-ONE \u2014 the business (areas A\u2013E + team + sales journey + d-one tasks)
-  let dh='<div class="subgrid two">';
-  ['A','B','C','D','E'].forEach(k=>{ if(k in AIK) dh+=areaBlock(AIK[k]); });
-  dh+='</div>';
-  dh+= delegationBlock();
-  dh+= salesBlock();
-  dh+= taskGroupHTML(routed['d-one'], 'd-one');
-  h+= board('done','\ud83c\udfe2','D-One','strategy \u00b7 systems \u00b7 ops \u00b7 projects \u00b7 sales', boardCount(['A','B','C','D','E'],AIK,routed['d-one'])+d.delegation.length, false, dh);
+  // 2) D-ONE \u2014 the business. Actions on top (priority + due date), strategy & parking collapsed below.
+  let dh='';
+  dh+= `<div class="actionwrap">${taskGroupHTML(routed['d-one'], 'd-one')}</div>`;
+  dh+= `<div class="strat-head"><span>Strategy &amp; parking</span><span class="strat-sub">grouped by theme \u00b7 tap to open</span></div>`;
+  ['A','B','C','D','E'].forEach(k=>{ if(k in AIK) dh+= areaTheme(AIK[k]); });
+  dh+= themeWrap('team','Team \u2014 who owns what','', d.delegation.length, delegationBlock(true));
+  dh+= themeWrap('sales','Sales journey','the process', d.salesJourney.stages.length, salesBlock(true));
+  const dCount = arr(routed['d-one']).filter(r=>r.col==='active'&&!DATA.tasks[r.col][r.i].done).length;
+  h+= board('done','\ud83c\udfe2','D-One',dCount+' open action'+(dCount===1?'':'s')+' \u00b7 strategy below', dCount, false, dh);
 
   // 3) WEALTH & STRUCTURE (area F + finance tasks)
   let wh='';
@@ -632,7 +739,8 @@ function focusBlock(){
 }
 
 // ---- one AREA rendered as a sub-block inside a board ----
-function areaBlock(ai){
+// the inner Now/Delegated/Parked/\u2026 groups for an area (no header)
+function areaGroups(ai){
   const a=DATA.areas[ai]; let g='';
   const grp=(label,key,cls)=> (a[key]&&a[key].length!==undefined) ? `<div class="grp ${cls}"><p class="lab">${esc(label)}</p>${itemList('areas.'+ai+'.'+key,'string')}</div>` : '';
   g+=grp('Now','now','now');
@@ -641,25 +749,51 @@ function areaBlock(ai){
   if(a.bhags) g+=`<div class="grp extra"><p class="lab">Big goals</p>${itemList('areas.'+ai+'.bhags','string')}</div>`;
   if(a.skillsToPolish) g+=`<div class="grp extra"><p class="lab">Skills to polish</p>${itemList('areas.'+ai+'.skillsToPolish','string')}</div>`;
   if(a.pipelines) g+=`<div class="grp extra"><p class="lab">Pipelines</p>${itemList('areas.'+ai+'.pipelines','string')}</div>`;
+  return g;
+}
+function areaItemCount(ai){
+  const a=DATA.areas[ai]; let n=0;
+  ['now','delegated','parked','bhags','skillsToPolish','pipelines'].forEach(f=>{ if(Array.isArray(a[f])) n+=a[f].length; });
+  return n;
+}
+function areaBlock(ai){
+  const a=DATA.areas[ai];
   const sub = (a.subtitle!==undefined) ? `<p class="stitle">${ed('areas.'+ai+'.subtitle', a.subtitle,'subtitle\u2026')}</p>` : '';
-  return `<div class="subarea"><div class="subtop"><span class="badge">${esc(a.key||'')}</span><h3>${ed('areas.'+ai+'.name', a.name)}</h3></div>${sub}${g}</div>`;
+  return `<div class="subarea"><div class="subtop"><span class="badge">${esc(a.key||'')}</span><h3>${ed('areas.'+ai+'.name', a.name)}</h3></div>${sub}${areaGroups(ai)}</div>`;
+}
+
+// a collapsible theme accordion (used for the D-One strategy section)
+function themeWrap(id, title, sub, count, innerHTML){
+  const open = boardOpen('theme_'+id, false);
+  return `<details class="theme" data-board="theme_${id}"${open?' open':''}>
+    <summary><span class="tname">${esc(title)}</span>`
+    +(sub?`<span class="tsub">${esc(sub)}</span>`:'')
+    +`<span class="tcount">${count}</span><span class="bchev">\u25be</span></summary>
+    <div class="tbody">${innerHTML}</div></details>`;
+}
+function areaTheme(ai){
+  const a=DATA.areas[ai];
+  const nameEd = `<div class="theme-title">${ed('areas.'+ai+'.name', a.name)}${a.subtitle!==undefined?`<span class="theme-sub">${ed('areas.'+ai+'.subtitle', a.subtitle,'subtitle\u2026')}</span>`:''}</div>`;
+  return themeWrap('area_'+(a.key||ai), a.name, a.subtitle||'', areaItemCount(ai), nameEd+areaGroups(ai));
 }
 
 // ---- team / delegation block ----
-function delegationBlock(){
-  let h=`<div class="grp"><p class="lab">Team \u2014 who owns what</p><div class="teamtbl">`;
+function delegationBlock(bare){
+  let h= bare ? `<div class="teamtbl">` : `<div class="grp"><p class="lab">Team \u2014 who owns what</p><div class="teamtbl">`;
   h+= DATA.delegation.map((p,i)=>`<div class="trow"><span class="who">${ed('delegation.'+i+'.person', p.person)}</span><span class="owns">${ed('delegation.'+i+'.owns', p.owns)}</span>${del('delegation',i)}</div>`).join('');
-  h+=`</div>${add('delegation','deleg','add person')}</div>`;
+  h+=`</div>${add('delegation','deleg','add person')}`;
+  if(!bare) h+=`</div>`;
   return h;
 }
 
 // ---- sales journey block ----
-function salesBlock(){
+function salesBlock(bare){
   const s=DATA.salesJourney;
-  let h=`<div class="grp"><p class="lab">Sales journey \u2014 the process</p>`;
+  let h= bare ? '' : `<div class="grp"><p class="lab">Sales journey \u2014 the process</p>`;
   h+=`<p class="stitle">${ed('salesJourney.credibility', s.credibility)}</p><div class="flow">`;
   h+= s.stages.map((st,i)=>`<div class="stage"><div class="box2"><span class="num">${i+1}</span>${ed('salesJourney.stages.'+i+'.text', st.text)}${del('salesJourney.stages',i)}</div></div>`).join('');
-  h+=`</div>${add('salesJourney.stages','stage','add stage')}<p class="stitle" style="margin-top:10px">${ed('salesJourney.question', s.question)}</p></div>`;
+  h+=`</div>${add('salesJourney.stages','stage','add stage')}<p class="stitle" style="margin-top:10px">${ed('salesJourney.question', s.question)}</p>`;
+  if(!bare) h+=`</div>`;
   return h;
 }
 
@@ -702,17 +836,78 @@ function routeTasks(){
 }
 function taskItem(col, i){
   const t=DATA.tasks[col][i]; const bp='tasks.'+col+'.'+i;
-  const tags=(t.tags||[]).map(x=>esc(x)).join(', ');
-  const when = ('since' in t) ? `since ${ed(bp+'.since', t.since||'', '\u2014')}` : `due ${ed(bp+'.due', t.due||'', '\u2014')}`;
-  return `<div class="task ${t.done?'isdone':''}">${tick(bp+'.done', t.done)}
-    <div class="body"><div class="t">${ed(bp+'.title', t.title,'task\u2026')}</div>
-    <div class="c">${ed(bp+'.context', t.context,'context\u2026')}</div>
-    <div class="meta"><span class="chip"># <span class="edit" contenteditable="true" data-path="${bp+'.tags'}" data-csv="1">${tags}</span></span>
-    <span class="chip time">${when}</span></div></div>${del('tasks.'+col,i)}</div>`;
+  const isWaiting = ('since' in t);
+  const today=todayISO();
+
+  // priority star
+  const star = `<button class="star ${t.flag?'on':''}" data-flag="${bp}.flag" title="${t.flag?'Priority \u2014 tap to clear':'Flag as priority'}">${t.flag?'\u2605':'\u2606'}</button>`;
+
+  // date control: calendar picker (or 'since' text for waiting-on items)
+  let dateCtl;
+  if(isWaiting){
+    dateCtl = `<span class="chip time">since ${ed(bp+'.since', t.since||'', '\u2014')}</span>`;
+  } else {
+    const overdue = t.due && t.due<today;
+    dateCtl = `<label class="datepick ${overdue?'over':''} ${t.due?'set':''}">
+      <span class="dpi">\ud83d\udcc5</span>
+      <span class="dptxt">${t.due?esc(fmtDue(t.due))+(overdue?' \u00b7 overdue':''):'set due date'}</span>
+      <input type="date" class="dateinput" data-datepath="${bp}.due" value="${esc(t.due||'')}">
+    </label>`;
+  }
+
+  // tags: assigned chips + a toggle to open the full picker
+  const assigned = arr(t.tags);
+  let tagHTML;
+  if(openTagPickers.has(bp)){
+    tagHTML = `<div class="tagpick">`+TAGS.map(tag=>{
+      const on=assigned.includes(tag);
+      return `<button class="tagchip ${on?'on':''} ${tag==='Odoo'?'odoo':''}" data-tagset="${bp}" data-tag="${esc(tag)}">${on?'\u2713 ':''}${esc(tag)}</button>`;
+    }).join('')+`<button class="tagdone" data-tagclose="${bp}">done</button></div>`;
+  } else {
+    const chips = assigned.length
+      ? assigned.map(tag=>`<span class="chip ${tag==='Odoo'?'odoo':''}">${esc(tag)}</span>`).join('')
+      : '';
+    tagHTML = `<div class="tagrow">${chips}<button class="tagadd" data-tagopen="${bp}">\ud83c\udff7\ufe0f ${assigned.length?'edit tags':'add tag'}</button></div>`;
+  }
+
+  // Odoo routing panel (only when tagged Odoo)
+  const odooHTML = assigned.includes('Odoo') ? odooPanel(bp, t.odoo||{}) : '';
+
+  return `<div class="task ${t.done?'isdone':''} ${t.flag?'flagged':''}">${tick(bp+'.done', t.done)}
+    <div class="body">
+      <div class="thead">${star}<div class="t">${ed(bp+'.title', t.title,'action\u2026')}</div></div>
+      <div class="c">${ed(bp+'.context', t.context,'context\u2026')}</div>
+      <div class="meta">${dateCtl}</div>
+      ${tagHTML}
+      ${odooHTML}
+    </div>${del('tasks.'+col,i)}</div>`;
+}
+
+// Odoo routing panel: capture where it belongs, then push live to Odoo
+function odooPanel(bp, o){
+  o = o||{};
+  const synced = o.status==='synced';
+  const dests = ['Project','CRM','Sales','Other'];
+  const destSel = dests.map(dl=>`<button class="odest ${(o.dest||'Project')===dl?'on':''}" data-odest="${bp}" data-destval="${dl}">${dl}</button>`).join('');
+  return `<div class="odoo ${synced?'synced':''}">
+    <div class="odoo-h"><span class="odoo-badge">Odoo</span>
+      <span class="odoo-status ${synced?'ok':''}">${synced?('\u2713 In Odoo'+(o.odooId?(' \u00b7 #'+esc(o.odooId)):'')+(o.pushedAt?(' \u00b7 '+esc(o.pushedAt)):'')):'\u23f3 Pending push'}</span></div>
+    <div class="odoo-dest"><span class="of-l">Where</span><div class="odest-row">${destSel}</div></div>
+    <div class="odoo-grid">
+      <label class="of"><span class="of-l">Project / pipeline</span>${ed(bp+'.odoo.project', o.project,'e.g. Buchu Villa')}</label>
+      <label class="of"><span class="of-l">Assignee</span>${ed(bp+'.odoo.assignee', o.assignee,'e.g. Caleb')}</label>
+      <label class="of"><span class="of-l">Stage</span>${ed(bp+'.odoo.stage', o.stage,'e.g. To Do / New')}</label>
+      <label class="of"><span class="of-l">Deadline</span><span class="datepick mini ${o.deadline?'set':''}"><span class="dpi">\ud83d\udcc5</span><span class="dptxt">${o.deadline?esc(fmtDue(o.deadline)):'set'}</span><input type="date" class="dateinput" data-datepath="${bp}.odoo.deadline" value="${esc(o.deadline||'')}"></span></label>
+    </div>
+    <div class="odoo-foot">
+      ${synced?`<button class="odoo-push ghost" data-odoopush="${bp}">Re-push</button>`:`<button class="odoo-push" data-odoopush="${bp}">Push to Odoo \u2192</button>`}
+      <span class="odoo-hint">${synced?'Edit fields and re-push to update.':'Fill in where it goes, then push.'}</span>
+    </div>
+  </div>`;
 }
 function taskGroupHTML(refs, seedTag){
   const byCol={active:[],waitingOn:[],done:[]};
-  arr(refs).forEach(r=>byCol[r.col].push(r.i));
+  sortTaskRefs(refs).forEach(r=>{ if(byCol[r.col]) byCol[r.col].push(r.i); });
   const lab={active:'Tasks',waitingOn:'Waiting on',done:'Done'};
   const kindOf={active:'taskActive',waitingOn:'taskWaiting',done:'taskDone'};
   let h='';
@@ -752,9 +947,9 @@ function template(kind){
     case 'check': return {text:'',done:false};
     case 'deleg': return {person:'',owns:''};
     case 'stage': return {text:''};
-    case 'taskActive': case 'taskSomeday': return {title:'',context:'',tags:[],due:null,done:false};
-    case 'taskWaiting': return {title:'',context:'',tags:[],since:todayISO(),done:false};
-    case 'taskDone': return {title:'',context:'',tags:[],done:true};
+    case 'taskActive': case 'taskSomeday': return {title:'',context:'',tags:[],flag:false,due:null,odoo:null,done:false};
+    case 'taskWaiting': return {title:'',context:'',tags:[],flag:false,since:todayISO(),odoo:null,done:false};
+    case 'taskDone': return {title:'',context:'',tags:[],flag:false,due:null,odoo:null,done:true};
     default: return {text:'',done:false};
   }
 }
@@ -821,11 +1016,62 @@ app.addEventListener('click', e=>{
   if(a){ const ap=a.getAttribute('data-add'); const kind=a.getAttribute('data-kind'); const seed=a.getAttribute('data-seed');
     const item=template(kind); if(seed && item && typeof item==='object' && 'tags' in item) item.tags=[seed];
     getP(ap).push(item); markDirty(); render(); return; }
+  // priority star
+  const fl=e.target.closest('[data-flag]');
+  if(fl){ const p=fl.getAttribute('data-flag'); setP(p, !getP(p)); markDirty(); render(); return; }
+  // open / close the tag picker for one task
+  const to=e.target.closest('[data-tagopen]');
+  if(to){ openTagPickers.add(to.getAttribute('data-tagopen')); render(); return; }
+  const tcl=e.target.closest('[data-tagclose]');
+  if(tcl){ openTagPickers.delete(tcl.getAttribute('data-tagclose')); render(); return; }
+  // toggle a tag on/off directly
+  const tg=e.target.closest('[data-tagset]');
+  if(tg){ const bp=tg.getAttribute('data-tagset'); const tag=tg.getAttribute('data-tag');
+    const tobj=getP(bp); const tags=arr(tobj.tags); const idx=tags.indexOf(tag);
+    if(idx>=0) tags.splice(idx,1); else tags.push(tag); tobj.tags=tags;
+    if(tag==='Odoo' && tags.includes('Odoo') && !tobj.odoo)
+      tobj.odoo={dest:'Project',project:'',assignee:'',stage:'',deadline:'',status:'pending',odooId:null,pushedAt:''};
+    markDirty(); render(); return; }
+  // Odoo destination module
+  const od=e.target.closest('[data-odest]');
+  if(od){ const bp=od.getAttribute('data-odest'); const v=od.getAttribute('data-destval');
+    const o=getP(bp+'.odoo')||{}; o.dest=v; setP(bp+'.odoo', o); markDirty(); render(); return; }
+  // push this action into Odoo
+  const op=e.target.closest('[data-odoopush]');
+  if(op){ pushToOdoo(op.getAttribute('data-odoopush')); return; }
 });
+// calendar date pickers (native <input type=date>)
+app.addEventListener('change', e=>{
+  const di=e.target.closest('.dateinput'); if(!di) return;
+  const p=di.getAttribute('data-datepath'); setP(p, di.value||null); markDirty(); render();
+});
+// push one Odoo-tagged action live to Odoo via the API
+async function pushToOdoo(bp){
+  const t=getP(bp); const o=t.odoo||{};
+  if(!o.project || !o.project.trim()){ toast('Add a Project / pipeline name first', true); openTagPickers.add(bp); render(); return; }
+  try{
+    const res=await fetch('/.netlify/functions/odoo', {method:'POST',
+      headers:{'Content-Type':'application/json', ...pwHeaders()},
+      body:JSON.stringify({ password:getPw()||undefined, task:{
+        title:t.title, context:t.context, dest:o.dest||'Project',
+        project:o.project, assignee:o.assignee, stage:o.stage,
+        deadline:o.deadline||t.due||'' } })});
+    if(res.status===401){ if(promptUnlock()) return pushToOdoo(bp); throw new Error('Locked — password needed'); }
+    const j=await res.json().catch(()=>({}));
+    if(!res.ok || !j.ok) throw new Error(j.error||('HTTP '+res.status));
+    o.status='synced'; o.odooId=j.id||o.odooId; o.pushedAt=todayISO(); t.odoo=o;
+    markDirty(); render(); toast('Pushed to Odoo ✓'+(j.id?(' · #'+j.id):''));
+    save();
+  }catch(e){
+    if(String(e).includes('Failed to fetch')||String(e).includes('NetworkError'))
+      toast('Odoo push works on the live site', true);
+    else toast('Odoo push failed: '+e.message, true);
+  }
+}
 // persist each board's open/closed state (toggle doesn't bubble -> capture)
 app.addEventListener('toggle', e=>{
-  const b=e.target; if(b && b.classList && b.classList.contains('board')){
-    setBoardOpen(b.getAttribute('data-board'), b.open);
+  const b=e.target; if(b && b.classList && (b.classList.contains('board')||b.classList.contains('theme'))){
+    const id=b.getAttribute('data-board'); if(id) setBoardOpen(id, b.open);
   }
 }, true);
 // expand-all / minimise-all
