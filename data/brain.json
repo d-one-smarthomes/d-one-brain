@@ -1029,6 +1029,18 @@
         "due": "2026-08-19",
         "odoo": "task#495 (+767,765) Val Du Lac",
         "done": false
+      },
+      {
+        "title": "07:30 Mon — review the tech-meeting list before the team meeting",
+        "context": "Standing prompt: at 07:30 pull up all D1Brain items tagged 'tech meeting' (currently 6: Val du Lac SLA + HVAC/integration, Herman Brandt blinds quote + stray activity fix, Yazbek Control4, Terra samples). Backup because the Reminders app didn't respond when setting this.",
+        "tags": [
+          "d-one",
+          "tech meeting"
+        ],
+        "flag": true,
+        "due": "2026-08-24",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
