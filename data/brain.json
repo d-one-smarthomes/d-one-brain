@@ -1018,6 +1018,18 @@
         "due": "2026-08-18",
         "odoo": "act#77 on task#582",
         "done": false
+      },
+      {
+        "title": "Val du Lac — HVAC / climate control integration status",
+        "context": "Tracked in Odoo as task #495 'Climate control update/progress' (Stafford, Installation, deadline 19 Aug — OVERDUE). No dedicated 'HVAC integration' task; it ties into open #767 & #765 'System Integration' (both unassigned). Get status + assign the integration tasks.",
+        "tags": [
+          "d-one",
+          "tech meeting"
+        ],
+        "flag": false,
+        "due": "2026-08-19",
+        "odoo": "task#495 (+767,765) Val Du Lac",
+        "done": false
       }
     ],
     "waitingOn": [
