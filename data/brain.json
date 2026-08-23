@@ -765,6 +765,16 @@
         "owner": null,
         "done": false,
         "due": "2026-08-23"
+      },
+      {
+        "title": "Add D-One tasks from D1Brain into Tasks, tag ‘tech meeting’",
+        "context": "Take my D-One–tagged tasks from D1Brain and add them into Tasks, tagging each ‘tech meeting’ so they surface in the tech meeting view.",
+        "tags": [
+          "d-one"
+        ],
+        "owner": null,
+        "done": false,
+        "due": null
       }
     ],
     "waitingOn": [],
