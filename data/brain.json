@@ -859,6 +859,18 @@
         "odoo": null,
         "done": false,
         "owner": null
+      },
+      {
+        "title": "Book a call with Mike (Australia)",
+        "context": "Mike (Australia) added to the prioritise list. Long-distance = scheduled or it slips — propose a real time that works across the time gap, don't leave it as 'we should catch up'. In the rotating queue (Track 2, scheduled-call people alongside Vince & Dom).",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": null
       }
     ],
     "waitingOn": [],
@@ -899,15 +911,15 @@
     {
       "text": "Proactive social plan. One intentional touchpoint/week: pull the top name off the queue, make the plan, send it to the back.",
       "done": false,
-      "title": "🤝 Social Investment System — the 15",
+      "title": "🤝 Social Investment System — the 16",
       "date": "2026-08-23",
       "tags": [
         "social"
       ],
       "notes": [
         "TRACK 1 — NEIGHBOURS (Val de Vie + Boschendal, 10). Logistically trivial. Rhythm = one recurring anchor (padel/surf/coffee/braai), rotate 2-3 through each time. People: Justin Drennan, Mike Dixon, James Iron, Simon Raab, Andrew Gait Golding, Jonathan Cornish, Paul Rowett, Alistair Simpson, Hardi Swart (all Val de Vie) + Tal Aviram (Boschendal, ~15 min).",
-        "TRACK 2 — INTENTIONAL (5). Slip if not scheduled. Cape Town (Brett Jordaan, Jon Ratcliffe, Brad Morgan) = monthly catch-up rotating through the three. Dom Peters (touring) = catch when he's through CT. Vince Dickson (USA) = quarterly call + in-person when travelling.",
-        "ROTATING QUEUE (one/week, then send to back; interleaves far people so they don't slip): 1 Justin Drennan | 2 Mike Dixon | 3 Tal Aviram | 4 Brett Jordaan (CT) | 5 James Iron | 6 Simon Raab | 7 Jon Ratcliffe (CT) | 8 Andrew Gait Golding | 9 Vince Dickson (USA call) | 10 Jonathan Cornish | 11 Brad Morgan (CT) | 12 Paul Rowett | 13 Alistair Simpson | 14 Dom Peters (or call if not local) | 15 Hardi Swart → repeat.",
+        "TRACK 2 — INTENTIONAL (6). Slip if not scheduled. Cape Town (Brett Jordaan, Jon Ratcliffe, Brad Morgan) = monthly catch-up rotating through the three. Dom Peters (touring) = catch when he's through CT. Vince Dickson (USA) = quarterly call + in-person when travelling. Mike (Australia) = scheduled call (big time gap — booked in advance or it never happens); plan in-person if either of us is travelling.",
+        "ROTATING QUEUE (one/week, then send to back; interleaves far people so they don't slip): 1 Justin Drennan | 2 Mike Dixon | 3 Tal Aviram | 4 Brett Jordaan (CT) | 5 James Iron | 6 Simon Raab | 7 Jon Ratcliffe (CT) | 8 Andrew Gait Golding | 9 Vince Dickson (USA call) | 10 Jonathan Cornish | 11 Brad Morgan (CT) | 12 Paul Rowett | 13 Alistair Simpson | 14 Dom Peters (or call if not local) | 15 Hardi Swart | 16 Mike (Australia — scheduled call) → repeat.",
         "WEEKLY RITUAL: at your weekly review, take the top queue name, propose a REAL date, move them to the back. Neighbours you'll also see incidentally on top of this — the queue is the floor, not the ceiling.",
         "RULE: never send 'we should catch up' — always propose a specific day/activity. That's the whole difference between intention and drift."
       ]
