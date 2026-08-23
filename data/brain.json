@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-22",
+    "updated": "2026-08-23",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -703,6 +703,51 @@
         ],
         "done": false,
         "due": "2026-08-24"
+      },
+      {
+        "title": "Lock in a weekly social anchor (padel/surf/coffee) for the Val de Vie crew",
+        "context": "Pick a fixed weekly slot and rotate 2-3 through it each week: Justin Drennan, Mike Dixon, James Iron, Simon Raab, Andrew Gait Golding, Jonathan Cornish, Paul Rowett, Alistair Simpson, Hardi Swart, + Tal Aviram (Boschendal). Attach to an existing habit so it costs no willpower.",
+        "tags": [
+          "social"
+        ],
+        "done": false,
+        "due": "2026-08-28"
+      },
+      {
+        "title": "First-wave social reach-outs — set actual dates",
+        "context": "Kick off the system with 3 messages: Justin Drennan, Mike Dixon, Tal Aviram. Propose a real date, not 'we should catch up'.",
+        "tags": [
+          "social"
+        ],
+        "done": false,
+        "due": "2026-08-27"
+      },
+      {
+        "title": "Ping Dom Peters — catch him next time he's through Cape Town",
+        "context": "Dom is touring. Send a standing 'when are you next in CT?' and lock a plan when he's local.",
+        "tags": [
+          "social"
+        ],
+        "done": false,
+        "due": "2026-08-27"
+      },
+      {
+        "title": "Start monthly Cape Town catch-up — book Brett Jordaan first",
+        "context": "One CT friend per month, rotating: Brett Jordaan → Jon Ratcliffe → Brad Morgan. Batch into a CT day if it lands with a work trip.",
+        "tags": [
+          "social"
+        ],
+        "done": false,
+        "due": "2026-09-05"
+      },
+      {
+        "title": "Book quarterly call with Vince Dickson (USA)",
+        "context": "Long-distance = scheduled or it never happens. Set a recurring quarterly call; plan in-person whenever either of you is travelling.",
+        "tags": [
+          "social"
+        ],
+        "done": false,
+        "due": "2026-09-05"
       }
     ],
     "waitingOn": [],
@@ -720,6 +765,22 @@
     }
   ],
   "parkingLot": [
+    {
+      "title": "🤝 Social Investment System — the 15",
+      "text": "Proactive social plan. One intentional touchpoint/week: pull the top name off the queue, make the plan, send it to the back.",
+      "done": false,
+      "date": "2026-08-23",
+      "tags": [
+        "social"
+      ],
+      "notes": [
+        "TRACK 1 — NEIGHBOURS (Val de Vie + Boschendal, 10). Logistically trivial. Rhythm = one recurring anchor (padel/surf/coffee/braai), rotate 2-3 through each time. People: Justin Drennan, Mike Dixon, James Iron, Simon Raab, Andrew Gait Golding, Jonathan Cornish, Paul Rowett, Alistair Simpson, Hardi Swart (all Val de Vie) + Tal Aviram (Boschendal, ~15 min).",
+        "TRACK 2 — INTENTIONAL (5). Slip if not scheduled. Cape Town (Brett Jordaan, Jon Ratcliffe, Brad Morgan) = monthly catch-up rotating through the three. Dom Peters (touring) = catch when he's through CT. Vince Dickson (USA) = quarterly call + in-person when travelling.",
+        "ROTATING QUEUE (one/week, then send to back; interleaves far people so they don't slip): 1 Justin Drennan | 2 Mike Dixon | 3 Tal Aviram | 4 Brett Jordaan (CT) | 5 James Iron | 6 Simon Raab | 7 Jon Ratcliffe (CT) | 8 Andrew Gait Golding | 9 Vince Dickson (USA call) | 10 Jonathan Cornish | 11 Brad Morgan (CT) | 12 Paul Rowett | 13 Alistair Simpson | 14 Dom Peters (or call if not local) | 15 Hardi Swart → repeat.",
+        "WEEKLY RITUAL: at your weekly review, take the top queue name, propose a REAL date, move them to the back. Neighbours you'll also see incidentally on top of this — the queue is the floor, not the ceiling.",
+        "RULE: never send 'we should catch up' — always propose a specific day/activity. That's the whole difference between intention and drift."
+      ]
+    },
     {
       "text": "",
       "done": false,
