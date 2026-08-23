@@ -755,6 +755,16 @@
         ],
         "done": false,
         "due": "2026-08-23"
+      },
+      {
+        "title": "Set up Claude ↔ Odoo connection",
+        "context": "Stand up the Claude-to-Odoo MCP/API integration (Phase 2 priority) so Claude can read pipeline, quotes, invoices and CRM directly from d-one.odoo.com. Needs Odoo API key + endpoint. Bapple/Petrie can assist.",
+        "tags": [
+          "d-one"
+        ],
+        "owner": null,
+        "done": false,
+        "due": "2026-08-23"
       }
     ],
     "waitingOn": [],
