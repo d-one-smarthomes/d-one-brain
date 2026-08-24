@@ -1184,6 +1184,24 @@
   ],
   "parkingLot": [
     {
+      "title": "🏋️ The Yard Gym Studio — class schedule (reference)",
+      "text": "The Yard Gym Studio weekly class timetable. Saved for reference — ask for 'the gym schedule' or 'the Yard schedule'.",
+      "done": false,
+      "date": "2026-08-24",
+      "tags": [
+        "self"
+      ],
+      "notes": [
+        "MONDAY — 08:00 Performance Mat Pilates · 15:00–18:00 Shake It Dance Studio",
+        "TUESDAY — 08:00 Iyengar Yoga · 09:00 Jumpstart Rebound Class · 15:00–17:00 Studio One Dance Academy · 18:00 Line Dancing",
+        "WEDNESDAY — 08:00 Performance Mat Pilates · 09:00 Performance Mat Pilates · 15:00–18:00 Shake It Dance Studio",
+        "THURSDAY — 09:00 Jumpstart Rebound Class · 10:00 Mobility Class · 14:00–18:00 Studio One Dance Academy",
+        "FRIDAY — 08:00 Performance Mat Pilates · 09:00 Performance Mat Pilates · 10:00 Restorative Yoga (1st Fridays only)",
+        "SATURDAY — 10:00–12:00 Tai Chi",
+        "Hours run 06:00–19:00. No classes Sunday."
+      ]
+    },
+    {
       "text": "Week's findings on the marriage — what actually shifted things, and a second angle beyond 'manning up'.",
       "done": false,
       "title": "💛 Marriage — the shift (JBay reset + learning her OS)",
