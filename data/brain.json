@@ -1107,6 +1107,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Oakvale — upgrade security PC specs & fix noise",
+        "context": "Upgrade the security PC specs. Address the noise — replace either the fan or the HDD.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
