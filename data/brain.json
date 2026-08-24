@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-24",
+    "updated": "2026-08-23",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1039,6 +1039,18 @@
         ],
         "flag": true,
         "due": "2026-08-24",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Herman Brandt — TV: check frame size & mounting details",
+        "context": "Confirm TV frame size and mounting details; review sizing and whether to swap to a smaller unit; check the bracket. Possibly linked to the stray 'office TVs on pull-out brackets' activity (#77) sitting on task #582.",
+        "tags": [
+          "d-one",
+          "tech meeting"
+        ],
+        "flag": false,
+        "due": null,
         "odoo": null,
         "done": false
       }
