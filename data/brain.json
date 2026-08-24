@@ -1073,7 +1073,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Call Ivan back",
@@ -1095,7 +1095,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Call Bryan about 35 de Wet Road",
@@ -1117,7 +1117,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Call Jarryd for input on Oakvale security",
