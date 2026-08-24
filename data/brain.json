@@ -690,7 +690,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Watch the coach's personality-differences video",
@@ -745,7 +745,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Run 30-min team KPI walkthrough (per-role goals, milestones, KPIs)",
@@ -756,7 +756,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Cancel Discovery credit card",
@@ -856,7 +856,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": null
       },
       {
@@ -935,7 +935,7 @@
         "flag": false,
         "due": "2026-08-21",
         "odoo": "act#106 crm.lead",
-        "done": false
+        "done": true
       },
       {
         "title": "Advise if happy to send off — quote S1029",
@@ -1026,7 +1026,7 @@
         "flag": false,
         "due": "2026-08-18",
         "odoo": "act#77 on task#582",
-        "done": false
+        "done": true
       },
       {
         "title": "Val du Lac ▸ HVAC / climate control integration status",
@@ -1062,7 +1062,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Oakvale — add WattBox in linen room",
@@ -1084,7 +1084,7 @@
         "flag": true,
         "due": "2026-08-24",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Oakvale — design & pics for the stables speakers",
@@ -1106,7 +1106,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Oakvale — upgrade security PC specs & fix noise",
@@ -1128,20 +1128,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
-      },
-      {
-        "title": "Consider EO MEPA Unleashed 2026 (Tanzania) — attend?",
-        "context": "EO's flagship MEPA-region (Middle East, Pakistan & Africa) 'Unleashed' learning + networking event, hosted in Tanzania. Main event 1-2 October 2026, with EO events either side (likely a pre-day / exploration + post-event social) — so block roughly the week, not just 2 days. Darren flagged it to consider. Decide whether to attend + which side-events; run it through the One Filter (capacity, is the slot actually free, what else could fill it, family/December plans). Details behind EO login: https://events.eonetwork.org/event/2026-Unleashed/summary",
-        "tags": [
-          "social",
-          "self"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": false,
-        "owner": null
+        "done": true
       }
     ],
     "waitingOn": [
