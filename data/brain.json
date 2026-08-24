@@ -1118,6 +1118,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Call Jarryd for input on Oakvale security",
+        "context": "Phone Jarryd to get his input on the Oakvale security setup.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
