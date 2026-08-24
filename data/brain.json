@@ -1132,13 +1132,13 @@
       },
       {
         "title": "Consider EO MEPA Unleashed 2026 (Tanzania) — attend?",
-        "context": "EO's flagship MEPA-region (Middle East, Pakistan & Africa) 'Unleashed' learning + networking event, hosted in Tanzania in 2026. Darren flagged it to consider. Full dates/venue/cost/agenda are behind the EO member login. Registration/details: https://events.eonetwork.org/event/2026-Unleashed/summary — decide whether to attend (run it through the One Filter: capacity, is the slot actually free, what else could fill it).",
+        "context": "EO's flagship MEPA-region (Middle East, Pakistan & Africa) 'Unleashed' learning + networking event, hosted in Tanzania. Main event 1-2 October 2026, with EO events either side (likely a pre-day / exploration + post-event social) — so block roughly the week, not just 2 days. Darren flagged it to consider. Decide whether to attend + which side-events; run it through the One Filter (capacity, is the slot actually free, what else could fill it, family/December plans). Details behind EO login: https://events.eonetwork.org/event/2026-Unleashed/summary",
         "tags": [
           "social",
           "self"
         ],
         "flag": false,
-        "due": null,
+        "due": "2026-09-01",
         "odoo": null,
         "done": false,
         "owner": null
