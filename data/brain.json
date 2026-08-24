@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-23",
+    "updated": "2026-08-24",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -38,23 +38,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "priorities": {
-      "day": "1:1 outside with Kayden",
+      "day": "",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "14:10",
-      "intention": "Present. Content."
+      "at": "09:36",
+      "intention": "With space, and presence"
     },
     "evening": {
-      "done": true,
-      "at": "19:11",
-      "energy": 10,
+      "done": false,
+      "at": "",
+      "energy": null,
       "chaseMode": false,
-      "reflection": "Sex with Mands and mtb with Kayden and bracelet making with Kenzi made the day feel like a huge win. I felt present most of the day. Did get a bit carried away with tasks. Banking present time with family is a win."
+      "reflection": ""
     },
     "history": [
       {
@@ -86,6 +86,16 @@
         "energy": 8,
         "chaseMode": true,
         "reflection": "Had 50mg Vyfocus. Felt amazing midday. And aggressive afternoon. Ended up shopping a lot and being a bit late for rugby."
+      },
+      {
+        "date": "2026-08-23",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "1:1 outside with Kayden",
+        "intention": "Present. Content.",
+        "energy": 10,
+        "chaseMode": false,
+        "reflection": "Sex with Mands and mtb with Kayden and bracelet making with Kenzi made the day feel like a huge win. I felt present most of the day. Did get a bit carried away with tasks. Banking present time with family is a win."
       }
     ]
   },
@@ -769,7 +779,7 @@
         "flag": false,
         "due": "2026-08-24",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Lock in a weekly social anchor (padel/surf/coffee) for the Val de Vie crew",
@@ -902,7 +912,7 @@
         "flag": false,
         "due": "2026-08-19",
         "odoo": "act#189 crm.lead",
-        "done": false
+        "done": true
       },
       {
         "title": "Collect fabric + acoustic material + blinds samples from Terra (Price Drive)",
@@ -936,7 +946,7 @@
         "flag": false,
         "due": "2026-08-22",
         "odoo": "act#258 sale.order",
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up with OD — Two Rivers",
@@ -992,7 +1002,7 @@
         "flag": false,
         "due": null,
         "odoo": "task#1355 Prinsloo",
-        "done": false
+        "done": true
       },
       {
         "title": "Herman Brandt — chase Caleb on internal blinds quote (send to Paul)",
@@ -1004,7 +1014,7 @@
         "flag": false,
         "due": "2026-08-21",
         "odoo": "task#582 Herman Brandt",
-        "done": false
+        "done": true
       },
       {
         "title": "Fix stray activity on Herman Brandt blinds task (#582)",
@@ -1028,7 +1038,7 @@
         "flag": false,
         "due": "2026-08-19",
         "odoo": "task#495 (+767,765) Val Du Lac",
-        "done": false
+        "done": true
       },
       {
         "title": "07:30 Mon — review the tech-meeting list before the team meeting",
@@ -1040,7 +1050,7 @@
         "flag": true,
         "due": "2026-08-24",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Herman Brandt — TV: check frame size & mounting details",
@@ -1049,7 +1059,7 @@
           "d-one",
           "tech meeting"
         ],
-        "flag": false,
+        "flag": true,
         "due": null,
         "odoo": null,
         "done": false
@@ -1062,6 +1072,10 @@
         "tags": [
           "social"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-08-23"
       }
     ],
