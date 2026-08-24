@@ -1074,6 +1074,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Call Ivan back",
+        "context": "Return Ivan's call — flagged NB (important), due today.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-08-24",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
