@@ -1085,6 +1085,17 @@
         "due": "2026-08-24",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Oakvale — design & pics for the stables speakers",
+        "context": "Put together the speaker design and product pictures for the Oakvale stables area.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
