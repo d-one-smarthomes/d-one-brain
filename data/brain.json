@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-24",
+    "updated": "2026-08-25",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -38,23 +38,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "priorities": {
       "day": "",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": true,
-      "at": "09:36",
-      "intention": "With space, and presence"
+      "done": false,
+      "at": "",
+      "intention": ""
     },
     "evening": {
       "done": true,
-      "at": "15:46",
+      "at": "16:27",
       "energy": 10,
-      "chaseMode": false,
-      "reflection": "I was present, focused, calm and effective. I came back to presence, and nailed the day. Very happy."
+      "chaseMode": true,
+      "reflection": "Was wobbly I didn't have a plan, and ended up task ticking. Was productive nonetheless."
     },
     "history": [
       {
@@ -96,6 +96,16 @@
         "energy": 10,
         "chaseMode": false,
         "reflection": "Sex with Mands and mtb with Kayden and bracelet making with Kenzi made the day feel like a huge win. I felt present most of the day. Did get a bit carried away with tasks. Banking present time with family is a win."
+      },
+      {
+        "date": "2026-08-24",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "With space, and presence",
+        "energy": 10,
+        "chaseMode": false,
+        "reflection": "I was present, focused, calm and effective. I came back to presence, and nailed the day. Very happy."
       }
     ]
   },
@@ -890,7 +900,7 @@
         "flag": false,
         "due": "2026-08-17",
         "odoo": "act#101 crm.lead",
-        "done": false
+        "done": true
       },
       {
         "title": "Check builder details + enquire — Val de Vie Reserve site",
@@ -1184,9 +1194,9 @@
   ],
   "parkingLot": [
     {
-      "title": "🏋️ The Yard Gym Studio — class schedule (reference)",
       "text": "The Yard Gym Studio weekly class timetable. Saved for reference — ask for 'the gym schedule' or 'the Yard schedule'.",
       "done": false,
+      "title": "🏋️ The Yard Gym Studio — class schedule (reference)",
       "date": "2026-08-24",
       "tags": [
         "self"
