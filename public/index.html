@@ -1076,6 +1076,12 @@ app.addEventListener('change', e=>{
   const di=e.target.closest('.dateinput'); if(!di) return;
   const p=di.getAttribute('data-datepath'); setP(p, di.value||null); markDirty(); render();
 });
+  // The date input is invisible (opacity:0) over its label, so a desktop click
+// won't pop the native calendar on its own. Open it explicitly on click.
+app.addEventListener('click', e=>{
+  const di=e.target.closest('.dateinput'); if(!di) return;
+  if(typeof di.showPicker==='function'){ try{ di.showPicker(); }catch(_){} }
+});
 // push one Odoo-tagged action live to Odoo via the API
 async function pushToOdoo(bp){
   const t=getP(bp); const o=t.odoo||{};
