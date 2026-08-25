@@ -24,3 +24,7 @@ Dashboard: hosted on Netlify, reads this file live via a serverless function, an
 ## Schema
 See `data/brain.json`. Top-level keys: meta, oneFilter, weeklyFocus, areas, delegation,
 salesJourney, monthlyGoal, tasks, energyLog, parkingLot.
+
+## Odoo two-way sync (functions)
+- `netlify/functions/odoo-list.js` — GET, returns the API user's open Odoo project tasks (read).
+- `netlify/functions/odoo-update.js` — POST, updates a task: `done` (complete/reopen via task `state`), `deadline` (date/datetime or "" to clear), `stageId`. Auth by `ACCESS_PASSWORD`; Odoo creds stay server-side (`ODOO_URL/DB/USERNAME/API_KEY`).
