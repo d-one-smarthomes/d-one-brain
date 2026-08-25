@@ -1,6 +1,12 @@
 [build]
   publish = "public"
   functions = "netlify/functions"
+  # Skip a Netlify rebuild when a commit only changed the brain data.
+  # The dashboard reads data/brain.json LIVE from GitHub via the `brain`
+  # function, so a data change never needs a new build. This exit-0 == skip
+  # rule means: if nothing OUTSIDE data/brain.json changed, don't build
+  # (saves build credits). Real code changes still deploy automatically.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)data/brain.json'"
 
 [functions]
   node_bundler = "esbuild"
