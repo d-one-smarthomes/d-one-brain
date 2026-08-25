@@ -1,7 +1,7 @@
 // netlify/functions/odoo-list.js
-// D1 Brain — Odoo READ doorman. GET only.  (diagnostic build)
-// Returns the current API user's open Odoo project tasks; on failure it
-// returns rich diagnostics in the body so we can see exactly what Odoo says.
+// D1 Brain — Odoo READ doorman. GET only.  (Odoo 19 build)
+// Reads the current API user's open project tasks. On read failure it also
+// returns the project.task field list so the query can be corrected.
 //
 // Auth: header  x-access-password: <ACCESS_PASSWORD>   (or ?pw= as fallback)
 // Env: ODOO_URL, ODOO_DB, ODOO_USERNAME, ODOO_API_KEY
@@ -21,78 +21,48 @@ exports.handler = async (event) => {
   if (!process.env.ACCESS_PASSWORD || supplied !== process.env.ACCESS_PASSWORD) {
     return json({ ok: false, error: "Unauthorized" });
   }
- 
-  const config = {
-    hasUrl: !!ODOO_URL, hasDb: !!ODOO_DB, hasUser: !!ODOO_USER, hasKey: !!ODOO_KEY,
-    urlHost: hostOf(ODOO_URL), dbLen: ODOO_DB.length, keyLen: ODOO_KEY.length,
-    userMasked: mask(ODOO_USER),
-  };
   if (!ODOO_URL || !ODOO_DB || !ODOO_USER || !ODOO_KEY) {
-    return json({ ok: false, stage: "config", error: "Missing a required env var", config });
+    return json({ ok: false, stage: "config", error: "Missing a required env var" });
   }
  
-  // 1) Try to log in normally.
-  let uid = null, loginErr = null, authErr = null;
-  try { uid = await login(); } catch (e) { loginErr = String(e.message || e); }
+  // Authenticate (login works; keep authenticate as a fallback).
+  let uid = null;
+  try { uid = await login(); } catch (e) {}
+  if (!uid) { try { uid = await rpc("common", "authenticate", [ODOO_DB, ODOO_USER, ODOO_KEY, {}]); } catch (e) {} }
+  if (!uid) return json({ ok: false, stage: "login", error: "Odoo rejected the DB+user+key" });
  
-  // 2) If login gave nothing, gather diagnostics before giving up.
-  if (!uid) {
-    const diag = { config };
-    try { diag.version = await rpc("common", "version", []); }
-    catch (e) { diag.versionError = String(e.message || e); }
+  // Odoo 19: assignee is user_ids (m2m). Ask only for fields that exist.
+  const fields = ["id", "name", "date_deadline", "stage_id", "project_id", "priority"];
+  const domain = [["user_ids", "in", [uid]]];
  
-    // authenticate() is the modern equivalent of login(); try it too.
-    try { uid = await rpc("common", "authenticate", [ODOO_DB, ODOO_USER, ODOO_KEY, {}]); }
-    catch (e) { authErr = String(e.message || e); }
- 
-    if (!uid) {
-      try { diag.databases = await rpc("db", "list", []); }
-      catch (e) { diag.dbListError = String(e.message || e); }
-      return json({ ok: false, stage: "login", loginError: loginErr, authError: authErr,
-        note: "Odoo rejected the DB+user+key. Check ODOO_DB matches one of `databases` (if shown), and that ODOO_API_KEY is a valid key for this user.",
-        ...diag });
-    }
-  }
- 
-  // 3) Read this user's open project tasks
-  const fields = ["id", "name", "date_deadline", "stage_id", "project_id", "kanban_state", "priority"];
   try {
-    const rows = await tryReads(uid, fields);
+    const rows = await execKw(uid, "project.task", "search_read", [domain], {
+      fields, limit: 100, order: "date_deadline asc, priority desc, id desc",
+    });
     const tasks = (rows || []).map((r) => ({
-      id: r.id, name: r.name || "", deadline: r.date_deadline || null,
-      stage: nameOf(r.stage_id), stageId: idOf(r.stage_id),
-      project: nameOf(r.project_id), projectId: idOf(r.project_id),
-      kanban: r.kanban_state || "normal", priority: r.priority || "0",
+      id: r.id,
+      name: r.name || "",
+      deadline: r.date_deadline || null,
+      stage: nameOf(r.stage_id),
+      stageId: idOf(r.stage_id),
+      project: nameOf(r.project_id),
+      projectId: idOf(r.project_id),
+      priority: r.priority || "0",
     }));
     return json({ ok: true, uid, count: tasks.length, tasks });
   } catch (e) {
-    return json({ ok: false, stage: "read", uid, error: String(e.message || e), config });
+    // Read failed — return the schema so we can correct field names.
+    let schemaFields = null, schemaError = null;
+    try {
+      const fg = await execKw(uid, "project.task", "fields_get", [], { attributes: ["type"] });
+      schemaFields = Object.keys(fg || {}).sort();
+    } catch (e2) { schemaError = String(e2.message || e2); }
+    return json({ ok: false, stage: "read", uid, error: String(e.message || e), schemaFields, schemaError });
   }
 };
  
-async function tryReads(uid, fields) {
-  const openFold = ["stage_id.fold", "=", false];
-  const attempts = [
-    [["user_ids", "in", [uid]], openFold],
-    [["user_ids", "in", [uid]]],
-    [["user_id", "=", uid], openFold],
-    [["user_id", "=", uid]],
-  ];
-  let lastErr;
-  for (const domain of attempts) {
-    try {
-      return await execKw(uid, "project.task", "search_read", [domain], {
-        fields, limit: 100, order: "date_deadline asc, priority desc, id desc",
-      });
-    } catch (e) { lastErr = e; }
-  }
-  throw lastErr || new Error("Could not read project.task");
-}
- 
 function nameOf(m2o) { return Array.isArray(m2o) ? m2o[1] : ""; }
 function idOf(m2o) { return Array.isArray(m2o) ? m2o[0] : null; }
-function hostOf(u) { try { return new URL(u).host; } catch { return ""; } }
-function mask(s) { if (!s) return ""; const [a, b] = String(s).split("@"); return (a ? a.slice(0, 2) + "***" : "") + (b ? "@" + b : ""); }
  
 async function rpc(service, method, args) {
   const res = await fetch(`${ODOO_URL}/jsonrpc`, {
