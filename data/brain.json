@@ -21,13 +21,7 @@
   "weeklyFocus": {
     "weekOf": "2026-08-12",
     "note": "Everything else is parked. If it's not one of these three, it waits.",
-    "three": [
-      {
-        "title": "EO 5% update + book next month's walks",
-        "detail": "Reach out to Ryk, Willie & Amy for availability.",
-        "done": false
-      }
-    ],
+    "three": [],
     "watching": [],
     "todayQuick": []
   },
@@ -263,10 +257,6 @@
       "name": "Personal & Growth",
       "subtitle": "",
       "now": [
-        {
-          "text": "EO: Learning Chair · AI event @ Oakvale 30 Sept (introduce D-One's centralised system, Justin Drennan) · Update Lior and queries",
-          "done": false
-        },
         {
           "text": "Billionaire Mindset (Daniel): Objective deal-assessment framework · Growth Wheel bottleneck check · Big Leap thermostat",
           "done": false
