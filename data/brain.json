@@ -214,11 +214,11 @@
       "now": [
         {
           "text": "Orders now: Gnodde · JFK · Adler · Price Drive, Mountain",
-          "done": false
+          "done": true
         },
         {
           "text": "Projects: Brandt keypad (black) · House Prinsloo · Buchu Villa · 5 Sunset Close · La Vue fire detection · Oakvale SLA · 27 Leeukoppie",
-          "done": false
+          "done": true
         }
       ],
       "delegated": [],
@@ -231,7 +231,7 @@
       "now": [
         {
           "text": "Buchu - 11-property maintenance SLA (~R41k/mo, ~R500k/yr annuity) - keep as a D-One dept, not a separate entity",
-          "done": false
+          "done": true
         }
       ],
       "delegated": [],
@@ -716,7 +716,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Add forecast + budget to Amanda's KPIs for D-One (with feedback loop)",
@@ -728,7 +728,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Find the right legal + accounting advisors for the trust/HoldCo setup",
@@ -961,7 +961,7 @@
         "flag": false,
         "due": "2026-08-17",
         "odoo": "act#103 crm.lead",
-        "done": false
+        "done": true
       },
       {
         "title": "Call Paul (builder) — 13 Fishermans Bend",
@@ -983,7 +983,7 @@
         "flag": false,
         "due": "2026-08-18",
         "odoo": "act#164 crm.lead",
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up — 31 Kerzner Estate",
@@ -1221,7 +1221,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Take Amanda's car to get new tyres",
