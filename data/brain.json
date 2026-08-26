@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-25",
+    "updated": "2026-08-26",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1145,6 +1145,17 @@
         "context": "",
         "tags": [
           "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Take Amanda's car to get new tyres",
+        "context": "",
+        "tags": [
+          "family"
         ],
         "flag": false,
         "due": null,
