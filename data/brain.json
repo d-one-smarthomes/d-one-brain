@@ -294,7 +294,13 @@
         "DSO / collections — % debtors <30 days (drive up)",
         "Weekly cash snapshot delivered (100%)"
       ],
-      "q4Focus": "COLLECT — DSO down, year-end close, nothing outstanding rolling into January."
+      "q4Focus": "COLLECT — DSO down, year-end close, nothing outstanding rolling into January.",
+      "kpiHeadings": [
+        "Accurate reporting",
+        "Report timing",
+        "GP growth strategy",
+        "Forecasting + Budgets"
+      ]
     },
     {
       "person": "Caleb",
@@ -306,7 +312,16 @@
         "Quoted-GP accuracy — delivered GP vs quoted GP within ±5%",
         "Design issues caught pre-site vs found on site (up)"
       ],
-      "q4Focus": "Every Q4 order quoted, Filter-scored and released to Stafford with clean spec + conduit schedule so installs finish before shutdown."
+      "q4Focus": "Every Q4 order quoted, Filter-scored and released to Stafford with clean spec + conduit schedule so installs finish before shutdown.",
+      "kpiHeadings": [
+        "GP on quotes",
+        "Response time",
+        "Accepted vs Lost",
+        "Quote turnaround",
+        "Quoted vs Actual",
+        "Design + Documents"
+      ],
+      "handover": "Handing over → clean design + documents handed to Stafford to kick off delivery."
     },
     {
       "person": "Stafford",
@@ -318,7 +333,16 @@
         "Technician utilization 75–85% (billable vs available)",
         "Snag/rework rate <5% of hours/value"
       ],
-      "q4Focus": "Shutdown countdown — sequence every project to a completion milestone before mid-Dec; publish weekly 'what's landing this week'."
+      "q4Focus": "Shutdown countdown — sequence every project to a completion milestone before mid-Dec; publish weekly 'what's landing this week'.",
+      "kpiHeadings": [
+        "Time on site",
+        "System sign-offs",
+        "Service calls — billed",
+        "Service calls — completed",
+        "Service calls — ticketing",
+        "Project life cycle · Handover · Signing doc + file"
+      ],
+      "handover": "Receives handover from Caleb (design + docs); owns project life cycle through handover, sign-off doc + file."
     },
     {
       "person": "Tristan",
@@ -342,7 +366,12 @@
         "Network uptime across managed sites",
         "Repeat-issue rate (down)"
       ],
-      "q4Focus": "Get every SLA site (Buchu 11 + Oakvale) onto remote monitoring before year-end so the holiday runs quiet."
+      "q4Focus": "Get every SLA site (Buchu 11 + Oakvale) onto remote monitoring before year-end so the holiday runs quiet.",
+      "kpiHeadings": [
+        "After-hours support gets billed",
+        "Response speed / time",
+        "System stability + uptime"
+      ]
     },
     {
       "person": "Caren",
@@ -354,7 +383,15 @@
         "Collections on SLA accounts / DSO (support Amanda)",
         "Admin turnaround — docs / POs / handover packs"
       ],
-      "q4Focus": "LOCK THE ANNUITY — every SLA contract signed, invoiced and renewed before year-end."
+      "q4Focus": "LOCK THE ANNUITY — every SLA contract signed, invoiced and renewed before year-end.",
+      "kpiHeadings": [
+        "Debtor days",
+        "Backorders",
+        "Stock management",
+        "Service response",
+        "Customer service",
+        "Clean admin"
+      ]
     },
     {
       "person": "Berna",
@@ -366,7 +403,24 @@
         "Status cadence hit-rate — on time (100%)",
         "Meeting/Granola action items logged same day (%)"
       ],
-      "q4Focus": "Be the eyes while Darren steps back — the stuck-list + status view are what let him be out a month."
+      "q4Focus": "Be the eyes while Darren steps back — the stuck-list + status view are what let him be out a month.",
+      "kpiHeadings": [
+        "Closing gaps between actions, tasks, departments",
+        "Task admin"
+      ]
+    },
+    {
+      "person": "Justin",
+      "owns": "Execution / systems (role TBC — confirm with Darren)",
+      "q4Goal": "",
+      "kpis": [],
+      "kpiHeadings": [
+        "Response time",
+        "Task execution",
+        "Done first time",
+        "Independence — systems plan"
+      ],
+      "q4Focus": ""
     }
   ],
   "salesJourney": {
@@ -401,6 +455,19 @@
       }
     ],
     "question": "Does the client feel safe and have absolute clarity? Do they realise when they're the bottleneck? → Add to CRM, Claude tracks each lead."
+  },
+  "quarter": {
+    "label": "Q4 2026 — Close the year clean",
+    "goals": [
+      "All stock in",
+      "All outstanding money in",
+      "Service dept — prep for season",
+      "IT support backup + Benji",
+      "Tie Buchu (11-property SLA)",
+      "Info into Odoo",
+      "Docs",
+      "Designs"
+    ]
   },
   "monthlyGoal": {
     "title": "Efficient Resting",
