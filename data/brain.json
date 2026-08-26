@@ -26,11 +26,6 @@
         "title": "EO 5% update + book next month's walks",
         "detail": "Reach out to Ryk, Willie & Amy for availability.",
         "done": false
-      },
-      {
-        "title": "Team KPI targets → free my capacity",
-        "detail": "The keystone. Per-role sheet DRAFTED (Q4 2026 'Close the year clean': Finish · Collect · Lock the annuity). Company KPI = GP; every role ladders to it (Caleb margin at bid · Stafford margin in delivery · Tristan/Mekyle kill rework+truck-rolls · Caren/Mekyle grow recurring GP · Amanda measures GP + runs cash). Per-role goals/KPIs saved under delegation. Next: calibrate targets from Odoo baseline, then 30-min team walkthrough.",
-        "done": true
       }
     ],
     "watching": [],
@@ -38,7 +33,7 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "priorities": {
       "day": "",
       "week": "EO 5% update + book next month's walks",
@@ -50,11 +45,11 @@
       "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "16:27",
-      "energy": 10,
-      "chaseMode": true,
-      "reflection": "Was wobbly I didn't have a plan, and ended up task ticking. Was productive nonetheless."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -106,6 +101,16 @@
         "energy": 10,
         "chaseMode": false,
         "reflection": "I was present, focused, calm and effective. I came back to presence, and nailed the day. Very happy."
+      },
+      {
+        "date": "2026-08-25",
+        "morning": false,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "",
+        "energy": 10,
+        "chaseMode": true,
+        "reflection": "Was wobbly I didn't have a plan, and ended up task ticking. Was productive nonetheless."
       }
     ]
   },
