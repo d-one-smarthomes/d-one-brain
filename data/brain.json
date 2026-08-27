@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-26",
+    "updated": "2026-08-27",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1220,6 +1220,18 @@
           "family"
         ],
         "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Book Fitzgibbon house for December",
+        "context": "Holiday booking. Need to confirm exact Dec dates + secure the booking.",
+        "tags": [
+          "adventure",
+          "family"
+        ],
+        "flag": true,
         "due": null,
         "odoo": null,
         "done": false
