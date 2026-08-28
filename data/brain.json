@@ -1337,6 +1337,54 @@
         "due": "2026-08-30",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Victoria Road ▸ begin AV & lighting integration workshopping",
+        "context": "From 27 Aug design workshop (Victoria Road development). D-One to identify options for concealing or architecturally integrating speakers, keypads and devices within ARC's design language. Coves flagged as possible speaker + ventilation integration zones; ceiling/wall speaker options very limited given the completeness of the design.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
+      },
+      {
+        "title": "Victoria Road ▸ confirm to Matt which plans & renders D-One needs",
+        "context": "From 27 Aug workshop. Matt to send required plans and renders to D-One and Martin, but D-One (and Martin) must first confirm what they need. Matt to coordinate with Chanel, SEPIA and Warren to deliver. KMH layout plans are the current reference.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
+      },
+      {
+        "title": "Victoria Road ▸ work through network reticulation with SEPIA",
+        "context": "From 27 Aug workshop. D-One and SEPIA to jointly resolve the common-area vs per-unit network split: fibre backbone between the common-area server room and individual unit server rooms, independent services per unit with ability to isolate. SEPIA to provide separate DB circuits for common-area facade lighting vs unit lighting.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Mekyle"
+      },
+      {
+        "title": "Victoria Road ▸ confirm any AV/speaker cast-in conduits for terrace soffits",
+        "context": "From 27 Aug workshop. Terrace soffit casting likely within 1-2 months. D-One to review imagery and advise whether any cast-in conduits are needed for terrace AV/speakers before the concrete is poured (Martin owns the lighting cast-in question in parallel). Deadline set proactively ahead of likely casting window.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
       }
     ],
     "waitingOn": [
