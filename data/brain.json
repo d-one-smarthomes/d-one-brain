@@ -1315,6 +1315,28 @@
         "odoo": null,
         "owner": "Darren",
         "done": false
+      },
+      {
+        "title": "Go through Katie's notes & session content (couples work)",
+        "context": "Weekend block: work through everything from the Katie sessions — notes and session content.",
+        "tags": [
+          "marriage"
+        ],
+        "flag": false,
+        "due": "2026-08-30",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Review the relationship assessment from Katie",
+        "context": "Read through the 8–10 page relationship assessment report and pull out what resonates.",
+        "tags": [
+          "marriage"
+        ],
+        "flag": false,
+        "due": "2026-08-30",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
