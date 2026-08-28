@@ -500,7 +500,7 @@
           "family"
         ],
         "flag": false,
-        "due": "2026-08-23",
+        "due": "2026-08-29",
         "odoo": null,
         "done": false
       },
@@ -511,7 +511,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-23",
+        "due": "2026-08-29",
         "odoo": null,
         "done": false
       },
@@ -522,7 +522,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-23",
+        "due": "2026-08-29",
         "odoo": null,
         "done": false
       },
@@ -545,7 +545,7 @@
           "family"
         ],
         "flag": false,
-        "due": null,
+        "due": "2026-08-29",
         "odoo": null,
         "done": false
       },
@@ -635,7 +635,7 @@
           "home"
         ],
         "flag": false,
-        "due": null,
+        "due": "2026-08-29",
         "odoo": null,
         "done": false
       },
@@ -943,12 +943,12 @@
       },
       {
         "title": "Send proposal — 1593 Val de Vie",
-        "context": "Review Berner's design + HTML, tweak, set up a review meeting together; add reference-site links and arrange home visits (incl. Andrew's).",
+        "context": "Review Berner's design + HTML, tweak, set up a review meeting together; add reference-site links and arrange home visits (incl. Andrew's). [Set for Monday.]",
         "tags": [
           "d-one"
         ],
         "flag": false,
-        "due": "2026-08-17",
+        "due": "2026-08-31",
         "odoo": "act#163 crm.lead",
         "done": false
       },
@@ -998,13 +998,13 @@
       },
       {
         "title": "Collect fabric + acoustic material + blinds samples from Terra (Price Drive)",
-        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup.",
+        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup. [Collecting at Bomax mtg Tue 1 Sep — combined with Price Drive conduit review.]",
         "tags": [
           "d-one",
           "tech meeting"
         ],
         "flag": false,
-        "due": "2026-08-20",
+        "due": "2026-09-01",
         "odoo": "act#78 + task#513",
         "done": false
       },
@@ -1048,7 +1048,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-05-17",
+        "due": "2026-08-29",
         "odoo": "task#437 DVDV",
         "done": false
       },
@@ -1248,12 +1248,12 @@
       },
       {
         "title": "Find out more about the Winter Lounge at 1 Sunset & contact BOMAX",
-        "context": "Get details on the Winter Lounge on the 1 Sunset project, then reach out to BOMAX about it.",
+        "context": "Get details on the Winter Lounge on the 1 Sunset project, then reach out to BOMAX about it. [Emailed Bradley & Dion to discuss at Bomax Tue; holding reply sent to Timothy Arthur.]",
         "tags": [
           "d-one"
         ],
         "flag": false,
-        "due": "2026-08-28",
+        "due": "2026-09-01",
         "odoo": null,
         "owner": "Darren",
         "done": false
@@ -1271,12 +1271,12 @@
       },
       {
         "title": "Get back to Kirsten re: AI questions for Monterey Road",
-        "context": "Kirsten sent through AI questions for the Monterey Road project — respond to her.",
+        "context": "Kirsten sent through AI questions for the Monterey Road project — respond to her. [Darren committed responses to Kerstin/Lyn by EOD Mon 31 Aug. Compile answers to her questions + propose new meeting.]",
         "tags": [
           "d-one"
         ],
         "flag": false,
-        "due": "2026-08-28",
+        "due": "2026-08-31",
         "odoo": null,
         "done": false
       },
@@ -1294,7 +1294,7 @@
       },
       {
         "title": "Sort conduit schedule for Dali",
-        "context": "",
+        "context": "[Resolved at Bomax mtg Tue 1 Sep.]",
         "tags": [
           "d-one"
         ],
@@ -1302,7 +1302,7 @@
         "due": "2026-08-28",
         "odoo": null,
         "owner": "Caleb",
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up re Meridian speakers — Fancourt",
