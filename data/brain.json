@@ -27,23 +27,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-26",
+    "date": "2026-08-28",
     "priorities": {
-      "day": "Team catchup",
+      "day": "Talk to Caleb re managing priorities & tasks — Berna helping",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": true,
-      "at": "19:26",
-      "intention": "Let the magic flow"
+      "done": false,
+      "at": "",
+      "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "19:27",
-      "energy": 5,
-      "chaseMode": true,
-      "reflection": "I delivered. But I drained myself. I’m tired after a big day."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -105,6 +105,16 @@
         "energy": 10,
         "chaseMode": true,
         "reflection": "Was wobbly I didn't have a plan, and ended up task ticking. Was productive nonetheless."
+      },
+      {
+        "date": "2026-08-26",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Team catchup",
+        "intention": "Let the magic flow",
+        "energy": 5,
+        "chaseMode": true,
+        "reflection": "I delivered. But I drained myself. I’m tired after a big day."
       }
     ]
   },
@@ -1268,6 +1278,18 @@
         "flag": false,
         "due": "2026-08-28",
         "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Talk to Caleb about managing priorities & tasks (Berna helping)",
+        "context": "Sit down with Caleb on how we manage priorities and tasks across the team, with Berna supporting the coordination/status side.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-08-28",
+        "odoo": null,
+        "owner": "Darren",
         "done": false
       }
     ],
