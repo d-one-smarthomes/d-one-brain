@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-27",
+    "updated": "2026-08-28",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1234,6 +1234,18 @@
         "flag": true,
         "due": null,
         "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Find out more about the Winter Lounge at 1 Sunset & contact BOMAX",
+        "context": "Get details on the Winter Lounge on the 1 Sunset project, then reach out to BOMAX about it.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-28",
+        "odoo": null,
+        "owner": "Darren",
         "done": false
       }
     ],
