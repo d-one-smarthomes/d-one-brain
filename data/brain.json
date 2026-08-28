@@ -1247,6 +1247,17 @@
         "odoo": null,
         "owner": "Darren",
         "done": false
+      },
+      {
+        "title": "Get back to Anita re: Buchu appointment terms",
+        "context": "Follow up with Anita regarding the appointment terms for Buchu.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
