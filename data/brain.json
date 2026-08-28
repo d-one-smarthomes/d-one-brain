@@ -1303,6 +1303,18 @@
         "odoo": null,
         "owner": "Caleb",
         "done": false
+      },
+      {
+        "title": "Follow up re Meridian speakers — Fancourt",
+        "context": "Follow up on the Meridian speakers for the Fancourt project.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-31",
+        "odoo": null,
+        "owner": "Darren",
+        "done": false
       }
     ],
     "waitingOn": [
