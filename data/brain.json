@@ -1407,6 +1407,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Watch: Speak the Same Language Workshop (Katie Rössler)",
+        "context": "Vimeo video to watch this weekend — https://vimeo.com/1025001557/53fc96d720?fl=ls&fe=ec",
+        "tags": [
+          "self"
+        ],
+        "flag": false,
+        "due": "2026-08-30",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
