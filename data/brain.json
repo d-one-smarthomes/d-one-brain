@@ -1396,6 +1396,17 @@
         "due": "2026-08-29",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Turn the irrigation back on",
+        "context": "Switch the home irrigation system back on.",
+        "tags": [
+          "home"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
