@@ -1418,6 +1418,17 @@
         "due": "2026-08-30",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Find a pinhole camera for Lior",
+        "context": "",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
