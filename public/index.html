@@ -389,6 +389,27 @@
   .ohead{display:flex;justify-content:flex-end;margin-bottom:2px}
   .orefresh{font-size:12px;color:var(--blue);cursor:pointer;background:none;border:0;padding:2px 0}
   .oempty{color:var(--ink3);font-size:13px;padding:6px 0}
+  /* ===== top tabs ===== */
+  .tabbar{display:flex;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;border-bottom:2px solid var(--line);margin:20px 0 16px;scrollbar-width:none}
+  .tabbar::-webkit-scrollbar{display:none}
+  .tabbtn{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;background:none;border:none;border-bottom:3px solid transparent;color:var(--ink3);font:inherit;font-size:14px;font-weight:600;padding:9px 15px;margin-bottom:-2px;cursor:pointer;white-space:nowrap;border-radius:9px 9px 0 0}
+  .tabbtn:hover{color:var(--ink2);background:var(--blue-soft)}
+  .tabbtn.on{color:var(--blue);border-bottom-color:var(--blue)}
+  .tabbtn .tbi{font-size:15px}
+  .tabbtn .tbc{font-size:11px;background:var(--blue-soft);color:var(--blue-dim);border-radius:20px;padding:1px 7px;font-weight:700;min-width:20px;text-align:center}
+  .tabbtn.on .tbc{background:var(--blue);color:#fff}
+  .tabpanel{animation:tabin .18s ease}
+  @keyframes tabin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  @media(max-width:640px){ .tabbtn .tbl{display:none} .tabbtn{padding:9px 13px;gap:6px} .tabbtn.on .tbl{display:inline} }
+  /* ===== daily practice ===== */
+  .practice{margin-top:14px}
+  .practice .cflab{display:block;margin-bottom:2px}
+  .prow{display:flex;flex-wrap:wrap;gap:8px;margin-top:7px}
+  .hbtn{display:inline-flex;align-items:center;gap:7px;background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:8px 13px;color:var(--ink2);font:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
+  .hbtn:hover{border-color:var(--blue)}
+  .hbtn .hi{font-size:15px}
+  .hbtn.on{background:var(--good);border-color:var(--good);color:#fff}
+  .pcount{color:var(--good);font-weight:800}
 </style>
 </head>
 <body>
@@ -523,22 +544,26 @@ function ensureCheckin(dc, d){
   dc.priorities = Object.assign({day:'',week:'',month:''}, dc.priorities);
   dc.morning = Object.assign({done:false,at:'',intention:''}, dc.morning);
   dc.evening = Object.assign({done:false,at:'',energy:null,chaseMode:false,reflection:''}, dc.evening);
+  dc.practice = Object.assign({move:false,silence:false,gratitude:false,listen:false}, dc.practice);
   dc.history = arr(dc.history);
   const today = todayISO();
   if(!dc.date) dc.date = today;
   if(dc.date !== today){
     const prev = dc.date;
-    const had = dc.morning.done||dc.evening.done||dc.priorities.day||dc.morning.intention||dc.evening.reflection||dc.evening.energy!=null;
+    const pdid = dc.practice && (dc.practice.move||dc.practice.silence||dc.practice.gratitude||dc.practice.listen);
+    const had = dc.morning.done||dc.evening.done||dc.priorities.day||dc.morning.intention||dc.evening.reflection||dc.evening.energy!=null||pdid;
     if(had && !dc.history.some(r=>r&&r.date===prev)){
       dc.history.push({ date:prev, morning:!!dc.morning.done, evening:!!dc.evening.done,
         dayPriority:dc.priorities.day||'', intention:dc.morning.intention||'',
         energy:(dc.evening.energy==null?null:dc.evening.energy), chaseMode:!!dc.evening.chaseMode,
-        reflection:dc.evening.reflection||'' });
+        reflection:dc.evening.reflection||'',
+        practice:{move:!!(dc.practice&&dc.practice.move),silence:!!(dc.practice&&dc.practice.silence),gratitude:!!(dc.practice&&dc.practice.gratitude),listen:!!(dc.practice&&dc.practice.listen)} });
     }
     dc.history = dc.history.slice(-90);
     dc.date = today;
     dc.morning = {done:false,at:'',intention:''};
     dc.evening = {done:false,at:'',energy:null,chaseMode:false,reflection:''};
+    dc.practice = {move:false,silence:false,gratitude:false,listen:false};
     dc.priorities.day = '';
   }
   dc.priorities.week  = (d.weeklyFocus && d.weeklyFocus.three && d.weeklyFocus.three[0] && d.weeklyFocus.three[0].title) || dc.priorities.week || '';
@@ -615,6 +640,7 @@ function checkinBlock(){
   const weekP  = (DATA.weeklyFocus.three[0] && DATA.weeklyFocus.three[0].title) || dc.priorities.week || '';
   const monthP = (DATA.monthlyGoal && DATA.monthlyGoal.title) || dc.priorities.month || '';
   const streak = checkinStreak();
+  const p = dc.practice||{}; const pc = ['move','silence','gratitude','listen'].filter(k=>p[k]).length;
   let dstr=dc.date; try{ dstr=new Date(dc.date+'T00:00:00').toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long'}); }catch(e){}
   return `<section class="checkin">
     <div class="cihead">
@@ -641,6 +667,14 @@ function checkinBlock(){
         <div class="cifield"><span class="cflab">Reflection</span>${ed('dailyCheckin.evening.reflection', ev.reflection, 'one line \u2014 how did today actually go?\u2026')}</div>
       </div>
     </div>
+    <div class="practice"><span class="cflab">Daily practice <b class="pcount">${pc}/4</b> today</span>
+      <div class="prow">
+        <button class="hbtn ${p.move?'on':''}" data-tick="dailyCheckin.practice.move"><span class="hi">🏃</span>Move body</button>
+        <button class="hbtn ${p.silence?'on':''}" data-tick="dailyCheckin.practice.silence"><span class="hi">🧘</span>Silence</button>
+        <button class="hbtn ${p.gratitude?'on':''}" data-tick="dailyCheckin.practice.gratitude"><span class="hi">🙏</span>Gratitude</button>
+        <button class="hbtn ${p.listen?'on':''}" data-tick="dailyCheckin.practice.listen"><span class="hi">👂</span>Listen</button>
+      </div>
+    </div>
     <div class="cihist"><span class="chlab">Last 7 days</span><div class="cidays">${historyDots()}</div>
       <span class="chkey"><i class="cdot on"></i>done&nbsp;&nbsp;<i class="cdot"></i>missed &nbsp;\u00b7&nbsp; morning\u2009/\u2009evening</span></div>
   </section>`;
@@ -648,67 +682,54 @@ function checkinBlock(){
 
 function render(){
   const d=DATA;
-  $("#title").textContent = (d.meta&&d.meta.title) || "D-One \u00b7 Central Brain";
-  $("#updated").textContent = "Updated "+(d.meta.updated||'\u2014')+(d.meta.rule?" \u00b7 "+d.meta.rule:"");
+  $("#title").textContent = (d.meta&&d.meta.title) || "D-One · Central Brain";
+  $("#updated").textContent = "Updated "+(d.meta.updated||'—')+(d.meta.rule?" · "+d.meta.rule:"");
 
-  // area index lookup by key (A..H) so boards stay correct if order changes
   const AIK={}; d.areas.forEach((a,i)=>{ if(a.key) AIK[a.key]=i; });
   const routed = routeTasks();
-
-  let h='';
-  h+= checkinBlock();          // morning/evening check-in + day/week/month priority — always first
   const tRefs = todayRefs();
-  h+=`<div class="boardnav">
-      <button class="bn today${todayOnly?' on':''}" data-today="1">\ud83d\udcc5 Today${tRefs.length?` <span class="tnum">${tRefs.length}</span>`:''}</button>
-      <button class="bn" data-all="1">Expand all</button>
-      <button class="bn" data-all="0">Minimise all</button></div>`;
 
-  // Today view: show only what's due today / overdue, then stop.
-  if(todayOnly){
-    h+= board('today','\ud83d\udcc5','Today','due today or overdue \u00b7 tap Today again for the full board', tRefs.length, true, todayBoardHTML(tRefs), true);
-    $("#app").innerHTML=h;
-    return;
+  function dOneBody(){
+    let dh='';
+    dh+= `<div class="actionwrap">${taskGroupHTML(routed['d-one'], 'd-one')}</div>`;
+    dh+= `<div class="strat-head"><span>Strategy &amp; parking</span><span class="strat-sub">grouped by theme · tap to open</span></div>`;
+    ['A','B','C','D','E'].forEach(k=>{ if(k in AIK) dh+= areaTheme(AIK[k]); });
+    dh+= themeWrap('team','Team — who owns what','', d.delegation.length, delegationBlock(true));
+    dh+= themeWrap('sales','Sales journey','the process', d.salesJourney.stages.length, salesBlock(true));
+    return dh;
+  }
+  function wealthBody(){
+    let wh=''; if('F' in AIK) wh+='<div class="subgrid">'+areaBlock(AIK['F'])+'</div>';
+    wh+= taskGroupHTML(routed['wealth'], 'finance'); return wh;
+  }
+  function growthBody(){
+    let gh=''; if('G' in AIK) gh+='<div class="subgrid">'+areaBlock(AIK['G'])+'</div>';
+    gh+= goalBlock(); gh+= taskGroupHTML(routed['growth'], 'self');
+    gh+= `<div class="grp"><p class="lab">Decision filter</p>`+filterBlock()+`</div>`; return gh;
+  }
+  function familyBody(){
+    let fh=''; if('H' in AIK) fh+='<div class="subgrid">'+areaBlock(AIK['H'])+'</div>';
+    fh+= taskGroupHTML(routed['family'], 'family'); return fh;
   }
 
-  // 1) THIS WEEK (pinned, open by default)
-  h+= board('focus','\u2b50','This Week','the only 3 that matter', d.weeklyFocus.three.length, true, focusBlock(), true);
-
-  // Odoo tasks — live from Odoo, completed / rescheduled in place
-  h+= board('odoo','📋','Odoo Tasks', ODOO.loaded?(ODOO.tasks.length+' open · tick to complete, tap a date to reschedule'):'live from Odoo', ODOO.loaded?ODOO.tasks.length:'…', false, odooBoardBody());
-
-  // 2) D-ONE \u2014 the business. Actions on top (priority + due date), strategy & parking collapsed below.
-  let dh='';
-  dh+= `<div class="actionwrap">${taskGroupHTML(routed['d-one'], 'd-one')}</div>`;
-  dh+= `<div class="strat-head"><span>Strategy &amp; parking</span><span class="strat-sub">grouped by theme \u00b7 tap to open</span></div>`;
-  ['A','B','C','D','E'].forEach(k=>{ if(k in AIK) dh+= areaTheme(AIK[k]); });
-  dh+= themeWrap('team','Team \u2014 who owns what','', d.delegation.length, delegationBlock(true));
-  dh+= themeWrap('sales','Sales journey','the process', d.salesJourney.stages.length, salesBlock(true));
   const dCount = arr(routed['d-one']).filter(r=>r.col==='active'&&!DATA.tasks[r.col][r.i].done).length;
-  h+= board('done','\ud83c\udfe2','D-One',dCount+' open action'+(dCount===1?'':'s')+' \u00b7 strategy below', dCount, false, dh);
 
-  // 3) WEALTH & STRUCTURE (area F + finance tasks)
-  let wh='';
-  if('F' in AIK) wh+='<div class="subgrid">'+areaBlock(AIK['F'])+'</div>';
-  wh+= taskGroupHTML(routed['wealth'], 'finance');
-  h+= board('wealth','\ud83d\udcb0','Wealth & Structure','trust \u00b7 property \u00b7 GP', boardCount(['F'],AIK,routed['wealth']), false, wh);
+  const TABS=[
+    {id:'focus', icon:'⭐', label:'This Week', count:d.weeklyFocus.three.length, body:focusBlock},
+    {id:'today', icon:'📅', label:'Today', count:tRefs.length, body:function(){ return todayBoardHTML(tRefs); }},
+    {id:'done', icon:'🏢', label:'D-One', count:dCount, body:dOneBody},
+    {id:'odoo', icon:'📋', label:'Odoo', count:(ODOO.loaded?ODOO.tasks.length:'…'), body:odooBoardBody},
+    {id:'wealth', icon:'💰', label:'Wealth', count:boardCount(['F'],AIK,routed['wealth']), body:wealthBody},
+    {id:'growth', icon:'🌱', label:'Growth', count:boardCount(['G'],AIK,routed['growth'])+d.monthlyGoal.checklist.length, body:growthBody},
+    {id:'family', icon:'👪', label:'Family & Home', count:boardCount(['H'],AIK,routed['family']), body:familyBody},
+    {id:'park', icon:'🅿️', label:'Parking', count:parkingCount(), body:parkingBlock}
+  ];
+  let active=currentTab(); if(!TABS.some(t=>t.id===active)) active='done';
 
-  // 4) GROWTH & SELF (area G + monthly goal + one filter + self tasks)
-  let gh='';
-  if('G' in AIK) gh+='<div class="subgrid">'+areaBlock(AIK['G'])+'</div>';
-  gh+= goalBlock();
-  gh+= taskGroupHTML(routed['growth'], 'self');
-  gh+= `<div class="grp"><p class="lab">Decision filter</p>`+filterBlock()+`</div>`;
-  h+= board('growth','\ud83c\udf31','Growth & Self','EO \u00b7 mindset \u00b7 reading \u00b7 monthly goal', boardCount(['G'],AIK,routed['growth'])+d.monthlyGoal.checklist.length, false, gh);
-
-  // 5) FAMILY & HOME (area H + family/home/adventure tasks)
-  let fh='';
-  if('H' in AIK) fh+='<div class="subgrid">'+areaBlock(AIK['H'])+'</div>';
-  fh+= taskGroupHTML(routed['family'], 'family');
-  h+= board('family','\ud83d\udc6a','Family & Home','Amanda \u00b7 Kenzi \u00b7 Kayden \u00b7 trips \u00b7 home', boardCount(['H'],AIK,routed['family']), false, fh);
-
-  // 6) PARKING LOT (deduped parked items + someday tasks)
-  h+= board('park','\ud83c\udd7f\ufe0f','Parking Lot','parked & someday \u2014 not now', parkingCount(), false, parkingBlock());
-
+  let h= checkinBlock();
+  h+= `<div class="tabbar">`+TABS.map(t=>`<button class="tabbtn${t.id===active?' on':''}" data-tab="${t.id}"><span class="tbi">${t.icon}</span><span class="tbl">${esc(t.label)}</span><span class="tbc">${t.count}</span></button>`).join('')+`</div>`;
+  const cur=TABS.find(t=>t.id===active)||TABS[2];
+  h+= `<div class="tabpanel" data-tabid="${active}">${cur.body()}</div>`;
   $("#app").innerHTML=h;
 }
 
@@ -799,6 +820,8 @@ function parkingCount(){
 function boardKey(id){ return 'd1board_'+id; }
 function boardOpen(id, def){ try{ const v=localStorage.getItem(boardKey(id)); return v===null?def:(v==='1'); }catch(e){ return def; } }
 function setBoardOpen(id,open){ try{ localStorage.setItem(boardKey(id), open?'1':'0'); }catch(e){} }
+function currentTab(){ try{ return localStorage.getItem('d1tab')||'done'; }catch(e){ return 'done'; } }
+function setTab(id){ try{ localStorage.setItem('d1tab', id); }catch(e){} }
 
 // ---- text-normalise + area text set (for de-duplication) ----
 const norm = s => String(s==null?'':s).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
@@ -1199,6 +1222,10 @@ app.addEventListener('click', e=>{
 app.addEventListener('click', e=>{
   const tb=e.target.closest('[data-today]'); if(!tb) return;
   todayOnly=!todayOnly; render();
+});
+app.addEventListener('click', e=>{
+  const tb=e.target.closest('[data-tab]'); if(!tb) return;
+  setTab(tb.getAttribute('data-tab')); render();
 });
 // Odoo: refresh / complete / reschedule
 app.addEventListener('click', e=>{
