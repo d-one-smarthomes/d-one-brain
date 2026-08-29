@@ -27,9 +27,9 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-28",
+    "date": "2026-08-29",
     "priorities": {
-      "day": "Talk to Caleb re managing priorities & tasks — Berna helping",
+      "day": "",
       "week": "EO 5% update + book next month's walks",
       "month": "Efficient Resting"
     },
@@ -115,8 +115,30 @@
         "energy": 5,
         "chaseMode": true,
         "reflection": "I delivered. But I drained myself. I’m tired after a big day."
+      },
+      {
+        "date": "2026-08-28",
+        "morning": false,
+        "evening": false,
+        "dayPriority": "Talk to Caleb re managing priorities & tasks — Berna helping",
+        "intention": "",
+        "energy": null,
+        "chaseMode": false,
+        "reflection": "",
+        "practice": {
+          "move": false,
+          "silence": false,
+          "gratitude": false,
+          "listen": false
+        }
       }
-    ]
+    ],
+    "practice": {
+      "move": false,
+      "silence": false,
+      "gratitude": false,
+      "listen": false
+    }
   },
   "areas": [
     {
@@ -555,8 +577,8 @@
         "tags": [
           "adventure"
         ],
-        "flag": false,
-        "due": null,
+        "flag": true,
+        "due": "2026-08-31",
         "odoo": null,
         "done": false
       },
@@ -802,8 +824,8 @@
         "tags": [
           "marriage"
         ],
-        "flag": false,
-        "due": "2026-08-24",
+        "flag": true,
+        "due": "2026-08-30",
         "odoo": null,
         "done": false
       },
@@ -816,7 +838,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Calibrate team KPI targets from Odoo / history baseline before setting stretch",
@@ -1232,7 +1254,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Book Fitzgibbon house for December",
@@ -1255,8 +1277,8 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": null,
-        "owner": "Darren",
-        "done": false
+        "done": false,
+        "owner": "Darren"
       },
       {
         "title": "Get back to Anita re: Buchu appointment terms",
@@ -1289,8 +1311,8 @@
         "flag": true,
         "due": "2026-08-28",
         "odoo": null,
-        "owner": "Darren",
-        "done": false
+        "done": false,
+        "owner": "Darren"
       },
       {
         "title": "Sort conduit schedule for Dali",
@@ -1301,8 +1323,8 @@
         "flag": true,
         "due": "2026-08-28",
         "odoo": null,
-        "owner": "Caleb",
-        "done": true
+        "done": true,
+        "owner": "Caleb"
       },
       {
         "title": "Follow up re Meridian speakers — Fancourt",
@@ -1313,8 +1335,8 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "owner": "Darren",
-        "done": false
+        "done": false,
+        "owner": "Darren"
       },
       {
         "title": "Go through Katie's notes & session content (couples work)",
@@ -1336,7 +1358,7 @@
         "flag": false,
         "due": "2026-08-30",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Victoria Road ▸ begin AV & lighting integration workshopping",
@@ -1395,7 +1417,7 @@
         "flag": false,
         "due": "2026-08-29",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Turn the irrigation back on",
@@ -1406,7 +1428,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Watch: Speak the Same Language Workshop (Katie Rössler)",
