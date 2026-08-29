@@ -34,16 +34,16 @@
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": false,
-      "at": "",
+      "done": true,
+      "at": "22:03",
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "22:03",
+      "energy": 4,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "Was tired after a busy week of tasks switching."
     },
     "history": [
       {
