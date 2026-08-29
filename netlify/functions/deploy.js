@@ -1,4 +1,4 @@
-/ netlify/functions/deploy.js
+// netlify/functions/deploy.js
 // D1 Brain — CODE deploy doorman. POST only.
 // Lets Claude (any session) commit code/config files to the repo without a token
 // ever passing through the chat. Uses the server-side GITHUB_TOKEN already set
