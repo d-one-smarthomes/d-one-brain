@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-28",
+    "updated": "2026-08-29",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1385,6 +1385,17 @@
         "odoo": null,
         "done": false,
         "owner": "Caleb"
+      },
+      {
+        "title": "Turn on the irrigation at home",
+        "context": "",
+        "tags": [
+          "home"
+        ],
+        "flag": false,
+        "due": "2026-08-29",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
