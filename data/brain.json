@@ -1488,7 +1488,7 @@
         "tags": [
           "self"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-08-30",
         "odoo": null,
         "done": false
