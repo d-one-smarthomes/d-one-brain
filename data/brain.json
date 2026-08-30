@@ -1613,6 +1613,19 @@
         "Door-access users: Patrick, Sharon, Jean, Anja + enrolled workers. Service note 12 Aug 2026 (Tristan): cameras removed from Jean & Anja's app — they now have all-doors access only.",
         "OPEN ISSUE: Mud room door biometric — the most-used door on the property (~30-40x/day). Recurring failures since Mar 2026; as of 12 Aug 2026 STILL OUTSTANDING — Tristan can't recall the logins and it's not on the tech file. Needs credentials recovered, access restored, and tech file updated. (Tracked as a task.)"
       ]
+    },
+    {
+      "text": "Gift ideas noted for own birthday: gym shorts (with lining), slides.",
+      "done": false,
+      "title": "🎁 Birthday gift ideas (for me)",
+      "date": "2026-08-30",
+      "tags": [
+        "self"
+      ],
+      "notes": [
+        "Gym shorts - with lining",
+        "Slides"
+      ]
     }
   ]
 }
