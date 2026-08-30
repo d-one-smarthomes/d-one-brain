@@ -23,20 +23,43 @@
     "note": "Everything else is parked. If it's not one of these three, it waits.",
     "three": [
       {
-        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system",
-        "done": false
+        "title": "",
+        "detail": "",
+        "done": false,
+        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system"
       },
       {
-        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)",
-        "done": false
+        "title": "",
+        "detail": "",
+        "done": false,
+        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)"
       },
       {
-        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi",
-        "done": false
+        "title": "",
+        "detail": "",
+        "done": false,
+        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi"
       }
     ],
     "watching": [],
-    "todayQuick": []
+    "todayQuick": [
+      {
+        "text": "1. Email Anita back — Buchu appointment terms",
+        "done": false
+      },
+      {
+        "text": "2. Monterey Road — submit response to Kirsten",
+        "done": false
+      },
+      {
+        "text": "3. Kerzner — submit",
+        "done": false
+      },
+      {
+        "text": "4. Projects & CRM review into Granola, for Berna to populate Odoo",
+        "done": false
+      }
+    ]
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
@@ -52,11 +75,11 @@
       "intention": "Create desire in Amanda in HER language"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "done": true,
+      "at": "18:10",
+      "energy": 8,
+      "chaseMode": true,
+      "reflection": "Struggled to be present after my mind wanted to vibe code."
     },
     "history": [
       {
@@ -845,7 +868,7 @@
         "flag": true,
         "due": "2026-09-04",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Review the relationship assessment PDF when it arrives",
@@ -1112,7 +1135,7 @@
         "flag": false,
         "due": "2026-08-10",
         "odoo": "task#715",
-        "done": false
+        "done": true
       },
       {
         "title": "Val du Lac ▸ Sell SLA",
@@ -1315,8 +1338,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
-        "due": "2026-08-28",
+        "flag": true,
+        "due": "2026-08-31",
         "odoo": null,
         "done": false
       },
@@ -1326,7 +1349,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-08-31",
         "odoo": null,
         "done": false
@@ -1506,67 +1529,26 @@
         "createdAt": "2026-08-30T11:03:41.787821Z"
       },
       {
-        "title": "Reply to Christine's email",
-        "context": "Odoo (Gnodde project) — flagged high priority; Christine awaiting a response.",
+        "title": "Kerzner — submit",
+        "context": "Submit the Kerzner Estate quote/proposal.",
         "tags": [
           "d-one"
         ],
-        "due": null,
-        "owner": null
+        "flag": true,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false
       },
       {
-        "title": "Herman Brandt — design basement quote options",
-        "context": "Odoo (Herman Brandt) — draft the basement quote options for Brandt.",
+        "title": "Projects & CRM review into Granola for Berna to populate Odoo",
+        "context": "Run through active projects and CRM leads, record the review into Granola so Berna can populate Odoo from it.",
         "tags": [
           "d-one"
         ],
-        "due": null,
-        "owner": null
-      },
-      {
-        "title": "Mountain Road — Systems Specification Document",
-        "context": "Odoo (Mountain Road) — produce the systems specification document.",
-        "tags": [
-          "d-one"
-        ],
-        "due": null,
-        "owner": null
-      },
-      {
-        "title": "Quote for Bo",
-        "context": "Odoo — build/send the quote for Bo.",
-        "tags": [
-          "d-one"
-        ],
-        "due": null,
-        "owner": null
-      },
-      {
-        "title": "Gates — complete the second column",
-        "context": "Odoo (Internal) — complete the second column on the Gates sheet; due today.",
-        "tags": [
-          "d-one"
-        ],
-        "due": "2026-08-30",
-        "owner": null
-      },
-      {
-        "title": "Book physio",
-        "context": "Odoo — flagged high priority; still outstanding.",
-        "tags": [
-          "self"
-        ],
-        "due": null,
-        "owner": null
-      },
-      {
-        "title": "Prep — PRICE Lighting Control & Automation review at Bomax",
-        "context": "Calendar Tue 1 Sep 12:00, in person at Bomax Boardroom 1 — lighting control & automation requirements to work through with Modsa (w/ WB Lighting, Terra Design, RL Projects). Prep + travel.",
-        "tags": [
-          "d-one"
-        ],
-        "due": "2026-09-01",
-        "owner": "Darren"
+        "flag": true,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
@@ -1676,25 +1658,6 @@
         "Gym shorts - with lining",
         "Slides",
         "Sleep shorts"
-      ]
-    },
-    {
-      "text": "Energie Yoga & Strength Studio weekly schedule. Darren likes the Vinyasa classes here specifically (Wed 08:15 + Fri 08:15). Saved for reference — ask for the Energie schedule.",
-      "done": false,
-      "title": "🧘 Energie Yoga & Strength Studio — class schedule (reference)",
-      "date": "2026-08-30",
-      "tags": [
-        "self"
-      ],
-      "notes": [
-        "Location: Frater Square. Contact: Carly 065 290 5900.",
-        "MONDAY — 08:15 Slow Flow in(ner) Motion (beginner-friendly) · 18:00 Strength (not yoga, experienced-mover friendly)",
-        "TUESDAY — 07:00 Beginner Strength (not yoga, beginner-friendly) · 18:00 Beginner Yoga (beginner-friendly)",
-        "WEDNESDAY — 08:15 Vinyasa Yoga (experienced-mover friendly) · 18:00 The Reset — Yin & Tibetan Sound Bowls (beginner-friendly)",
-        "THURSDAY — 07:00 Beginner Strength (not yoga, beginner-friendly)",
-        "FRIDAY — 08:15 Vinyasa Yoga (experienced-mover friendly)",
-        "SATURDAY — 08:30 Flowy Vinyasa class (one-off 29 Aug) · 09:00 Revive Breathwork (one-off 22 Aug)",
-        "Legend: yellow = beginner-mover friendly, pink = experienced-mover friendly, tan = advanced-mover friendly."
       ]
     }
   ]
