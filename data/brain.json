@@ -573,7 +573,7 @@
         "tags": [
           "family"
         ],
-        "flag": true,
+        "flag": false,
         "due": "2026-08-30",
         "odoo": null,
         "done": false
@@ -1581,7 +1581,7 @@
         "flag": false,
         "due": "2026-08-29",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Set up meeting with interior designer & client — 987 Val de Vie",
