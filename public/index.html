@@ -406,6 +406,8 @@
   .chip.oact-type{background:rgba(19,121,201,.14);color:var(--blue-dim);text-transform:uppercase;font-size:10px;letter-spacing:.05em;font-weight:700}
   .chip.oact-on{background:var(--bg2);color:var(--ink3);border:1px solid var(--line)}
   .oactnote{font-size:12.5px;color:var(--ink2);margin-top:5px;line-height:1.4;padding:3px 6px;word-break:break-word}
+  .olink{font-size:10.5px;font-weight:700;letter-spacing:.03em;color:var(--blue);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:1px 8px;white-space:nowrap}
+  .olink:hover{border-color:var(--blue);background:var(--blue-soft)}
   /* ===== top tabs ===== */
   .tabbar{display:flex;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;border-bottom:2px solid var(--line);margin:20px 0 16px;scrollbar-width:none}
   .tabbar::-webkit-scrollbar{display:none}
@@ -754,6 +756,7 @@ function render(){
 let ODOO={loaded:false,loading:false,tasks:[],activities:[],err:null};
 function odooDate(s){ if(!s) return null; const iso=String(s).replace(' ','T')+(/[zZ]|[+-]\d\d:?\d\d$/.test(String(s))?'':'Z'); const d=new Date(iso); return isNaN(d.getTime())?null:d; }
 function odooInputVal(d){ if(!d) return ''; const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),a=String(d.getDate()).padStart(2,'0'); return y+'-'+m+'-'+a; }
+function odooLink(url){ return url?('<a class="olink" href="'+esc(url)+'" target="_blank" rel="noopener" title="Open in Odoo">↗ Odoo</a>'):''; }
 async function loadOdoo(force){
   if(ODOO.loading) return; if(ODOO.loaded && !force) return;
   ODOO.loading=true; if(force) render();
@@ -788,6 +791,7 @@ function odooRow(t){
     +'<label class="datepick mini '+(over?'over ':'')+(d?'set':'')+'"><span class="dpi">📅</span><span class="dptxt">'+esc(label)+(over?' · overdue':'')+'</span>'
     +'<input type="date" class="odate" data-oid="'+t.id+'" value="'+esc(val)+'"></label>'
     +'<span class="oassignee" contenteditable="true" spellcheck="false" data-oid="'+t.id+'" data-oprev="'+esc(t.assignee||'')+'">'+esc(t.assignee||'')+'</span>'
+    +odooLink(t.url)
     +'</div>'
     +'<div class="onote" contenteditable="true" spellcheck="false" data-oid="'+t.id+'" data-oprev="'+esc(t.note||'')+'">'+esc(t.note||'')+'</div>'
     +'</div></div>';
@@ -807,6 +811,7 @@ function odooActivityRow(a){
     +'<div class="ometa">'+typeChip+on
     +'<label class="datepick mini '+(over?'over ':'')+(d?'set':'')+'"><span class="dpi">📅</span><span class="dptxt">'+esc(label)+(over?' · overdue':'')+'</span>'
     +'<input type="date" class="oactdate" data-oactid="'+a.id+'" value="'+esc(val)+'"></label>'
+    +odooLink(a.url)
     +'</div>'
     +(a.note?'<div class="oactnote">'+esc(a.note)+'</div>':'')
     +'</div></div>';
@@ -1043,7 +1048,7 @@ function taskItem(col, i){
     <div class="body">
       <div class="thead">${star}<div class="t">${ed(bp+'.title', t.title,'action\u2026')}</div></div>
       <div class="c">${ed(bp+'.context', t.context,'context\u2026')}</div>
-      <div class="meta">${dateCtl}</div>
+      <div class="meta">${dateCtl}${t.url?odooLink(t.url):''}</div>
       ${tagHTML}
       ${odooHTML}
     </div>${del('tasks.'+col,i)}</div>`;
