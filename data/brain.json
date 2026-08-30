@@ -23,24 +23,42 @@
     "note": "Everything else is parked. If it's not one of these three, it waits.",
     "three": [
       {
-        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system",
-        "done": false
+        "title": "",
+        "detail": "",
+        "done": false,
+        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system"
       },
       {
-        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)",
-        "done": false
+        "title": "",
+        "detail": "",
+        "done": false,
+        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)"
       },
       {
-        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi",
-        "done": false
+        "title": "",
+        "detail": "",
+        "done": false,
+        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi"
       }
     ],
     "watching": [],
     "todayQuick": [
-      "1. Email Anita back — Buchu appointment terms",
-      "2. Monterey Road — submit response to Kirsten",
-      "3. Kerzner — submit",
-      "4. Projects & CRM review into Granola, for Berna to populate Odoo"
+      {
+        "text": "1. Email Anita back — Buchu appointment terms",
+        "done": false
+      },
+      {
+        "text": "2. Monterey Road — submit response to Kirsten",
+        "done": false
+      },
+      {
+        "text": "3. Kerzner — submit",
+        "done": false
+      },
+      {
+        "text": "4. Projects & CRM review into Granola, for Berna to populate Odoo",
+        "done": false
+      }
     ]
   },
   "dailyCheckin": {
@@ -57,11 +75,11 @@
       "intention": "Create desire in Amanda in HER language"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "done": true,
+      "at": "18:10",
+      "energy": 8,
+      "chaseMode": true,
+      "reflection": "Struggled to be present after my mind wanted to vibe code."
     },
     "history": [
       {
@@ -850,7 +868,7 @@
         "flag": true,
         "due": "2026-09-04",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Review the relationship assessment PDF when it arrives",
