@@ -384,6 +384,12 @@
   .oname{font-size:15px;color:var(--ink);font-weight:600;line-height:1.3;word-break:break-word}
   .ometa{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:3px}
   .chip.oproj{background:rgba(19,121,201,.14);color:var(--blue-dim)}
+  .oassignee{font-size:11px;color:var(--ink3);background:transparent;border:1px dashed var(--line);border-radius:999px;padding:1px 8px;cursor:text;min-width:56px;display:inline-block}
+  .oassignee:empty:before{content:'+ assignee';opacity:.7}
+  .oassignee:focus{outline:none;border-style:solid;border-color:var(--blue);color:var(--ink)}
+  .onote{font-size:12.5px;color:var(--ink2);margin-top:5px;line-height:1.4;border:1px dashed transparent;border-radius:8px;padding:3px 6px;cursor:text;word-break:break-word}
+  .onote:empty:before{content:'+ add note';opacity:.55}
+  .onote:focus{outline:none;border-color:var(--blue);background:var(--bg2)}
   .ogrp{margin:4px 0 12px}
   .ogrp .lab.over{color:var(--danger)}
   .ohead{display:flex;justify-content:flex-end;margin-bottom:2px}
@@ -770,7 +776,10 @@ function odooRow(t){
     +'<div class="ometa">'+proj
     +'<label class="datepick mini '+(over?'over ':'')+(d?'set':'')+'"><span class="dpi">📅</span><span class="dptxt">'+esc(label)+(over?' · overdue':'')+'</span>'
     +'<input type="date" class="odate" data-oid="'+t.id+'" value="'+esc(val)+'"></label>'
-    +'</div></div></div>';
+    +'<span class="oassignee" contenteditable="true" spellcheck="false" data-oid="'+t.id+'" data-oprev="'+esc(t.assignee||'')+'">'+esc(t.assignee||'')+'</span>'
+    +'</div>'
+    +'<div class="onote" contenteditable="true" spellcheck="false" data-oid="'+t.id+'" data-oprev="'+esc(t.note||'')+'">'+esc(t.note||'')+'</div>'
+    +'</div></div>';
 }
 function odooBoardBody(){
   if(!ODOO.loaded && !ODOO.loading){ setTimeout(function(){loadOdoo();},0); }
@@ -1245,6 +1254,16 @@ app.addEventListener('change', async e=>{
   catch(err){ toast('Odoo: '+err.message,true); }
 });
 app.addEventListener('click', e=>{ const di=e.target.closest('.odate'); if(di && typeof di.showPicker==='function'){ try{di.showPicker();}catch(_){} } });
+app.addEventListener('focusout', async e=>{
+  const el=e.target.closest('.onote,.oassignee'); if(!el) return;
+  const id=Number(el.getAttribute('data-oid')); const val=(el.textContent||'').trim(); const prev=el.getAttribute('data-oprev')||'';
+  if(val===prev) return;
+  const isNote=el.classList.contains('onote'); const patch=isNote?{note:val}:{assignee:val};
+  el.setAttribute('data-oprev', val);
+  try{ await odooUpdate(id,patch); const t=ODOO.tasks.find(x=>x.id===id); if(t){ if(isNote) t.note=val; else t.assignee=val; } toast((isNote?'Note':'Assignee')+' updated in Odoo ✓'); }
+  catch(err){ el.textContent=prev; el.setAttribute('data-oprev', prev); toast('Odoo: '+err.message,true); }
+});
+app.addEventListener('keydown', e=>{ const el=e.target.closest('.onote,.oassignee'); if(el && e.key==='Enter'){ e.preventDefault(); el.blur(); } });
 $("#saveBtn").addEventListener('click', save);
 $("#refreshBtn").addEventListener('click', ()=>{
   if(dirty && !confirm('Discard unsaved changes and reload from the server?')) return;

@@ -32,13 +32,29 @@ exports.handler = async (event) => {
   if (!uid) return json({ ok: false, stage: "login", error: "Odoo rejected the DB+user+key" });
  
   // Odoo 19: assignee is user_ids (m2m). Ask only for fields that exist.
-  const fields = ["id", "name", "date_deadline", "stage_id", "project_id", "priority"];
-  const domain = [["user_ids", "in", [uid]]];
- 
+  const fields = ["id", "name", "date_deadline", "stage_id", "project_id", "priority", "description", "user_ids"];
+
   try {
+    // Discover which `state` values mean "closed" (done/cancelled) so we
+    // never re-show a task that was just completed from here. Computed
+    // dynamically since the exact selection keys vary by Odoo version.
+    const closedStates = await closedStateKeys(uid);
+    const domain = [["user_ids", "in", [uid]]];
+    if (closedStates.length) domain.push(["state", "not in", closedStates]);
+
     const rows = await execKw(uid, "project.task", "search_read", [domain], {
       fields, limit: 100, order: "date_deadline asc, priority desc, id desc",
     });
+
+    // user_ids comes back as an array of ints (m2m) — resolve to names in
+    // one batched call rather than N+1 lookups.
+    const allUserIds = Array.from(new Set([].concat(...(rows || []).map((r) => r.user_ids || []))));
+    let nameById = {};
+    if (allUserIds.length) {
+      const users = await execKw(uid, "res.users", "read", [allUserIds], { fields: ["name"] });
+      (users || []).forEach((u) => { nameById[u.id] = u.name; });
+    }
+
     const tasks = (rows || []).map((r) => ({
       id: r.id,
       name: r.name || "",
@@ -48,6 +64,8 @@ exports.handler = async (event) => {
       project: nameOf(r.project_id),
       projectId: idOf(r.project_id),
       priority: r.priority || "0",
+      note: stripHtml(r.description || ""),
+      assignee: (r.user_ids || []).map((id) => nameById[id]).filter(Boolean).join(", "),
     }));
     return json({ ok: true, uid, count: tasks.length, tasks });
   } catch (e) {
@@ -63,6 +81,19 @@ exports.handler = async (event) => {
  
 function nameOf(m2o) { return Array.isArray(m2o) ? m2o[1] : ""; }
 function idOf(m2o) { return Array.isArray(m2o) ? m2o[0] : null; }
+function stripHtml(s) { return String(s || "").replace(/<[^>]*>/g, " ").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim(); }
+
+// Ask Odoo which `state` selection keys mean done/cancelled, so completed
+// tasks are excluded from the list instead of reappearing on refresh.
+async function closedStateKeys(uid) {
+  try {
+    const fg = await execKw(uid, "project.task", "fields_get", [["state"]], { attributes: ["selection"] });
+    const sel = (fg && fg.state && fg.state.selection) || [];
+    return sel.filter(([k, l]) => /done|cancel|closed/i.test(k + " " + l)).map(([k]) => k);
+  } catch (e) {
+    return []; // If discovery fails, fall back to showing everything (old behaviour).
+  }
+}
  
 async function rpc(service, method, args) {
   const res = await fetch(`${ODOO_URL}/jsonrpc`, {

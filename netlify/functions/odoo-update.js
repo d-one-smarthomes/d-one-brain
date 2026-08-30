@@ -9,6 +9,8 @@
 //   done: true | false,             // optional — complete / reopen
 //   deadline: "YYYY-MM-DD" | "YYYY-MM-DD HH:MM:SS" | null,  // optional
 //   stageId: <project.task.type id> // optional
+//   note: "<plain text>",           // optional — replaces the task description
+//   assignee: "<name>" | null,      // optional — resolves by name to res.users, replaces assignees
 // }
 // Returns HTTP 200 with { ok, id, wrote } or { ok:false, error }.
 //
@@ -54,7 +56,27 @@ exports.handler = async (event) => {
  
   // Stage move.
   if (payload.stageId) vals.stage_id = Number(payload.stageId);
- 
+
+  // Note / description — plain text in, wrapped for Odoo's HTML field.
+  if (Object.prototype.hasOwnProperty.call(payload, "note")) {
+    const t = String(payload.note || "").trim();
+    vals.description = t ? "<p>" + escapeHtml(t).replace(/\n/g, "<br>") + "</p>" : false;
+  }
+
+  // Assignee — resolve a name to a res.users id and replace the assignee(s).
+  if (Object.prototype.hasOwnProperty.call(payload, "assignee")) {
+    const name = String(payload.assignee || "").trim();
+    if (!name) {
+      vals.user_ids = [[5, 0, 0]]; // clear all assignees (Odoo 15+ m2m)
+    } else {
+      let found = null;
+      try { found = await execKw(uid, "res.users", "search", [[["name", "ilike", name]]], { limit: 1 }); } catch (e) {}
+      const userId = found && found[0];
+      if (!userId) return json({ ok: false, id, error: `No Odoo user matching "${name}"` });
+      vals.user_ids = [[6, 0, [userId]]];
+    }
+  }
+
   // Complete / reopen via the task `state` field (Odoo 17+). Discover the
   // exact selection key from this Odoo so we never hardcode the wrong value.
   if (typeof payload.done === "boolean") {
@@ -72,9 +94,27 @@ exports.handler = async (event) => {
     await execKw(uid, "project.task", "write", [[id], vals]);
     return json({ ok: true, id, wrote: vals });
   } catch (e) {
+    // Fallback for older Odoo where project.task uses user_id (many2one)
+    // instead of user_ids (many2many).
+    if (vals.user_ids && /user_ids/i.test(String(e.message || e))) {
+      try {
+        const retry = Object.assign({}, vals);
+        delete retry.user_ids;
+        const m2m = vals.user_ids;
+        retry.user_id = (m2m[0][0] === 6 && m2m[0][2].length) ? m2m[0][2][0] : false;
+        await execKw(uid, "project.task", "write", [[id], retry]);
+        return json({ ok: true, id, wrote: retry });
+      } catch (e2) {
+        return json({ ok: false, id, error: String(e2.message || e2), attempted: vals });
+      }
+    }
     return json({ ok: false, id, error: String(e.message || e), attempted: vals });
   }
 };
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
  
 // Pick the state selection key. wantDone=true → the 'done' option; else the
 // first "in progress / open" option.
