@@ -689,7 +689,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Before saying yes, check the board and calendar first",
@@ -735,7 +735,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Deposit R100k into a Discovery Bank savings account to reach Diamond status",
@@ -746,7 +746,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Route all shopping/spend through the Discovery Suite credit card",
@@ -757,7 +757,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Buy and spend miles on the 15th (D-Day)",
@@ -768,7 +768,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Review Discovery Vitality earning rate with Chloe (1-month check-in)",
@@ -779,7 +779,7 @@
         "flag": false,
         "due": "2026-09-18",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Build mandatory twice-daily team check-in (9am + 5pm) into the system",
