@@ -1451,6 +1451,18 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Work with Katie on building emotional foundation with Amanda",
+        "context": "Darren and Amanda are in a really positive place. Pattern to shift: Darren tends to go straight to wanting intimacy without first building the emotional foundation Amanda needs to feel open, desired, and attracted. Katie is helping Darren figure out the specific work needed to consistently build Amanda up day-to-day (not just when he wants intimacy) so she feels seen and wanted on her own terms. Amanda is fully on board with this. Goal: show up consistently in a way that works for both of them.",
+        "tags": [
+          "marriage",
+          "self"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
