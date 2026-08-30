@@ -944,7 +944,7 @@
           "social"
         ],
         "flag": false,
-        "due": "2026-08-28",
+        "due": "2026-10-28",
         "odoo": null,
         "done": false
       },
@@ -957,7 +957,7 @@
         "flag": false,
         "due": "2026-08-27",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Ping Dom Peters — catch him next time he's through Cape Town",
@@ -968,7 +968,7 @@
         "flag": false,
         "due": "2026-08-27",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Start monthly Cape Town catch-up — book Brett Jordaan first",
@@ -1147,7 +1147,7 @@
         "flag": false,
         "due": "2026-08-27",
         "odoo": "task#496 Val Du Lac",
-        "done": false
+        "done": true
       },
       {
         "title": "Meeting notes — Prinsloo",
@@ -1360,8 +1360,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": true,
-        "due": "2026-08-28",
+        "flag": false,
+        "due": "2026-11-30",
         "odoo": null,
         "done": false,
         "owner": "Darren"
