@@ -46,6 +46,28 @@ exports.handler = async (event) => {
   try { uid = await login(); } catch (e) {}
   if (!uid) { try { uid = await rpc("common", "authenticate", [ODOO_DB, ODOO_USER, ODOO_KEY, {}]); } catch (e) {} }
   if (!uid) return json({ ok: false, error: "Odoo login failed" });
+
+  // ---- mail.activity branch ----
+  // Activities are a different model from project.task. Completing one uses
+  // action_feedback (marks done, logs a note on the record, then removes the
+  // activity); rescheduling writes date_deadline.
+  if (payload.kind === "activity") {
+    try {
+      if (payload.done === true) {
+        await execKw(uid, "mail.activity", "action_feedback", [[id]], { feedback: "Done via D1 Brain" });
+        return json({ ok: true, id, kind: "activity", done: true });
+      }
+      if (Object.prototype.hasOwnProperty.call(payload, "deadline")) {
+        const dl = normDeadlineDate(payload.deadline);
+        if (!dl) return json({ ok: false, id, error: "Activity needs a valid deadline date" });
+        await execKw(uid, "mail.activity", "write", [[id], { date_deadline: dl }]);
+        return json({ ok: true, id, kind: "activity", wrote: { date_deadline: dl } });
+      }
+      return json({ ok: false, id, error: "Nothing to update on activity" });
+    } catch (e) {
+      return json({ ok: false, id, kind: "activity", error: String(e.message || e) });
+    }
+  }
  
   const vals = {};
  
@@ -138,6 +160,15 @@ function normDeadline(v) {
   return false;
 }
  
+// mail.activity.date_deadline is a Date field (no time component). Accept a
+// plain date or the date portion of a datetime; anything else is invalid.
+function normDeadlineDate(v) {
+  if (v === null || v === undefined || v === "") return false;
+  const s = String(v).trim();
+  const m = s.match(/^(\d{4}-\d{2}-\d{2})/);
+  return m ? m[1] : false;
+}
+
 async function rpc(service, method, args) {
   const res = await fetch(`${ODOO_URL}/jsonrpc`, {
     method: "POST",
