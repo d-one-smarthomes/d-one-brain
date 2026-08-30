@@ -67,7 +67,21 @@ exports.handler = async (event) => {
       note: stripHtml(r.description || ""),
       assignee: (r.user_ids || []).map((id) => nameById[id]).filter(Boolean).join(", "),
     }));
-    return json({ ok: true, uid, count: tasks.length, tasks });
+
+    // Activities scheduled for this user (mail.activity). These are the
+    // "next action" nudges Odoo attaches to any record (a task, a lead, an
+    // invoice…). They live only while pending — once marked done Odoo removes
+    // them — so no closed-state filtering is needed. Fetched in its own
+    // try/catch so an activity failure never breaks the task list.
+    let activities = [];
+    let activitiesError = null;
+    try {
+      activities = await listActivities(uid);
+    } catch (e) {
+      activitiesError = String(e.message || e);
+    }
+
+    return json({ ok: true, uid, count: tasks.length, tasks, activities, activitiesError });
   } catch (e) {
     // Read failed — return the schema so we can correct field names.
     let schemaFields = null, schemaError = null;
@@ -82,6 +96,43 @@ exports.handler = async (event) => {
 function nameOf(m2o) { return Array.isArray(m2o) ? m2o[1] : ""; }
 function idOf(m2o) { return Array.isArray(m2o) ? m2o[0] : null; }
 function stripHtml(s) { return String(s || "").replace(/<[^>]*>/g, " ").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim(); }
+
+// Read the mail.activity records assigned to this user. Returns a normalised
+// list the dashboard can render next to the tasks. `res_name` is the display
+// name of the record the activity hangs off (e.g. the task or lead); if Odoo
+// doesn't supply it we resolve it in one batched read per model.
+async function listActivities(uid) {
+  const fields = ["id", "summary", "activity_type_id", "date_deadline", "res_model", "res_id", "res_name", "note"];
+  const rows = await execKw(uid, "mail.activity", "search_read", [[["user_id", "=", uid]]], {
+    fields, limit: 100, order: "date_deadline asc, id asc",
+  });
+
+  // Resolve any missing res_name in batched reads grouped by model.
+  const missing = {};
+  (rows || []).forEach((r) => {
+    if (!r.res_name && r.res_model && r.res_id) {
+      (missing[r.res_model] = missing[r.res_model] || []).push(r.res_id);
+    }
+  });
+  const resolved = {}; // "model:id" -> display name
+  for (const model of Object.keys(missing)) {
+    try {
+      const recs = await execKw(uid, model, "read", [Array.from(new Set(missing[model]))], { fields: ["display_name"] });
+      (recs || []).forEach((rec) => { resolved[model + ":" + rec.id] = rec.display_name; });
+    } catch (e) { /* leave unresolved — still show the activity */ }
+  }
+
+  return (rows || []).map((r) => ({
+    id: r.id,
+    summary: (r.summary || "").trim(),
+    type: nameOf(r.activity_type_id),
+    deadline: r.date_deadline || null,
+    resModel: r.res_model || "",
+    resId: r.res_id || null,
+    resName: r.res_name || resolved[r.res_model + ":" + r.res_id] || "",
+    note: stripHtml(r.note || ""),
+  }));
+}
 
 // Ask Odoo which `state` selection keys mean done/cancelled, so completed
 // tasks are excluded from the list instead of reappearing on refresh.
