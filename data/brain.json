@@ -1479,6 +1479,12 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "id": "task_9dd8187d",
+        "title": "Clear out cupboard of old clothes",
+        "tag": "home",
+        "createdAt": "2026-08-30T11:03:41.787821Z"
       }
     ],
     "waitingOn": [
