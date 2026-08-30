@@ -565,7 +565,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Painting with Kenzi",
@@ -655,7 +655,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Prioritise Adventure & Fun — book real adventures",
@@ -678,7 +678,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Decide what to do with money in the bank",
@@ -1502,7 +1502,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Work with Katie on building emotional foundation with Amanda",
@@ -1523,7 +1523,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "id": "task_9dd8187d",
         "tag": "home",
         "createdAt": "2026-08-30T11:03:41.787821Z"
