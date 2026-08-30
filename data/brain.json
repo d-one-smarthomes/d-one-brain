@@ -1589,38 +1589,6 @@
       ]
     },
     {
-      "text": "",
-      "done": true,
-      "title": "44 Price Drive - site + design meeting (Aug 14)",
-      "date": "2026-08-14",
-      "tags": [
-        "d-one"
-      ],
-      "notes": [
-        "Electricians walked the site room by room - happy with existing install, no major findings. DALI wiring briefed in full: 2 modules in main DB + 1 in guest DB = 4 DALI loops, 64 devices/loop. Pull cable to DRIVER positions (not fittings); driver positions issued by Mozza (lighting supplier). All dimmable lights need a DALI driver; non-dimmable exceptions confirmed by Terra.",
-        "Awaiting final lighting schedule from Mozza + Terra to confirm 100% compliance before cabling. Robin to confirm if DALI fits existing DBs or needs a separate lighting DB (preferred: single DB, separate power/lighting panels).",
-        "Blinds/curtains: 22 blinds + 22 curtains. Exploring Lutron control of Somfy motors via QSE-CIWCI wall box (cheaper, 8-way) - client prefers Lutron keypads over app-only. Shade schedule changed since June: entertainment-room blackout removed; entertainment/wine blackout retained; shades in gym, office, L2 living, library, bathroom; entrance north window flagged; master + guest curtains = manual. Send updated integration quote once latest schedule received.",
-        "Marantz Cinema 50 refresh imminent (US now, Europe Oct); old stock not guaranteed, price increase expected (US tariffs). Client can't decide without new price -> request indicative pricing (see task).",
-        "Next steps: Marantz pricing; updated blind/curtain quote (after latest schedule); final DB layout to client; follow up Mozza + Terra for final lighting schedule."
-      ]
-    },
-    {
-      "text": "",
-      "done": true,
-      "title": "Harrigan — facial-reader security (status)",
-      "date": "2026-08-21",
-      "tags": [
-        "d-one"
-      ],
-      "notes": [
-        "Client: Patrick Harrigan (p.harrigan@icloud.com) — residential farm/estate on Savant, managed by D-One under 'Harrigan SLA'. QS/coordinator: Cherié Smith, SFA-QS (csmith.sa@sfa-qs.co.za).",
-        "Facial readers quoted 30 Mar 2026 (WeQuote proposal 222689) for TWO positions: farm gate + front door — plus an intercom panel at the security point and a larger network switch (existing switch was full). Darren recommended a gooseneck mount at the farm gate (behind the beam's post); Patrick approved the gooseneck.",
-        "Installed and operational by early May 2026 — confirmed up and running 11 May 2026. Enrolment plan: add workers'/staff faces (with photos) first; owners (Patrick & Sharon) enrolled on their return from travel.",
-        "Door-access users: Patrick, Sharon, Jean, Anja + enrolled workers. Service note 12 Aug 2026 (Tristan): cameras removed from Jean & Anja's app — they now have all-doors access only.",
-        "OPEN ISSUE: Mud room door biometric — the most-used door on the property (~30-40x/day). Recurring failures since Mar 2026; as of 12 Aug 2026 STILL OUTSTANDING — Tristan can't recall the logins and it's not on the tech file. Needs credentials recovered, access restored, and tech file updated. (Tracked as a task.)"
-      ]
-    },
-    {
       "text": "Gift ideas noted for own birthday: gym shorts (with lining), slides, sleep shorts.",
       "done": false,
       "title": "🎁 Birthday gift ideas (for me)",
