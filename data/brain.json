@@ -1481,8 +1481,14 @@
         "done": false
       },
       {
-        "id": "task_9dd8187d",
         "title": "Clear out cupboard of old clothes",
+        "context": "",
+        "tags": [],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "id": "task_9dd8187d",
         "tag": "home",
         "createdAt": "2026-08-30T11:03:41.787821Z"
       }
@@ -1584,7 +1590,7 @@
     },
     {
       "text": "",
-      "done": false,
+      "done": true,
       "title": "44 Price Drive - site + design meeting (Aug 14)",
       "date": "2026-08-14",
       "tags": [
@@ -1600,7 +1606,7 @@
     },
     {
       "text": "",
-      "done": false,
+      "done": true,
       "title": "Harrigan — facial-reader security (status)",
       "date": "2026-08-21",
       "tags": [
