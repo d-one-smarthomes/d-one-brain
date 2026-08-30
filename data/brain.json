@@ -19,9 +19,22 @@
     "oneThing": "One thing at a time. The beauty is in the open space."
   },
   "weeklyFocus": {
-    "weekOf": "2026-08-12",
+    "weekOf": "2026-08-30",
     "note": "Everything else is parked. If it's not one of these three, it waits.",
-    "three": [],
+    "three": [
+      {
+        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system",
+        "done": false
+      },
+      {
+        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)",
+        "done": false
+      },
+      {
+        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi",
+        "done": false
+      }
+    ],
     "watching": [],
     "todayQuick": []
   },
@@ -1363,7 +1376,7 @@
         "flag": false,
         "due": "2026-08-30",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Review the relationship assessment from Katie",
