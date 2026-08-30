@@ -395,6 +395,17 @@
   .ohead{display:flex;justify-content:flex-end;margin-bottom:2px}
   .orefresh{font-size:12px;color:var(--blue);cursor:pointer;background:none;border:0;padding:2px 0}
   .oempty{color:var(--ink3);font-size:13px;padding:6px 0}
+  /* Odoo sections: Activities vs Tasks */
+  .osec{margin-top:6px}
+  .osec + .osec{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+  .oseclab{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);margin:0 0 6px}
+  .oseclab .count{font-size:11px;font-weight:700;background:var(--blue-soft);color:var(--blue-dim);border-radius:20px;padding:0 7px;min-width:18px;text-align:center}
+  /* Activity rows carry a blue accent to set them apart from tasks */
+  .otask.oact{padding-left:10px;border-left:2px solid var(--blue);margin-left:-2px}
+  .oact .otick.oact-tick:hover{border-color:var(--blue);color:var(--blue)}
+  .chip.oact-type{background:rgba(19,121,201,.14);color:var(--blue-dim);text-transform:uppercase;font-size:10px;letter-spacing:.05em;font-weight:700}
+  .chip.oact-on{background:var(--bg2);color:var(--ink3);border:1px solid var(--line)}
+  .oactnote{font-size:12.5px;color:var(--ink2);margin-top:5px;line-height:1.4;padding:3px 6px;word-break:break-word}
   /* ===== top tabs ===== */
   .tabbar{display:flex;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;border-bottom:2px solid var(--line);margin:20px 0 16px;scrollbar-width:none}
   .tabbar::-webkit-scrollbar{display:none}
@@ -724,7 +735,7 @@ function render(){
     {id:'focus', icon:'⭐', label:'This Week', count:d.weeklyFocus.three.length, body:focusBlock},
     {id:'today', icon:'📅', label:'Today', count:tRefs.length, body:function(){ return todayBoardHTML(tRefs); }},
     {id:'done', icon:'🏢', label:'D-One', count:dCount, body:dOneBody},
-    {id:'odoo', icon:'📋', label:'Odoo', count:(ODOO.loaded?ODOO.tasks.length:'…'), body:odooBoardBody},
+    {id:'odoo', icon:'📋', label:'Odoo', count:(ODOO.loaded?(ODOO.tasks.length+ODOO.activities.length):'…'), body:odooBoardBody},
     {id:'wealth', icon:'💰', label:'Wealth', count:boardCount(['F'],AIK,routed['wealth']), body:wealthBody},
     {id:'growth', icon:'🌱', label:'Growth', count:boardCount(['G'],AIK,routed['growth'])+d.monthlyGoal.checklist.length, body:growthBody},
     {id:'family', icon:'👪', label:'Family & Home', count:boardCount(['H'],AIK,routed['family']), body:familyBody},
@@ -740,7 +751,7 @@ function render(){
 }
 
 // ===== Odoo two-way sync (live via odoo-list / odoo-update) =====
-let ODOO={loaded:false,loading:false,tasks:[],err:null};
+let ODOO={loaded:false,loading:false,tasks:[],activities:[],err:null};
 function odooDate(s){ if(!s) return null; const iso=String(s).replace(' ','T')+(/[zZ]|[+-]\d\d:?\d\d$/.test(String(s))?'':'Z'); const d=new Date(iso); return isNaN(d.getTime())?null:d; }
 function odooInputVal(d){ if(!d) return ''; const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),a=String(d.getDate()).padStart(2,'0'); return y+'-'+m+'-'+a; }
 async function loadOdoo(force){
@@ -751,7 +762,7 @@ async function loadOdoo(force){
     const j=await res.json().catch(()=>({}));
     if(res.status===401){ ODOO.err='Locked — unlock the brain first'; }
     else if(!res.ok||!j.ok){ ODOO.err=(j&&j.error)||('HTTP '+res.status); }
-    else { ODOO.tasks=j.tasks||[]; ODOO.err=null; }
+    else { ODOO.tasks=j.tasks||[]; ODOO.activities=j.activities||[]; ODOO.err=null; }
     ODOO.loaded=true;
   }catch(e){ ODOO.err=String((e&&e.message)||e); ODOO.loaded=true; }
   finally{ ODOO.loading=false; render(); }
@@ -781,24 +792,56 @@ function odooRow(t){
     +'<div class="onote" contenteditable="true" spellcheck="false" data-oid="'+t.id+'" data-oprev="'+esc(t.note||'')+'">'+esc(t.note||'')+'</div>'
     +'</div></div>';
 }
-function odooBoardBody(){
-  if(!ODOO.loaded && !ODOO.loading){ setTimeout(function(){loadOdoo();},0); }
-  if(ODOO.err) return '<div class="ohead"><button class="orefresh" data-orefresh="1">↻ retry</button></div><div class="oempty">Couldn’t load Odoo: '+esc(ODOO.err)+'</div>';
-  if(ODOO.loading && !ODOO.tasks.length) return '<div class="oempty">Loading your Odoo tasks…</div>';
-  if(!ODOO.loaded) return '<div class="oempty">…</div>';
+// Odoo Activity row (mail.activity) — the "next action" nudges attached to any
+// record. Title is the summary, falling back to the activity type.
+function odooActivityRow(a){
+  const d=odooDate(a.deadline); const val=odooInputVal(d);
+  const label=d? d.toLocaleDateString(undefined,{day:'numeric',month:'short'}) : 'set due date';
+  const over=val && val<todayISO();
+  const title=a.summary || a.type || 'Activity';
+  const typeChip=(a.type && a.summary)?'<span class="chip oact-type">'+esc(a.type)+'</span>':'';
+  const on=a.resName?'<span class="chip oact-on" title="'+esc(a.resModel||'')+'">on: '+esc(a.resName)+'</span>':'';
+  return '<div class="otask oact" data-oactid="'+a.id+'">'
+    +'<button class="otick oact-tick" data-oactdone="'+a.id+'" title="Mark activity done in Odoo">○</button>'
+    +'<div class="obody"><div class="oname">'+esc(title)+'</div>'
+    +'<div class="ometa">'+typeChip+on
+    +'<label class="datepick mini '+(over?'over ':'')+(d?'set':'')+'"><span class="dpi">📅</span><span class="dptxt">'+esc(label)+(over?' · overdue':'')+'</span>'
+    +'<input type="date" class="oactdate" data-oactid="'+a.id+'" value="'+esc(val)+'"></label>'
+    +'</div>'
+    +(a.note?'<div class="oactnote">'+esc(a.note)+'</div>':'')
+    +'</div></div>';
+}
+// Group a list by deadline bucket and render each group with rowFn.
+function odooGrouped(list, rowFn){
   const today=todayISO();
   const wkd=new Date(today+'T00:00:00'); wkd.setDate(wkd.getDate()+7); const wkKey=odooInputVal(wkd);
   const B={over:[],today:[],week:[],later:[],none:[]};
-  ODOO.tasks.forEach(function(t){ const d=odooDate(t.deadline); const k=d?odooInputVal(d):'';
+  list.forEach(function(t){ const d=odooDate(t.deadline); const k=d?odooInputVal(d):'';
     if(!k) B.none.push(t); else if(k<today) B.over.push(t); else if(k===today) B.today.push(t); else if(k<=wkKey) B.week.push(t); else B.later.push(t); });
   const order=[['over','Overdue',true],['today','Today',false],['week','This week',false],['later','Later',false],['none','No date',false]];
-  let h='<div class="ohead"><button class="orefresh" data-orefresh="1">↻ refresh</button></div>';
-  let any=false;
-  order.forEach(function(o){ const list=B[o[0]]; if(!list.length) return; any=true;
-    list.sort(function(a,b){ const da=a.deadline||'',db=b.deadline||''; return da<db?-1:da>db?1:0; });
-    h+='<div class="ogrp"><p class="lab'+(o[2]?' over':'')+'">'+o[1]+'<span class="count">'+list.length+'</span></p>'+list.map(odooRow).join('')+'</div>';
+  let h='';
+  order.forEach(function(o){ const l=B[o[0]]; if(!l.length) return;
+    l.sort(function(a,b){ const da=a.deadline||'',db=b.deadline||''; return da<db?-1:da>db?1:0; });
+    h+='<div class="ogrp"><p class="lab'+(o[2]?' over':'')+'">'+o[1]+'<span class="count">'+l.length+'</span></p>'+l.map(rowFn).join('')+'</div>';
   });
-  if(!any) h+='<div class="oempty">Nothing open in Odoo — you’re clear. 🌟</div>';
+  return h;
+}
+function odooBoardBody(){
+  if(!ODOO.loaded && !ODOO.loading){ setTimeout(function(){loadOdoo();},0); }
+  if(ODOO.err) return '<div class="ohead"><button class="orefresh" data-orefresh="1">↻ retry</button></div><div class="oempty">Couldn’t load Odoo: '+esc(ODOO.err)+'</div>';
+  if(ODOO.loading && !ODOO.tasks.length && !ODOO.activities.length) return '<div class="oempty">Loading your Odoo tasks & activities…</div>';
+  if(!ODOO.loaded) return '<div class="oempty">…</div>';
+  let h='<div class="ohead"><button class="orefresh" data-orefresh="1">↻ refresh</button></div>';
+  const acts=ODOO.activities||[];
+  if(acts.length){
+    h+='<div class="osec"><p class="oseclab">📌 Activities<span class="count">'+acts.length+'</span></p>'
+      +odooGrouped(acts, odooActivityRow)+'</div>';
+  }
+  if(ODOO.tasks.length){
+    h+='<div class="osec"><p class="oseclab">✅ Tasks<span class="count">'+ODOO.tasks.length+'</span></p>'
+      +odooGrouped(ODOO.tasks, odooRow)+'</div>';
+  }
+  if(!acts.length && !ODOO.tasks.length) h+='<div class="oempty">Nothing open in Odoo — you’re clear. 🌟</div>';
   return h;
 }
 
@@ -1253,7 +1296,23 @@ app.addEventListener('change', async e=>{
   try{ await odooUpdate(id,{deadline:val}); const t=ODOO.tasks.find(x=>x.id===id); if(t) t.deadline= val?(val+' 10:00:00'):null; toast('Rescheduled in Odoo ✓'); render(); }
   catch(err){ toast('Odoo: '+err.message,true); }
 });
-app.addEventListener('click', e=>{ const di=e.target.closest('.odate'); if(di && typeof di.showPicker==='function'){ try{di.showPicker();}catch(_){} } });
+// Activity: complete (action_feedback)
+app.addEventListener('click', async e=>{
+  const dn=e.target.closest('[data-oactdone]'); if(!dn) return;
+  const id=Number(dn.getAttribute('data-oactdone'));
+  dn.textContent='…'; dn.disabled=true;
+  try{ await odooUpdate(id,{kind:'activity',done:true}); ODOO.activities=ODOO.activities.filter(a=>a.id!==id); toast('Activity done in Odoo ✓'); render(); }
+  catch(err){ toast('Odoo: '+err.message,true); dn.textContent='○'; dn.disabled=false; }
+});
+// Activity: reschedule (date_deadline)
+app.addEventListener('change', async e=>{
+  const di=e.target.closest('.oactdate'); if(!di) return;
+  const id=Number(di.getAttribute('data-oactid')); const val=di.value||'';
+  if(!val){ toast('An activity needs a date',true); render(); return; }
+  try{ await odooUpdate(id,{kind:'activity',deadline:val}); const a=ODOO.activities.find(x=>x.id===id); if(a) a.deadline=val; toast('Activity rescheduled in Odoo ✓'); render(); }
+  catch(err){ toast('Odoo: '+err.message,true); }
+});
+app.addEventListener('click', e=>{ const di=e.target.closest('.odate,.oactdate'); if(di && typeof di.showPicker==='function'){ try{di.showPicker();}catch(_){} } });
 app.addEventListener('focusout', async e=>{
   const el=e.target.closest('.onote,.oassignee'); if(!el) return;
   const id=Number(el.getAttribute('data-oid')); const val=(el.textContent||'').trim(); const prev=el.getAttribute('data-oprev')||'';
