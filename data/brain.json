@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -27,7 +27,7 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "priorities": {
       "day": "",
       "week": "EO 5% update + book next month's walks",
@@ -35,15 +35,15 @@
     },
     "morning": {
       "done": true,
-      "at": "22:03",
-      "intention": ""
+      "at": "07:45",
+      "intention": "Create desire in Amanda in HER language"
     },
     "evening": {
-      "done": true,
-      "at": "22:03",
-      "energy": 4,
+      "done": false,
+      "at": "",
+      "energy": null,
       "chaseMode": false,
-      "reflection": "Was tired after a busy week of tasks switching."
+      "reflection": ""
     },
     "history": [
       {
@@ -130,6 +130,22 @@
           "silence": false,
           "gratitude": false,
           "listen": false
+        }
+      },
+      {
+        "date": "2026-08-29",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "",
+        "energy": 4,
+        "chaseMode": false,
+        "reflection": "Was tired after a busy week of tasks switching.",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
         }
       }
     ],
@@ -521,8 +537,8 @@
         "tags": [
           "family"
         ],
-        "flag": false,
-        "due": "2026-08-29",
+        "flag": true,
+        "due": "2026-08-30",
         "odoo": null,
         "done": false
       },
@@ -802,7 +818,7 @@
         "tags": [
           "marriage"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-09-04",
         "odoo": null,
         "done": false
@@ -813,7 +829,7 @@
         "tags": [
           "marriage"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-09-04",
         "odoo": null,
         "done": false
@@ -1344,7 +1360,7 @@
         "tags": [
           "marriage"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-08-30",
         "odoo": null,
         "done": false
