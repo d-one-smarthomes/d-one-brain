@@ -36,7 +36,12 @@
       }
     ],
     "watching": [],
-    "todayQuick": []
+    "todayQuick": [
+      "1. Email Anita back — Buchu appointment terms",
+      "2. Monterey Road — submit response to Kirsten",
+      "3. Kerzner — submit",
+      "4. Projects & CRM review into Granola, for Berna to populate Odoo"
+    ]
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
@@ -1315,8 +1320,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
-        "due": "2026-08-28",
+        "flag": true,
+        "due": "2026-08-31",
         "odoo": null,
         "done": false
       },
@@ -1326,7 +1331,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-08-31",
         "odoo": null,
         "done": false
@@ -1504,6 +1509,28 @@
         "id": "task_9dd8187d",
         "tag": "home",
         "createdAt": "2026-08-30T11:03:41.787821Z"
+      },
+      {
+        "title": "Kerzner — submit",
+        "context": "Submit the Kerzner Estate quote/proposal.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Projects & CRM review into Granola for Berna to populate Odoo",
+        "context": "Run through active projects and CRM leads, record the review into Granola so Berna can populate Odoo from it.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
