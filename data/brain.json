@@ -364,6 +364,21 @@
   ],
   "delegation": [
     {
+      "person": "Darren",
+      "owns": "Lead filtering / deal quality — the gate before anything enters the pipeline",
+      "kpis": [
+        "Every new lead Filter-scored before it enters the pipeline (100%)",
+        "% of pursued leads that are healthy-GP projects (drive up)",
+        "Low-GP / bad-fit enquiries declined or reshaped early — not chased",
+        "Pipeline GP quality: weighted GP of accepted leads vs declined"
+      ],
+      "kpiRule": "The rule above everyone's KPIs: every KPI must ladder up to increasing GP. GP is how we keep score.",
+      "kpiHeadings": [
+        "Lead quality / GP filter",
+        "Healthy-GP intake"
+      ]
+    },
+    {
       "person": "Amanda",
       "owns": "Ops, finance, coordination (Foundation)",
       "q4Goal": "Stand up a monthly GP + forecast + cash rhythm so the numbers are visible and cash is controlled without Darren driving it; Odoo live for commercial ops.",
