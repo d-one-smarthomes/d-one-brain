@@ -413,7 +413,8 @@
         "Accepted vs Lost",
         "Quote turnaround",
         "Quoted vs Actual",
-        "Design + Documents"
+        "Design + Documents",
+        "Handover → Stafford"
       ],
       "handover": "Handing over → clean design + documents handed to Stafford to kick off delivery."
     },
@@ -434,7 +435,8 @@
         "Service calls — billed",
         "Service calls — completed",
         "Service calls — ticketing",
-        "Project life cycle · Handover · Signing doc + file"
+        "Project life cycle",
+        "Handover signing doc + file"
       ],
       "handover": "Receives handover from Caleb (design + docs); owns project life cycle through handover, sign-off doc + file."
     },
