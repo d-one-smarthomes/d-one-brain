@@ -1124,7 +1124,7 @@
         "flag": false,
         "due": "2026-08-29",
         "odoo": "task#437 DVDV",
-        "done": false
+        "done": true
       },
       {
         "title": "Setup Walk the Talk / ITB for Sep–Oct",
