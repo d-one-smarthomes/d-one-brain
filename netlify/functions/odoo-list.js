@@ -66,6 +66,7 @@ exports.handler = async (event) => {
       priority: r.priority || "0",
       note: stripHtml(r.description || ""),
       assignee: (r.user_ids || []).map((id) => nameById[id]).filter(Boolean).join(", "),
+      url: recordUrl("project.task", r.id),
     }));
 
     // Activities scheduled for this user (mail.activity). These are the
@@ -131,7 +132,16 @@ async function listActivities(uid) {
     resId: r.res_id || null,
     resName: r.res_name || resolved[r.res_model + ":" + r.res_id] || "",
     note: stripHtml(r.note || ""),
+    // Activities have no standalone page — link to the record they hang off.
+    url: (r.res_model && r.res_id) ? recordUrl(r.res_model, r.res_id) : "",
   }));
+}
+
+// Build an Odoo deep link to a record's form view. The generic /odoo/<model>/<id>
+// path does not resolve in Odoo 19, but the backward-compatible /web# hash does.
+function recordUrl(model, id) {
+  if (!ODOO_URL || !model || !id) return "";
+  return `${ODOO_URL}/web#id=${id}&model=${model}&view_type=form`;
 }
 
 // Ask Odoo which `state` selection keys mean done/cancelled, so completed
