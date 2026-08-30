@@ -23,43 +23,20 @@
     "note": "Everything else is parked. If it's not one of these three, it waits.",
     "three": [
       {
-        "title": "",
-        "detail": "",
-        "done": false,
-        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system"
+        "text": "D-One: clear overdue client follow-ups (Buchu/Anita, Kirsten/Monterey Road, 1593 Val de Vie proposal, OD/Two Rivers, Meridian/Fancourt) + sit down with Caleb on the priorities/tasks system",
+        "done": false
       },
       {
-        "title": "",
-        "detail": "",
-        "done": false,
-        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)"
+        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)",
+        "done": false
       },
       {
-        "title": "",
-        "detail": "",
-        "done": false,
-        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi"
+        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi",
+        "done": false
       }
     ],
     "watching": [],
-    "todayQuick": [
-      {
-        "text": "1. Email Anita back — Buchu appointment terms",
-        "done": false
-      },
-      {
-        "text": "2. Monterey Road — submit response to Kirsten",
-        "done": false
-      },
-      {
-        "text": "3. Kerzner — submit",
-        "done": false
-      },
-      {
-        "text": "4. Projects & CRM review into Granola, for Berna to populate Odoo",
-        "done": false
-      }
-    ]
+    "todayQuick": []
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
@@ -75,11 +52,11 @@
       "intention": "Create desire in Amanda in HER language"
     },
     "evening": {
-      "done": true,
-      "at": "18:10",
-      "energy": 8,
-      "chaseMode": true,
-      "reflection": "Struggled to be present after my mind wanted to vibe code."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -868,7 +845,7 @@
         "flag": true,
         "due": "2026-09-04",
         "odoo": null,
-        "done": true
+        "done": false
       },
       {
         "title": "Review the relationship assessment PDF when it arrives",
@@ -1338,8 +1315,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": true,
-        "due": "2026-08-31",
+        "flag": false,
+        "due": "2026-08-28",
         "odoo": null,
         "done": false
       },
@@ -1349,7 +1326,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": true,
+        "flag": false,
         "due": "2026-08-31",
         "odoo": null,
         "done": false
@@ -1529,26 +1506,67 @@
         "createdAt": "2026-08-30T11:03:41.787821Z"
       },
       {
-        "title": "Kerzner — submit",
-        "context": "Submit the Kerzner Estate quote/proposal.",
+        "title": "Reply to Christine's email",
+        "context": "Odoo (Gnodde project) — flagged high priority; Christine awaiting a response.",
         "tags": [
           "d-one"
         ],
-        "flag": true,
-        "due": "2026-08-31",
-        "odoo": null,
-        "done": false
+        "due": null,
+        "owner": null
       },
       {
-        "title": "Projects & CRM review into Granola for Berna to populate Odoo",
-        "context": "Run through active projects and CRM leads, record the review into Granola so Berna can populate Odoo from it.",
+        "title": "Herman Brandt — design basement quote options",
+        "context": "Odoo (Herman Brandt) — draft the basement quote options for Brandt.",
         "tags": [
           "d-one"
         ],
-        "flag": true,
-        "due": "2026-08-31",
-        "odoo": null,
-        "done": false
+        "due": null,
+        "owner": null
+      },
+      {
+        "title": "Mountain Road — Systems Specification Document",
+        "context": "Odoo (Mountain Road) — produce the systems specification document.",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": null
+      },
+      {
+        "title": "Quote for Bo",
+        "context": "Odoo — build/send the quote for Bo.",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": null
+      },
+      {
+        "title": "Gates — complete the second column",
+        "context": "Odoo (Internal) — complete the second column on the Gates sheet; due today.",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-08-30",
+        "owner": null
+      },
+      {
+        "title": "Book physio",
+        "context": "Odoo — flagged high priority; still outstanding.",
+        "tags": [
+          "self"
+        ],
+        "due": null,
+        "owner": null
+      },
+      {
+        "title": "Prep — PRICE Lighting Control & Automation review at Bomax",
+        "context": "Calendar Tue 1 Sep 12:00, in person at Bomax Boardroom 1 — lighting control & automation requirements to work through with Modsa (w/ WB Lighting, Terra Design, RL Projects). Prep + travel.",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-09-01",
+        "owner": "Darren"
       }
     ],
     "waitingOn": [
