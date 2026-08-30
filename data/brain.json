@@ -1050,7 +1050,7 @@
       },
       {
         "title": "Check builder details + enquire — Val de Vie Reserve site",
-        "context": "",
+        "context": "Odoo activity · Val de Vie Reserve site (crm.lead) [odoo-act:164]",
         "tags": [
           "d-one"
         ],
@@ -1072,7 +1072,7 @@
       },
       {
         "title": "Collect fabric + acoustic material + blinds samples from Terra (Price Drive)",
-        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup. [Collecting at Bomax mtg Tue 1 Sep — combined with Price Drive conduit review.]",
+        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup. [Collecting at Bomax mtg Tue 1 Sep — combined with Price Drive conduit review.] [odoo-act:78]",
         "tags": [
           "d-one",
           "tech meeting"
@@ -1547,6 +1547,50 @@
         ],
         "flag": true,
         "due": "2026-08-31",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Call Igor to introduce us",
+        "context": "Odoo activity · To-Do on Igor Pinto (crm.lead) [odoo-act:295]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-28",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Confirm whether to send SLA separately to Monterey",
+        "context": "Odoo activity · To-Do on MONTEREY-SLA (sale.order). A version was drafted — decide if you'd rather use the standard D-One SLA template. [odoo-act:317]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-29",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "11 Chas Booth — make floorplan live (Netlify access)",
+        "context": "Odoo activity · To-Do on 11 Chas Booth (crm.lead). Icons in the floor plan are loaded; needs Netlify account access to publish it. [odoo-act:320]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-29",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Set up meeting with interior designer & client — 987 Val de Vie",
+        "context": "Odoo activity · To-Do on 987 Val de Vie (crm.lead). Between 14–16 September. [odoo-act:296]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
         "odoo": null,
         "done": false
       }
