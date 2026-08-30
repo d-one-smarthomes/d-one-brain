@@ -840,7 +840,7 @@
         "tags": [
           "marriage"
         ],
-        "flag": true,
+        "flag": false,
         "due": "2026-09-05",
         "odoo": null,
         "done": false
@@ -1360,7 +1360,7 @@
         "tags": [
           "marriage"
         ],
-        "flag": true,
+        "flag": false,
         "due": "2026-08-30",
         "odoo": null,
         "done": false
