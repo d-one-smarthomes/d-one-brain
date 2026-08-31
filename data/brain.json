@@ -1592,6 +1592,186 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=3787&model=project.task&view_type=form"
+      },
+      {
+        "title": "Import tech-meeting Granola notes into Odoo as activities",
+        "context": "From 31 Aug Accounts meeting. Darren to pass the tech-meeting Granola output to Berna to import as Odoo ACTIVITIES (not tasks), each linked to the relevant project, so Berna & Caleb can review tomorrow.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false,
+        "owner": "Berna"
+      },
+      {
+        "title": "Show Stafford the Odoo activities reporting view",
+        "context": "From 31 Aug Accounts meeting. Set up & save a filtered Activities (Reporting) view showing all open activities across the technical team; walk Stafford through setting/saving it so nothing slips.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Invoice all blue-highlighted items in Odoo (dated 1 Sept)",
+        "context": "From 31 Aug Accounts meeting. Corin to raise invoices for all blue-highlighted recon items in Odoo dated 1 Sept — do NOT send to clients until Darren signs off the recon. Exception: conference solutions (~R12,420) not yet complete, date end of Sept. Brian R745k still to invoice (video conferencing excluded, no install schedule). Carbide blinds labour cleared. Pure Form invoice client directly. JNA install done — raise D-One invoices incl. spray speakers. Peers retention — invoice in October.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "owner": "Corin"
+      },
+      {
+        "title": "Confirm & place Leo Copy blinds & curtains PO",
+        "context": "From 31 Aug Accounts meeting. Corin to confirm whether the Leo Copy blinds/curtains PO has been sent/placed and action immediately if not. Hermitian screens have no confirmed detail and the supplier is getting booked up.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Corin"
+      },
+      {
+        "title": "Bring remaining Leo Copy stock into Odoo by end of today",
+        "context": "From 31 Aug Accounts meeting. Scoop/Corin to bring remaining outstanding Leo Copy stock into Odoo by end of today so tomorrow's materials report is usable for Darren & Caleb's review.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false,
+        "owner": "Corin"
+      },
+      {
+        "title": "Update the recon with recent payments & invoices",
+        "context": "From 31 Aug Accounts meeting. Update the 28 Aug snapshot recon (live Google Sheet) with recent payments and invoices before sharing the updated snapshot with Paul and Ritha.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Amanda"
+      },
+      {
+        "title": "Get project programmes from all contractors",
+        "context": "From 31 Aug Tech meeting. Collect project programmes from all contractors and load them into Odoo to align every project onto one planning timeline. Start with Leeukoppie (27 Leeukoppie) — client wants year-end, builder says March; need the programme to know if stress is coming.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Source Nettleton Road single-module back box from ACDC",
+        "context": "From 31 Aug Tech meeting. Intercom back box cut too high at Nettleton (installed ~1.48m, should be 1.4m centre). No stock for single-module back box — Tristan to check sourcing from ACDC and provide cutout dimensions in the meantime so walls aren't held up.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Tristan"
+      },
+      {
+        "title": "Order Two-N modules for Nettleton Road & Mountain Road",
+        "context": "From 31 Aug Tech meeting. Combine into one order. Mountain Road design is final — nothing will change.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
+      },
+      {
+        "title": "Prepare Price Drive audit & appointment letter",
+        "context": "From 31 Aug Tech meeting. Works resume 7 Sept 2026. Caleb to prepare appointment letter + original scope documents and audit cabling against cable schedules before resuming. Also confirm with Sutherland whether client or D-One handles CCTV.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
+      },
+      {
+        "title": "Follow up with Corinne on stock across all projects",
+        "context": "From 31 Aug Tech meeting. Need stock ETAs for cabling/installation-phase projects. Savant keypads: 28 ordered, only 6 received, 22 outstanding. Power supplies ETA 31 Aug (7 outstanding). Access control & intercom items on back order across multiple projects. Savant items expected today/tomorrow.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Corinne"
+      },
+      {
+        "title": "Mikael to speak to Amanda about Odoo helpdesk module",
+        "context": "From 31 Aug Tech meeting. There's an outpace/helpdesk module in Odoo — Amanda to explore it and assess fit for managing follow-ups & feedback, then chat to Mikael.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Mekyle"
+      },
+      {
+        "title": "Load Svelte activities & next steps into Odoo",
+        "context": "From 31 Aug Tech meeting. SIP number set up (client should have confirmation); intercom not yet configured/tested. Activities currently under Darren's name with no scheduled tasks — Stafford to schedule.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Stafford"
+      },
+      {
+        "title": "Leeukoppie — subwoofer placement plan for cinema joinery",
+        "context": "From 31 Aug Tech meeting. Cinema joinery doesn't accommodate the subwoofer; joinery team needs a plan for subwoofer placement. Task with photo created on the Technical group.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": null
+      },
+      {
+        "title": "Prinsloo — send door button quote (2 options) & process 15U cabinet",
+        "context": "From 31 Aug Tech meeting. 15U cabinet approved — needs processing. TV not yet approved. Door button quote to be sent with two options; chopping/chasing required for button position, will tie into the intercom relay.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
       }
     ],
     "waitingOn": [
