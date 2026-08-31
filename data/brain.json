@@ -605,7 +605,7 @@
           "family"
         ],
         "flag": false,
-        "due": "2026-08-30",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -650,7 +650,7 @@
           "family"
         ],
         "flag": false,
-        "due": "2026-08-29",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -1030,7 +1030,7 @@
           "family"
         ],
         "flag": false,
-        "due": "2026-08-23",
+        "due": null,
         "odoo": null,
         "done": true
       },
