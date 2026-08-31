@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1064,17 +1064,6 @@
         "done": true
       },
       {
-        "title": "Check builder details + enquire — Val de Vie Reserve site",
-        "context": "Odoo activity · Val de Vie Reserve site (crm.lead) [odoo-act:164]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-08-18",
-        "odoo": "act#164 crm.lead",
-        "done": true
-      },
-      {
         "title": "Follow up — 31 Kerzner Estate",
         "context": "CRM to-do.",
         "tags": [
@@ -1577,28 +1566,6 @@
         "done": false
       },
       {
-        "title": "Confirm whether to send SLA separately to Monterey",
-        "context": "Odoo activity · To-Do on MONTEREY-SLA (sale.order). A version was drafted — decide if you'd rather use the standard D-One SLA template. [odoo-act:317]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-08-29",
-        "odoo": null,
-        "done": false
-      },
-      {
-        "title": "11 Chas Booth — make floorplan live (Netlify access)",
-        "context": "Odoo activity · To-Do on 11 Chas Booth (crm.lead). Icons in the floor plan are loaded; needs Netlify account access to publish it. [odoo-act:320]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-08-29",
-        "odoo": null,
-        "done": true
-      },
-      {
         "title": "Set up meeting with interior designer & client — 987 Val de Vie",
         "context": "Odoo activity · To-Do on 987 Val de Vie (crm.lead). Between 14–16 September. [odoo-act:296]",
         "tags": [
@@ -1608,6 +1575,18 @@
         "due": "2026-09-02",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Project Sign off",
+        "context": "Odoo task · General stage on Fancourt project [odoo-task:3787]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=3787&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [
@@ -1637,6 +1616,39 @@
         "odoo": null,
         "done": true,
         "owner": null
+      },
+      {
+        "title": "Check builder details + enquire — Val de Vie Reserve site",
+        "context": "Odoo activity · Val de Vie Reserve site (crm.lead) [odoo-act:164] ✓ completed in Odoo 2026-08-31",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-18",
+        "odoo": "act#164 crm.lead",
+        "done": true
+      },
+      {
+        "title": "Confirm whether to send SLA separately to Monterey",
+        "context": "Odoo activity · To-Do on MONTEREY-SLA (sale.order). A version was drafted — decide if you'd rather use the standard D-One SLA template. [odoo-act:317] ✓ completed in Odoo 2026-08-31",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-29",
+        "odoo": null,
+        "done": true
+      },
+      {
+        "title": "11 Chas Booth — make floorplan live (Netlify access)",
+        "context": "Odoo activity · To-Do on 11 Chas Booth (crm.lead). Icons in the floor plan are loaded; needs Netlify account access to publish it. [odoo-act:320] ✓ completed in Odoo 2026-08-31",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-29",
+        "odoo": null,
+        "done": true
       }
     ]
   },
