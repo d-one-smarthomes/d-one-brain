@@ -1590,7 +1590,7 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=3787&model=project.task&view_type=form"
       },
       {
@@ -1812,8 +1812,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
-        "due": "2026-09-01",
+        "flag": true,
+        "due": "2026-08-31",
         "odoo": null,
         "done": false
       }
