@@ -1361,7 +1361,7 @@
         "flag": true,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Talk to Caleb about managing priorities & tasks (Berna helping)",
@@ -1546,7 +1546,7 @@
         "flag": true,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Projects & CRM review into Granola for Berna to populate Odoo",
@@ -1602,7 +1602,7 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Berna"
       },
       {
@@ -1650,7 +1650,7 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Corin"
       },
       {
