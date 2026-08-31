@@ -1100,8 +1100,9 @@ function taskGroupHTML(refs, seedTag){
 }
 // collapsed "Done" archive for one task group
 function doneBox(keyId, doneRefs){
-  const open = boardOpen(keyId, false);
-  let h=`<details class="donebox" data-board="${esc(keyId)}"${open?' open':''}>
+  // Done archives always start collapsed on every render — completed tasks
+  // should never linger visibly open just because they were expanded once.
+  let h=`<details class="donebox" data-board="${esc(keyId)}">
     <summary><span class="dtick">✓</span><span class="dlab">Done</span><span class="count">${doneRefs.length}</span><span class="bchev">▾</span></summary>
     <div class="donebody">`;
   h+= doneRefs.map(r=>taskItem(r.col, r.i)).join('');
@@ -1265,9 +1266,11 @@ async function pushToOdoo(bp){
 }
 // persist each board's open/closed state (toggle doesn't bubble -> capture)
 app.addEventListener('toggle', e=>{
-  const b=e.target; if(b && b.classList && (b.classList.contains('board')||b.classList.contains('theme')||b.classList.contains('donebox'))){
+  const b=e.target; if(b && b.classList && (b.classList.contains('board')||b.classList.contains('theme'))){
     const id=b.getAttribute('data-board'); if(id) setBoardOpen(id, b.open);
   }
+  // 'donebox' is intentionally excluded — Done archives never persist open state,
+  // they always start collapsed (see doneBox()).
 }, true);
 // expand-all / minimise-all
 app.addEventListener('click', e=>{
