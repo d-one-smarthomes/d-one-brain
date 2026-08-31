@@ -1350,7 +1350,7 @@
         "flag": true,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Get back to Kirsten re: AI questions for Monterey Road",
@@ -1638,7 +1638,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Corin"
       },
       {
@@ -1686,7 +1686,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Tristan"
       },
       {
@@ -1722,7 +1722,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Corinne"
       },
       {
@@ -1782,7 +1782,7 @@
         "flag": true,
         "due": "2026-09-03",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Block a recurring surf or padel slot this week",
