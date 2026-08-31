@@ -616,7 +616,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-29",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -627,7 +627,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-29",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -740,7 +740,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-29",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -1024,17 +1024,6 @@
         "done": false
       },
       {
-        "title": "Measure Kayden's legs — check pads fit, then order",
-        "context": "Measure Kayden's legs this weekend to confirm the pads will fit. If they fit, place the order.",
-        "tags": [
-          "family"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true
-      },
-      {
         "title": "Add D-One tasks from D1Brain into Tasks, tag ‘tech meeting’",
         "context": "Take my D-One–tagged tasks from D1Brain and add them into Tasks, tagging each ‘tech meeting’ so they surface in the tech meeting view.",
         "tags": [
@@ -1142,7 +1131,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-29",
+        "due": null,
         "odoo": "task#437 DVDV",
         "done": true
       },
@@ -1487,7 +1476,7 @@
           "home"
         ],
         "flag": false,
-        "due": "2026-08-29",
+        "due": null,
         "odoo": null,
         "done": true
       },
@@ -1663,6 +1652,17 @@
         ],
         "flag": false,
         "due": "2026-08-29",
+        "odoo": null,
+        "done": true
+      },
+      {
+        "title": "Measure Kayden's legs — check pads fit, then order",
+        "context": "Measure Kayden's legs this weekend to confirm the pads will fit. If they fit, place the order. ✓ completed",
+        "tags": [
+          "family"
+        ],
+        "flag": false,
+        "due": null,
         "odoo": null,
         "done": true
       }
