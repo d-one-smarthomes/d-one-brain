@@ -63,23 +63,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "priorities": {
-      "day": "Build positive, agenda-free vibes with Mands.",
+      "day": "",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "07:45",
-      "intention": "Create desire in Amanda in HER language"
+      "at": "06:53",
+      "intention": "Clear and present"
     },
     "evening": {
-      "done": true,
-      "at": "18:10",
-      "energy": 8,
-      "chaseMode": true,
-      "reflection": "Struggled to be present after my mind wanted to vibe code."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -183,13 +183,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-08-30",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Build positive, agenda-free vibes with Mands.",
+        "intention": "Create desire in Amanda in HER language",
+        "energy": 8,
+        "chaseMode": true,
+        "reflection": "Struggled to be present after my mind wanted to vibe code.",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
       "move": true,
       "silence": true,
       "gratitude": true,
-      "listen": true
+      "listen": false
     }
   },
   "areas": [
