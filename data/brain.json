@@ -1582,18 +1582,6 @@
         "done": false
       },
       {
-        "title": "Project Sign off",
-        "context": "Odoo task · General stage on Fancourt project [odoo-task:3787]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=3787&model=project.task&view_type=form"
-      },
-      {
         "title": "Import tech-meeting Granola notes into Odoo as activities",
         "context": "From 31 Aug Accounts meeting. Darren to pass the tech-meeting Granola output to Berna to import as Odoo ACTIVITIES (not tasks), each linked to the relevant project, so Berna & Caleb can review tomorrow.",
         "tags": [
@@ -1816,6 +1804,91 @@
         "due": "2026-08-31",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Reply to Bryce (BHD) — confirm PB200 meeting time",
+        "context": "Gmail · Bryce @ bhd.design asked to meet re PB200 AV/Sound proposal specs; their on-site mtg starts 14h00, proposed Tue 1 Sep 14h30 — needs Darren to confirm a time.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "33 Higgo Road — resolve issues raised by Tony (Base Projects)",
+        "context": "Gmail · Tony @ Base Projects flagged 2 issues needing D-One help: crease/slacking of acoustic fabric in the main lounge/fireplace, and pedestrian-gate access. Sent to tech@ + Darren.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "",
+        "owner": "Stafford"
+      },
+      {
+        "title": "Buchu Villa — send consolidated quote + summary to finalise D-One appointment",
+        "context": "Gmail · Ben McClurg @ RLB wants to finalise the D-One appointment and issue the appointment schedule; asked for one consolidated quote incl. a summary. Darren: 'No problem. Will arrange all.'",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "133 KNR — review tender drawings & confirm all points (Giancarlo/SKP)",
+        "context": "Gmail · Giancarlo @ SKP sent the electrician tender/costing drawings (2 emails) and asked D-One to review & confirm all points. Darren: 'Will do.' Caleb already sent lighting specs.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Blinds (27 Leeukoppie)",
+        "context": "Odoo task · Blinds on the 27 Leeukoppie project [odoo-task:4021]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4021&model=project.task&view_type=form"
+      },
+      {
+        "title": "AC control",
+        "context": "Odoo activity · To-Do on Service (project.task) [odoo-act:327]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-31",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4020&model=project.task&view_type=form"
+      },
+      {
+        "title": "General — bring in all activity from tech meeting",
+        "context": "Odoo activity · To-Do on General (project.project) [odoo-act:329]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=84&model=project.project&view_type=form"
       }
     ],
     "waitingOn": [
@@ -1889,6 +1962,18 @@
         "due": null,
         "odoo": null,
         "done": true
+      },
+      {
+        "title": "Project Sign off",
+        "context": "Odoo task · General stage on Fancourt project [odoo-task:3787] ✓ completed in Odoo 2026-08-31",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=3787&model=project.task&view_type=form"
       }
     ]
   },
