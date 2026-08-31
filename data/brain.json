@@ -1805,6 +1805,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Add the views notes into Odoo",
+        "context": "",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
