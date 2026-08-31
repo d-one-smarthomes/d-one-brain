@@ -1772,6 +1772,39 @@
         "odoo": null,
         "done": false,
         "owner": "Caleb"
+      },
+      {
+        "title": "Resolve Thu 10am double-booking — House Bell proposal vs 13 Fishermans Meeting",
+        "context": "Both booked 10:00-11:00 on Thu 3 Sep. House Bell is a new-client proposal discussion (Wynand Wilsenach Architects). Decide which one moves.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Block a recurring surf or padel slot this week",
+        "context": "Zone-of-genius / flow review: nothing on the calendar for surf, yoga, meditation or padel all week, despite these being stated recurring practices and part of the 'efficient resting' monthly goal. Only unstructured personal time currently is Tue Fit45 and Sat Rugby.",
+        "tags": [
+          "self"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Test delegating the Wednesday admin stack to Amanda/Berna",
+        "context": "Wed mornings currently run 4 back-to-back admin/ops meetings under Darren's name (Tech meeting/office 07:30, Accounts 08:30, Team catchup 08:30, Operations & systems 08:45). Candidate block to test running without daily involvement, per the owner-not-operator objective.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
