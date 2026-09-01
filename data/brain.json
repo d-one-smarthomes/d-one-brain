@@ -58,6 +58,10 @@
       {
         "text": "4. Projects & CRM review into Granola, for Berna to populate Odoo",
         "done": false
+      },
+      {
+        "text": "5. Follow up with Ryk regarding the event at VDV",
+        "done": false
       }
     ]
   },
@@ -1937,6 +1941,17 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Follow up with Ryk — event at VDV",
+        "context": "",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
