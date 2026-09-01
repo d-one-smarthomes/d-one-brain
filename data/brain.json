@@ -681,7 +681,7 @@
           "adventure"
         ],
         "flag": true,
-        "due": "2026-08-31",
+        "due": "2026-09-02",
         "odoo": null,
         "done": false
       },
@@ -1109,7 +1109,7 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": "act#78 + task#513",
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up with Leon — Base Projects",
@@ -1670,7 +1670,7 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Amanda"
       },
       {
@@ -1682,7 +1682,7 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -2133,7 +2133,7 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
       },
       {
@@ -2157,7 +2157,7 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
       },
       {
@@ -2169,7 +2169,7 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
       },
       {
@@ -2181,7 +2181,7 @@
         "flag": false,
         "due": "2026-09-01",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
       },
       {
