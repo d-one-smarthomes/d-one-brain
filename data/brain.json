@@ -2112,6 +2112,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "EO Forum update",
+        "context": "Prepare and do my EO Forum update.",
+        "tags": [
+          "social"
+        ],
+        "flag": true,
+        "due": "2026-09-04",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
