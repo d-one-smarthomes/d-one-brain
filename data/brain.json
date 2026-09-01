@@ -1952,6 +1952,105 @@
         "due": "2026-09-01",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Clerk — push for deposit to lock in pricing",
+        "context": "Proposal sent at R4.9M (labour ~16% vs ~30% typical). Offered R40K off labour + half-price labour fees to close. Push for deposit now to lock pricing. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": "Darren"
+      },
+      {
+        "title": "Clarify 1 Sunset appointment status — is another contractor appointed?",
+        "context": "Stafford heard via Tag another automation contractor may be appointed; Tag's later messages conflict. Clarify urgently with Bradley/Dion directly — delay hurts everyone; B-Max/electrician exposed. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-09-01",
+        "owner": "Darren"
+      },
+      {
+        "title": "Find builder for the R150M development in V (Rick Neufling tip)",
+        "context": "R150M development in V, price set at R6M; tip from Rick Neufling. Drive to the reserve to identify the builder from site signage. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": "Darren"
+      },
+      {
+        "title": "Merge duplicate CRM entries for 42 (German project) & add lighting",
+        "context": "Two duplicate CRM entries found; merge into one at R1.5M, add lighting to bring to R3M. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": null
+      },
+      {
+        "title": "Email Arc/architect to schedule Book design workshop (media rooms)",
+        "context": "Book has 3 cinema room sizes (left, right, penthouse). Design input needed — likely MK in-wall cinemas, acoustic covers, small apertures, invisible speakers. Set up workshop with design team to align aesthetic integration. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": "Darren"
+      },
+      {
+        "title": "Ensure 5 Sunset installation starts this month (lighting stock)",
+        "context": "Lighting stock from Planet World expected this month; installation promised to client this month. Activities added: CCTV plan for cabin (variation), access control latest design, audio change order. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-09-30",
+        "owner": null
+      },
+      {
+        "title": "Call Pinnacle to confirm/expedite Mountain Road nickel finish order",
+        "context": "Client confirmed nickel finish; ordered from Pinnacle, mid-Sept delivery expected. Email may not have arrived — call this morning to confirm & expedite. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-09-01",
+        "owner": "Darren"
+      },
+      {
+        "title": "Send Odoo PDF quote to Mat — Mountain Road (JBCC)",
+        "context": "Mat wants a JBCC-compatible contract; send the Odoo PDF quote. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": null
+      },
+      {
+        "title": "Chase Sebastian on Price Drive keypad engraving return to factory",
+        "context": "Chase Sebastian on the keypad engraving send-back to the factory; try to get an answer before today's Price Drive meeting. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-09-01",
+        "owner": null
+      },
+      {
+        "title": "Princely — Stafford to do full site inspection & cable testing with electrician",
+        "context": "Activity duplicated into Stafford's task list; follow up with him. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null,
+        "owner": "Stafford"
+      },
+      {
+        "title": "Stafford to collect the wallbox module from 1 Sunset",
+        "context": "Stafford said he'd do this on Thursday. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": "2026-09-03",
+        "owner": "Stafford"
       }
     ],
     "waitingOn": [
@@ -1966,9 +2065,66 @@
         "odoo": null,
         "done": false,
         "since": "2026-08-23"
+      },
+      {
+        "title": "Boho and Bubbly — Amira to set up meeting this week",
+        "context": "In Amira's court; meeting to be set up this week. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "since": "2026-09-01"
+      },
+      {
+        "title": "16 Rot D — Wi-Fi system approval",
+        "context": "Stafford awaiting approval for the Wi-Fi system; hoping it comes through soon. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "since": "2026-09-01"
+      },
+      {
+        "title": "Mountain Road — Polar Bear quote",
+        "context": "Awaiting Polar Bear quote; complex (water-based underfloor heating, AC unconfirmed). (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "since": "2026-09-01"
+      },
+      {
+        "title": "Adler — payment before stock can be ordered",
+        "context": "Adler says he'll pay soon but is still arranging funds; can't order stock until paid — he knows. No longer needs to be living there by Dec, easing the timeline. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "since": "2026-09-01"
+      },
+      {
+        "title": "Princely — confirm joinery subs & TV positions are built in",
+        "context": "Joinery integration check sent to contractor; waiting to confirm subs and TV positions are built in. Stock unclear; intercoms ~9 Sep, answering units TBC. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "since": "2026-09-01"
+      },
+      {
+        "title": "Berman Brothers — Jason to negotiate Lutron direct",
+        "context": "Left with Jason to negotiate Lutron direct; D-One to get margin somehow. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "since": "2026-09-01"
       }
     ],
-    "someday": [],
+    "someday": [
+      {
+        "title": "Palm Worm — client wants to meet (proposal didn't save)",
+        "context": "Via Stefan Anthony; client viewed proposal but it didn't save. Likely standard Sonos-tier; low priority unless lighting is in scope. (src: Sales catchup, 1 Sep 2026)",
+        "tags": [
+          "d-one"
+        ],
+        "due": null
+      }
+    ],
     "done": [
       {
         "title": "Set up Claude ↔ Odoo connection",
