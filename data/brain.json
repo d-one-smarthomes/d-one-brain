@@ -2051,6 +2051,18 @@
         ],
         "due": "2026-09-03",
         "owner": "Stafford"
+      },
+      {
+        "title": "Narrow down next-home search around R25M budget",
+        "context": "Looked at a R22M home (great size/spaces) and a R28M home (incredible location) — want something in between, realistically ~R25M. Current home likely sells for ~R16M. Need to start actively looking with this budget in mind.",
+        "tags": [
+          "home",
+          "finance"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
@@ -2219,7 +2231,8 @@
       "notes": [
         "ROOMS — 4 bedrooms · 2+ baths · A office · D office · Home theatre · Kids playroom (creative space, table tennis, pool, xbox, surround sound)",
         "POSITIONING — great neighbours · great view · open outlook · large trees · centrally located",
-        "FEATURES — fully solar powered · warm fireplace · cozy lounge · nice pool · sauna + cold plunge · bedroom fireplace · soft acoustics · warm tones · multi-room audio · Lutron lighting · social entertainment"
+        "FEATURES — fully solar powered · warm fireplace · cozy lounge · nice pool · sauna + cold plunge · bedroom fireplace · soft acoustics · warm tones · multi-room audio · Lutron lighting · social entertainment",
+        "BUDGET — Looked at two homes: R22M (great large home, all the right spaces) vs R28M (insane location). Sweet spot is in between — realistic target ~R25M. Current home likely sells for ~R16M."
       ]
     },
     {
