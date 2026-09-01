@@ -2123,6 +2123,114 @@
         "due": "2026-09-04",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Feedback: Stock update — Buchu Court",
+        "context": "Odoo activity · Feedback on Buchu court (crm.lead) — stock status update log. [odoo-act:372]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Get invisible speakers and get them to Bo",
+        "context": "Odoo activity · To-Do on project.task \"Get invisible speakers from Kevin - 8'\" — collect & deliver to Bo. [odoo-act:376]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
+      },
+      {
+        "title": "Feedback: Will to email Wes — Buchu Court",
+        "context": "Odoo activity · Feedback on Buchu court (crm.lead) — Will will email Wes. [odoo-act:378]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Stock Movement — feedback",
+        "context": "Odoo activity · Feedback on project.task \"Stock Movement\" — stock movement/received log. [odoo-act:384]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
+      },
+      {
+        "title": "BackOrder stock update",
+        "context": "Odoo activity · BackOrder Stock on project.task \"Stock Movement\" — Scoop UA-Intercom Viewer x4 (ETA end Sept/Oct), Miro UVC-G6-Pro x2 (ETA mid Sept). [odoo-act:385]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
+      },
+      {
+        "title": "Send multi-room audio quote — 1 Sunset",
+        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — send the multi-room audio quote. [odoo-act:393]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Meet with Johan — 1593 Val de Vie",
+        "context": "Odoo activity · To-Do on 1593 Val de Vie (crm.lead) — meet with Johan. [odoo-act:360]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=508&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Get installed cameras live at du Toit / Godwin site — security priority",
+        "context": "Lorette du Toit emailed (Darren cc'd) asking Darren + Caleb to prioritise getting the already-installed cameras up and running before the streetside wall is demolished next week — appliances arriving this week, on-site guard from Mon. Darren forwarded to tech@. From Gmail 2026-09-01.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-04",
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Prep D-One Audio & Security proposal for House Bell meeting",
+        "context": "Calendar: \"House Bell — D-One Audio, Security proposal discussion\", Thu 3 Sep 10:00 at Wynand Wilsenach Architects (with Hugh Paver, W2). Prepare the proposal + specs to present.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
