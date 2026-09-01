@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-08-31",
+    "updated": "2026-09-01",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -1889,6 +1889,54 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=84&model=project.project&view_type=form"
+      },
+      {
+        "title": "Call Charlene to see if LbL can do lighting",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:355]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Call Warick to discuss Radar",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:357]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Talk to Dion",
+        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — “We are going to get ourselves cornered on this one if we don’t get appointed soon.” [odoo-act:358]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Renew D-One GitHub fine-grained PATs (Skill updates + Marketplace skill updates) — expiring ~7 Sep",
+        "context": "Gmail · GitHub notified 31 Aug that two fine-grained PATs (“Skill updates” and “Marketplace skill updates”) expire in ~7 days (~7 Sep 2026). Renew them to keep the D-One skills marketplace + skill syncing working.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
