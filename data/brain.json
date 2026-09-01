@@ -2341,7 +2341,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       }
     ],
     "done": [
