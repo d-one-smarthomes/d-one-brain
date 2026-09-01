@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "priorities": {
-      "day": "Kerzner off",
+      "day": "Nap",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "06:53",
-      "intention": "Clear and present"
+      "at": "13:04",
+      "intention": "Grounded"
     },
     "evening": {
       "done": false,
       "at": "",
-      "energy": 7,
-      "chaseMode": true,
-      "reflection": "Revving in the am. Crashing in the pm"
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -203,13 +203,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-08-31",
+        "morning": true,
+        "evening": false,
+        "dayPriority": "Kerzner off",
+        "intention": "Clear and present",
+        "energy": 7,
+        "chaseMode": true,
+        "reflection": "Revving in the am. Crashing in the pm",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
       "move": true,
-      "silence": true,
-      "gratitude": true,
-      "listen": true
+      "silence": false,
+      "gratitude": false,
+      "listen": false
     }
   },
   "areas": [
@@ -1561,7 +1577,7 @@
         "flag": true,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Call Igor to introduce us",
@@ -1690,7 +1706,7 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Caleb"
       },
       {
@@ -1796,7 +1812,7 @@
         "flag": false,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Add the views notes into Odoo",
@@ -1807,7 +1823,7 @@
         "flag": true,
         "due": "2026-08-31",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Reply to Bryce (BHD) — confirm PB200 meeting time",
@@ -1959,7 +1975,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": null,
+        "odoo": null,
+        "done": false,
         "owner": "Darren"
       },
       {
@@ -1968,7 +1987,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
         "owner": "Darren"
       },
       {
@@ -1977,7 +1999,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": null,
+        "odoo": null,
+        "done": false,
         "owner": "Darren"
       },
       {
@@ -1986,7 +2011,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": null,
+        "odoo": null,
+        "done": false,
         "owner": null
       },
       {
@@ -1995,7 +2023,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": null,
+        "odoo": null,
+        "done": false,
         "owner": "Darren"
       },
       {
@@ -2004,7 +2035,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": "2026-09-30",
+        "odoo": null,
+        "done": false,
         "owner": null
       },
       {
@@ -2013,7 +2047,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
         "owner": "Darren"
       },
       {
@@ -2022,7 +2059,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": null,
+        "odoo": null,
+        "done": false,
         "owner": null
       },
       {
@@ -2031,7 +2071,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": "2026-09-01",
+        "odoo": null,
+        "done": false,
         "owner": null
       },
       {
@@ -2040,7 +2083,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": null,
+        "odoo": null,
+        "done": false,
         "owner": "Stafford"
       },
       {
@@ -2049,7 +2095,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
         "due": "2026-09-03",
+        "odoo": null,
+        "done": false,
         "owner": "Stafford"
       },
       {
@@ -2084,6 +2133,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-09-01"
       },
       {
@@ -2092,6 +2145,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-09-01"
       },
       {
@@ -2100,6 +2157,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-09-01"
       },
       {
@@ -2108,6 +2169,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-09-01"
       },
       {
@@ -2116,6 +2181,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-09-01"
       },
       {
@@ -2124,6 +2193,10 @@
         "tags": [
           "d-one"
         ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
         "since": "2026-09-01"
       }
     ],
@@ -2134,7 +2207,10 @@
         "tags": [
           "d-one"
         ],
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "done": [
