@@ -89,6 +89,15 @@ exports.handler = async (event) => {
     activityTypeId = types && types[0] ? types[0] : null;
   } catch (e) { /* leave null — Odoo will use its default if allowed */ }
 
+  // Odoo's mail.activity create sometimes needs res_model_id explicitly
+  // (not just res_model) or a constraint about "not null res_id" fires
+  // even though res_id is set.
+  let resModelId = null;
+  try {
+    const ms = await execKw(uid, "ir.model", "search", [[["model", "=", resModel]]], { limit: 1 });
+    resModelId = ms && ms[0] ? ms[0] : null;
+  } catch (e) { /* leave null */ }
+
   const vals = {
     res_model: resModel,
     res_id: resId,
@@ -96,6 +105,7 @@ exports.handler = async (event) => {
     date_deadline: due,
     user_id: userId,
   };
+  if (resModelId) vals.res_model_id = resModelId;
   if (activityTypeId) vals.activity_type_id = activityTypeId;
   if (payload.note) vals.note = "<p>" + escapeHtml(String(payload.note)).replace(/\n/g, "<br>") + "</p>";
 
