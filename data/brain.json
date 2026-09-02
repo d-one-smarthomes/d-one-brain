@@ -2319,6 +2319,19 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Follow up with Dad on his contribution offer for next home",
+        "context": "Dad offered to contribute roughly half the value of 40 Penzance Avenue (~R2.7M, based on desktop estimate of R5.3M–R5.6M / best guess R5.4M) toward our next home purchase. Confirm details, timing, and how it fits the ~R25M next-home budget with him.",
+        "tags": [
+          "family",
+          "home",
+          "finance"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
@@ -2575,7 +2588,8 @@
         "ROOMS — 4 bedrooms · 2+ baths · A office · D office · Home theatre · Kids playroom (creative space, table tennis, pool, xbox, surround sound)",
         "POSITIONING — great neighbours · great view · open outlook · large trees · centrally located",
         "FEATURES — fully solar powered · warm fireplace · cozy lounge · nice pool · sauna + cold plunge · bedroom fireplace · soft acoustics · warm tones · multi-room audio · Lutron lighting · social entertainment",
-        "BUDGET — Looked at two homes: R22M (great large home, all the right spaces) vs R28M (insane location). Sweet spot is in between — realistic target ~R25M. Current home likely sells for ~R16M."
+        "BUDGET — Looked at two homes: R22M (great large home, all the right spaces) vs R28M (insane location). Sweet spot is in between — realistic target ~R25M. Current home likely sells for ~R16M.",
+        "40 PENZANCE AVENUE VALUATION (Sep 2026) — Property24 report: 606m² erf, last sold R3M (Nov 2016), municipal value R3.196M (as of 2018, stale). Desktop comp-based estimate using suburb/street sales trends: R5.3M–R5.6M range, best single number R5.4M (well-maintained, small additions, landscaping, no major renovation). Dad has offered to contribute roughly half of that value (~R2.7M) toward our next home purchase."
       ]
     },
     {
