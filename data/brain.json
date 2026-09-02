@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "priorities": {
-      "day": "Nap",
+      "day": "Get Berna up to speed",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "13:04",
-      "intention": "Grounded"
+      "at": "07:00",
+      "intention": "Be calm. Everything is ok."
     },
     "evening": {
-      "done": true,
-      "at": "19:59",
-      "energy": 3,
+      "done": false,
+      "at": "",
+      "energy": null,
       "chaseMode": false,
-      "reflection": "Morning good strong crash after 02:30 wake up."
+      "reflection": ""
     },
     "history": [
       {
@@ -219,10 +219,26 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-01",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Nap",
+        "intention": "Grounded",
+        "energy": 3,
+        "chaseMode": false,
+        "reflection": "Morning good strong crash after 02:30 wake up.",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
-      "move": true,
+      "move": false,
       "silence": true,
       "gratitude": true,
       "listen": true
@@ -2217,7 +2233,7 @@
         "flag": true,
         "due": "2026-09-04",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
