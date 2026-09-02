@@ -2226,14 +2226,14 @@
       },
       {
         "title": "Chat to Brad about his Control4 system",
-        "context": "Odoo activity · To-Do on Yazbek (project.project) [odoo-act:406]",
+        "context": "Odoo activity · To-Do on Yazbek (project.project) [odoo-act:406] ✓ spoke to Brad 2 Sep 2026",
         "tags": [
           "d-one"
         ],
         "flag": false,
         "due": "2026-09-02",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=70&model=project.project&view_type=form"
       },
       {
@@ -2259,6 +2259,18 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "De Klerk — quote submitted and updated",
+        "context": "Quote submitted and updated. (related to Clerk — push for deposit to lock in pricing)",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": true,
+        "owner": "Darren"
       }
     ],
     "waitingOn": [
