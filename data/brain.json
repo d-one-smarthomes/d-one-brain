@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-02",
+    "date": "2026-09-01",
     "priorities": {
-      "day": "Get Berna up to speed",
+      "day": "Nap",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "07:00",
-      "intention": "Be calm. Everything is ok."
+      "at": "13:04",
+      "intention": "Grounded"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "19:59",
+      "energy": 3,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "Morning good strong crash after 02:30 wake up."
     },
     "history": [
       {
@@ -219,26 +219,10 @@
           "gratitude": true,
           "listen": true
         }
-      },
-      {
-        "date": "2026-09-01",
-        "morning": true,
-        "evening": true,
-        "dayPriority": "Nap",
-        "intention": "Grounded",
-        "energy": 3,
-        "chaseMode": false,
-        "reflection": "Morning good strong crash after 02:30 wake up.",
-        "practice": {
-          "move": true,
-          "silence": true,
-          "gratitude": true,
-          "listen": true
-        }
       }
     ],
     "practice": {
-      "move": false,
+      "move": true,
       "silence": true,
       "gratitude": true,
       "listen": true
@@ -1116,18 +1100,6 @@
         "done": true
       },
       {
-        "title": "Collect fabric + acoustic material + blinds samples from Terra (Price Drive)",
-        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup. [Collecting at Bomax mtg Tue 1 Sep — combined with Price Drive conduit review.] [odoo-act:78]",
-        "tags": [
-          "d-one",
-          "tech meeting"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": "act#78 + task#513",
-        "done": true
-      },
-      {
         "title": "Follow up with Leon — Base Projects",
         "context": "CRM follow-up.",
         "tags": [
@@ -1602,7 +1574,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-08-28",
+        "due": "2026-09-04",
         "odoo": null,
         "done": false
       },
@@ -1613,7 +1585,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-02",
+        "due": "2026-09-08",
         "odoo": null,
         "done": false
       },
@@ -1915,18 +1887,6 @@
         "url": "https://d-one.odoo.com/web#id=4020&model=project.task&view_type=form"
       },
       {
-        "title": "General — bring in all activity from tech meeting",
-        "context": "Odoo activity · To-Do on General (project.project) [odoo-act:329]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=84&model=project.project&view_type=form"
-      },
-      {
         "title": "Call Charlene to see if LbL can do lighting",
         "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:355]",
         "tags": [
@@ -1937,30 +1897,6 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Call Warick to discuss Radar",
-        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:357]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Talk to Dion",
-        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — “We are going to get ourselves cornered on this one if we don’t get appointed soon.” [odoo-act:358]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
       },
       {
         "title": "Renew D-One GitHub fine-grained PATs (Skill updates + Marketplace skill updates) — expiring ~7 Sep",
@@ -2233,7 +2169,7 @@
         "flag": true,
         "due": "2026-09-04",
         "odoo": null,
-        "done": true,
+        "done": false,
         "url": ""
       },
       {
@@ -2259,6 +2195,54 @@
         "odoo": null,
         "done": false,
         "owner": "Darren"
+      },
+      {
+        "title": "Lights by Linea — Oakvale The Views",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:396]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-24",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Chat to Brad about his Control4 system",
+        "context": "Odoo activity · To-Do on Yazbek (project.project) [odoo-act:406]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=70&model=project.project&view_type=form"
+      },
+      {
+        "title": "Confirm The Baths accommodation for the Tyson family trip (4 Sep)",
+        "context": "Gmail · The Baths reservations asked which unit & the kids' ages; Ed Tyson forwarded the proforma (Res# 209985). Reply and sort payment before the 4 Sep trip.",
+        "tags": [
+          "family"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Send Tyrone the technical file & close out Fancourt sign-off",
+        "context": "Gmail · Darren sent Tyrone (Fancourt) the sign-off doc and Caleb has now shared the live technical-file Google doc. Send it to Tyrone and chase the system sign-off.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
@@ -2428,6 +2412,54 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=3787&model=project.task&view_type=form"
+      },
+      {
+        "title": "Collect fabric + acoustic material + blinds samples from Terra (Price Drive)",
+        "context": "Merged: acoustic material + blinds samples AND Price Drive fabric samples — one Terra pickup. [Collecting at Bomax mtg Tue 1 Sep — combined with Price Drive conduit review.] [odoo-act:78] ✓ completed in Odoo 2026-09-02",
+        "tags": [
+          "d-one",
+          "tech meeting"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": "act#78 + task#513",
+        "done": true
+      },
+      {
+        "title": "General — bring in all activity from tech meeting",
+        "context": "Odoo activity · To-Do on General (project.project) [odoo-act:329] ✓ completed in Odoo 2026-09-02",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=84&model=project.project&view_type=form"
+      },
+      {
+        "title": "Call Warick to discuss Radar",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:357] ✓ completed in Odoo 2026-09-02",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Talk to Dion",
+        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — “We are going to get ourselves cornered on this one if we don’t get appointed soon.” [odoo-act:358] ✓ completed in Odoo 2026-09-02",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
       }
     ]
   },
