@@ -2154,14 +2154,14 @@
       },
       {
         "title": "Send multi-room audio quote — 1 Sunset",
-        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — send the multi-room audio quote. [odoo-act:393]",
+        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — send the multi-room audio quote. [odoo-act:393] ✓ quote sent 2 Sep 2026",
         "tags": [
           "d-one"
         ],
         "flag": false,
         "due": "2026-09-02",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
       },
       {
