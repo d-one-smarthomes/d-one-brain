@@ -2319,19 +2319,6 @@
         "odoo": null,
         "done": false,
         "url": ""
-      },
-      {
-        "title": "Follow up with Dad on his contribution offer for next home",
-        "context": "Dad offered to contribute roughly half the value of 40 Penzance Avenue (~R2.7M, based on desktop estimate of R5.3M–R5.6M / best guess R5.4M) toward our next home purchase. Confirm details, timing, and how it fits the ~R25M next-home budget with him.",
-        "tags": [
-          "family",
-          "home",
-          "finance"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": false
       }
     ],
     "waitingOn": [
