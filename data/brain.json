@@ -74,16 +74,16 @@
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": false,
-      "at": null,
-      "intention": ""
+      "done": true,
+      "at": "19:59",
+      "intention": "Calm"
     },
     "evening": {
-      "done": false,
-      "at": null,
-      "energy": null,
-      "chaseMode": null,
-      "reflection": ""
+      "done": true,
+      "at": "19:59",
+      "energy": 6,
+      "chaseMode": true,
+      "reflection": "Wonderful morning yoga. Hard afternoon. And frustrating evening"
     },
     "history": [
       {
@@ -238,10 +238,10 @@
       }
     ],
     "practice": {
-      "move": false,
-      "silence": false,
-      "gratitude": false,
-      "listen": false
+      "move": true,
+      "silence": true,
+      "gratitude": true,
+      "listen": true
     }
   },
   "areas": [
