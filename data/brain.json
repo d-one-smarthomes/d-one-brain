@@ -1904,14 +1904,14 @@
       },
       {
         "title": "Call Charlene to see if LbL can do lighting",
-        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:355]",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:355] ✓ completed 2 Sep 2026",
         "tags": [
           "d-one"
         ],
         "flag": true,
         "due": "2026-09-01",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
       },
       {
