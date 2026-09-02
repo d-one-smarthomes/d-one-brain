@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "priorities": {
-      "day": "Nap",
+      "day": "",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": true,
-      "at": "13:04",
-      "intention": "Grounded"
+      "done": false,
+      "at": null,
+      "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "19:59",
-      "energy": 3,
-      "chaseMode": false,
-      "reflection": "Morning good strong crash after 02:30 wake up."
+      "done": false,
+      "at": null,
+      "energy": null,
+      "chaseMode": null,
+      "reflection": ""
     },
     "history": [
       {
@@ -219,13 +219,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-01",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Nap",
+        "intention": "Grounded",
+        "energy": 3,
+        "chaseMode": false,
+        "reflection": "Morning good strong crash after 02:30 wake up.",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
-      "move": true,
-      "silence": true,
-      "gratitude": true,
-      "listen": true
+      "move": false,
+      "silence": false,
+      "gratitude": false,
+      "listen": false
     }
   },
   "areas": [
