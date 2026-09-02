@@ -2225,18 +2225,6 @@
         "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
       },
       {
-        "title": "Chat to Brad about his Control4 system",
-        "context": "Odoo activity · To-Do on Yazbek (project.project) [odoo-act:406] ✓ spoke to Brad 2 Sep 2026",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-02",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=70&model=project.project&view_type=form"
-      },
-      {
         "title": "Confirm The Baths accommodation for the Tyson family trip (4 Sep)",
         "context": "Gmail · The Baths reservations asked which unit & the kids' ages; Ed Tyson forwarded the proforma (Res# 209985). Reply and sort payment before the 4 Sep trip.",
         "tags": [
@@ -2250,7 +2238,7 @@
       },
       {
         "title": "Send Tyrone the technical file & close out Fancourt sign-off",
-        "context": "Gmail · Darren sent Tyrone (Fancourt) the sign-off doc and Caleb has now shared the live technical-file Google doc. Send it to Tyrone and chase the system sign-off.",
+        "context": "Gmail · Darren sent Tyrone (Fancourt) the sign-off doc and Caleb has now shared the live technical-file Google doc. Send it to Tyrone and chase the system sign-off. [odoo-act:407]",
         "tags": [
           "d-one"
         ],
@@ -2258,7 +2246,7 @@
         "due": "2026-09-03",
         "odoo": null,
         "done": false,
-        "url": ""
+        "url": "https://d-one.odoo.com/web#id=1365&model=project.task&view_type=form"
       },
       {
         "title": "De Klerk — quote submitted and updated",
@@ -2271,6 +2259,66 @@
         "odoo": null,
         "done": true,
         "owner": "Darren"
+      },
+      {
+        "title": "Add Living room projector system",
+        "context": "Odoo activity · To-Do on De Klerk (crm.lead) [odoo-act:411]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=513&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Ameera meeting followup",
+        "context": "Odoo activity · To-Do on Buchu 12 (crm.lead) [odoo-act:412]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=501&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Followup with Christian",
+        "context": "Odoo activity · To-Do on Base 222 Kloof Road (crm.lead) [odoo-act:413]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=471&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "The Ridge Erf 1617 — confirm D-One's outstanding items for final push",
+        "context": "Gmail · Mieke (fama.co.za) asked all trades for one last push to complete The Ridge Erf 1617. Make sure D-One's remaining scope is closed out.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Prep for Gnodde site visit (Wed 3 Sep, 13:00)",
+        "context": "Calendar: 'Gnodde visit' Wed 3 Sep 13:00 — site visit; prep and allow travel time.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
@@ -2488,6 +2536,18 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Chat to Brad about his Control4 system",
+        "context": "Odoo activity · To-Do on Yazbek (project.project) [odoo-act:406] ✓ spoke to Brad 2 Sep 2026 ✓ completed in Odoo 2026-09-02",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=70&model=project.project&view_type=form"
       }
     ]
   },
