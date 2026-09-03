@@ -2307,6 +2307,17 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Ask Brad about St Francis",
+        "context": "When I see him next — ask Brad about St Francis.",
+        "tags": [
+          "self"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
