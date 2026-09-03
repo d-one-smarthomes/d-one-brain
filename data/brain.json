@@ -1937,7 +1937,7 @@
           "d-one"
         ],
         "flag": true,
-        "due": "2026-09-07",
+        "due": "2026-09-03",
         "odoo": null,
         "done": false,
         "url": ""
@@ -2237,7 +2237,7 @@
         "flag": false,
         "due": "2026-08-24",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
       },
       {
@@ -2343,17 +2343,6 @@
         ],
         "flag": true,
         "due": "2026-09-03",
-        "odoo": null,
-        "done": false
-      },
-      {
-        "title": "Organize a foil board for Breede holiday",
-        "context": "Contact Kyle or Arri to sort a foil board for the Breede holiday.",
-        "tags": [
-          "adventure"
-        ],
-        "flag": false,
-        "due": null,
         "odoo": null,
         "done": false
       }
