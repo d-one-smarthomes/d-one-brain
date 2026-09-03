@@ -45,7 +45,7 @@
     "todayQuick": [
       {
         "text": "1. Email Anita back — Buchu appointment terms",
-        "done": false
+        "done": true
       },
       {
         "text": "2. Monterey Road — submit response to Kirsten",
@@ -57,7 +57,7 @@
       },
       {
         "text": "4. Projects & CRM review into Granola, for Berna to populate Odoo",
-        "done": false
+        "done": true
       },
       {
         "text": "5. Follow up with Ryk regarding the event at VDV",
