@@ -2318,6 +2318,17 @@
         "due": "2026-09-03",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Reschedule appointment with Katie",
+        "context": "Priority for today — reschedule the Katie couples session appointment.",
+        "tags": [
+          "marriage"
+        ],
+        "flag": true,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
