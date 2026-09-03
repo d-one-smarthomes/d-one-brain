@@ -79,11 +79,11 @@
       "intention": "My energy is my priority"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "done": true,
+      "at": "16:44",
+      "energy": 6,
+      "chaseMode": true,
+      "reflection": "Auto business kicked in. I was tired and felt like the grey weather."
     },
     "history": [
       {
@@ -645,7 +645,10 @@
         "tags": [
           "d-one"
         ],
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Ask EO Forum about the 'parking lot' method",
