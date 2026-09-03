@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2261,18 +2261,6 @@
         "owner": "Darren"
       },
       {
-        "title": "Add Living room projector system",
-        "context": "Odoo activity · To-Do on De Klerk (crm.lead) [odoo-act:411]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-02",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=513&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Ameera meeting followup",
         "context": "Odoo activity · To-Do on Buchu 12 (crm.lead) [odoo-act:412]",
         "tags": [
@@ -2548,6 +2536,18 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=70&model=project.project&view_type=form"
+      },
+      {
+        "title": "Add Living room projector system",
+        "context": "Odoo activity · To-Do on De Klerk (crm.lead) [odoo-act:411] ✓ completed in Odoo 2026-09-03",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=513&model=crm.lead&view_type=form"
       }
     ]
   },
