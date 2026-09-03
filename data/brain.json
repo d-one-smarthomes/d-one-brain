@@ -2345,6 +2345,17 @@
         "due": "2026-09-03",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Organize a foil board for Breede holiday",
+        "context": "Contact Kyle or Arri to sort a foil board for the Breede holiday.",
+        "tags": [
+          "adventure"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
