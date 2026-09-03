@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "priorities": {
-      "day": "",
+      "day": "Visit Gnodde",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "19:59",
-      "intention": "Calm"
+      "at": "11:34",
+      "intention": "My energy is my priority"
     },
     "evening": {
-      "done": true,
-      "at": "19:59",
-      "energy": 6,
-      "chaseMode": true,
-      "reflection": "Wonderful morning yoga. Hard afternoon. And frustrating evening"
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -229,6 +229,22 @@
         "energy": 3,
         "chaseMode": false,
         "reflection": "Morning good strong crash after 02:30 wake up.",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
+      },
+      {
+        "date": "2026-09-02",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "Calm",
+        "energy": 6,
+        "chaseMode": true,
+        "reflection": "Wonderful morning yoga. Hard afternoon. And frustrating evening",
         "practice": {
           "move": true,
           "silence": true,
