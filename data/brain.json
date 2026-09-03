@@ -2345,6 +2345,17 @@
         "due": "2026-09-03",
         "odoo": null,
         "done": true
+      },
+      {
+        "title": "Chas Booth savings options",
+        "context": "11 Chas Booth (crm.lead) — put together savings options for the client.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
