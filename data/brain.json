@@ -640,6 +640,14 @@
   "tasks": {
     "active": [
       {
+        "title": "Get introduced to Grow Construction (Cape Town contractor)",
+        "context": "New contractor doing big/luxury projects in Cape Town — see parkingLot note for research. Confirm this is the right GROW, then find a warm intro path (EO network, Val de Vie/Mike Dixon, or direct outreach) to open a subcontractor relationship for AV/security/networking on their builds.",
+        "tags": [
+          "d-one"
+        ],
+        "due": null
+      },
+      {
         "title": "Ask EO Forum about the 'parking lot' method",
         "context": "Reach out to my EO Forum group — how the parking lot technique works + how to organize it.",
         "tags": [
@@ -2611,6 +2619,22 @@
     }
   ],
   "parkingLot": [
+    {
+      "text": "New Cape Town contractor doing big/luxury projects — researched, need a warm intro.",
+      "done": false,
+      "title": "🏗️ GROW Construction — new contractor to watch",
+      "date": "2026-09-03",
+      "tags": [
+        "d-one",
+        "ideas"
+      ],
+      "notes": [
+        "Likely match: Grow Construction (growconstruction.co.za), Cape Town — luxury new-builds, renovations, hotel builds, residential + commercial. ~22 years combined team experience per their site. Contact: +27 76 022 8809, info@growconstruction.co.za. FB: facebook.com/growconstructions.",
+        "Their site is marketing-heavy — no named directors or specific flagship projects listed publicly yet, worth digging further (LinkedIn, CIDB grading, recent tenders) to confirm this is the \"big projects\" GROW being referred to before investing intro effort.",
+        "Fit for D-One: they are a luxury build/reno GC — natural AV/smart-home/security subcontractor relationship if their projects are high-end (aligns with D-One target market).",
+        "Possible intro paths: (1) EO Cape Town network — ask around if anyone knows them, (2) Val de Vie / Cape Winelands Properties contacts (Mike Dixon) who deal with estate builders, (3) direct warm email/call to info@growconstruction.co.za introducing D-One + portfolio, (4) check if any existing D-One clients or architects have used them and can broker an intro."
+      ]
+    },
     {
       "text": "Wishlist mind map for our next home (Darren & Amanda), captured from a hand-drawn brainstorm.",
       "done": false,
