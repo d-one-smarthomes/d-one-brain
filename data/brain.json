@@ -2367,6 +2367,18 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Respond to & prep for Buchu House + 12 home automation meeting",
+        "context": "Gmail · Calendar invite from Jerome Alexander (Hodari) for a Buchu House & 12 home-automation design session — accept and prepare. Studio Mas (Sean/Ameera) & QDP on the invite.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
