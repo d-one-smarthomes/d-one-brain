@@ -2379,6 +2379,30 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Talk to Tom (Brad's friend) about creating a D-One video",
+        "context": "Brad connected Darren with Tom to create a D-One video that gets Darren's message across to clients, aiming to reduce the number of show houses Darren has to do personally.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Ask Brad about the next good investment property deal",
+        "context": "Brad is buying investment properties that pay for themselves. Find out from Brad when another good deal comes up, with a view to starting to buy these kinds of self-paying investments.",
+        "tags": [
+          "finance"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
       }
     ],
     "waitingOn": [
@@ -2478,6 +2502,16 @@
         "due": null,
         "odoo": null,
         "done": true
+      },
+      {
+        "title": "HoldCo (owned by SWAN Trust) invoices D-One for deposits — tax structure idea from Brad",
+        "context": "Idea from Brad: create a holding company owned by the trust; that company invoices D-One, and D-One pays it the deposits — reducing tax. Ties into the existing Trust -> HoldCo -> OpCo structure work (see Wealth & Structure area F, and tasks on finding advisors / discussing HoldCo with Amanda) — get this checked with the accountant/lawyer before acting on it.",
+        "tags": [
+          "finance",
+          "ideas"
+        ],
+        "flag": false,
+        "due": null
       }
     ],
     "done": [
