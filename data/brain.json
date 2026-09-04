@@ -2536,6 +2536,15 @@
         ],
         "flag": false,
         "due": null
+      },
+      {
+        "title": "Cup-with-cracks reframe: block the leaks, not just refill the cup",
+        "context": "Realization: I'm constantly chasing dopamine to fill my cup/tank so I feel content, but the cup has cracks and leaks, so I have to keep chasing to refill it. Question to develop: what would it look like to focus on blocking the leaks instead of endlessly refilling? Claude's framing to build on: leaks often come from (1) unprocessed stuff — old wins don't 'count' because of unresolved doubt/guilt/unfinished business, (2) external-only validation — good feelings borrowed from outside signals instead of owned, (3) no off-switch — always scanning for the next input instead of letting the last one land/settle, (4) misaligned effort — chasing wins outside my Unique Ability costs more than it fills. Reflection prompt to sit with: when I've had a genuinely good moment lately, did it fade because something took it away, or because I didn't let myself keep it?",
+        "tags": [
+          "self",
+          "ideas"
+        ],
+        "due": null
       }
     ],
     "done": [
