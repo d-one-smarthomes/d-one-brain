@@ -656,6 +656,42 @@
   "tasks": {
     "active": [
       {
+        "title": "Planetworld discount on products",
+        "context": "Odoo task · assigned to Amanda, Berna, Caleb & Darren [odoo-task:4771]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4771&model=project.task&view_type=form"
+      },
+      {
+        "title": "KE31 Home Automation — client happy to proceed, book appointment",
+        "context": "Email from Jeanmari (Metropolis Design): client met and is happy to proceed with the appointment; latest quote/proposal linked. Addressed to Christelle (Prodigious) & Darren.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Reply to Bas — schedule switch upgrade (landing lounge, bedrooms 3 & 5)",
+        "context": "Email from Bas (Combifloat), Jeff/Red Earth on thread: asking when D-One can execute the switch upgrade for the landing lounge and bedrooms 3 & 5 with subsequent touch-ups.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
         "title": "Get introduced to Grow Construction (Cape Town contractor)",
         "context": "New contractor doing big/luxury projects in Cape Town — see parkingLot note for research. Confirm this is the right GROW, then find a warm intro path (EO network, Val de Vie/Mike Dixon, or direct outreach) to open a subcontractor relationship for AV/security/networking on their builds.",
         "tags": [
