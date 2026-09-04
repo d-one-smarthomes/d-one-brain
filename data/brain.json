@@ -2443,6 +2443,15 @@
         "odoo": null,
         "done": false,
         "owner": "Caleb"
+      },
+      {
+        "title": "Write marketing blurb for Val de Vie home (for sale listing)",
+        "context": "Need to write a sales listing blurb for the current Val de Vie home. Still need: bedroom/bathroom count, size (erf/floor area), and the standout feature to lead with (estate lifestyle & facilities / views / location within estate / the smart home & AV/tech setup).",
+        "tags": [
+          "home",
+          "self"
+        ],
+        "due": null
       }
     ],
     "waitingOn": [
