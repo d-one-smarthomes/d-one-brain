@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2415,6 +2415,18 @@
         "odoo": null,
         "done": false,
         "owner": "Darren"
+      },
+      {
+        "title": "12 Monterey — finalise quotes for signature (contract clause + 4 confirmations)",
+        "context": "Stefan Wiskemann (Monterey Partnership) is ready to sign quotes 0431 R4 / 0449 R1 / 0449-R1-ADD, pending: add a precedence clause so the agreed terms override conflicting Standard T&Cs (Clauses 3 & 11.2), and confirm (1) no Cat6 run >90m else a fibre uplink is specified, (2) which existing structure serves as the Phase 2 head-end, (3) the radar-enhancer count (0449 R1 lists 3, the email says 2), (4) target recording retention on the UNVR-G2 / 8TB drive and whether a 2nd drive is recommended. Email 3 Sep to Caleb, Darren cc'd — https://mail.google.com/mail/u/0/#inbox/1a067496747e79ba",
+        "tags": [
+          "d-one"
+        ],
+        "owner": "Caleb",
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
