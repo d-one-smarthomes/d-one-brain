@@ -2452,6 +2452,17 @@
           "self"
         ],
         "due": null
+      },
+      {
+        "title": "Subscribe to Alex Hormozi's newsletter",
+        "context": "alexhormozi.substack.com — daily newsletter, sign up with darren@d-one.co.za",
+        "tags": [
+          "self"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
