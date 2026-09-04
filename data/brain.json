@@ -81,9 +81,9 @@
     "evening": {
       "done": false,
       "at": "",
-      "energy": null,
+      "energy": 7,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "Amazing morning. Afternoon crash"
     },
     "history": [
       {
@@ -273,7 +273,7 @@
       "move": true,
       "silence": true,
       "gratitude": true,
-      "listen": false
+      "listen": true
     }
   },
   "areas": [
@@ -2487,7 +2487,10 @@
           "home",
           "self"
         ],
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Subscribe to Alex Hormozi's newsletter",
