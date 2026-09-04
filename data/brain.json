@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "priorities": {
-      "day": "Visit Gnodde",
+      "day": "Whole week whole team wrapped in Odoo",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "11:34",
-      "intention": "My energy is my priority"
+      "at": "08:43",
+      "intention": "Present"
     },
     "evening": {
-      "done": true,
-      "at": "16:44",
-      "energy": 6,
-      "chaseMode": true,
-      "reflection": "Auto business kicked in. I was tired and felt like the grey weather."
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -251,13 +251,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-03",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Visit Gnodde",
+        "intention": "My energy is my priority",
+        "energy": 6,
+        "chaseMode": true,
+        "reflection": "Auto business kicked in. I was tired and felt like the grey weather.",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
       "move": true,
       "silence": true,
       "gratitude": true,
-      "listen": true
+      "listen": false
     }
   },
   "areas": [
@@ -2422,11 +2438,11 @@
         "tags": [
           "d-one"
         ],
-        "owner": "Caleb",
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": false,
+        "owner": "Caleb"
       }
     ],
     "waitingOn": [
@@ -2535,7 +2551,9 @@
           "ideas"
         ],
         "flag": false,
-        "due": null
+        "due": null,
+        "odoo": null,
+        "done": false
       },
       {
         "title": "Cup-with-cracks reframe: block the leaks, not just refill the cup",
@@ -2544,7 +2562,10 @@
           "self",
           "ideas"
         ],
-        "due": null
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "done": [
