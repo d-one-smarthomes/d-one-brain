@@ -2308,18 +2308,6 @@
         "owner": "Darren"
       },
       {
-        "title": "Lights by Linea — Oakvale The Views",
-        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:396]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-08-24",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Confirm The Baths accommodation for the Tyson family trip (4 Sep)",
         "context": "Gmail · The Baths reservations asked which unit & the kids' ages; Ed Tyson forwarded the proforma (Res# 209985). Reply and sort payment before the 4 Sep trip.",
         "tags": [
@@ -2783,6 +2771,18 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=513&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Lights by Linea — Oakvale The Views",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:396] ✓ completed in Odoo 2026-09-05",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-24",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
       }
     ]
   },
