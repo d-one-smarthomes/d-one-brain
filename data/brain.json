@@ -656,6 +656,17 @@
   "tasks": {
     "active": [
       {
+        "title": "MCP connector test task — safe to delete",
+        "context": "",
+        "tags": [
+          "self"
+        ],
+        "flag": true,
+        "due": "2026-09-05",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Planetworld discount on products",
         "context": "Odoo task · assigned to Amanda, Berna, Caleb & Darren [odoo-task:4771]",
         "tags": [
