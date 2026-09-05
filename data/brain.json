@@ -79,11 +79,11 @@
       "intention": "Present"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "done": true,
+      "at": "21:29",
+      "energy": 8,
+      "chaseMode": true,
+      "reflection": "Svelte Aggression triggered my anxiety. Great hike with Mike."
     },
     "history": [
       {
