@@ -286,10 +286,10 @@
       }
     ],
     "practice": {
-      "move": false,
-      "silence": false,
-      "gratitude": false,
-      "listen": false
+      "move": true,
+      "silence": true,
+      "gratitude": true,
+      "listen": true
     }
   },
   "areas": [
