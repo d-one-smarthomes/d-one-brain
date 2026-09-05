@@ -400,12 +400,7 @@
       "key": "E",
       "name": "Sales Pipeline",
       "subtitle": "Every lead runs the Filter Framework score before we chase it",
-      "now": [
-        {
-          "text": "Buchu - 11-property maintenance SLA (~R41k/mo, ~R500k/yr annuity) - keep as a D-One dept, not a separate entity",
-          "done": true
-        }
-      ],
+      "now": [],
       "delegated": [],
       "parked": []
     },
@@ -683,7 +678,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": null,
         "odoo": null,
         "done": false,
@@ -2199,7 +2194,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-09-07",
         "odoo": null,
         "done": false,
@@ -2346,7 +2341,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=501&model=crm.lead&view_type=form"
       },
       {
@@ -2427,7 +2422,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2518,66 +2513,6 @@
       {
         "title": "Boho and Bubbly — Amira to set up meeting this week",
         "context": "In Amira's court; meeting to be set up this week. (src: Sales catchup, 1 Sep 2026)",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "since": "2026-09-01"
-      },
-      {
-        "title": "16 Rot D — Wi-Fi system approval",
-        "context": "Stafford awaiting approval for the Wi-Fi system; hoping it comes through soon. (src: Sales catchup, 1 Sep 2026)",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "since": "2026-09-01"
-      },
-      {
-        "title": "Mountain Road — Polar Bear quote",
-        "context": "Awaiting Polar Bear quote; complex (water-based underfloor heating, AC unconfirmed). (src: Sales catchup, 1 Sep 2026)",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "since": "2026-09-01"
-      },
-      {
-        "title": "Adler — payment before stock can be ordered",
-        "context": "Adler says he'll pay soon but is still arranging funds; can't order stock until paid — he knows. No longer needs to be living there by Dec, easing the timeline. (src: Sales catchup, 1 Sep 2026)",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "since": "2026-09-01"
-      },
-      {
-        "title": "Princely — confirm joinery subs & TV positions are built in",
-        "context": "Joinery integration check sent to contractor; waiting to confirm subs and TV positions are built in. Stock unclear; intercoms ~9 Sep, answering units TBC. (src: Sales catchup, 1 Sep 2026)",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "since": "2026-09-01"
-      },
-      {
-        "title": "Berman Brothers — Jason to negotiate Lutron direct",
-        "context": "Left with Jason to negotiate Lutron direct; D-One to get margin somehow. (src: Sales catchup, 1 Sep 2026)",
         "tags": [
           "d-one"
         ],
