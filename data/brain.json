@@ -67,23 +67,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-04",
+    "date": "2026-09-05",
     "priorities": {
-      "day": "Whole week whole team wrapped in Odoo",
+      "day": "",
       "week": "Get Berna onto next steps across the board",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "08:43",
+      "at": "15:09",
       "intention": "Present"
     },
     "evening": {
       "done": false,
       "at": "",
-      "energy": 7,
+      "energy": null,
       "chaseMode": false,
-      "reflection": "Amazing morning. Afternoon crash"
+      "reflection": ""
     },
     "history": [
       {
@@ -267,13 +267,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-04",
+        "morning": true,
+        "evening": false,
+        "dayPriority": "Whole week whole team wrapped in Odoo",
+        "intention": "Present",
+        "energy": 7,
+        "chaseMode": false,
+        "reflection": "Amazing morning. Afternoon crash",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
-      "move": true,
-      "silence": true,
-      "gratitude": true,
-      "listen": true
+      "move": false,
+      "silence": false,
+      "gratitude": false,
+      "listen": false
     }
   },
   "areas": [
