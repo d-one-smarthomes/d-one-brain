@@ -6,6 +6,43 @@
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
+  "lifeVision": {
+    "title": "My Life Vision",
+    "updated": "2026-09-06",
+    "purpose": "This is Darren's vision for his future. It informs all actions and decisions — check against it, don't just react to what's urgent.",
+    "opening": "I play the game fully. And I make love a priority. I am already here. I don't need another achievement, possession or person's approval to feel successful, fulfilled or complete. I recognise the abundance already around me and live with gratitude for what I have, while remaining excited about everything still waiting to be created. I trust the creative power of life and my place within it. I am one voice in the orchestra. I only need to play my tune. I don't have to make the whole piece. My part is whole and perfect. I trust my intuition and my own rhythm. I let go of how I think I should live and have the courage to live authentically. I create from curiosity and inspiration rather than pressure or a need to prove myself.",
+    "sections": [
+      {
+        "heading": "I love deeply",
+        "text": "Amanda and I have built a warm, affectionate and deeply connected marriage. We genuinely enjoy one another and value the ordinary moments of being together. I look at her with enormous gratitude for the life we have shared and the people we have helped each other become. Our intimacy is free from pressure. Affection doesn't need an agenda. Sexuality is something we both choose and enjoy — another beautiful way of connecting, giving and creating pleasure for one another. My children remain close as they grow into themselves. Our relationship is affectionate, supportive and present. They know I am always in their corner while being completely free to create lives of their own. Love is not something I squeeze in around everything else. Love is one of the things everything else is for."
+      },
+      {
+        "heading": "Home is where I exhale",
+        "text": "My home is surrounded by nature, with water, mountains and a beautiful sense of space. It is warm, quiet, comfortable and welcoming. Everything about it invites me to slow down and linger. When I come home, I am happy to be there. There is nothing I need to solve or optimise. No agenda. Our home welcomes family and friends. We cook, eat nourishing food, play games, laugh, talk and relax. People bring their energy and share their light. Everyone contributes and everyone is nourished by it."
+      },
+      {
+        "heading": "My life is rich",
+        "text": "We have a tribe that has travelled through life together. Our children have grown up together. We holiday, adventure and make time for one another because we understand that this is what matters. I surf, boat with my kids, spend time in the mountains and snow, and travel to beautiful places. I have the flexibility to follow the waves, an invitation or simply my curiosity. The infrastructure around my life quietly takes care of complexity, leaving me free to experience and enjoy it."
+      },
+      {
+        "heading": "I am free to create",
+        "text": "I have built businesses and investments that provide sustainable financial freedom and security. There is no pressure to earn. My family is secure. I can travel, be generous, own the things I genuinely enjoy and create extraordinary experiences without financial anxiety. I work because I love creating. I spend my time where I come alive, bringing my particular energy, creativity and perspective while allowing talented people around me to bring theirs. I contribute fully, but I don't carry everything."
+      },
+      {
+        "heading": "I am strong and alive",
+        "text": "Yoga is an integral part of my life. I surf, play padel, train, walk in the mountains and spend time outdoors. I remain strong, mobile, energetic and capable as I age. My body allows me to participate fully in the life I love."
+      },
+      {
+        "heading": "My cup overflows",
+        "text": "I surround myself with people who inspire me. We spend time in nature and have meaningful conversations about life, truth, joy and finding our way home. Sometimes something shifts for someone because of a conversation or experience we've shared. I don't need that outcome or make myself responsible for it. I simply live my truth and share my passion. My contribution is a natural overflow of a life that nourishes me."
+      },
+      {
+        "heading": "I am content",
+        "text": "I am peaceful inside myself. I am no longer trying to become someone, prove something or arrive somewhere before giving myself permission to be happy. I am grateful for what has been, present to what is, and excited about what might still emerge. I trust life. I trust myself. I play my tune and honour the rest of the orchestra playing theirs."
+      }
+    ],
+    "closing": "I am here. I am free. I love deeply. I play the game fully."
+  },
   "oneFilter": {
     "intro": "Before I say yes to anything, or pick what to work on, run it through this:",
     "questions": [
