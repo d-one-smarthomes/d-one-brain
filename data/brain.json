@@ -2495,6 +2495,42 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "EO Refinery Forum (Sep 14)",
+        "context": "Mon 14 Sep 2026, 13:30–18:30 · Digicape Head Office. Your roles: lead the Meditation slot (14:45, guided 10-15 min) and you are Moderator Elect. Hard seated start — late penalty R500/5min. Deep Dive planned: Julie (coach Garnett).",
+        "tags": [
+          "social"
+        ],
+        "flag": true,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": false,
+        "url": null
+      },
+      {
+        "title": "Prepare & share 5% reflection for EO Forum",
+        "context": "Must be fully prepared and sent to Moderator & buddy on WhatsApp 24h prior (by Sun 13 Sep). Max 5 min, 2 min \"I notice\". R500 fine if reflections not shared 24h in advance.",
+        "tags": [
+          "social"
+        ],
+        "flag": true,
+        "due": "2026-09-13",
+        "odoo": null,
+        "done": false,
+        "url": null
+      },
+      {
+        "title": "Prepare guided meditation for EO Forum",
+        "context": "You run the Meditation slot at the 14 Sep forum (14:45, guided, 10-15 min).",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": false,
+        "url": null
       }
     ],
     "waitingOn": [
