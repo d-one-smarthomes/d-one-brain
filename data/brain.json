@@ -1745,7 +1745,8 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=510&model=crm.lead&view_type=form"
       },
       {
         "title": "Set up meeting with interior designer & client — 987 Val de Vie",
@@ -1756,7 +1757,8 @@
         "flag": false,
         "due": "2026-09-08",
         "odoo": null,
-        "done": false
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=491&model=crm.lead&view_type=form"
       },
       {
         "title": "Import tech-meeting Granola notes into Odoo as activities",
@@ -2056,18 +2058,6 @@
         "url": "https://d-one.odoo.com/web#id=4020&model=project.task&view_type=form"
       },
       {
-        "title": "Call Charlene to see if LbL can do lighting",
-        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:355] ✓ completed 2 Sep 2026",
-        "tags": [
-          "d-one"
-        ],
-        "flag": true,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Renew D-One GitHub fine-grained PATs (Skill updates + Marketplace skill updates) — expiring ~7 Sep",
         "context": "Gmail · GitHub notified 31 Aug that two fine-grained PATs (“Skill updates” and “Marketplace skill updates”) expire in ~7 days (~7 Sep 2026). Renew them to keep the D-One skills marketplace + skill syncing working.",
         "tags": [
@@ -2246,78 +2236,6 @@
         "done": false
       },
       {
-        "title": "Feedback: Stock update — Buchu Court",
-        "context": "Odoo activity · Feedback on Buchu court (crm.lead) — stock status update log. [odoo-act:372]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Get invisible speakers and get them to Bo",
-        "context": "Odoo activity · To-Do on project.task \"Get invisible speakers from Kevin - 8'\" — collect & deliver to Bo. [odoo-act:376]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": true,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
-      },
-      {
-        "title": "Feedback: Will to email Wes — Buchu Court",
-        "context": "Odoo activity · Feedback on Buchu court (crm.lead) — Will will email Wes. [odoo-act:378]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Stock Movement — feedback",
-        "context": "Odoo activity · Feedback on project.task \"Stock Movement\" — stock movement/received log. [odoo-act:384]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
-      },
-      {
-        "title": "BackOrder stock update",
-        "context": "Odoo activity · BackOrder Stock on project.task \"Stock Movement\" — Scoop UA-Intercom Viewer x4 (ETA end Sept/Oct), Miro UVC-G6-Pro x2 (ETA mid Sept). [odoo-act:385]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-01",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
-      },
-      {
-        "title": "Send multi-room audio quote — 1 Sunset",
-        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — send the multi-room audio quote. [odoo-act:393] ✓ quote sent 2 Sep 2026",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-02",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Meet with Johan — 1593 Val de Vie",
         "context": "Odoo activity · To-Do on 1593 Val de Vie (crm.lead) — meet with Johan. [odoo-act:360]",
         "tags": [
@@ -2378,18 +2296,6 @@
         "url": ""
       },
       {
-        "title": "Send Tyrone the technical file & close out Fancourt sign-off",
-        "context": "Gmail · Darren sent Tyrone (Fancourt) the sign-off doc and Caleb has now shared the live technical-file Google doc. Send it to Tyrone and chase the system sign-off. [odoo-act:407]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=1365&model=project.task&view_type=form"
-      },
-      {
         "title": "De Klerk — quote submitted and updated",
         "context": "Quote submitted and updated. (related to Clerk — push for deposit to lock in pricing)",
         "tags": [
@@ -2400,30 +2306,6 @@
         "odoo": null,
         "done": true,
         "owner": "Darren"
-      },
-      {
-        "title": "Ameera meeting followup",
-        "context": "Odoo activity · To-Do on Buchu 12 (crm.lead) [odoo-act:412]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=501&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Followup with Christian",
-        "context": "Odoo activity · To-Do on Base 222 Kloof Road (crm.lead) [odoo-act:413]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-03",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=471&model=crm.lead&view_type=form"
       },
       {
         "title": "The Ridge Erf 1617 — confirm D-One's outstanding items for final push",
@@ -2600,6 +2482,18 @@
         "odoo": null,
         "done": false,
         "url": null
+      },
+      {
+        "title": "Confirm if we can get invisible speakers from Kevin",
+        "context": "Odoo activity · To-Do on project.task \"Get invisible speakers from Kevin - 8'\" — confirm availability with Kevin. [odoo-act:471]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [
@@ -2817,6 +2711,126 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Call Charlene to see if LbL can do lighting",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:355] ✓ completed 2 Sep 2026",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Feedback: Stock update — Buchu Court",
+        "context": "Odoo activity · Feedback on Buchu court (crm.lead) — stock status update log. [odoo-act:372] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Get invisible speakers and get them to Bo",
+        "context": "Odoo activity · To-Do on project.task \"Get invisible speakers from Kevin - 8'\" — collect & deliver to Bo. [odoo-act:376] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
+      },
+      {
+        "title": "Feedback: Will to email Wes — Buchu Court",
+        "context": "Odoo activity · Feedback on Buchu court (crm.lead) — Will will email Wes. [odoo-act:378] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=497&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Stock Movement — feedback",
+        "context": "Odoo activity · Feedback on project.task \"Stock Movement\" — stock movement/received log. [odoo-act:384] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
+      },
+      {
+        "title": "BackOrder stock update",
+        "context": "Odoo activity · BackOrder Stock on project.task \"Stock Movement\" — Scoop UA-Intercom Viewer x4 (ETA end Sept/Oct), Miro UVC-G6-Pro x2 (ETA mid Sept). [odoo-act:385] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-01",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
+      },
+      {
+        "title": "Send multi-room audio quote — 1 Sunset",
+        "context": "Odoo activity · To-Do on 1 Sunset (crm.lead) — send the multi-room audio quote. [odoo-act:393] ✓ quote sent 2 Sep 2026",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-02",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=462&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Send Tyrone the technical file & close out Fancourt sign-off",
+        "context": "Gmail · Darren sent Tyrone (Fancourt) the sign-off doc and Caleb has now shared the live technical-file Google doc. Send it to Tyrone and chase the system sign-off. [odoo-act:407] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=1365&model=project.task&view_type=form"
+      },
+      {
+        "title": "Ameera meeting followup",
+        "context": "Odoo activity · To-Do on Buchu 12 (crm.lead) [odoo-act:412] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=501&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Followup with Christian",
+        "context": "Odoo activity · To-Do on Base 222 Kloof Road (crm.lead) [odoo-act:413] ✓ completed in Odoo 2026-09-06",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-03",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=471&model=crm.lead&view_type=form"
       }
     ]
   },
