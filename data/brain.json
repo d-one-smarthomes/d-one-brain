@@ -41,7 +41,20 @@
         "text": "I am peaceful inside myself. I am no longer trying to become someone, prove something or arrive somewhere before giving myself permission to be happy. I am grateful for what has been, present to what is, and excited about what might still emerge. I trust life. I trust myself. I play my tune and honour the rest of the orchestra playing theirs."
       }
     ],
-    "closing": "I am here. I am free. I love deeply. I play the game fully."
+    "closing": "I am here. I am free. I love deeply. I play the game fully.",
+    "weeklyCheck": {
+      "howItWorks": "One line per theme, rotating. When Darren sets weeklyFocus.three, Claude asks the next line as a quick gut-check on the chosen one thing, then advances rotationIndex (wraps after 7). No full re-read needed.",
+      "rotationIndex": 0,
+      "distilled": [
+        "Does this make more room for Amanda and the kids, or steal from it?",
+        "Does this help home stay the place I exhale, or add another thing to solve?",
+        "Does this protect time with my tribe and adventures, or crowd them out?",
+        "Am I creating this from choice, or from pressure to earn?",
+        "Does this leave room for my body — yoga, surf, mountains?",
+        "Is this coming from overflow, or am I forcing an outcome?",
+        "Am I doing this from peace, or from needing to prove something?"
+      ]
+    }
   },
   "oneFilter": {
     "intro": "Before I say yes to anything, or pick what to work on, run it through this:",
