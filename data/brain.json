@@ -2510,12 +2510,12 @@
       },
       {
         "title": "Prepare & share 5% reflection for EO Forum",
-        "context": "Must be fully prepared and sent to Moderator & buddy on WhatsApp 24h prior (by Sun 13 Sep). Max 5 min, 2 min \"I notice\". R500 fine if reflections not shared 24h in advance.",
+        "context": "Blocked 2h on Thu 10 Sep (09:00-11:00) to prepare. Must be fully prepared and sent to Moderator & buddy on WhatsApp 24h prior. Max 5 min, 2 min \"I notice\". R500 fine if not shared 24h in advance.",
         "tags": [
           "social"
         ],
         "flag": true,
-        "due": "2026-09-13",
+        "due": "2026-09-10",
         "odoo": null,
         "done": false,
         "url": null
