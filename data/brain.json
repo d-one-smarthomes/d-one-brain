@@ -54,6 +54,25 @@
         "Is this coming from overflow, or am I forcing an outcome?",
         "Am I doing this from peace, or from needing to prove something?"
       ]
+    },
+    "tabLines": {
+      "done": [
+        "I work because I love creating, not because I have to.",
+        "D-One quietly takes care of complexity so I'm free to enjoy the rest."
+      ],
+      "wealth": [
+        "No pressure to earn — the goal is freedom, not more.",
+        "Financial freedom means I can be generous without anxiety."
+      ],
+      "growth": [
+        "I'm not becoming someone or proving something — I'm already here.",
+        "I create from curiosity, not from a need to prove myself."
+      ],
+      "family": [
+        "Love is one of the things everything else is for.",
+        "Home is where I exhale — nothing to solve, no agenda.",
+        "Ordinary moments together are the point, not a stop on the way somewhere."
+      ]
     }
   },
   "oneFilter": {

@@ -348,6 +348,7 @@
   .strat-head{display:flex;align-items:baseline;gap:10px;margin:20px 0 10px;padding-top:14px;border-top:1px solid var(--line-soft)}
   .strat-head>span:first-child{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
   .strat-sub{font-size:11px;color:var(--ink3)}
+  .visionline{font-size:12.5px;font-style:italic;color:var(--ink3);margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
   details.theme{border:1px solid var(--line-soft);border-radius:12px;background:var(--panel);margin:8px 0;overflow:hidden}
   details.theme>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:11px 13px;user-select:none}
   details.theme>summary::-webkit-details-marker{display:none}
@@ -699,6 +700,15 @@ function checkinBlock(){
   </section>`;
 }
 
+function dayOfYear(){ const now=new Date(); const start=new Date(now.getFullYear(),0,0); return Math.floor((now-start)/86400000); }
+function visionLine(tabId){
+  try{
+    const lines=(DATA.lifeVision&&DATA.lifeVision.tabLines&&DATA.lifeVision.tabLines[tabId])||null;
+    if(!lines||!lines.length) return '';
+    const line=lines[dayOfYear()%lines.length];
+    return '<div class="visionline">✦ '+esc(line)+'</div>';
+  }catch(e){ return ''; }
+}
 function render(){
   const d=DATA;
   $("#title").textContent = (d.meta&&d.meta.title) || "D-One · Central Brain";
@@ -709,7 +719,7 @@ function render(){
   const tRefs = todayRefs();
 
   function dOneBody(){
-    let dh='';
+    let dh=visionLine('done');
     dh+= `<div class="actionwrap">${taskGroupHTML(routed['d-one'], 'd-one')}</div>`;
     dh+= `<div class="strat-head"><span>Strategy &amp; parking</span><span class="strat-sub">grouped by theme · tap to open</span></div>`;
     ['A','B','C','D','E'].forEach(k=>{ if(k in AIK) dh+= areaTheme(AIK[k]); });
@@ -718,16 +728,16 @@ function render(){
     return dh;
   }
   function wealthBody(){
-    let wh=''; if('F' in AIK) wh+='<div class="subgrid">'+areaBlock(AIK['F'])+'</div>';
+    let wh=visionLine('wealth'); if('F' in AIK) wh+='<div class="subgrid">'+areaBlock(AIK['F'])+'</div>';
     wh+= taskGroupHTML(routed['wealth'], 'finance'); return wh;
   }
   function growthBody(){
-    let gh=''; if('G' in AIK) gh+='<div class="subgrid">'+areaBlock(AIK['G'])+'</div>';
+    let gh=visionLine('growth'); if('G' in AIK) gh+='<div class="subgrid">'+areaBlock(AIK['G'])+'</div>';
     gh+= goalBlock(); gh+= taskGroupHTML(routed['growth'], 'self');
     gh+= `<div class="grp"><p class="lab">Decision filter</p>`+filterBlock()+`</div>`; return gh;
   }
   function familyBody(){
-    let fh=''; if('H' in AIK) fh+='<div class="subgrid">'+areaBlock(AIK['H'])+'</div>';
+    let fh=visionLine('family'); if('H' in AIK) fh+='<div class="subgrid">'+areaBlock(AIK['H'])+'</div>';
     fh+= taskGroupHTML(routed['family'], 'family'); return fh;
   }
 
