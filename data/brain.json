@@ -2572,6 +2572,17 @@
         "due": "2026-09-07",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Arrange invisible speakers for Bo",
+        "context": "Arrange the invisible speakers for Bo (via Kevin). Related: Odoo task #4030 'Get invisible speakers from Kevin - 8'' (Poliform Show Room, Alerts stage). Also see D1Brain note 'Confirm if we can get invisible speakers from Kevin'.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-07",
+        "odoo": "task#4030 (related)",
+        "done": false
       }
     ],
     "waitingOn": [
