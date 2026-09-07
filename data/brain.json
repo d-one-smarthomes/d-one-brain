@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-06",
+    "updated": "2026-09-07",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2864,6 +2864,19 @@
     }
   ],
   "parkingLot": [
+    {
+      "title": "🏡 Val de Vie home — for-sale promo piece (final copy)",
+      "text": "# A Smart Home, Done Properly — Val de Vie Estate\n\nMost homes on the market are \"smart\" in name only: a video doorbell, a voice speaker, and a drawer full of half-forgotten apps. This one is different. It was designed, wired and programmed from the ground up by a smart-home specialist — the way it should be done — so the technology disappears into the architecture and simply works.\n\n## The Home Cinema\n\nAt the heart of the home is a genuine **R1-million Dolby Atmos home cinema** — not a TV on a wall, but a true theatre. Object-based Atmos surround places sound above and around you, so a passing helicopter travels overhead and rain falls all around your seat. It's the kind of room that turns a Friday night into an occasion and makes going out to the movies feel like a downgrade.\n\n## One Home, One Touch\n\nEvery system in the house speaks the same language, unified under **Lutron** lighting and shading control and a **Savant** smart-home platform. From a single elegant interface — a wall keypad, your phone, or a spoken word — you control:\n\n- **Lighting** — scene-based Lutron control that shifts the whole home from \"Morning\" to \"Entertain\" to \"Goodnight\" in one touch\n- **Blinds** — motorised shading that lowers against the afternoon sun and lifts to the view\n- **Air conditioning** — climate set per zone, and set to greet you when you arrive\n- **Multi-room audio** — the same track flowing through the home, or a different mood in every room\n- **Television & Apple TV** — every screen, one remote, no cable spaghetti\n- **Garage & intercom** — open the gate and speak to the door from anywhere\n- **Security & CCTV** — cameras and alarm at your fingertips, at home or across the world\n\nLeave for the weekend and the home tucks itself in — lights down, blinds closed, climate idling, cameras watching. Arrive home and it wakes to meet you.\n\n## Why It Matters\n\nInfrastructure like this cannot be retrofitted casually. The cabling, the conduit and the programming are woven into the walls, installed and commissioned by a professional AV house. For the next owner it means one thing: the hard part is already done, and done to a standard the market rarely offers. You inherit a home that is future-ready, effortless to live in, and genuinely rare.\n\n## Set on Val de Vie Estate\n\nAll of this sits within Val de Vie — one of South Africa's most sought-after secure lifestyle estates in the heart of the Cape Winelands. World-class security, sport and leisure at the doorstep, and a community that understands the value of living well.\n\n**A home that lives as beautifully as it looks. Enquire to arrange a private viewing.**\n",
+      "done": false,
+      "date": "2026-09-07",
+      "tags": [
+        "home",
+        "self"
+      ],
+      "notes": [
+        "Marketing blurb for the listing. Leads with the R1M Dolby Atmos cinema + full Lutron/Savant home automation. Also delivered as documents/val-de-vie-home-promo.md draft."
+      ]
+    },
     {
       "text": "New Cape Town contractor doing big/luxury projects — researched, need a warm intro.",
       "done": false,
