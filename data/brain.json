@@ -2109,7 +2109,7 @@
         "flag": true,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2402,7 +2402,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": null,
         "odoo": null,
         "done": false
@@ -2421,7 +2421,7 @@
       },
       {
         "title": "Talk to Tom (Brad's friend) about creating a D-One video",
-        "context": "Brad connected Darren with Tom to create a D-One video that gets Darren's message across to clients, aiming to reduce the number of show houses Darren has to do personally.",
+        "context": "Brad connected Darren with Tom to create a D-One video that gets Darren's message across to clients, aiming to reduce the number of show houses Darren has to do personally. Or go AI video. That also looks good. Maybe Nuku?…",
         "tags": [
           "d-one"
         ],
