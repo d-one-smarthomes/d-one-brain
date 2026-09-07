@@ -762,6 +762,18 @@
   "tasks": {
     "active": [
       {
+        "title": "Schedule a few novel experiences with Amanda",
+        "context": "Plan some cool, novel dates together — even something simple like lunch in Stellenbosch or a dinner out. Keep it light and fun, not another to-do.",
+        "tags": [
+          "marriage"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
         "title": "Brandt security",
         "context": "",
         "tags": [
