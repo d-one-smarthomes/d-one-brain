@@ -2133,7 +2133,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Clerk — push for deposit to lock in pricing",
@@ -2264,7 +2264,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Stafford"
       },
       {
