@@ -2549,6 +2549,18 @@
         "odoo": null,
         "done": false,
         "owner": "Stafford"
+      },
+      {
+        "title": "Talk to Berna about Tech Meeting tag for Stafford to use for tech meetings",
+        "context": "",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Berna"
       }
     ],
     "waitingOn": [
