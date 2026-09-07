@@ -362,6 +362,22 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-06",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "",
+        "energy": null,
+        "chaseMode": false,
+        "reflection": "",
+        "practice": {
+          "move": false,
+          "silence": false,
+          "gratitude": false,
+          "listen": false
+        }
       }
     ],
     "practice": {
