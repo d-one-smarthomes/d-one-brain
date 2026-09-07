@@ -2561,6 +2561,17 @@
         "odoo": null,
         "done": false,
         "owner": "Berna"
+      },
+      {
+        "title": "Call with Paul — Brandt catchup",
+        "context": "Brandt project",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
