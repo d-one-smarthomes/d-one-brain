@@ -805,7 +805,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
