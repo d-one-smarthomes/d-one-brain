@@ -2560,6 +2560,18 @@
         "due": "2026-09-07",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Svelte — order 2nd SIP gateway; resolve ONT/power routing to Common; add Dream Machine for host access",
+        "context": "ONT lives in Common (his unit needs its own SIP gateway). Option: run power from his unit into Common to feed it. Also needs a Dream Machine (UniFi) installed to host network access.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Mekyle"
       }
     ],
     "waitingOn": [
