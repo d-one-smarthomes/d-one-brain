@@ -2537,6 +2537,18 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
+      },
+      {
+        "title": "Talk to Stafford about morning meeting catchups — falling flat",
+        "context": "Need to reset the format; drafted email options (direct/solution-oriented vs asking Stafford's read first) but not yet sent.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Stafford"
       }
     ],
     "waitingOn": [
