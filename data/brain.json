@@ -2644,6 +2644,18 @@
         "odoo": null,
         "done": false,
         "url": "https://meet.google.com/akj-wywv-kyc"
+      },
+      {
+        "title": "Set SMART goals for next EO Forum 5%",
+        "context": "Reminder for the 5% reflection prep (due 10 Sep) — make sure the goals I set are SMART, not vague.",
+        "tags": [
+          "social",
+          "self"
+        ],
+        "flag": false,
+        "due": "2026-09-10",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
@@ -3039,6 +3051,13 @@
         "self"
       ],
       "note": "Amanda initiated last night — a real breakthrough. Acknowledge and celebrate this progress; keep it in mind for the marriage/personal-growth work with Katie."
+    },
+    {
+      "date": "2026-09-07",
+      "tags": [
+        "self"
+      ],
+      "note": "Feeling more connected spiritually — daily practice is powerful. Starting to see the love, life and God around me; looking up from the phone and realising it was there all along."
     }
   ],
   "parkingLot": [
