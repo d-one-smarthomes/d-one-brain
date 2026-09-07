@@ -142,11 +142,11 @@
       "intention": "Stable"
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "16:40",
+      "energy": 9,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "Worked with Berna. Went well"
     },
     "history": [
       {
