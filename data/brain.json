@@ -2089,18 +2089,6 @@
         "url": ""
       },
       {
-        "title": "Blinds (27 Leeukoppie)",
-        "context": "Odoo task · Blinds on the 27 Leeukoppie project [odoo-task:4021]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4021&model=project.task&view_type=form"
-      },
-      {
         "title": "AC control",
         "context": "Odoo activity · To-Do on Service (project.task) [odoo-act:327]",
         "tags": [
@@ -2572,6 +2560,90 @@
         "due": "2026-09-07",
         "odoo": null,
         "done": true
+      },
+      {
+        "title": "Get invisible speakers from Kevin - 8'",
+        "context": "Odoo task · Poliform Show Room project [odoo-task:4030]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
+      },
+      {
+        "title": "Design brief (Svelte)",
+        "context": "Odoo task · Svelte project [odoo-task:4800]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
+      },
+      {
+        "title": "Email Andrew at Svelte (get details from Stafford first)",
+        "context": "Odoo activity · To-Do on 'Installation Labour' (project.task) [odoo-act:480]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
+      },
+      {
+        "title": "Prepare conduit schedule + equipment specification (31 Kerzner Estate)",
+        "context": "Odoo activity · To-Do on '31 Kerzner Estate' (crm.lead) [odoo-act:486]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Brief Svelte client: weekend fault was afihost password change, not D1 equipment",
+        "context": "Odoo activity · To-Do on 'Design brief' (project.task). Note: inform client the weekend's fault was not a D1 equipment failure but afihost changing passwords; explain why access control is on the common network and that those areas should be locked, or sell separate equipment to isolate his penthouse (wiring changes etc). [odoo-act:482]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-08",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
+      },
+      {
+        "title": "31 Kerzner: confirm whole quote incl. labour or system only? + label labour type",
+        "context": "Odoo activity · To-Do on '31 Kerzner Estate' (crm.lead). Q: bring in the entire quote with labour or only the system (+ Proforma Invoice)? Note: labour is split between systems and doesn't indicate type — Installation, Cabling & Programming? [odoo-act:494]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-08",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Prep for The Vic — architectural speakers & media room design (9 Sep 12:00)",
+        "context": "Calendar: 'The Vic — Architectural Speakers & Media Room Design', 9 Sep 12:00 (Google Meet), organised by Caleb with KMH, ARRCC & Kaikoura. External design meeting — Darren blocked his own 'Vic Meeting' slot; prep speaker/media-room design input.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-09",
+        "odoo": null,
+        "done": false,
+        "url": "https://meet.google.com/akj-wywv-kyc"
       }
     ],
     "waitingOn": [
@@ -2920,6 +2992,18 @@
         "due": "2026-09-07",
         "odoo": "task#4030 (related)",
         "done": true
+      },
+      {
+        "title": "Blinds (27 Leeukoppie)",
+        "context": "Odoo task · Blinds on the 27 Leeukoppie project [odoo-task:4021] ✓ completed in Odoo 2026-09-07",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4021&model=project.task&view_type=form"
       }
     ]
   },
