@@ -139,7 +139,7 @@
     "morning": {
       "done": true,
       "at": "06:32",
-      "intention": ""
+      "intention": "Stable"
     },
     "evening": {
       "done": false,
@@ -770,7 +770,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Planetworld discount on products",
@@ -781,7 +781,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=4771&model=project.task&view_type=form"
       },
       {
@@ -2535,7 +2535,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Stafford"
       },
       {
@@ -2547,7 +2547,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Berna"
       },
       {
@@ -2559,19 +2559,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false
-      },
-      {
-        "title": "Svelte — order 2nd SIP gateway; resolve ONT/power routing to Common; add Dream Machine for host access",
-        "context": "ONT lives in Common (his unit needs its own SIP gateway). Option: run power from his unit into Common to feed it. Also needs a Dream Machine (UniFi) installed to host network access.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": false,
-        "owner": "Mekyle"
+        "done": true
       }
     ],
     "waitingOn": [
@@ -2586,18 +2574,6 @@
         "odoo": null,
         "done": false,
         "since": "2026-08-23"
-      },
-      {
-        "title": "Boho and Bubbly — Amira to set up meeting this week",
-        "context": "In Amira's court; meeting to be set up this week. (src: Sales catchup, 1 Sep 2026)",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "since": "2026-09-01"
       }
     ],
     "someday": [
