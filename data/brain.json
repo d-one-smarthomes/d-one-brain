@@ -812,18 +812,6 @@
         "done": true
       },
       {
-        "title": "Planetworld discount on products",
-        "context": "Odoo task · assigned to Amanda, Berna, Caleb & Darren [odoo-task:4771]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4771&model=project.task&view_type=form"
-      },
-      {
         "title": "KE31 Home Automation — client happy to proceed, book appointment",
         "context": "Email from Jeanmari (Metropolis Design): client met and is happy to proceed with the appointment; latest quote/proposal linked. Addressed to Christelle (Prodigious) & Darren.",
         "tags": [
@@ -2601,66 +2589,6 @@
         "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
       },
       {
-        "title": "Design brief (Svelte)",
-        "context": "Odoo task · Svelte project [odoo-task:4800]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
-      },
-      {
-        "title": "Email Andrew at Svelte (get details from Stafford first)",
-        "context": "Odoo activity · To-Do on 'Installation Labour' (project.task) [odoo-act:480]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
-      },
-      {
-        "title": "Prepare conduit schedule + equipment specification (31 Kerzner Estate)",
-        "context": "Odoo activity · To-Do on '31 Kerzner Estate' (crm.lead) [odoo-act:486]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Brief Svelte client: weekend fault was afihost password change, not D1 equipment",
-        "context": "Odoo activity · To-Do on 'Design brief' (project.task). Note: inform client the weekend's fault was not a D1 equipment failure but afihost changing passwords; explain why access control is on the common network and that those areas should be locked, or sell separate equipment to isolate his penthouse (wiring changes etc). [odoo-act:482]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-08",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
-      },
-      {
-        "title": "31 Kerzner: confirm whole quote incl. labour or system only? + label labour type",
-        "context": "Odoo activity · To-Do on '31 Kerzner Estate' (crm.lead). Q: bring in the entire quote with labour or only the system (+ Proforma Invoice)? Note: labour is split between systems and doesn't indicate type — Installation, Cabling & Programming? [odoo-act:494]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-08",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Prep for The Vic — architectural speakers & media room design (9 Sep 12:00)",
         "context": "Calendar: 'The Vic — Architectural Speakers & Media Room Design', 9 Sep 12:00 (Google Meet), organised by Caleb with KMH, ARRCC & Kaikoura. External design meeting — Darren blocked his own 'Vic Meeting' slot; prep speaker/media-room design input.",
         "tags": [
@@ -2683,6 +2611,92 @@
         "due": "2026-09-10",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Send Architect the spec sheet and conduit schedule",
+        "context": "Odoo activity · To-Do on 31 Kerzner Estate (crm.lead) [odoo-act:500]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Discuss Blind with architect",
+        "context": "Odoo activity · To-Do on 31 Kerzner Estate (crm.lead) [odoo-act:507]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Forward keypad engravings list to Andrew (once Tristan sends it)",
+        "context": "Odoo activity · To-Do on Installation Labour (project.task). Note: once Tristan sends the keypad engravings list, forward it to Andrew. [odoo-act:520]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-11",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
+      },
+      {
+        "title": "Send keypad labels to Darren",
+        "context": "Odoo activity · To-Do on 'Send Andrew keypad labels in spreadsheet to confirm for engraving' (project.task) [odoo-act:523]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-09",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=491&model=project.task&view_type=form"
+      },
+      {
+        "title": "Quote additional security cameras — Terre Paisible",
+        "context": "Renate (Terre Paisible) requested a quotation for installing additional security cameras (email 8 Sep, to tech@ & systems@, cc Darren). Camera-access handover already resolved by Mekyle.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "",
+        "owner": "Caleb"
+      },
+      {
+        "title": "Send consolidated change order / revised quote — House Gnodde",
+        "context": "Tiaan (HBQS, QS) asked Caleb for a consolidated change order or revised quote covering lighting control, access control, audio, CCTV and system integration (email 8 Sep, cc Darren).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "",
+        "owner": "Caleb"
+      },
+      {
+        "title": "Reply to Paul (Trustgarde) — confirm internal security fit timing (5 Sunset Close)",
+        "context": "Paul (Trustgarde) asked Darren directly when D-One will fit the internal security equipment at 5 Sunset Close, Llandudno. Cameron suggests final fit in the last week of September; conduits for sirens already in place (email 8 Sep).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
@@ -3043,6 +3057,78 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=4021&model=project.task&view_type=form"
+      },
+      {
+        "title": "Planetworld discount on products",
+        "context": "Odoo task · assigned to Amanda, Berna, Caleb & Darren [odoo-task:4771] ✓ completed in Odoo 2026-09-08",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4771&model=project.task&view_type=form"
+      },
+      {
+        "title": "Design brief (Svelte)",
+        "context": "Odoo task · Svelte project [odoo-task:4800] ✓ completed in Odoo 2026-09-08",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
+      },
+      {
+        "title": "Email Andrew at Svelte (get details from Stafford first)",
+        "context": "Odoo activity · To-Do on 'Installation Labour' (project.task) [odoo-act:480] ✓ completed in Odoo 2026-09-08",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
+      },
+      {
+        "title": "Prepare conduit schedule + equipment specification (31 Kerzner Estate)",
+        "context": "Odoo activity · To-Do on '31 Kerzner Estate' (crm.lead) [odoo-act:486] ✓ completed in Odoo 2026-09-08",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Brief Svelte client: weekend fault was afihost password change, not D1 equipment",
+        "context": "Odoo activity · To-Do on 'Design brief' (project.task). Note: inform client the weekend's fault was not a D1 equipment failure but afihost changing passwords; explain why access control is on the common network and that those areas should be locked, or sell separate equipment to isolate his penthouse (wiring changes etc). [odoo-act:482] ✓ completed in Odoo 2026-09-08",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-08",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
+      },
+      {
+        "title": "31 Kerzner: confirm whole quote incl. labour or system only? + label labour type",
+        "context": "Odoo activity · To-Do on '31 Kerzner Estate' (crm.lead). Q: bring in the entire quote with labour or only the system (+ Proforma Invoice)? Note: labour is split between systems and doesn't indicate type — Installation, Cabling & Programming? [odoo-act:494] ✓ completed in Odoo 2026-09-08",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-08",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
       }
     ]
   },
