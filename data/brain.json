@@ -142,11 +142,11 @@
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "15:59",
+      "energy": 9,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "Exercise in the morning is good. Great meetings. No downers."
     },
     "history": [
       {
@@ -786,7 +786,7 @@
         "flag": false,
         "due": "2026-09-08",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Schedule a few novel experiences with Amanda",
@@ -844,7 +844,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2657,7 +2657,7 @@
         "flag": false,
         "due": "2026-09-08",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
       },
       {
