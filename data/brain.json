@@ -2598,7 +2598,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
       },
       {
@@ -2610,7 +2610,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
       },
       {
@@ -2634,7 +2634,7 @@
         "flag": false,
         "due": "2026-09-08",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=4800&model=project.task&view_type=form"
       },
       {
