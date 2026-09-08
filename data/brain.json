@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-07",
+    "updated": "2026-09-08",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -130,23 +130,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "priorities": {
-      "day": "Berna integrated",
+      "day": "Manage my energy",
       "week": "Katie homework video",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "06:32",
-      "intention": "Stable"
+      "at": "06:28",
+      "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "16:40",
-      "energy": 9,
+      "done": false,
+      "at": "",
+      "energy": null,
       "chaseMode": false,
-      "reflection": "Worked with Berna. Went well"
+      "reflection": ""
     },
     "history": [
       {
@@ -377,6 +377,22 @@
           "silence": false,
           "gratitude": false,
           "listen": false
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Berna integrated",
+        "intention": "Stable",
+        "energy": 9,
+        "chaseMode": false,
+        "reflection": "Worked with Berna. Went well",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
         }
       }
     ],
