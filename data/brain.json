@@ -2420,7 +2420,7 @@
         "flag": true,
         "due": "2026-09-09",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Respond to & prep for Buchu House + 12 home automation meeting",
