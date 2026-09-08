@@ -1643,7 +1643,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -1824,7 +1824,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-09-08",
         "odoo": null,
         "done": false,
@@ -2647,18 +2647,6 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
-      },
-      {
-        "title": "Send keypad labels to Darren",
-        "context": "Odoo activity · To-Do on 'Send Andrew keypad labels in spreadsheet to confirm for engraving' (project.task) [odoo-act:523]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-09",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=491&model=project.task&view_type=form"
       },
       {
         "title": "Quote additional security cameras — Terre Paisible",
