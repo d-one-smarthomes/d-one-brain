@@ -778,6 +778,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Call Tyrone back",
+        "context": "Fancourt project",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-08",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Schedule a few novel experiences with Amanda",
         "context": "Plan some cool, novel dates together — even something simple like lunch in Stellenbosch or a dinner out. Keep it light and fun, not another to-do.",
         "tags": [
