@@ -1304,7 +1304,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": "act#163 crm.lead",
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up with Pieter — 987 Val de Vie",
@@ -1583,7 +1583,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-09-07",
         "odoo": null,
         "done": false,
@@ -2419,7 +2419,7 @@
           "d-one"
         ],
         "flag": true,
-        "due": null,
+        "due": "2026-09-09",
         "odoo": null,
         "done": false
       },
