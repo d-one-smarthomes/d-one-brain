@@ -2723,6 +2723,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Get friends birthdays loaded onto my calendar",
+        "context": "",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
