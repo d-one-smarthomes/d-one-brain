@@ -930,17 +930,6 @@
         "done": false
       },
       {
-        "title": "Arrange boat service at Anchor Boat Shop",
-        "context": "Coordinate a service day with John and Brad (Muizenberg?), fetch the boat, and take it in to Anchor Boat Shop. Book an allocated day to get it all done.",
-        "tags": [
-          "adventure"
-        ],
-        "flag": true,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": false
-      },
-      {
         "title": "Buy power cable for lounge light installation",
         "context": "Power cable needed for the light installation in the lounge at home.",
         "tags": [
@@ -2800,6 +2789,17 @@
       }
     ],
     "done": [
+      {
+        "title": "Arrange boat service at Anchor Boat Shop",
+        "context": "Coordinate a service day with John and Brad (Muizenberg?), fetch the boat, and take it in to Anchor Boat Shop. Book an allocated day to get it all done.",
+        "tags": [
+          "adventure"
+        ],
+        "flag": true,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true
+      },
       {
         "title": "Set up Claude ↔ Odoo connection",
         "context": "Stand up the Claude-to-Odoo MCP/API integration (Phase 2 priority) so Claude can read pipeline, quotes, invoices and CRM directly from d-one.odoo.com. Needs Odoo API key + endpoint. Bapple/Petrie can assist.",
