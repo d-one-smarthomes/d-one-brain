@@ -2734,6 +2734,42 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Send proposal + reasons to install LAN cable now (trenches open)",
+        "context": "od@origincontours.com (Origin Contours) emailed 9 Sep asking for a proposal motivating installing LAN cable now while the trenches are still open — follow-up to a phone call.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Send keypad labels to Darren (confirm for engraving)",
+        "context": "Odoo activity · To-Do on project.task 'Send Andrew keypad labels in spreadsheet to confirm for engraving' [odoo-act:523]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-09",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=491&model=project.task&view_type=form"
+      },
+      {
+        "title": "Complete Polar Bear Design dealer application + payment",
+        "context": "Odoo activity · To-Do on project.task 'Complete Polar Bear Design dealer application + payment' — overseas dealer payment ~£2,224.80 (PI-320494), banking info attached in Odoo [odoo-act:529]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-10",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [
