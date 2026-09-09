@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2685,6 +2685,18 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Set up yoga and biohacking session with Dave and James",
+        "context": "",
+        "tags": [
+          "social",
+          "self"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
