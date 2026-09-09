@@ -2594,18 +2594,6 @@
         "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
       },
       {
-        "title": "Prep for The Vic — architectural speakers & media room design (9 Sep 12:00)",
-        "context": "Calendar: 'The Vic — Architectural Speakers & Media Room Design', 9 Sep 12:00 (Google Meet), organised by Caleb with KMH, ARRCC & Kaikoura. External design meeting — Darren blocked his own 'Vic Meeting' slot; prep speaker/media-room design input.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-09",
-        "odoo": null,
-        "done": false,
-        "url": "https://meet.google.com/akj-wywv-kyc"
-      },
-      {
         "title": "Set SMART goals for next EO Forum 5%",
         "context": "Reminder for the 5% reflection prep (due 10 Sep) — make sure the goals I set are SMART, not vague.",
         "tags": [
@@ -2789,6 +2777,18 @@
       }
     ],
     "done": [
+      {
+        "title": "Prep for The Vic — architectural speakers & media room design (9 Sep 12:00)",
+        "context": "Calendar: 'The Vic — Architectural Speakers & Media Room Design', 9 Sep 12:00 (Google Meet), organised by Caleb with KMH, ARRCC & Kaikoura. External design meeting — Darren blocked his own 'Vic Meeting' slot; prep speaker/media-room design input.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-09",
+        "odoo": null,
+        "done": true,
+        "url": "https://meet.google.com/akj-wywv-kyc"
+      },
       {
         "title": "Arrange boat service at Anchor Boat Shop",
         "context": "Coordinate a service day with John and Brad (Muizenberg?), fetch the boat, and take it in to Anchor Boat Shop. Book an allocated day to get it all done.",
