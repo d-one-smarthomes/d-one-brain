@@ -2713,6 +2713,39 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Plan date night weekend with Amanda at Jason Swanepoel's cabin",
+        "context": "Look into booking a getaway weekend with Amanda at Jason Swanepoel's cabin.",
+        "tags": [
+          "marriage"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Plan a date in Stellenbosch with Amanda",
+        "context": "",
+        "tags": [
+          "marriage"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Plan a date in Cape Town with Amanda",
+        "context": "",
+        "tags": [
+          "marriage"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
