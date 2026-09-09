@@ -137,9 +137,9 @@
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": false,
-      "at": "",
-      "intention": ""
+      "done": true,
+      "at": "11:48",
+      "intention": "Enjoy the attention on my bday"
     },
     "evening": {
       "done": false,
