@@ -130,23 +130,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "priorities": {
-      "day": "Manage my energy",
+      "day": "",
       "week": "Katie homework video",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": true,
-      "at": "06:28",
+      "done": false,
+      "at": "",
       "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "15:59",
-      "energy": 9,
+      "done": false,
+      "at": "",
+      "energy": null,
       "chaseMode": false,
-      "reflection": "Exercise in the morning is good. Great meetings. No downers."
+      "reflection": ""
     },
     "history": [
       {
@@ -388,6 +388,22 @@
         "energy": 9,
         "chaseMode": false,
         "reflection": "Worked with Berna. Went well",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
+      },
+      {
+        "date": "2026-09-08",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Manage my energy",
+        "intention": "",
+        "energy": 9,
+        "chaseMode": false,
+        "reflection": "Exercise in the morning is good. Great meetings. No downers.",
         "practice": {
           "move": true,
           "silence": true,
@@ -3175,14 +3191,14 @@
   ],
   "parkingLot": [
     {
-      "title": "Reflection, September 8, day before birthday",
       "text": "Great day. Deep gratitude for life right now: the estate, being in Cape Town, exciting projects for the business, a great team, and momentum. Looking at buying a new house and selling the current one. Amazing surf session with Caleb at sunset at Glen Beach, great waves. Cape Town was buzzing, Clifton, Camp's Bay, and Sea Point all packed with people enjoying the day. Feeling good heading into birthday.",
+      "done": false,
+      "title": "Reflection, September 8, day before birthday",
       "tags": [
         "personal",
         "self"
       ],
-      "date": "2026-09-08",
-      "done": false
+      "date": "2026-09-08"
     },
     {
       "text": "# Extrovert Energy Insight — from Katie's video\n\nKatie's video on personalities (introvert/extrovert) shed light on something obvious in hindsight: I am an extrovert, and my energy struggles trace back to my daily work structure.\n\nI work alone for most of the day, which is depleting me — not the work itself. If I restructure my work so I'm WITH the team and working alongside people rather than solo, I should be getting CHARGED during the day instead of drained.\n\nThis feeds into personal growth as well as day-to-day energy management — keep it in mind for the 5% update, and keep as a running note under learnings with Katie.",
