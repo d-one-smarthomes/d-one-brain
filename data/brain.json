@@ -142,11 +142,11 @@
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "16:03",
+      "energy": 9,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "I just grafted the whole day. Tomorrow will be chill."
     },
     "history": [
       {
