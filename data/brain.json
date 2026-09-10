@@ -130,16 +130,16 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "priorities": {
       "day": "",
       "week": "Katie homework video",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": true,
-      "at": "11:48",
-      "intention": "Enjoy the attention on my bday"
+      "done": false,
+      "at": "",
+      "intention": ""
     },
     "evening": {
       "done": false,
@@ -410,13 +410,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-09",
+        "morning": true,
+        "evening": false,
+        "dayPriority": "",
+        "intention": "Enjoy the attention on my bday",
+        "energy": null,
+        "chaseMode": false,
+        "reflection": "",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
-      "move": true,
-      "silence": true,
-      "gratitude": true,
-      "listen": true
+      "move": false,
+      "silence": false,
+      "gratitude": false,
+      "listen": false
     }
   },
   "areas": [
@@ -2210,7 +2226,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -2341,7 +2357,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=508&model=crm.lead&view_type=form"
       },
       {
@@ -2518,7 +2534,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Caleb"
       },
       {
@@ -2622,7 +2638,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": "2026-09-16",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
@@ -2648,7 +2664,7 @@
         "flag": false,
         "due": "2026-09-14",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
       },
       {
@@ -2657,8 +2673,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
-        "due": "2026-09-17",
+        "flag": true,
+        "due": "2026-09-11",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
@@ -2672,7 +2688,7 @@
         "flag": false,
         "due": "2026-09-11",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
       },
       {
@@ -2684,7 +2700,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "",
         "owner": "Caleb"
       },
@@ -2697,7 +2713,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "",
         "owner": "Caleb"
       },
@@ -2710,7 +2726,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2778,7 +2794,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2790,7 +2806,7 @@
         "flag": false,
         "due": "2026-09-09",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=491&model=project.task&view_type=form"
       },
       {
@@ -2802,7 +2818,7 @@
         "flag": false,
         "due": "2026-09-10",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
       },
       {
@@ -2812,9 +2828,9 @@
           "d-one"
         ],
         "flag": false,
-        "done": false,
         "due": null,
         "odoo": null,
+        "done": false,
         "owner": null
       }
     ],
