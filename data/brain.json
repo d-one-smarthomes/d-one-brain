@@ -794,6 +794,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Follow up with Rick re EO polo event",
+        "context": "",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": "2026-09-10",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Get Dave and Mike to yoga tomorrow",
         "context": "Invite/arrange Dave and Mike for the yoga session tomorrow (11 Sep).",
         "tags": [
