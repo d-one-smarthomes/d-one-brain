@@ -2793,6 +2793,18 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
+      },
+      {
+        "title": "Add Odoo API live-pricing pull + Odoo-import export format to the quote/estimator skill",
+        "context": "Quote skill should pull live pricing directly from Odoo via the API instead of static pricelist, and should also produce output in Odoo's import format so quotes can be imported straight back into Odoo.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "done": false,
+        "due": null,
+        "odoo": null,
+        "owner": null
       }
     ],
     "waitingOn": [
