@@ -2349,18 +2349,6 @@
         "done": false
       },
       {
-        "title": "Meet with Johan — 1593 Val de Vie",
-        "context": "Odoo activity · To-Do on 1593 Val de Vie (crm.lead) — meet with Johan. [odoo-act:360]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-07",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=508&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Get installed cameras live at du Toit / Godwin site — security priority",
         "context": "Lorette du Toit emailed (Darren cc'd) asking Darren + Caleb to prioritise getting the already-installed cameras up and running before the streetside wall is demolished next week — appliances arriving this week, on-site guard from Mon. Darren forwarded to tech@. From Gmail 2026-09-01.",
         "tags": [
@@ -2798,30 +2786,6 @@
         "url": ""
       },
       {
-        "title": "Send keypad labels to Darren (confirm for engraving)",
-        "context": "Odoo activity · To-Do on project.task 'Send Andrew keypad labels in spreadsheet to confirm for engraving' [odoo-act:523]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-09",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=491&model=project.task&view_type=form"
-      },
-      {
-        "title": "Complete Polar Bear Design dealer application + payment",
-        "context": "Odoo activity · To-Do on project.task 'Complete Polar Bear Design dealer application + payment' — overseas dealer payment ~£2,224.80 (PI-320494), banking info attached in Odoo [odoo-act:529]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-10",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
-      },
-      {
         "title": "Add Odoo API live-pricing pull + Odoo-import export format to the quote/estimator skill",
         "context": "Quote skill should pull live pricing directly from Odoo via the API instead of static pricelist, and should also produce output in Odoo's import format so quotes can be imported straight back into Odoo.",
         "tags": [
@@ -2832,6 +2796,54 @@
         "odoo": null,
         "done": false,
         "owner": null
+      },
+      {
+        "title": "Send detailed Security/Network/AV proposal & quote — 2308 House Bell",
+        "context": "W2 Architects (Thelishia Moodley, cc Hugh) requested D-One's detailed proposal & quote for the Security, Network and AV systems. Site: 13 Fisherman's Bend, Llandudno. Updated electrical layouts + 3D model link supplied for CCTV cross-referencing. Darren replied 'Will do' (10 Sep).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Advise on markup — Motor Court boardroom blind fabric replacement",
+        "context": "tech@d-one forwarded the boardroom blind fabric replacement quote and asked Darren to advise whether to add any markup; once confirmed, Caleb converts it to a change order (10 Sep).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Review Contract Instruction 023 – List for Completion (Gentleman's Estate Erf 980)",
+        "context": "Herman (The Thynk Box) issued CI 023 – List for Completion under the JBCC Principal Building Agreement (Ed 6.2) for Gentleman's Estate Erf 980, 10 Sep. Darren a direct recipient — check for D-One completion/snag items.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Tech Meeting — Odoo & systems items",
+        "context": "Odoo task · Internal project [odoo-task:5081]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=5081&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [
@@ -3287,6 +3299,42 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Meet with Johan — 1593 Val de Vie",
+        "context": "Odoo activity · To-Do on 1593 Val de Vie (crm.lead) — meet with Johan. [odoo-act:360] ✓ completed in Odoo 2026-09-10",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-07",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=508&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Send keypad labels to Darren (confirm for engraving)",
+        "context": "Odoo activity · To-Do on project.task 'Send Andrew keypad labels in spreadsheet to confirm for engraving' [odoo-act:523] ✓ completed in Odoo 2026-09-10",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-09",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=491&model=project.task&view_type=form"
+      },
+      {
+        "title": "Complete Polar Bear Design dealer application + payment",
+        "context": "Odoo activity · To-Do on project.task 'Complete Polar Bear Design dealer application + payment' — overseas dealer payment ~£2,224.80 (PI-320494), banking info attached in Odoo [odoo-act:529] ✓ completed in Odoo 2026-09-10",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-10",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
       }
     ]
   },
