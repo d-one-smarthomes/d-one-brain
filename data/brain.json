@@ -834,7 +834,7 @@
         "flag": true,
         "due": "2026-09-11",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up with Rick re EO polo event",
@@ -845,7 +845,7 @@
         "flag": false,
         "due": "2026-09-10",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Get Dave and Mike to yoga tomorrow",
@@ -857,7 +857,7 @@
         "flag": true,
         "due": "2026-09-10",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Wish Dave happy birthday",
@@ -868,7 +868,7 @@
         "flag": true,
         "due": "2026-09-10",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Call Tyrone back",
@@ -1070,7 +1070,7 @@
           "self"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -1227,7 +1227,7 @@
           "marriage"
         ],
         "flag": true,
-        "due": "2026-09-07",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -1249,7 +1249,7 @@
           "marriage"
         ],
         "flag": false,
-        "due": "2026-09-05",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -1316,7 +1316,7 @@
           "social"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -1349,7 +1349,7 @@
           "social"
         ],
         "flag": false,
-        "due": "2026-09-05",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -1360,7 +1360,7 @@
           "social"
         ],
         "flag": false,
-        "due": "2026-09-05",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -1449,7 +1449,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": null,
         "odoo": "act#105 crm.lead",
         "done": false
       },
@@ -1827,7 +1827,7 @@
           "self"
         ],
         "flag": true,
-        "due": "2026-09-07",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -1895,7 +1895,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=510&model=crm.lead&view_type=form"
@@ -1907,7 +1907,7 @@
           "d-one"
         ],
         "flag": true,
-        "due": "2026-09-08",
+        "due": "2026-09-14",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=491&model=crm.lead&view_type=form"
@@ -2110,7 +2110,7 @@
           "self"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": null,
         "odoo": null,
         "done": false
       },
@@ -2192,7 +2192,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-07",
+        "due": "2026-09-16",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4020&model=project.task&view_type=form"
@@ -2371,7 +2371,7 @@
           "social"
         ],
         "flag": true,
-        "due": "2026-09-07",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -2408,7 +2408,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -2468,7 +2468,7 @@
         "flag": false,
         "due": "2026-09-07",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Reschedule appointment with Katie",
@@ -2594,7 +2594,7 @@
           "social"
         ],
         "flag": true,
-        "due": "2026-09-10",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false,
         "url": null
@@ -2666,7 +2666,7 @@
           "self"
         ],
         "flag": false,
-        "due": "2026-09-10",
+        "due": "2026-09-12",
         "odoo": null,
         "done": false
       },
@@ -2691,7 +2691,7 @@
         "flag": true,
         "due": "2026-09-11",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
       },
       {
@@ -2869,7 +2869,7 @@
         "flag": false,
         "due": "2026-08-23",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=5081&model=project.task&view_type=form"
       }
     ],
