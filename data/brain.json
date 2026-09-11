@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-10",
+    "updated": "2026-09-11",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -130,23 +130,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "priorities": {
       "day": "",
       "week": "Katie homework video",
       "month": "Efficient Resting"
     },
     "morning": {
-      "done": false,
-      "at": "",
-      "intention": ""
+      "done": true,
+      "at": "15:37",
+      "intention": "Complete"
     },
     "evening": {
       "done": true,
-      "at": "16:03",
-      "energy": 9,
-      "chaseMode": false,
-      "reflection": "I just grafted the whole day. Tomorrow will be chill."
+      "at": "15:37",
+      "energy": 7,
+      "chaseMode": true,
+      "reflection": "Catchup"
     },
     "history": [
       {
@@ -426,12 +426,28 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-10",
+        "morning": false,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "",
+        "energy": 9,
+        "chaseMode": false,
+        "reflection": "I just grafted the whole day. Tomorrow will be chill.",
+        "practice": {
+          "move": false,
+          "silence": false,
+          "gratitude": false,
+          "listen": false
+        }
       }
     ],
     "practice": {
-      "move": false,
-      "silence": false,
-      "gratitude": false,
+      "move": true,
+      "silence": true,
+      "gratitude": true,
       "listen": false
     }
   },
