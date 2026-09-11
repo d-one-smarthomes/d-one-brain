@@ -2833,7 +2833,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2845,7 +2845,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2857,7 +2857,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
