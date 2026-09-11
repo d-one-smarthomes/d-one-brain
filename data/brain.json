@@ -826,6 +826,17 @@
   "tasks": {
     "active": [
       {
+        "title": "33 Higgo Rd — all 9 cameras offline / not streaming (OmniVision)",
+        "context": "OmniVision control room (lumkaj@omnivisionsecurity.co.za) reported all 9 cameras offline at 33 Higgo Rd, Higgovale on 11 Sep — also flagged this morning by siphiwer. Emailed to darren@/tech@/smart@d-one. D-One to investigate and restore streaming. Source: Gmail 11 Sep.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-11",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Submit Buchu Villa September claim to Metric (by 15th)",
         "context": "New Metric monthly claim procedure from Sept 2026: email the claim to claims@metricgroup.co.za ONLY, subject \"Buchu Villa – D-One – claim September 2026\", by the 15th of the month. First claim under revised procedure due Tue 15 Sep 2026; after the 15th moves to next cycle. Source: Gmail 11 Sep (Metric).",
         "tags": [
