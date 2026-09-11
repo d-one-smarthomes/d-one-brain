@@ -826,6 +826,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Submit Buchu Villa September claim to Metric (by 15th)",
+        "context": "New Metric monthly claim procedure from Sept 2026: email the claim to claims@metricgroup.co.za ONLY, subject \"Buchu Villa – D-One – claim September 2026\", by the 15th of the month. First claim under revised procedure due Tue 15 Sep 2026; after the 15th moves to next cycle. Source: Gmail 11 Sep (Metric).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Sign & return Buchu Villa Letter of Appointment (Metric)",
         "context": "Metric Construction (mark@metricgroup.co.za) issued D-One's Letter of Appointment for Buchu Villa home automation (10 Arcadia Rd, Bantry Bay), CI008. Initial & sign the Appointment Letter + Special Conditions and return with signed Mandatory Agreement, proof of public liability insurance and H&S file — within one week of 11 Sep. Source: Gmail 11 Sep.",
         "tags": [
