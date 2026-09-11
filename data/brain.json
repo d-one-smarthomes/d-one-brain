@@ -826,6 +826,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Sign & return Buchu Villa Letter of Appointment (Metric)",
+        "context": "Metric Construction (mark@metricgroup.co.za) issued D-One's Letter of Appointment for Buchu Villa home automation (10 Arcadia Rd, Bantry Bay), CI008. Initial & sign the Appointment Letter + Special Conditions and return with signed Mandatory Agreement, proof of public liability insurance and H&S file — within one week of 11 Sep. Source: Gmail 11 Sep.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-18",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "⚠️ D1Brain auto-sync issue — assess",
         "context": "Odoo pull FAILED in the 04:00 SAST 2026-09-11 auto-sync (silent cloud run). The odoo-list endpoint (d1brain.netlify.app) is blocked by this cloud session's egress policy (curl → HTTP 403 connect_rejected / org policy), WebFetch needs interactive approval (not possible in a silent run), and there's no Odoo MCP tool. So per Guard A, NO Odoo reconciliation ran this cycle — completed Odoo items were NOT auto-cleared, and no Odoo tasks/activities were synced. Gmail + Calendar were checked OK and yielded nothing genuinely new (House Bell proposal, Motor Court blind markup, Gentleman's Estate CI023, and EO 5% reflection are already in the brain from the prior run). Note: brain writes this run used the D1Brain_voice MCP because the brain/save endpoints are egress-blocked from the cloud too. FIX: allow d1brain.netlify.app egress for the scheduled cloud task (or run the sync where the Odoo endpoint/browser is reachable) so Odoo sync + reconciliation resume.",
         "tags": [
