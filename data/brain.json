@@ -826,6 +826,17 @@
   "tasks": {
     "active": [
       {
+        "title": "⚠️ D1Brain auto-sync issue — assess",
+        "context": "Run 2026-09-11 ~18:10 SAST. ODOO PULL FAILED: the odoo-list endpoint (d1brain.netlify.app) was unreachable from this scheduled cloud run — the egress proxy denied the host by organization policy (HTTP 403 on CONNECT). So NO Odoo tasks/activities were synced this run, and the reconcile/auto-clear step was SKIPPED (Guard A) to avoid false clears — nothing was cleared. The direct Netlify brain GET/save endpoints (and WebFetch) were blocked by the same policy; Gmail, Calendar and brain writes were done via their MCP connectors instead, which worked. Gmail + Calendar synced fine (3 new items added). To fix: allow d1brain.netlify.app egress for the scheduled run, or run Odoo sync where the browser/endpoint is reachable.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-11",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "33 Higgo Rd — all 9 cameras offline / not streaming (OmniVision)",
         "context": "OmniVision control room (lumkaj@omnivisionsecurity.co.za) reported all 9 cameras offline at 33 Higgo Rd, Higgovale on 11 Sep — also flagged this morning by siphiwer. Emailed to darren@/tech@/smart@d-one. D-One to investigate and restore streaming. Source: Gmail 11 Sep.",
         "tags": [
