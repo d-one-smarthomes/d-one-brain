@@ -2893,6 +2893,17 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Visit Arri to collect foil",
+        "context": "Collect foil from Arri. Watch YouTube clips of Gael foiling beforehand for technique. Scheduled for next Cape Town trip (Cape Town family day, 19 Sep 2026).",
+        "tags": [
+          "self"
+        ],
+        "flag": false,
+        "due": "2026-09-19",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
