@@ -826,6 +826,17 @@
   "tasks": {
     "active": [
       {
+        "title": "This week's focus: sit 1:1 with each team member and train them to feed EVERYTHING into Odoo / D1Brain",
+        "context": "Weekly focus from the Sept EO check-in. Goal: 100% adoption so Claude/D1Brain has full live visibility — one clear picture of all projects, leads, stock and finances. This is the \"systems dialled\" push: get out of the dark, migrate my focus to the right tasks, and empower each person to own their role. Sit with each person individually (Caleb, Caren, Mekyle, Stafford, Tristan, Berna, Justin, Amanda) and train them on telling Claude everything.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-18",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "33 Higgo Rd — all 9 cameras offline / not streaming (OmniVision)",
         "context": "OmniVision control room (lumkaj@omnivisionsecurity.co.za) reported all 9 cameras offline at 33 Higgo Rd, Higgovale on 11 Sep — also flagged this morning by siphiwer. Emailed to darren@/tech@/smart@d-one. D-One to investigate and restore streaming. Source: Gmail 11 Sep.",
         "tags": [
