@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-11",
+    "updated": "2026-09-12",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -826,17 +826,6 @@
   "tasks": {
     "active": [
       {
-        "title": "⚠️ D1Brain auto-sync issue — assess",
-        "context": "Run 2026-09-11 ~18:10 SAST. ODOO PULL FAILED: the odoo-list endpoint (d1brain.netlify.app) was unreachable from this scheduled cloud run — the egress proxy denied the host by organization policy (HTTP 403 on CONNECT). So NO Odoo tasks/activities were synced this run, and the reconcile/auto-clear step was SKIPPED (Guard A) to avoid false clears — nothing was cleared. The direct Netlify brain GET/save endpoints (and WebFetch) were blocked by the same policy; Gmail, Calendar and brain writes were done via their MCP connectors instead, which worked. Gmail + Calendar synced fine (3 new items added). To fix: allow d1brain.netlify.app egress for the scheduled run, or run Odoo sync where the browser/endpoint is reachable.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": true,
-        "due": "2026-09-11",
-        "odoo": null,
-        "done": false
-      },
-      {
         "title": "33 Higgo Rd — all 9 cameras offline / not streaming (OmniVision)",
         "context": "OmniVision control room (lumkaj@omnivisionsecurity.co.za) reported all 9 cameras offline at 33 Higgo Rd, Higgovale on 11 Sep — also flagged this morning by siphiwer. Emailed to darren@/tech@/smart@d-one. D-One to investigate and restore streaming. Source: Gmail 11 Sep.",
         "tags": [
@@ -868,17 +857,6 @@
         "due": "2026-09-18",
         "odoo": null,
         "done": false
-      },
-      {
-        "title": "⚠️ D1Brain auto-sync issue — assess",
-        "context": "Odoo pull FAILED in the 04:00 SAST 2026-09-11 auto-sync (silent cloud run). The odoo-list endpoint (d1brain.netlify.app) is blocked by this cloud session's egress policy (curl → HTTP 403 connect_rejected / org policy), WebFetch needs interactive approval (not possible in a silent run), and there's no Odoo MCP tool. So per Guard A, NO Odoo reconciliation ran this cycle — completed Odoo items were NOT auto-cleared, and no Odoo tasks/activities were synced. Gmail + Calendar were checked OK and yielded nothing genuinely new (House Bell proposal, Motor Court blind markup, Gentleman's Estate CI023, and EO 5% reflection are already in the brain from the prior run). Note: brain writes this run used the D1Brain_voice MCP because the brain/save endpoints are egress-blocked from the cloud too. FIX: allow d1brain.netlify.app egress for the scheduled cloud task (or run the sync where the Odoo endpoint/browser is reachable) so Odoo sync + reconciliation resume.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": true,
-        "due": "2026-09-11",
-        "odoo": null,
-        "done": true
       },
       {
         "title": "Follow up with Rick re EO polo event",
@@ -2739,18 +2717,6 @@
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
       },
       {
-        "title": "Forward keypad engravings list to Andrew (once Tristan sends it)",
-        "context": "Odoo activity · To-Do on Installation Labour (project.task). Note: once Tristan sends the keypad engravings list, forward it to Andrew. [odoo-act:520]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-11",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
-      },
-      {
         "title": "Quote additional security cameras — Terre Paisible",
         "context": "Renate (Terre Paisible) requested a quotation for installing additional security cameras (email 8 Sep, to tech@ & systems@, cc Darren). Camera-access handover already resolved by Mekyle.",
         "tags": [
@@ -2915,6 +2881,18 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=5081&model=project.task&view_type=form"
+      },
+      {
+        "title": "Reply to Kira (NDV) — confirm site meeting for both Norwich Drive properties",
+        "context": "Gmail 11 Sep · NDV = Norwich Drive Villa, Bishops Court (ref 26|NDV|491). Intro from Liana Abate (Scott Partners) to client Kira Jacobs. Two adjacent erven — a renovated house they'll live in + a bare site for a new build; both boundaries need security implemented ASAP, and the new-build install must be reusable/linkable once the house is built. Kira asked to meet at the properties 'Monday 12pm' (Mon 14 Sep) — reply to confirm or propose another time. NB clash: EO board meeting is Mon 14 Sep 11:00-13:00, so 12pm won't work. Kira 074 141 9169.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-13",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
@@ -3406,6 +3384,40 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
+      },
+      {
+        "title": "Forward keypad engravings list to Andrew (once Tristan sends it)",
+        "context": "Odoo activity · To-Do on Installation Labour (project.task). Note: once Tristan sends the keypad engravings list, forward it to Andrew. [odoo-act:520] ✓ completed in Odoo 2026-09-12",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-11",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=1534&model=project.task&view_type=form"
+      },
+      {
+        "title": "⚠️ D1Brain auto-sync issue — assess",
+        "context": "Run 2026-09-11 ~18:10 SAST. ODOO PULL FAILED: the odoo-list endpoint (d1brain.netlify.app) was unreachable from this scheduled cloud run — the egress proxy denied the host by organization policy (HTTP 403 on CONNECT). So NO Odoo tasks/activities were synced this run, and the reconcile/auto-clear step was SKIPPED (Guard A) to avoid false clears — nothing was cleared. The direct Netlify brain GET/save endpoints (and WebFetch) were blocked by the same policy; Gmail, Calendar and brain writes were done via their MCP connectors instead, which worked. Gmail + Calendar synced fine (3 new items added). To fix: allow d1brain.netlify.app egress for the scheduled run, or run Odoo sync where the browser/endpoint is reachable. || ✓ Resolved 2026-09-12: Odoo pull + brain GET/POST all reachable from the scheduled cloud run (odoo-list, brain, save all HTTP 200 via cloud egress); reconciliation resumed.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-11",
+        "odoo": null,
+        "done": true
+      },
+      {
+        "title": "⚠️ D1Brain auto-sync issue — assess",
+        "context": "Odoo pull FAILED in the 04:00 SAST 2026-09-11 auto-sync (silent cloud run). The odoo-list endpoint (d1brain.netlify.app) is blocked by this cloud session's egress policy (curl → HTTP 403 connect_rejected / org policy), WebFetch needs interactive approval (not possible in a silent run), and there's no Odoo MCP tool. So per Guard A, NO Odoo reconciliation ran this cycle — completed Odoo items were NOT auto-cleared, and no Odoo tasks/activities were synced. Gmail + Calendar were checked OK and yielded nothing genuinely new (House Bell proposal, Motor Court blind markup, Gentleman's Estate CI023, and EO 5% reflection are already in the brain from the prior run). Note: brain writes this run used the D1Brain_voice MCP because the brain/save endpoints are egress-blocked from the cloud too. FIX: allow d1brain.netlify.app egress for the scheduled cloud task (or run the sync where the Odoo endpoint/browser is reachable) so Odoo sync + reconciliation resume. || ✓ Resolved 2026-09-12: Odoo + brain endpoints reachable from the cloud run this cycle; sync + reconciliation resumed.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-11",
+        "odoo": null,
+        "done": true
       }
     ]
   },
