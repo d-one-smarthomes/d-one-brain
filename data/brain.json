@@ -2904,6 +2904,17 @@
         "due": "2026-09-18",
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Discovery Bank closure — reference 30602782",
+        "context": "Reference number for the Discovery Bank account closure request. Quote this ref when following up with Discovery Bank.",
+        "tags": [
+          "finance"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
