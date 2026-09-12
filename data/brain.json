@@ -2915,6 +2915,18 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Reply to Lorette re CCTV Llandudno front-area camera",
+        "context": "Gmail 12 Sep · Client Lorette du Toit (lorettedutoit@hotmail.com) urgently asking when the streetside camera facing the guard hut & boundary wall will have visuals — needs it to check safety. Emailed to systems@/tech@/darren@.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-12",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
