@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-12",
+    "updated": "2026-09-13",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2962,6 +2962,18 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Confirm if we can get invisible speakers from Kevin",
+        "context": "Odoo activity · To-Do on 'Get invisible speakers from Kevin - 8'' (project.task) [odoo-act:471]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [
