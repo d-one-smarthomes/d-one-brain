@@ -88,17 +88,23 @@
     "oneThing": "One thing at a time. The beauty is in the open space."
   },
   "weeklyFocus": {
-    "weekOf": "2026-08-30",
+    "weekOf": "2026-09-14",
     "note": "Everything else is parked. If it's not one of these three, it waits.",
     "three": [
+      {
+        "title": "Team 1:1s — Odoo/D1Brain adoption",
+        "detail": "",
+        "done": false,
+        "text": "D-One: sit 1:1 with each team member (Caleb, Caren, Mekyle, Stafford, Tristan, Berna, Justin, Amanda) and train them to feed EVERYTHING into Odoo/D1Brain — 100% adoption so Claude has full live visibility across projects, leads, stock and finances. Due 18 Sep."
+      },
       {
         "title": "Katie homework video",
         "detail": "",
         "done": false,
-        "text": "Marriage: finish Katie homework before the 4 Sep session — couples worksheet + personality-differences video (watch with Amanda)"
+        "text": "Marriage: finish Katie homework before Thursday session — couples worksheet + personality-differences video (watch with Amanda). Note: Thursday session time needs to be rescheduled with Katie first."
       },
       {
-        "title": "Buchu invoicing",
+        "title": "Fitzgibbon booking",
         "detail": "",
         "done": false,
         "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi"
