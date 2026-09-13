@@ -2974,6 +2974,17 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
+      },
+      {
+        "title": "Reply to Katie — reschedule Thursday couples session",
+        "context": "Katie needs to move Thu 17 Sep session — she now has a conflict at 1pm, so she can do until 12:45 or from 2pm onward. Calendar still shows old 12:15-13:45 slot. Need to check availability with Amanda and confirm a new time.",
+        "tags": [
+          "marriage"
+        ],
+        "flag": true,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
