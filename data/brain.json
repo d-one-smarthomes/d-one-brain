@@ -102,12 +102,6 @@
         "detail": "",
         "done": false,
         "text": "Marriage: finish Katie homework before Thursday session — couples worksheet + personality-differences video (watch with Amanda). Note: Thursday session time needs to be rescheduled with Katie first."
-      },
-      {
-        "title": "Fitzgibbon booking",
-        "detail": "",
-        "done": false,
-        "text": "Family: lock the Fitzgibbon December booking + keep banking present time with Kayden & Kenzi"
       }
     ],
     "watching": [],
@@ -1719,7 +1713,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Find out more about the Winter Lounge at 1 Sunset & contact BOMAX",
