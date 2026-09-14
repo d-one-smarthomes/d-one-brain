@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-13",
+    "updated": "2026-09-14",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2985,6 +2985,30 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Review spec",
+        "context": "Odoo task · Buchu Villa project [odoo-task:431]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=431&model=project.task&view_type=form"
+      },
+      {
+        "title": "Complete overdue B&O Beocampus compliance courses",
+        "context": "Bang & Olufsen Beocampus — Q1 26/27 quarterly compliance courses past their deadline (User ID DS-ZA13-CI). Automated nudge from no-reply@bang-olufsen.dk, 2026-09-13.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
