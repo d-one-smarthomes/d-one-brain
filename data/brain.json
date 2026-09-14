@@ -826,6 +826,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Return the rug and Country Road jumper to the shops",
+        "context": "",
+        "tags": [
+          "home"
+        ],
+        "flag": false,
+        "due": "",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Get brother a birthday present",
         "context": "",
         "tags": [
