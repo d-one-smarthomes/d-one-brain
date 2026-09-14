@@ -3036,6 +3036,18 @@
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
+      },
+      {
+        "title": "Get Caleb & Berna clear on priorities, identify systems needed, hand to Mands to build",
+        "context": "Tomorrow's priority: (1) sit with Caleb and Berna and get them clear on what their individual priorities are; (2) identify what needs working on and what systems need to exist/be available to support them; (3) pass the systems build to Amanda (Mands) to actually build. Ties into the wider Team 1:1s — Odoo/D1Brain adoption focus and Berna's coordination KPI (board freshness / stuck-list).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
       }
     ],
     "waitingOn": [
