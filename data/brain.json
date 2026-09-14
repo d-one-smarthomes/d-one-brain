@@ -2766,18 +2766,6 @@
         "done": false
       },
       {
-        "title": "Send Architect the spec sheet and conduit schedule",
-        "context": "Odoo activity · To-Do on 31 Kerzner Estate (crm.lead) [odoo-act:500]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-14",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Discuss Blind with architect",
         "context": "Odoo activity · To-Do on 31 Kerzner Estate (crm.lead) [odoo-act:507]",
         "tags": [
@@ -2991,7 +2979,7 @@
       },
       {
         "title": "Reply to Lorette re CCTV Llandudno front-area camera",
-        "context": "Gmail 12 Sep · Client Lorette du Toit (lorettedutoit@hotmail.com) urgently asking when the streetside camera facing the guard hut & boundary wall will have visuals — needs it to check safety. Emailed to systems@/tech@/darren@.",
+        "context": "Gmail 12 Sep · Client Lorette du Toit (lorettedutoit@hotmail.com) urgently asking when the streetside camera facing the guard hut & boundary wall will have visuals — needs it to check safety. Emailed to systems@/tech@/darren@. · Update 14 Sep: Charles (Dents Electrical) says no capacity for temp works or costing; Lorette has re-asked for the CCTV conduiting timeline at the guard hut & cabin — D-One (tech/Stafford) still owes her a date.",
         "tags": [
           "d-one"
         ],
@@ -3047,6 +3035,54 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Reply to Metropolis (Jon) — home theatre unit info, House 31 KE",
+        "context": "Gmail 14 Sep · Jonathan (Metropolis Design, cc Jeanmari) is designing the home-theatre TV/joinery unit (TV + front speakers + sub). Needs from Darren: (1) mounting height for a 98\" TV — confirm bottom-of-screen height (he suggests 450–600mm, asks if 900mm is better; viewing 2–5 m, L-shape couch); (2) which speakers go in the TV wall unit — mark them on the joinery drawing (W 3503-GF Joinery 02.pdf).",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Action QC request — Erf 4000 Franschhoek (House Hamdi-Cherif)",
+        "context": "Gmail 14 Sep · Caren (accounts@) forwarded a request from Karla Smit (ksmit@) for the QC for the premises at Erf 4000, Franschhoek — House Hamdi-Cherif. Sent to Darren, systems (Caleb) & tech (Stafford) — route/assign.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Buchu Villa — break down Network Point (R55k) budget by system/room/area",
+        "context": "Odoo activity · To-Do on Buchu Villa (crm.lead). Network Point line is R55k and needs breaking down (Cabcon/Cabling) so it doesn't get lost; show labour hours (INST/CAB/PROG) as one product-line total per system/room/area; confirm all SKUs are linked to the current database & flag any new codes to create. [odoo-act:628]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=486&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Polar Bear Design order — decide overseas collection/shipping & payment",
+        "context": "Odoo activity · To-Do (Payment Info) on 'Complete Polar Bear Design dealer application + payment' (project.task). Supplier requires overseas customers to arrange their own collection: they'll give package weights/dimensions + paperwork, we book the courier and send them shipping label(s) to attach. Decide how to proceed. [odoo-act:636]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [
@@ -3583,6 +3619,18 @@
         "due": "2026-09-11",
         "odoo": null,
         "done": true
+      },
+      {
+        "title": "Send Architect the spec sheet and conduit schedule",
+        "context": "Odoo activity · To-Do on 31 Kerzner Estate (crm.lead) [odoo-act:500] ✓ completed in Odoo 2026-09-14",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
       }
     ]
   },
