@@ -907,7 +907,7 @@
         "flag": true,
         "due": "2026-09-11",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Submit Buchu Villa September claim to Metric (by 15th)",
@@ -2952,7 +2952,7 @@
         "flag": true,
         "due": "2026-09-13",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -2986,7 +2986,7 @@
         "flag": true,
         "due": "2026-09-12",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
