@@ -130,23 +130,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-11",
+    "date": "2026-09-14",
     "priorities": {
       "day": "",
-      "week": "Katie homework video",
+      "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "15:37",
-      "intention": "Complete"
+      "at": "10:14",
+      "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "15:37",
-      "energy": 7,
-      "chaseMode": true,
-      "reflection": "Catchup"
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -442,12 +442,28 @@
           "gratitude": false,
           "listen": false
         }
+      },
+      {
+        "date": "2026-09-11",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "",
+        "intention": "Complete",
+        "energy": 7,
+        "chaseMode": true,
+        "reflection": "Catchup",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": false
+        }
       }
     ],
     "practice": {
-      "move": true,
-      "silence": true,
-      "gratitude": true,
+      "move": false,
+      "silence": false,
+      "gratitude": false,
       "listen": false
     }
   },
@@ -3613,13 +3629,13 @@
   ],
   "parkingLot": [
     {
-      "title": "Soundbar giveaway idea: a B650F each to Caren and Berna",
       "text": "Possible plan for the warehouse soundbars — give one of the smaller Samsung B650F soundbars to Caren and one to Berna. Leaves the Q930F still to place.",
+      "done": false,
+      "title": "Soundbar giveaway idea: a B650F each to Caren and Berna",
       "tags": [
         "d-one"
       ],
-      "date": "2026-09-14",
-      "done": false
+      "date": "2026-09-14"
     },
     {
       "text": "Great day. Deep gratitude for life right now: the estate, being in Cape Town, exciting projects for the business, a great team, and momentum. Looking at buying a new house and selling the current one. Amazing surf session with Caleb at sunset at Glen Beach, great waves. Cape Town was buzzing, Clifton, Camp's Bay, and Sea Point all packed with people enjoying the day. Feeling good heading into birthday.",
