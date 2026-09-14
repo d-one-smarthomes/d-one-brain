@@ -826,17 +826,6 @@
   "tasks": {
     "active": [
       {
-        "title": "Return the rug to the shops",
-        "context": "",
-        "tags": [
-          "home"
-        ],
-        "flag": false,
-        "due": "",
-        "odoo": null,
-        "done": false
-      },
-      {
         "title": "Get brother a birthday present",
         "context": "",
         "tags": [
@@ -3074,6 +3063,17 @@
       }
     ],
     "done": [
+      {
+        "title": "Return the rug to the shops",
+        "context": "",
+        "tags": [
+          "home"
+        ],
+        "flag": false,
+        "due": "",
+        "odoo": null,
+        "done": true
+      },
       {
         "title": "Prep for The Vic — architectural speakers & media room design (9 Sep 12:00)",
         "context": "Calendar: 'The Vic — Architectural Speakers & Media Room Design', 9 Sep 12:00 (Google Meet), organised by Caleb with KMH, ARRCC & Kaikoura. External design meeting — Darren blocked his own 'Vic Meeting' slot; prep speaker/media-room design input.",
