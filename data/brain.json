@@ -142,11 +142,11 @@
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "20:13",
+      "energy": 10,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "EO. Present all day"
     },
     "history": [
       {
@@ -461,10 +461,10 @@
       }
     ],
     "practice": {
-      "move": false,
-      "silence": false,
+      "move": true,
+      "silence": true,
       "gratitude": false,
-      "listen": false
+      "listen": true
     }
   },
   "areas": [
