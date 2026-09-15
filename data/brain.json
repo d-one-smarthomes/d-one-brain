@@ -3135,6 +3135,18 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Chat to dad about boat service and thank him, and pay the boat shed",
+        "context": "Boat was serviced (Anchor Boat Shop). Follow up with dad — say thanks, and settle payment for the boat shed.",
+        "tags": [
+          "family",
+          "adventure"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
