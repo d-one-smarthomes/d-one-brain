@@ -3072,6 +3072,42 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Update estimator skill + change-order skill + Stafford dashboard (Odoo)",
+        "context": "Odoo activity · To-Do on Admin (project.task). Estimator skill: quote cables per roll, pull all pricing from Odoo, get labour right, include professional fees. Plus: create a change-order skill in Claude and an Artifact for Stafford's dashboard. [odoo-act:657]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-12",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4795&model=project.task&view_type=form"
+      },
+      {
+        "title": "Review NSASA consulting proposal — new development",
+        "context": "Gmail 15 Sep · Allecia (AlleciaW@nsasa.co.za) replied to Darren's enquiry with an attached summary of how NSASA can assist on the new development. Review the summary and respond.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Answer Jeanmari's KE31 conduit & equipment schedule queries",
+        "context": "Gmail 15 Sep · Jeanmari (Metropolis Design) worked through the conduit & equipment schedule to update their drawings and has a few questions for Darren & Caleb — House 31 Kerzner Estate.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
