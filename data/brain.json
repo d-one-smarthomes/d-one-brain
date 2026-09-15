@@ -834,9 +834,9 @@
     ]
   },
   "monthlyGoal": {
-    "title": "Efficient Resting",
-    "statement": "By month-end: identify what's driving the compulsive task-chasing + end-of-day burnout, and put real structure in place to protect the energy left for family.",
-    "success": "Success is not 'I stopped rushing.' It's: did I show up to look at this directly, get sharper at noticing the pattern as it happens, and put one real structural boundary in place.",
+    "title": "Caleb Optimized & Feeding Odoo",
+    "statement": "By month-end: Caleb is fully optimized in his role (design, quotes, project coordination) and everything he touches is feeding straight into Odoo — quotes, activities, task status, design docs — so Claude and the team have full live visibility with nothing sitting outside the system.",
+    "success": "Success is: Caleb's quotes, tasks and project updates are consistently logged in Odoo in real time (not batched/forgotten), his Q4 KPIs (quote turnaround, quoted-vs-actual GP, design issues caught pre-site) are visibly tracked there, and the handover to Stafford is clean because the data trail in Odoo is complete.",
     "checklist": []
   },
   "tasks": {
