@@ -842,6 +842,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Collect Arri's foil board from Table View",
+        "context": "Borrowing it for the Breede River trip",
+        "tags": [
+          "adventure"
+        ],
+        "flag": false,
+        "due": "",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Give away Samsung soundbars from warehouse (1x Q930F, 2x B650F)",
         "context": "Surplus stock in warehouse to be given away: Samsung Q930F soundbar x1, Samsung B650F soundbar x2.",
         "tags": [
