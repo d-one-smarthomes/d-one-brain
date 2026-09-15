@@ -130,23 +130,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "priorities": {
-      "day": "Buchu appointment",
+      "day": "Buchu appointment and invoice",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "10:14",
+      "at": "07:11",
       "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "20:13",
-      "energy": 10,
+      "done": false,
+      "at": "",
+      "energy": null,
       "chaseMode": false,
-      "reflection": "EO. Present all day"
+      "reflection": ""
     },
     "history": [
       {
@@ -458,13 +458,29 @@
           "gratitude": true,
           "listen": false
         }
+      },
+      {
+        "date": "2026-09-14",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Buchu appointment",
+        "intention": "",
+        "energy": 10,
+        "chaseMode": false,
+        "reflection": "EO. Present all day",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": false,
+          "listen": true
+        }
       }
     ],
     "practice": {
-      "move": true,
-      "silence": true,
+      "move": false,
+      "silence": false,
       "gratitude": false,
-      "listen": true
+      "listen": false
     }
   },
   "areas": [
