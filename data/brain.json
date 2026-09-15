@@ -130,23 +130,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-15",
+    "date": "2026-09-14",
     "priorities": {
-      "day": "Buchu appointment and invoice",
+      "day": "Buchu appointment",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Efficient Resting"
     },
     "morning": {
       "done": true,
-      "at": "07:11",
+      "at": "10:14",
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "20:13",
+      "energy": 10,
       "chaseMode": false,
-      "reflection": ""
+      "reflection": "EO. Present all day"
     },
     "history": [
       {
@@ -458,28 +458,12 @@
           "gratitude": true,
           "listen": false
         }
-      },
-      {
-        "date": "2026-09-14",
-        "morning": true,
-        "evening": true,
-        "dayPriority": "Buchu appointment",
-        "intention": "",
-        "energy": 10,
-        "chaseMode": false,
-        "reflection": "EO. Present all day",
-        "practice": {
-          "move": true,
-          "silence": true,
-          "gratitude": false,
-          "listen": true
-        }
       }
     ],
     "practice": {
       "move": true,
       "silence": true,
-      "gratitude": true,
+      "gratitude": false,
       "listen": true
     }
   },
@@ -3064,6 +3048,30 @@
         "odoo": null,
         "done": false,
         "owner": "Darren"
+      },
+      {
+        "title": "Discuss returning the Steinway speakers for Brandt",
+        "context": "Odoo activity · To-Do on 'Stock Movement' (project.task) — whether to send the Steinway speakers back for Brandt, timing, and any restocking/logistics. [odoo-act:644]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=730&model=project.task&view_type=form"
+      },
+      {
+        "title": "Advise Charles (Dents) — LCP boards urgently needed on site; confirm D-One equipment status & hold-up",
+        "context": "Gmail 14 Sep · Charles Laubscher (Dents Electrical, PM) on 'RE: Project status update' (to Tashwill@swbgroup + Darren + systems@d-one) says they urgently need the LCP boards on site and asks whether all required D-One equipment is in hand and what the current hold-up is. Needs a D-One reply on equipment status/hold-up.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
@@ -3836,16 +3844,6 @@
         "The tension: my zone of genius is starting/igniting things, but the owner-not-operator goal requires the parts of D-One that DON'T feel like flow (maintaining, chasing, reconciling, monitoring) to run without me — those need systems/people, not more of my attention.",
         "Open question to keep working: what's the one ops/admin thing on my plate right now that could move off me this month, and who owns it (Amanda/Caren/Stafford/Berna)?",
         "Unique Ability: people and relationships — connecting and relating, translating into others' language, seeing and understanding their perspective (and multiple perspectives at once), distilling into simple terms, seeing patterns, seeing the bigger picture, seeing clarity through complexity."
-      ]
-    },
-    {
-      "text": "From The Big Leap: time is not a separate thing outside me — it's an internal perception I create, not a fixed external container. So managing time well is really an inside job: chronos (clock time, sequential, sequential ticking) vs kairos (felt/experienced/qualitative time). If I'm creating my own perception of time, then how I show up internally determines whether time feels abundant or scarce.",
-      "done": false,
-      "title": "🕓 Time is an internal perception — kairos vs chronos (The Big Leap)",
-      "date": "2026-09-15",
-      "tags": [
-        "self",
-        "ideas"
       ]
     }
   ]
