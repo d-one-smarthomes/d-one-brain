@@ -3147,6 +3147,17 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Add Berna & Justin photos to D-One website",
+        "context": "Add photos of Berna and Justin to the d-one.co.za team/about page.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [
