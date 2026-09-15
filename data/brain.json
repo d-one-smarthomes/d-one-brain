@@ -142,8 +142,8 @@
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
+      "done": true,
+      "at": "20:49",
       "energy": 6,
       "chaseMode": true,
       "reflection": "I got highly aggravated just after midday"
