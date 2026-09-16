@@ -133,6 +133,14 @@
       {
         "text": "7. Meeting — anchor everyone on this list: one owner, one next action per item",
         "done": false
+      },
+      {
+        "text": "8. Kerzner Estate — schedule appointment",
+        "done": false
+      },
+      {
+        "text": "9. Kerzner Estate — answer Jeanmari's conduit & equipment schedule design queries",
+        "done": false
       }
     ]
   },
@@ -3278,6 +3286,18 @@
       {
         "title": "Meeting — anchor everyone on today's list: one owner, one next action per item",
         "context": "Run the meeting off this exact list: stock visibility, Gnodde delivery, Buchu invoicing, daily pulse, Amanda/Odoo dashboards, UniFi Dubai sniff test. One owner, one next action per item — no ambiguity.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Kerzner Estate — schedule appointment",
+        "context": "Book the outstanding Kerzner Estate appointment.",
         "tags": [
           "d-one"
         ],
