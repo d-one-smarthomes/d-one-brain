@@ -3234,7 +3234,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -3246,7 +3246,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -3283,7 +3283,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Amanda"
       },
       {
@@ -3295,7 +3295,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -3307,7 +3307,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -3927,24 +3927,24 @@
   ],
   "parkingLot": [
     {
-      "title": "Slack MCP: visual project status templates/demos",
       "text": "With the reminder feature, look at templates and demos for a visual status of projects in Slack via MCP.",
+      "done": false,
+      "title": "Slack MCP: visual project status templates/demos",
       "tags": [
         "d-one",
         "ideas"
       ],
-      "date": "2026-09-16",
-      "done": false
+      "date": "2026-09-16"
     },
     {
-      "title": "Leadership: keep everyone clear on priorities",
       "text": "Skills and leading effectively — make sure everybody on the team is clear on their priorities.",
+      "done": false,
+      "title": "Leadership: keep everyone clear on priorities",
       "tags": [
         "d-one",
         "ideas"
       ],
-      "date": "2026-09-16",
-      "done": false
+      "date": "2026-09-16"
     },
     {
       "text": "Possible plan for the warehouse soundbars — give one of the smaller Samsung B650F soundbars to Caren and one to Berna. Leaves the Q930F still to place.",
