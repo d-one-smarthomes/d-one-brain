@@ -987,7 +987,7 @@
         "flag": true,
         "due": "2026-09-18",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Follow up with Rick re EO polo event",
@@ -1090,7 +1090,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Ask EO Forum about the 'parking lot' method",
@@ -1360,7 +1360,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Contact Danelle (new lead — Longland Estate)",
@@ -3007,7 +3007,7 @@
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-14",
+        "due": null,
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=4030&model=project.task&view_type=form"
@@ -3032,7 +3032,7 @@
         "flag": false,
         "due": "2026-09-14",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=431&model=project.task&view_type=form"
       },
       {
@@ -3056,7 +3056,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -3080,7 +3080,7 @@
         "flag": false,
         "due": "2026-09-15",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=486&model=crm.lead&view_type=form"
       },
       {
@@ -3092,7 +3092,7 @@
         "flag": false,
         "due": "2026-09-15",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
       },
       {
@@ -3116,7 +3116,7 @@
         "flag": false,
         "due": "2026-09-17",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": "https://d-one.odoo.com/web#id=730&model=project.task&view_type=form"
       },
       {
@@ -3128,7 +3128,7 @@
         "flag": false,
         "due": "2026-09-15",
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -3152,7 +3152,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -3164,7 +3164,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -3211,7 +3211,7 @@
         "flag": false,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Caleb"
       },
       {
@@ -3331,7 +3331,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       }
     ],
