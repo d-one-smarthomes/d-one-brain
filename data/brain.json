@@ -2826,18 +2826,6 @@
         "url": ""
       },
       {
-        "title": "Set up yoga and biohacking session with Dave and James",
-        "context": "",
-        "tags": [
-          "social",
-          "self"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": false
-      },
-      {
         "title": "Plan date night weekend with Amanda at Jason Swanepoel's cabin",
         "context": "Look into booking a getaway weekend with Amanda at Jason Swanepoel's cabin.",
         "tags": [
@@ -3363,11 +3351,11 @@
         "tags": [
           "d-one"
         ],
-        "owner": "Caleb",
         "flag": false,
         "due": null,
         "odoo": null,
         "done": false,
+        "owner": "Caleb",
         "url": ""
       },
       {
@@ -3376,11 +3364,11 @@
         "tags": [
           "d-one"
         ],
-        "owner": "Caleb",
         "flag": false,
         "due": null,
         "odoo": null,
         "done": false,
+        "owner": "Caleb",
         "url": ""
       }
     ],
