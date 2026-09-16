@@ -878,6 +878,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Confirm receipt of G231 Gnodde CI#5.3 to Jacques Opperman (Base Projects)",
+        "context": "Base Projects instructed D-One to proceed with the updated lighting control and LV installation at House Gnodde per CI 5.3 (revised appointment PDF + CR04-03 attached). Same T&Cs as previous appointment. Jacques asked for written confirmation of receipt. Email 16 Sep, cc systems@, leon@ and heinrich@baseprojects.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Buchu Villa Letter of Appointment — compile & submit required documents to Metric",
         "context": "Due within 1 week of 11 Sep (deadline 18 Sep). Full requirements checklist to send back to Mark McNamara (Metric):\n1. Signed & initialled Appointment Letter + Special Conditions\n2. Signed Mandatory Agreement (Annexure D)\n3. Proof of public liability insurance\n4. Health & Safety file (site-specific, per Annexure F H&S spec)\n5. Proof of BIBC compliance (check Annexure C for exact certificate required)\n6. Any other documentation requested in the appointment letter/special conditions (re-check the actual Letter PDF for anything not covered above)\nTo be added as an Odoo activity today.",
         "tags": [
