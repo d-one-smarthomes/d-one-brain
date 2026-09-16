@@ -141,6 +141,10 @@
       {
         "text": "9. Kerzner Estate — answer Jeanmari's conduit & equipment schedule design queries",
         "done": false
+      },
+      {
+        "text": "10. Bradley Steyn — add his email to the drafted ask for a flyer/document, then send",
+        "done": false
       }
     ]
   },
@@ -3298,6 +3302,18 @@
       {
         "title": "Kerzner Estate — schedule appointment",
         "context": "Book the outstanding Kerzner Estate appointment.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Email Bradley Steyn for a flyer/document to present to the developer (The Vic)",
+        "context": "Draft email saved to Gmail drafts (no recipient yet — Darren spoken to him by phone, no email on file). Add Bradley's email address this morning and send. Asking for a flyer/overview of his security consulting offering to present to the developer alongside NSA's proposal. Related: The Vic — Architectural Speakers & Media Room Design thread.",
         "tags": [
           "d-one"
         ],
