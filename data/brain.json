@@ -886,7 +886,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Collect Arri's foil board from Table View",
@@ -976,7 +976,7 @@
         "flag": true,
         "due": "2026-09-15",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Sign & return Buchu Villa Letter of Appointment (Metric)",
@@ -3104,7 +3104,7 @@
         "flag": true,
         "due": "2026-09-15",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -3259,7 +3259,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Caren"
       },
       {
