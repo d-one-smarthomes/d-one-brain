@@ -2054,18 +2054,6 @@
         "url": "https://d-one.odoo.com/web#id=510&model=crm.lead&view_type=form"
       },
       {
-        "title": "Set up meeting with interior designer & client — 987 Val de Vie",
-        "context": "Odoo activity · To-Do on 987 Val de Vie (crm.lead). Between 14–16 September. [odoo-act:296]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": true,
-        "due": "2026-09-14",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=491&model=crm.lead&view_type=form"
-      },
-      {
         "title": "Import tech-meeting Granola notes into Odoo as activities",
         "context": "From 31 Aug Accounts meeting. Darren to pass the tech-meeting Granola output to Berna to import as Odoo ACTIVITIES (not tasks), each linked to the relevant project, so Berna & Caleb can review tomorrow.",
         "tags": [
@@ -3072,30 +3060,6 @@
         "url": ""
       },
       {
-        "title": "Buchu Villa — break down Network Point (R55k) budget by system/room/area",
-        "context": "Odoo activity · To-Do on Buchu Villa (crm.lead). Network Point line is R55k and needs breaking down (Cabcon/Cabling) so it doesn't get lost; show labour hours (INST/CAB/PROG) as one product-line total per system/room/area; confirm all SKUs are linked to the current database & flag any new codes to create. [odoo-act:628]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-15",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=486&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Polar Bear Design order — decide overseas collection/shipping & payment",
-        "context": "Odoo activity · To-Do (Payment Info) on 'Complete Polar Bear Design dealer application + payment' (project.task). Supplier requires overseas customers to arrange their own collection: they'll give package weights/dimensions + paperwork, we book the courier and send them shipping label(s) to attach. Decide how to proceed. [odoo-act:636]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-15",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
-      },
-      {
         "title": "Get Caleb & Berna clear on priorities, identify systems needed, hand to Mands to build",
         "context": "Tomorrow's priority: (1) sit with Caleb and Berna and get them clear on what their individual priorities are; (2) identify what needs working on and what systems need to exist/be available to support them; (3) pass the systems build to Amanda (Mands) to actually build. Ties into the wider Team 1:1s — Odoo/D1Brain adoption focus and Berna's coordination KPI (board freshness / stuck-list).",
         "tags": [
@@ -3333,6 +3297,80 @@
         "odoo": null,
         "done": true,
         "owner": "Darren"
+      },
+      {
+        "title": "Site audit for agent info",
+        "context": "Odoo task · General on Ekbergh SLA. Assigned to Darren, Mekyle, Stafford. [odoo-task:5392]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=5392&model=project.task&view_type=form"
+      },
+      {
+        "title": "Feedback: Ubiquiti stock ETA — TBA from Asbis (Dean)",
+        "context": "Odoo activity · Feedback on Stock Movement (project.task). Current ETA from Ubiquiti is TBA from Asbis Dean. [odoo-act:684]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
+      },
+      {
+        "title": "Confirm & proceed — Gnodde CI#5.3 (lighting control + LV install)",
+        "context": "Base Projects (Jacques) instructed D-One to proceed with the updated lighting control & LV installation at House Gnodde per CI 5.3 (same T&Cs as previous appointment). Needs a confirmation reply. Email 16 Sep.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Set up meeting + options — The Vic (media room / architectural speakers)",
+        "context": "Chris (Kaikoura) wants options before he's away much of next week; Darren committed to set up a meeting. Includes secure/less-exposed design ideas discussed (vehicle booms, tyre spikes, double doors). Email 16 Sep.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Buchu Bay — start Stage 2 concept design & cost development",
+        "context": "Jerome (Hodari) confirmed Buchu Bay LUMS design approved in principle; proceed to Stage 2 concept design & cost development, technical co-ordination meetings to follow. Email 16 Sep.",
+        "tags": [
+          "d-one"
+        ],
+        "owner": "Caleb",
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Buchu Twelve — start Stage 3 systems designs & quotes",
+        "context": "Jerome (Hodari) confirmed Buchu Twelve Stage 2 approved; proceed to Stage 3 design & cost development. Darren committed to start systems designs & quotes off the StudioMAS meeting. Email 16 Sep.",
+        "tags": [
+          "d-one"
+        ],
+        "owner": "Caleb",
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [
@@ -3881,6 +3919,42 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=476&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Set up meeting with interior designer & client — 987 Val de Vie",
+        "context": "Odoo activity · To-Do on 987 Val de Vie (crm.lead). Between 14–16 September. [odoo-act:296] ✓ completed in Odoo 2026-09-16",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-14",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=491&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Buchu Villa — break down Network Point (R55k) budget by system/room/area",
+        "context": "Odoo activity · To-Do on Buchu Villa (crm.lead). Network Point line is R55k and needs breaking down (Cabcon/Cabling) so it doesn't get lost; show labour hours (INST/CAB/PROG) as one product-line total per system/room/area; confirm all SKUs are linked to the current database & flag any new codes to create. [odoo-act:628] ✓ completed in Odoo 2026-09-16",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=486&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Polar Bear Design order — decide overseas collection/shipping & payment",
+        "context": "Odoo activity · To-Do (Payment Info) on 'Complete Polar Bear Design dealer application + payment' (project.task). Supplier requires overseas customers to arrange their own collection: they'll give package weights/dimensions + paperwork, we book the courier and send them shipping label(s) to attach. Decide how to proceed. [odoo-act:636] ✓ completed in Odoo 2026-09-16",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-15",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
       }
     ]
   },
