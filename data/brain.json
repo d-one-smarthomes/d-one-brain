@@ -3787,6 +3787,16 @@
   ],
   "parkingLot": [
     {
+      "title": "Slack MCP: visual project status templates/demos",
+      "text": "With the reminder feature, look at templates and demos for a visual status of projects in Slack via MCP.",
+      "tags": [
+        "d-one",
+        "ideas"
+      ],
+      "date": "2026-09-16",
+      "done": false
+    },
+    {
       "title": "Leadership: keep everyone clear on priorities",
       "text": "Skills and leading effectively — make sure everybody on the team is clear on their priorities.",
       "tags": [
