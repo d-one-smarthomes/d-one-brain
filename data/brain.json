@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-15",
+    "updated": "2026-09-16",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -3151,6 +3151,41 @@
       {
         "title": "Add Berna & Justin photos to D-One website",
         "context": "Add photos of Berna and Justin to the d-one.co.za team/about page.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false
+      },
+      {
+        "title": "Build proposal for 27 Leeukoppie music room AV spec",
+        "context": "Odoo activity · To-Do on Installation Labour (project.task). Build a proposal for the 27 Leeukoppie music room AV spec. [odoo-act:659]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-18",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=952&model=project.task&view_type=form"
+      },
+      {
+        "title": "Add per-item prices to Apartment Nathan (190) quote options",
+        "context": "Gmail 15 Sep · Willem (Malan Vorster) sent the D-One quotation to the client and is awaiting feedback; flagged that the cost for the two options does not include per-item prices — add per-item pricing to the quote.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "owner": "Caleb"
+      },
+      {
+        "title": "Reply to Visser re camera mounting positions — House Gnodde",
+        "context": "Gmail 15 Sep · Andrew (Visser Architects) responded on House Gnodde electrical Issue #38 (site reticulation / kiosks), offering a driveway wall or a nearby post to mount cameras — needs D-One to confirm camera positions.",
         "tags": [
           "d-one"
         ],
