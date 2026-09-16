@@ -107,39 +107,47 @@
     "watching": [],
     "todayQuick": [
       {
-        "text": "1. Email Anita back — Buchu appointment terms",
-        "done": true
+        "text": "1. Stock visibility on urgent projects — what's in, ordered, blocked; place outstanding orders",
+        "done": false
       },
       {
-        "text": "2. Monterey Road — submit response to Kirsten",
-        "done": true
+        "text": "2. Confirm House Gnodde delivery happens today",
+        "done": false
       },
       {
-        "text": "3. Kerzner — submit",
-        "done": true
+        "text": "3. Buchu Villa invoicing — gather what's missing, push through Odoo",
+        "done": false
       },
       {
-        "text": "4. Projects & CRM review into Granola, for Berna to populate Odoo",
-        "done": true
+        "text": "4. Set up daily pulse (AM/PM) — Stafford & Caleb update status/next action/blocks; Berna keeps the stuck-list visual",
+        "done": false
       },
       {
-        "text": "5. Follow up with Ryk regarding the event at VDV",
+        "text": "5. Ask Amanda: what's blocking Odoo dashboards + today's deliverables?",
+        "done": false
+      },
+      {
+        "text": "6. UniFi Dubai — quick sniff test (landed cost, margin, lead time); proceed or park",
+        "done": false
+      },
+      {
+        "text": "7. Meeting — anchor everyone on this list: one owner, one next action per item",
         "done": false
       }
     ]
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-15",
+    "date": "2026-09-16",
     "priorities": {
-      "day": "",
+      "day": "Stock visibility, Gnodde delivery, Buchu invoicing, daily pulse, Amanda/Odoo blockers, UniFi Dubai sniff test",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Caleb Optimized & Feeding Odoo"
     },
     "morning": {
       "done": true,
-      "at": "20:49",
-      "intention": ""
+      "at": "05:20",
+      "intention": "Problem-solving, not system-carrying — when the freak-out starts, just ask: what's blocked, and what's the next action."
     },
     "evening": {
       "done": true,
@@ -3193,6 +3201,91 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Get stock visibility across urgent projects — what's in, what's ordered, what's blocked",
+        "context": "Today's #1 priority — stop the bleed. Pull live stock status on all urgent projects and place any outstanding orders immediately.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Confirm House Gnodde delivery happens today",
+        "context": "Today item — confirm the delivery actually lands, don't just assume it.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Buchu Villa invoicing — gather what's missing and push through Odoo",
+        "context": "Don't let it linger. Identify every missing invoicing item and push it through Odoo today.",
+        "tags": [
+          "d-one",
+          "finance"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Caren"
+      },
+      {
+        "title": "Set up daily pulse — 2x check-ins (morning + afternoon) for Stafford & Caleb",
+        "context": "Simple daily pulse: Stafford and Caleb update status, next action, and blocks twice a day (morning + afternoon). Berna then keeps a visual of what's stuck and pushes those across the line.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Berna"
+      },
+      {
+        "title": "Ask Amanda: what's blocking the Odoo dashboards, and what are today's deliverables?",
+        "context": "Concrete, specific ask — not open-ended.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Amanda"
+      },
+      {
+        "title": "UniFi Dubai — quick sniff test: landed cost, realistic margin, lead time",
+        "context": "Quick math only today. If it passes the sniff test, proceed. If not, park it.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
+      },
+      {
+        "title": "Meeting — anchor everyone on today's list: one owner, one next action per item",
+        "context": "Run the meeting off this exact list: stock visibility, Gnodde delivery, Buchu invoicing, daily pulse, Amanda/Odoo dashboards, UniFi Dubai sniff test. One owner, one next action per item — no ambiguity.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "owner": "Darren"
       }
     ],
     "waitingOn": [
