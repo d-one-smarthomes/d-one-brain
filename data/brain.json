@@ -164,7 +164,7 @@
     "evening": {
       "done": false,
       "at": "",
-      "energy": null,
+      "energy": 6,
       "chaseMode": false,
       "reflection": ""
     },
