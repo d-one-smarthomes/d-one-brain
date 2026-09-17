@@ -894,17 +894,6 @@
   "tasks": {
     "active": [
       {
-        "title": "Check if still paying Alan Gray retirement annuity",
-        "context": "",
-        "tags": [
-          "finance"
-        ],
-        "flag": false,
-        "due": "",
-        "odoo": null,
-        "done": false
-      },
-      {
         "title": "Organize screen extensions for Caleb and Berna",
         "context": "",
         "tags": [
@@ -924,7 +913,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Buchu Villa Letter of Appointment — compile & submit required documents to Metric",
@@ -3081,7 +3070,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false,
+        "done": true,
         "url": ""
       },
       {
@@ -3095,6 +3084,18 @@
         "odoo": null,
         "done": true,
         "owner": "Darren"
+      },
+      {
+        "title": "Discuss returning the Steinway speakers for Brandt",
+        "context": "Odoo activity · To-Do on 'Stock Movement' (project.task) — whether to send the Steinway speakers back for Brandt, timing, and any restocking/logistics. [odoo-act:644]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=730&model=project.task&view_type=form"
       },
       {
         "title": "Advise Charles (Dents) — LCP boards urgently needed on site; confirm D-One equipment status & hold-up",
@@ -3114,7 +3115,7 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
+        "flag": true,
         "due": "2026-09-12",
         "odoo": null,
         "done": false,
@@ -3296,7 +3297,7 @@
         "flag": true,
         "due": "2026-09-16",
         "odoo": null,
-        "done": false,
+        "done": true,
         "owner": "Darren"
       },
       {
@@ -3310,6 +3311,18 @@
         "odoo": null,
         "done": true,
         "owner": "Darren"
+      },
+      {
+        "title": "Feedback: Ubiquiti stock ETA — TBA from Asbis (Dean)",
+        "context": "Odoo activity · Feedback on Stock Movement (project.task). Current ETA from Ubiquiti is TBA from Asbis Dean. [odoo-act:684]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
       },
       {
         "title": "Confirm & proceed — Gnodde CI#5.3 (lighting control + LV install)",
@@ -3385,55 +3398,6 @@
         "done": false,
         "url": "",
         "owner": "Caleb"
-      },
-      {
-        "title": "Installation Labour",
-        "context": "Odoo task · McBride VDV [odoo-task:5399]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=5399&model=project.task&view_type=form"
-      },
-      {
-        "title": "Follow up on Oakvale Views design and check in with architect",
-        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead) [odoo-act:701]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-16",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Confirm Stafford can attend 27 Leeukoppie site meeting with Bomax — Thu 24 Sep 14:30",
-        "context": "Steven Scott (Base Projects) asked if Stafford can be at Leeukoppie next Thursday 24 Sep at 14:30 to meet Bomax and run through the scope. Needs a confirm/reply.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-24",
-        "odoo": null,
-        "done": false,
-        "owner": "Stafford",
-        "url": ""
-      },
-      {
-        "title": "Reply to Caren: confirm whether to call Alberica back (McBride VDV)",
-        "context": "Caren asked Darren to confirm if she needs to call Alberica back re the McBride (VDV) helpdesk ticket.",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-17",
-        "odoo": null,
-        "done": false,
-        "url": ""
       }
     ],
     "waitingOn": [
@@ -4042,30 +4006,6 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=5392&model=project.task&view_type=form"
-      },
-      {
-        "title": "Discuss returning the Steinway speakers for Brandt",
-        "context": "Odoo activity · To-Do on 'Stock Movement' (project.task) — whether to send the Steinway speakers back for Brandt, timing, and any restocking/logistics. [odoo-act:644] ✓ completed in Odoo 2026-09-17",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-17",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=730&model=project.task&view_type=form"
-      },
-      {
-        "title": "Feedback: Ubiquiti stock ETA — TBA from Asbis (Dean)",
-        "context": "Odoo activity · Feedback on Stock Movement (project.task). Current ETA from Ubiquiti is TBA from Asbis Dean. [odoo-act:684] ✓ completed in Odoo 2026-09-17",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-17",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
       }
     ]
   },
