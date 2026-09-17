@@ -673,7 +673,12 @@
         }
       ],
       "delegated": [],
-      "parked": []
+      "parked": [
+        {
+          "text": "EO learning-events creation — handed to admin team (was draining, not overflow); staying on board at a lighter level",
+          "done": false
+        }
+      ]
     },
     {
       "key": "H",
@@ -3398,6 +3403,18 @@
         "done": false,
         "url": "",
         "owner": "Caleb"
+      },
+      {
+        "title": "Hand EO learning-events coordination to admin team, stop creating new ones",
+        "context": "Reviewed all current programmes/courses (Sept 17) after noticing life had gotten too busy, possibly filling a void. Most items (mentorship, psychologist, Katie, AI breakfasts) checked out as right-sized. EO board learning-chair events was the exception — creating events was draining the low tank rather than coming from overflow, contrary to the original intent. Decision: stay on the board, keep contributing value, but hand the event-coordination workload to the admin team and stop personally creating new events.",
+        "tags": [
+          "self",
+          "social"
+        ],
+        "flag": true,
+        "due": null,
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [],
