@@ -2744,17 +2744,6 @@
         "done": false
       },
       {
-        "title": "Subscribe to Alex Hormozi's newsletter",
-        "context": "alexhormozi.substack.com — daily newsletter, sign up with darren@d-one.co.za",
-        "tags": [
-          "self"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": false
-      },
-      {
         "title": "Talk to Stafford about morning meeting catchups — falling flat",
         "context": "Need to reset the format; drafted email options (direct/solution-oriented vs asking Stafford's read first) but not yet sent.",
         "tags": [
