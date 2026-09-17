@@ -894,6 +894,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Check if still paying Alan Gray retirement annuity",
+        "context": "",
+        "tags": [
+          "finance"
+        ],
+        "flag": false,
+        "due": "",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Organize screen extensions for Caleb and Berna",
         "context": "",
         "tags": [
