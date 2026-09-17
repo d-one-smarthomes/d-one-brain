@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-16",
+    "updated": "2026-09-17",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -2930,18 +2930,6 @@
         "url": ""
       },
       {
-        "title": "Tech Meeting — Odoo & systems items",
-        "context": "Odoo task · Internal project [odoo-task:5081]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-08-23",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=5081&model=project.task&view_type=form"
-      },
-      {
         "title": "Reply to Kira (NDV) — confirm site meeting for both Norwich Drive properties",
         "context": "Gmail 11 Sep · NDV = Norwich Drive Villa, Bishops Court (ref 26|NDV|491). Intro from Liana Abate (Scott Partners) to client Kira Jacobs. Two adjacent erven — a renovated house they'll live in + a bare site for a new build; both boundaries need security implemented ASAP, and the new-build install must be reusable/linkable once the house is built. Kira asked to meet at the properties 'Monday 12pm' (Mon 14 Sep) — reply to confirm or propose another time. NB clash: EO board meeting is Mon 14 Sep 11:00-13:00, so 12pm won't work. Kira 074 141 9169.",
         "tags": [
@@ -3298,18 +3286,6 @@
         "owner": "Darren"
       },
       {
-        "title": "Site audit for agent info",
-        "context": "Odoo task · General on Ekbergh SLA. Assigned to Darren, Mekyle, Stafford. [odoo-task:5392]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": null,
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=5392&model=project.task&view_type=form"
-      },
-      {
         "title": "Feedback: Ubiquiti stock ETA — TBA from Asbis (Dean)",
         "context": "Odoo activity · Feedback on Stock Movement (project.task). Current ETA from Ubiquiti is TBA from Asbis Dean. [odoo-act:684]",
         "tags": [
@@ -3370,6 +3346,31 @@
         "done": false,
         "owner": "Caleb",
         "url": ""
+      },
+      {
+        "title": "Send Tyrone tech file",
+        "context": "Odoo task 'Send Tyrone tech file' (due today 16:00) with a To-Do activity to send the tech file to Tyrone. [odoo-task:5398] [odoo-act:692]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=5398&model=project.task&view_type=form"
+      },
+      {
+        "title": "KE31 — send Jeanmari spec & costing for AC/UFH controller",
+        "context": "Jeanmari (Metropolis Design) asked D-One to send a spec and a costing for the AC/UFH controller Caleb showed her on Friday. Email 16 Sep, KE31_Queries thread.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "",
+        "owner": "Caleb"
       }
     ],
     "waitingOn": [
@@ -3954,6 +3955,30 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=4017&model=project.task&view_type=form"
+      },
+      {
+        "title": "Tech Meeting — Odoo & systems items",
+        "context": "Odoo task · Internal project [odoo-task:5081] ✓ completed in Odoo 2026-09-17",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-08-23",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=5081&model=project.task&view_type=form"
+      },
+      {
+        "title": "Site audit for agent info",
+        "context": "Odoo task · General on Ekbergh SLA. Assigned to Darren, Mekyle, Stafford. [odoo-task:5392] ✓ completed in Odoo 2026-09-17",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=5392&model=project.task&view_type=form"
       }
     ]
   },
