@@ -878,6 +878,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Organize screen extensions for Caleb and Berna",
+        "context": "",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Confirm receipt of G231 Gnodde CI#5.3 to Jacques Opperman (Base Projects)",
         "context": "Base Projects instructed D-One to proceed with the updated lighting control and LV installation at House Gnodde per CI 5.3 (revised appointment PDF + CR04-03 attached). Same T&Cs as previous appointment. Jacques asked for written confirmation of receipt. Email 16 Sep, cc systems@, leon@ and heinrich@baseprojects.",
         "tags": [
