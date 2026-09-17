@@ -894,6 +894,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Decide on temporary CCTV solution for Llandudno front/guard hut (reply to Lorette)",
+        "context": "Lorette du Toit wants cameras on the streetside/guard hut urgently. Charles (Dents Electrical) refuses temp works without a formal instruction and will only install conduit per latest approved drawings. Stafford offered: D-One quotes a temp solution, or fit one camera facing the guardhouse (tree partially obstructs). Cam (Godwin) only confirmed shutterboard hoarding is up. Lorette's question on conduit timing for guard hut + cabin is still unanswered. Email thread: \"CCTV Llandudno front area\".</context>\n<parameter name=\"due\">today",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Organize screen extensions for Caleb and Berna",
         "context": "",
         "tags": [
