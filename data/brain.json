@@ -150,23 +150,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "priorities": {
-      "day": "Stock visibility, Gnodde delivery, Buchu invoicing, daily pulse, Amanda/Odoo blockers, UniFi Dubai sniff test",
+      "day": "",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Caleb Optimized & Feeding Odoo"
     },
     "morning": {
       "done": true,
-      "at": "05:20",
-      "intention": "Problem-solving, not system-carrying — when the freak-out starts, just ask: what's blocked, and what's the next action."
+      "at": "08:08",
+      "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "20:49",
-      "energy": 6,
-      "chaseMode": true,
-      "reflection": "I got highly aggravated just after midday"
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -494,13 +494,29 @@
           "gratitude": false,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-16",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Stock visibility, Gnodde delivery, Buchu invoicing, daily pulse, Amanda/Odoo blockers, UniFi Dubai sniff test",
+        "intention": "Problem-solving, not system-carrying — when the freak-out starts, just ask: what's blocked, and what's the next action.",
+        "energy": 6,
+        "chaseMode": true,
+        "reflection": "I got highly aggravated just after midday",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
-      "move": true,
-      "silence": true,
-      "gratitude": true,
-      "listen": true
+      "move": false,
+      "silence": false,
+      "gratitude": false,
+      "listen": false
     }
   },
   "areas": [
