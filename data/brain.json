@@ -150,7 +150,7 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "priorities": {
       "day": "",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
@@ -158,13 +158,13 @@
     },
     "morning": {
       "done": true,
-      "at": "08:08",
-      "intention": "Present"
+      "at": "09:49",
+      "intention": ""
     },
     "evening": {
       "done": false,
       "at": "",
-      "energy": 6,
+      "energy": null,
       "chaseMode": false,
       "reflection": ""
     },
@@ -504,6 +504,22 @@
         "energy": 6,
         "chaseMode": true,
         "reflection": "I got highly aggravated just after midday",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
+      },
+      {
+        "date": "2026-09-17",
+        "morning": true,
+        "evening": false,
+        "dayPriority": "",
+        "intention": "Present",
+        "energy": 6,
+        "chaseMode": false,
+        "reflection": "",
         "practice": {
           "move": true,
           "silence": true,
