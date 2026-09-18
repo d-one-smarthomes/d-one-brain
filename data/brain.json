@@ -934,7 +934,7 @@
         "flag": true,
         "due": "",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Organize screen extensions for Caleb and Berna",
