@@ -165,8 +165,8 @@
       "done": false,
       "at": "",
       "energy": null,
-      "chaseMode": false,
-      "reflection": ""
+      "chaseMode": true,
+      "reflection": "Well managed"
     },
     "history": [
       {
