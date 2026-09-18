@@ -100,7 +100,7 @@
       {
         "title": "Katie homework video",
         "detail": "",
-        "done": false,
+        "done": true,
         "text": "Marriage: finish Katie homework before Thursday session — couples worksheet + personality-differences video (watch with Amanda). Note: Thursday session time needs to be rescheduled with Katie first."
       }
     ],
@@ -152,7 +152,7 @@
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
     "date": "2026-09-18",
     "priorities": {
-      "day": "",
+      "day": "Oakvale views followup call",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Caleb Optimized & Feeding Odoo"
     },
@@ -1463,7 +1463,7 @@
         "flag": true,
         "due": "2026-09-12",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Complete the couples worksheet before the next session",
@@ -1485,7 +1485,7 @@
         "flag": false,
         "due": "2026-09-12",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Book September couples sessions via the coach's calendar link",
@@ -3388,8 +3388,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
-        "due": "2026-09-17",
+        "flag": true,
+        "due": "2026-09-18",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=5398&model=project.task&view_type=form"
@@ -3437,8 +3437,8 @@
         "tags": [
           "d-one"
         ],
-        "flag": false,
-        "due": "2026-09-16",
+        "flag": true,
+        "due": "2026-09-18",
         "odoo": null,
         "done": false,
         "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
