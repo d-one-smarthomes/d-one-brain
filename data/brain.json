@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-17",
+    "updated": "2026-09-18",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -3091,18 +3091,6 @@
         "owner": "Darren"
       },
       {
-        "title": "Discuss returning the Steinway speakers for Brandt",
-        "context": "Odoo activity · To-Do on 'Stock Movement' (project.task) — whether to send the Steinway speakers back for Brandt, timing, and any restocking/logistics. [odoo-act:644]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-17",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=730&model=project.task&view_type=form"
-      },
-      {
         "title": "Advise Charles (Dents) — LCP boards urgently needed on site; confirm D-One equipment status & hold-up",
         "context": "Gmail 14 Sep · Charles Laubscher (Dents Electrical, PM) on 'RE: Project status update' (to Tashwill@swbgroup + Darren + systems@d-one) says they urgently need the LCP boards on site and asks whether all required D-One equipment is in hand and what the current hold-up is. Needs a D-One reply on equipment status/hold-up.",
         "tags": [
@@ -3318,18 +3306,6 @@
         "owner": "Darren"
       },
       {
-        "title": "Feedback: Ubiquiti stock ETA — TBA from Asbis (Dean)",
-        "context": "Odoo activity · Feedback on Stock Movement (project.task). Current ETA from Ubiquiti is TBA from Asbis Dean. [odoo-act:684]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": false,
-        "due": "2026-09-17",
-        "odoo": null,
-        "done": false,
-        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
-      },
-      {
         "title": "Confirm & proceed — Gnodde CI#5.3 (lighting control + LV install)",
         "context": "Base Projects (Jacques) instructed D-One to proceed with the updated lighting control & LV installation at House Gnodde per CI 5.3 (same T&Cs as previous appointment). Needs a confirmation reply. Email 16 Sep.",
         "tags": [
@@ -3415,6 +3391,42 @@
         "due": null,
         "odoo": null,
         "done": false
+      },
+      {
+        "title": "Installation Labour",
+        "context": "Odoo task · McBride VDV. Assigned to Darren, no deadline set. [odoo-task:5399]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": null,
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=5399&model=project.task&view_type=form"
+      },
+      {
+        "title": "Follow up on the Oakvale Views design, and check in on the design with the architect",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead). [odoo-act:701]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Build the Odoo skill in Claude",
+        "context": "Odoo activity · To-Do on Admin (project.task) — reusable connection + read/write bridge for D-One Odoo. [odoo-act:707]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=4795&model=project.task&view_type=form"
       }
     ],
     "waitingOn": [],
@@ -4010,6 +4022,30 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=5392&model=project.task&view_type=form"
+      },
+      {
+        "title": "Discuss returning the Steinway speakers for Brandt",
+        "context": "Odoo activity · To-Do on 'Stock Movement' (project.task) — whether to send the Steinway speakers back for Brandt, timing, and any restocking/logistics. [odoo-act:644] ✓ completed in Odoo 2026-09-18",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=730&model=project.task&view_type=form"
+      },
+      {
+        "title": "Feedback: Ubiquiti stock ETA — TBA from Asbis (Dean)",
+        "context": "Odoo activity · Feedback on Stock Movement (project.task). Current ETA from Ubiquiti is TBA from Asbis Dean. [odoo-act:684] ✓ completed in Odoo 2026-09-18",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-17",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
       }
     ]
   },
