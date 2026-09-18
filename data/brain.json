@@ -162,9 +162,9 @@
       "intention": ""
     },
     "evening": {
-      "done": false,
-      "at": "",
-      "energy": null,
+      "done": true,
+      "at": "19:21",
+      "energy": 8,
       "chaseMode": true,
       "reflection": "Well managed"
     },
