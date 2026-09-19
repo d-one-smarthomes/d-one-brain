@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-18",
+    "updated": "2026-09-19",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -150,23 +150,23 @@
   },
   "dailyCheckin": {
     "intro": "Check in before the day starts. Debrief when it ends. My promise to myself.",
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "priorities": {
-      "day": "Oakvale views followup call",
+      "day": "Fill my own cup",
       "week": "Team 1:1s — Odoo/D1Brain adoption",
       "month": "Caleb Optimized & Feeding Odoo"
     },
     "morning": {
-      "done": true,
-      "at": "09:49",
+      "done": false,
+      "at": "",
       "intention": ""
     },
     "evening": {
-      "done": true,
-      "at": "19:21",
-      "energy": 8,
-      "chaseMode": true,
-      "reflection": "Well managed"
+      "done": false,
+      "at": "",
+      "energy": null,
+      "chaseMode": false,
+      "reflection": ""
     },
     "history": [
       {
@@ -526,13 +526,29 @@
           "gratitude": true,
           "listen": true
         }
+      },
+      {
+        "date": "2026-09-18",
+        "morning": true,
+        "evening": true,
+        "dayPriority": "Oakvale views followup call",
+        "intention": "",
+        "energy": 8,
+        "chaseMode": true,
+        "reflection": "Well managed",
+        "practice": {
+          "move": true,
+          "silence": true,
+          "gratitude": true,
+          "listen": true
+        }
       }
     ],
     "practice": {
       "move": true,
       "silence": true,
       "gratitude": true,
-      "listen": true
+      "listen": false
     }
   },
   "areas": [
@@ -1012,7 +1028,7 @@
         "flag": false,
         "due": "2026-09-15",
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Get brother a birthday present",
@@ -3055,7 +3071,7 @@
         "flag": true,
         "due": null,
         "odoo": null,
-        "done": false
+        "done": true
       },
       {
         "title": "Review spec",
