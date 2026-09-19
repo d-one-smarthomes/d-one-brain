@@ -3448,28 +3448,28 @@
         "url": "https://d-one.odoo.com/web#id=5399&model=project.task&view_type=form"
       },
       {
-        "title": "Follow up on the Oakvale Views design, and check in on the design with the architect",
-        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead). [odoo-act:701]",
-        "tags": [
-          "d-one"
-        ],
-        "flag": true,
-        "due": "2026-09-18",
-        "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
-      },
-      {
-        "title": "Build the Odoo skill in Claude",
-        "context": "Odoo activity · To-Do on Admin (project.task) — reusable connection + read/write bridge for D-One Odoo. [odoo-act:707]",
+        "title": "Meeting Notes",
+        "context": "Odoo task · Mountain Road project — automated lines review (Fri 18 Sep): blinds vs curtains client sign-off gap, blind recess conflicts, playroom/TV lounge/upper lounge AV & speaker layout, fireplace spec depth issue (needs shallower built-in unit), Luminate switching rationalisation. See Odoo task for full detail and next-steps list. [odoo-task:5418]",
         "tags": [
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-16",
+        "due": null,
         "odoo": null,
-        "done": true,
-        "url": "https://d-one.odoo.com/web#id=4795&model=project.task&view_type=form"
+        "done": false,
+        "url": "https://d-one.odoo.com/web#id=5418&model=project.task&view_type=form"
+      },
+      {
+        "title": "Prep for Oakvale Design meeting with WP (architect)",
+        "context": "Calendar: \"Oakvale Design meeting with WP and D-One\" — Val de Vie, Sun 21 Sep 15:30-16:15 with wp@wpboscharchitects.co.za. Review current Oakvale design status / open architect questions before the meeting.",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-21",
+        "odoo": null,
+        "done": false,
+        "url": ""
       }
     ],
     "waitingOn": [],
@@ -4089,6 +4089,30 @@
         "odoo": null,
         "done": true,
         "url": "https://d-one.odoo.com/web#id=1531&model=project.task&view_type=form"
+      },
+      {
+        "title": "Follow up on the Oakvale Views design, and check in on the design with the architect",
+        "context": "Odoo activity · To-Do on Oakvale The Views (crm.lead). [odoo-act:701] ✓ completed in Odoo 2026-09-19",
+        "tags": [
+          "d-one"
+        ],
+        "flag": true,
+        "due": "2026-09-18",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=490&model=crm.lead&view_type=form"
+      },
+      {
+        "title": "Build the Odoo skill in Claude",
+        "context": "Odoo activity · To-Do on Admin (project.task) — reusable connection + read/write bridge for D-One Odoo. [odoo-act:707] ✓ completed in Odoo 2026-09-19",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-16",
+        "odoo": null,
+        "done": true,
+        "url": "https://d-one.odoo.com/web#id=4795&model=project.task&view_type=form"
       }
     ]
   },
