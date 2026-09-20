@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-19",
+    "updated": "2026-09-20",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -3098,14 +3098,14 @@
       },
       {
         "title": "Complete overdue B&O Beocampus compliance courses",
-        "context": "Bang & Olufsen Beocampus — Q1 26/27 quarterly compliance courses past their deadline (User ID DS-ZA13-CI). Automated nudge from no-reply@bang-olufsen.dk, 2026-09-13.",
+        "context": "Bang & Olufsen Beocampus — Q1 26/27 quarterly compliance courses past their deadline (User ID DS-ZA13-CI). Automated nudge from no-reply@bang-olufsen.dk, 2026-09-13. Second overdue nudge received 2026-09-19 — still not completed.",
         "tags": [
           "d-one"
         ],
         "flag": false,
-        "due": "2026-09-14",
+        "due": "2026-09-20",
         "odoo": null,
-        "done": true,
+        "done": false,
         "url": ""
       },
       {
@@ -3478,6 +3478,31 @@
         ],
         "flag": false,
         "due": "2026-09-21",
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "D-One Anthropic org out of usage credits",
+        "context": "Anthropic emailed 2026-09-19: your organization is out of usage credits — team locked out of Claude until more are purchased. Action: top up billing/credits. [gmail:anthropic-usage-credits-20260919]",
+        "tags": [
+          "d-one",
+          "finance"
+        ],
+        "flag": false,
+        "due": "2026-09-20",
+        "odoo": null,
+        "done": false,
+        "url": ""
+      },
+      {
+        "title": "Cartrack ransomware incident — update passwords & API creds",
+        "context": "Cartrack notified D-One (2026-09-17) of a ransomware incident (26 Aug); some customer/business contact data was published on the dark web on 8 Sep. Cartrack recommends: update Cartrack passwords for all D-One users, renew any Cartrack API/integration credentials, verify banking details before paying any Cartrack invoice, and warn finance/ops staff about phishing/payment-redirection attempts. [gmail:cartrack-cyberincident-20260917]",
+        "tags": [
+          "d-one"
+        ],
+        "flag": false,
+        "due": "2026-09-25",
         "odoo": null,
         "done": false,
         "url": ""
