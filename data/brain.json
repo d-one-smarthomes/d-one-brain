@@ -931,6 +931,17 @@
   "tasks": {
     "active": [
       {
+        "title": "Follow up with MJ",
+        "context": "",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": "2026-09-21",
+        "odoo": null,
+        "done": false
+      },
+      {
         "title": "Check why yoga app data isn't syncing properly",
         "context": "",
         "tags": [
