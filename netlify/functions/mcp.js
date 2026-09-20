@@ -1,16 +1,21 @@
 // D1Brain MCP server — stateless Streamable-HTTP MCP endpoint for the Claude app / voice mode.
-// Wraps the existing D1Brain Netlify data API (brain GET + save POST) as MCP tools so Claude
-// can read and write Darren's Central Brain (data/brain.json) from any surface, including voice.
+// Backs Darren's Central Brain with NOTION (the "Priorities" + "Parking Lot" databases).
+// As of the 2026-09 cutover this server reads/writes Notion ONLY — nothing touches brain.json.
 //
 // Auth: a token must be supplied on every request, either as a query param (?k=TOKEN) or an
 //   Authorization: Bearer TOKEN header. Set MCP_TOKEN in Netlify env to override the fallback.
-// Data path: this function calls the sibling brain/save functions (server-to-server) using the
-//   existing x-access-password: d1 model, so no schema is duplicated here.
+// Data path: this function calls the Notion API directly (server-to-server) with an integration
+//   token. Override any constant via a matching Netlify env var.
 
-const BASE = 'https://d1brain.netlify.app/.netlify/functions';
-const ACCESS_PASSWORD = process.env.ACCESS_PASSWORD || 'd1';
+const NOTION_TOKEN = process.env.NOTION_TOKEN || 'ntn_MZh412605917806kUiwE6xk0bGfKoBthE6MYI8ZzKkC9LP';
+const NOTION_VERSION = '2022-06-28';
+const TASKS_DB = process.env.NOTION_TASKS_DB || '3e100275-962f-8177-bc9f-e6cf78919ad0';
+const PARKING_DB = process.env.NOTION_PARKING_DB || '3e100275-962f-816f-8522-e265091b917c';
 const MCP_TOKEN = process.env.MCP_TOKEN || 'd1mcp_jHDkb2bRW6pau-M_l11Jg-mWBtYMwglS';
 const PROTOCOL_VERSION = '2025-06-18';
+
+// Map the MCP status vocabulary to the Notion "Status" select options.
+const STATUS_MAP = { active: 'Active', waitingOn: 'Waiting On', someday: 'Someday', done: 'Done' };
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
@@ -19,39 +24,63 @@ const CORS = {
 };
 const JSON_HEADERS = { ...CORS, 'Content-Type': 'application/json' };
 
-// ---------- brain data helpers ----------
-async function getBrain() {
-  const r = await fetch(`${BASE}/brain`, { headers: { 'x-access-password': ACCESS_PASSWORD } });
-  if (!r.ok) throw new Error(`brain GET failed: HTTP ${r.status}`);
-  const j = await r.json();
-  return j && j.data && j.data.tasks ? j.data : j; // tolerate either raw or {data} shape
-}
-async function saveBrain(brain, message) {
-  const r = await fetch(`${BASE}/save`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ data: brain, message: message || 'Update via D1Brain MCP', password: ACCESS_PASSWORD }),
+// ---------- Notion helpers ----------
+async function notion(path, method = 'GET', body) {
+  const r = await fetch(`https://api.notion.com/v1${path}`, {
+    method,
+    headers: {
+      Authorization: `Bearer ${NOTION_TOKEN}`,
+      'Notion-Version': NOTION_VERSION,
+      'Content-Type': 'application/json',
+    },
+    body: body ? JSON.stringify(body) : undefined,
   });
-  if (!r.ok) throw new Error(`brain save failed: HTTP ${r.status} ${await r.text().catch(() => '')}`);
-  return true;
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(`Notion ${method} ${path} failed: HTTP ${r.status} ${JSON.stringify(j).slice(0, 300)}`);
+  return j;
+}
+async function queryAll(dbId, filter, sorts, cap = 500) {
+  let results = [];
+  let cursor;
+  do {
+    const body = { page_size: 100 };
+    if (filter) body.filter = filter;
+    if (sorts) body.sorts = sorts;
+    if (cursor) body.start_cursor = cursor;
+    const j = await notion(`/databases/${dbId}/query`, 'POST', body);
+    results = results.concat(j.results || []);
+    cursor = j.has_more ? j.next_cursor : undefined;
+  } while (cursor && results.length < cap);
+  return results;
 }
 function todaySAST() {
   return new Date(Date.now() + 2 * 3600 * 1000).toISOString().slice(0, 10); // Africa/Johannesburg = UTC+2
 }
-function fmtTask(t, i) {
+// ---- Notion page -> plain field readers ----
+function pTitle(p) {
+  const a = p.properties?.Name?.title || [];
+  return a.map((x) => x.plain_text || (x.text && x.text.content) || '').join('').trim();
+}
+function pDue(p) { return p.properties?.Due?.date?.start || ''; }
+function pFlag(p) { return !!p.properties?.['⭐ Priority']?.checkbox; }
+function pDone(p) { return !!p.properties?.['✓ Done']?.checkbox; }
+function pTags(p) { return (p.properties?.Tags?.multi_select || []).map((o) => o.name); }
+function fmtTask(p, i) {
   const bits = [];
-  if (t.due) bits.push(`due ${t.due}`);
-  if (t.flag) bits.push('⚑');
-  const tags = (t.tags || []).length ? ` [${t.tags.join(', ')}]` : '';
+  const due = pDue(p);
+  if (due) bits.push(`due ${due}`);
+  if (pFlag(p)) bits.push('⚑');
+  const tags = pTags(p);
+  const tagStr = tags.length ? ` [${tags.join(', ')}]` : '';
   const meta = bits.length ? ` (${bits.join(', ')})` : '';
-  return `${i + 1}. ${t.title}${meta}${tags}`;
+  return `${i + 1}. ${pTitle(p)}${meta}${tagStr}`;
 }
 
 // ---------- tool definitions ----------
 const TOOLS = [
   {
     name: 'get_summary',
-    description: "Get a high-level snapshot of Darren's D1Brain right now: this month's goal, this week's three focus items, today's stated priorities, and task counts (active / waiting on / someday) plus how many active tasks are overdue or due today. Use this to answer 'what's on my brain', 'what should I focus on', or 'give me the overview'.",
+    description: "Get a high-level snapshot of Darren's D1Brain right now: task counts (active / waiting on / someday), how many active tasks are overdue or due today, and the parking-lot count. Use this to answer 'what's on my brain', 'what should I focus on', or 'give me the overview'.",
     inputSchema: { type: 'object', properties: {}, additionalProperties: false },
   },
   {
@@ -72,7 +101,7 @@ const TOOLS = [
   },
   {
     name: 'add_task',
-    description: "Add a new task to the brain. Use whenever Darren says 'remind me to…', 'add a task…', 'note that…', 'don't let me forget…'. Writes to data/brain.json immediately.",
+    description: "Add a new task to the brain. Use whenever Darren says 'remind me to…', 'add a task…', 'note that…', 'don't let me forget…'. Saves it to Notion immediately.",
     inputSchema: {
       type: 'object',
       properties: {
@@ -89,7 +118,7 @@ const TOOLS = [
   },
   {
     name: 'complete_task',
-    description: "Mark a task done and move it to the done list. Use for 'mark X done', 'I finished X', 'tick off X'. Matches by a piece of the task title (case-insensitive). If more than one matches, it lists them so you can be more specific.",
+    description: "Mark a task done. Use for 'mark X done', 'I finished X', 'tick off X'. Matches by a piece of the task title (case-insensitive). If more than one matches, it lists them so you can be more specific.",
     inputSchema: {
       type: 'object',
       properties: {
@@ -127,110 +156,107 @@ function resolveDue(due) {
 
 async function runTool(name, args) {
   args = args || {};
+
   if (name === 'get_summary') {
-    const b = await getBrain();
     const today = todaySAST();
-    const active = b.tasks?.active || [];
-    const overdue = active.filter((t) => !t.done && t.due && t.due < today).length;
-    const dueToday = active.filter((t) => !t.done && t.due === today).length;
-    const wf = b.weeklyFocus || {};
-    const three = (wf.three || []).map((x, i) => `  ${x.done ? '✓' : '○'} ${x.title}`).join('\n');
-    const pri = b.dailyCheckin?.priorities || {};
+    const active = await queryAll(TASKS_DB, { and: [{ property: 'Status', select: { equals: 'Active' } }, { property: '✓ Done', checkbox: { equals: false } }] }, [{ property: 'Due', direction: 'ascending' }]);
+    const overdue = active.filter((p) => { const d = pDue(p); return d && d < today; }).length;
+    const dueToday = active.filter((p) => pDue(p) === today).length;
+    const waiting = await queryAll(TASKS_DB, { and: [{ property: 'Status', select: { equals: 'Waiting On' } }, { property: '✓ Done', checkbox: { equals: false } }] });
+    const someday = await queryAll(TASKS_DB, { and: [{ property: 'Status', select: { equals: 'Someday' } }, { property: '✓ Done', checkbox: { equals: false } }] });
+    const parking = await queryAll(PARKING_DB, { property: 'Done', checkbox: { equals: false } });
+    const dueTodayTitles = active.filter((p) => pDue(p) === today).slice(0, 5).map((p) => `  • ${pTitle(p)}`).join('\n');
     const out = [
-      `📅 D1Brain — updated ${b.meta?.updated || '?'} (today is ${today})`,
+      `📅 D1Brain (Notion) — today is ${today}`,
       ``,
-      `MONTHLY GOAL: ${b.monthlyGoal?.title || '—'}`,
-      b.monthlyGoal?.statement ? `  ${b.monthlyGoal.statement}` : '',
-      ``,
-      `THIS WEEK'S THREE (week of ${wf.weekOf || '?'}):`,
-      three || '  (none set)',
-      ``,
-      `TODAY'S PRIORITIES: day="${pri.day || '—'}" · week="${pri.week || '—'}" · month="${pri.month || '—'}"`,
-      ``,
-      `TASKS: ${active.length} active · ${b.tasks?.waitingOn?.length || 0} waiting on · ${b.tasks?.someday?.length || 0} someday`,
+      `TASKS: ${active.length} active · ${waiting.length} waiting on · ${someday.length} someday`,
       `  → ${overdue} overdue, ${dueToday} due today`,
-      `PARKING LOT: ${(b.parkingLot || []).length} items`,
+      dueToday ? `DUE TODAY:\n${dueTodayTitles}` : '',
+      `PARKING LOT: ${parking.length} open items`,
     ].filter((l) => l !== '').join('\n');
     return out;
   }
 
   if (name === 'list_tasks') {
-    const b = await getBrain();
     const status = args.status || 'active';
-    let list = (b.tasks?.[status] || []).filter((t) => !t.done || status === 'done');
+    const sName = STATUS_MAP[status] || 'Active';
     const today = todaySAST();
-    if (args.tag) list = list.filter((t) => (t.tags || []).map((x) => x.toLowerCase()).includes(String(args.tag).toLowerCase()));
-    if (args.flagged) list = list.filter((t) => t.flag);
-    if (args.query) list = list.filter((t) => (t.title || '').toLowerCase().includes(String(args.query).toLowerCase()));
-    if (args.due === 'today') list = list.filter((t) => t.due === today);
-    else if (args.due === 'overdue') list = list.filter((t) => t.due && t.due < today);
+    const and = [{ property: 'Status', select: { equals: sName } }];
+    if (status !== 'done') and.push({ property: '✓ Done', checkbox: { equals: false } });
+    if (args.tag) and.push({ property: 'Tags', multi_select: { contains: String(args.tag) } });
+    if (args.flagged) and.push({ property: '⭐ Priority', checkbox: { equals: true } });
+    if (args.query) and.push({ property: 'Name', title: { contains: String(args.query) } });
+    if (args.due === 'today') and.push({ property: 'Due', date: { equals: today } });
+    else if (args.due === 'overdue') and.push({ property: 'Due', date: { before: today } });
     else if (args.due === 'week') {
       const wk = new Date(Date.now() + 2 * 3600 * 1000 + 7 * 86400000).toISOString().slice(0, 10);
-      list = list.filter((t) => t.due && t.due <= wk);
+      and.push({ property: 'Due', date: { on_or_before: wk } });
     }
-    list.sort((a, b2) => (a.due || '9999').localeCompare(b2.due || '9999'));
+    const list = await queryAll(TASKS_DB, { and }, [{ property: 'Due', direction: 'ascending' }]);
     const total = list.length;
+    if (!total) return `No ${status} tasks match.`;
     const limit = Math.max(1, Math.min(args.limit || 25, 100));
     const shown = list.slice(0, limit);
-    if (!total) return `No ${status} tasks match.`;
     const header = `${total} ${status} task${total === 1 ? '' : 's'}${args.tag ? ` tagged ${args.tag}` : ''}${args.due ? ` (${args.due})` : ''}${total > limit ? ` — showing first ${limit}` : ''}:`;
     return header + '\n' + shown.map(fmtTask).join('\n');
   }
 
   if (name === 'add_task') {
     if (!args.title || !String(args.title).trim()) return { error: 'title is required' };
-    const b = await getBrain();
     const status = args.status || 'active';
-    if (!b.tasks) b.tasks = {};
-    if (!Array.isArray(b.tasks[status])) b.tasks[status] = [];
-    const task = {
-      title: String(args.title).trim(),
-      context: args.context ? String(args.context) : '',
-      tags: Array.isArray(args.tags) ? args.tags : [],
-      flag: !!args.flag,
-      due: resolveDue(args.due),
-      odoo: null,
-      done: false,
+    const title = String(args.title).trim();
+    const due = resolveDue(args.due);
+    const tags = Array.isArray(args.tags) ? args.tags.filter(Boolean) : [];
+    const props = {
+      Name: { title: [{ text: { content: title } }] },
+      Status: { select: { name: STATUS_MAP[status] || 'Active' } },
+      Source: { select: { name: 'Voice' } },
+      '⭐ Priority': { checkbox: !!args.flag },
+      '✓ Done': { checkbox: false },
     };
-    b.tasks[status].unshift(task);
-    await saveBrain(b, `MCP add_task: ${task.title}`);
-    return `Added to ${status}: "${task.title}"${task.due ? ` (due ${task.due})` : ''}${task.tags.length ? ` [${task.tags.join(', ')}]` : ''}.`;
+    if (tags.length) props.Tags = { multi_select: tags.map((t) => ({ name: String(t) })) };
+    if (due) props.Due = { date: { start: due } };
+    if (args.context) props.Context = { rich_text: [{ text: { content: String(args.context).slice(0, 1900) } }] };
+    await notion('/pages', 'POST', { parent: { database_id: TASKS_DB }, properties: props });
+    return `Added to ${status}: "${title}"${due ? ` (due ${due})` : ''}${tags.length ? ` [${tags.join(', ')}]` : ''}.`;
   }
 
   if (name === 'complete_task') {
     if (!args.query || !String(args.query).trim()) return { error: 'query is required' };
-    const b = await getBrain();
     const status = args.status || 'active';
-    const list = b.tasks?.[status] || [];
-    const q = String(args.query).toLowerCase();
-    const matches = list.map((t, i) => ({ t, i })).filter((x) => (x.t.title || '').toLowerCase().includes(q) && !x.t.done);
-    if (!matches.length) return `No open "${status}" task matches "${args.query}".`;
+    const sName = STATUS_MAP[status] || 'Active';
+    const q = String(args.query).trim();
+    const matches = await queryAll(TASKS_DB, {
+      and: [
+        { property: 'Status', select: { equals: sName } },
+        { property: '✓ Done', checkbox: { equals: false } },
+        { property: 'Name', title: { contains: q } },
+      ],
+    });
+    if (!matches.length) return `No open "${status}" task matches "${q}".`;
     if (matches.length > 1) {
-      return `${matches.length} tasks match "${args.query}" — be more specific:\n` + matches.map((x, i) => `${i + 1}. ${x.t.title}`).join('\n');
+      return `${matches.length} tasks match "${q}" — be more specific:\n` + matches.map((p, i) => `${i + 1}. ${pTitle(p)}`).join('\n');
     }
-    const { t, i } = matches[0];
-    t.done = true;
-    list.splice(i, 1);
-    if (!Array.isArray(b.tasks.done)) b.tasks.done = [];
-    b.tasks.done.unshift(t);
-    await saveBrain(b, `MCP complete_task: ${t.title}`);
-    return `Done ✓ "${t.title}" — moved to the done list.`;
+    const page = matches[0];
+    await notion(`/pages/${page.id}`, 'PATCH', {
+      properties: { Status: { select: { name: 'Done' } }, '✓ Done': { checkbox: true } },
+    });
+    return `Done ✓ "${pTitle(page)}" — marked complete.`;
   }
 
   if (name === 'add_parking_lot') {
     if (!args.title || !String(args.title).trim()) return { error: 'title is required' };
-    const b = await getBrain();
-    if (!Array.isArray(b.parkingLot)) b.parkingLot = [];
-    const item = {
-      title: String(args.title).trim(),
-      text: args.text ? String(args.text) : '',
-      tags: Array.isArray(args.tags) ? args.tags : [],
-      date: todaySAST(),
-      done: false,
+    const title = String(args.title).trim();
+    const tags = Array.isArray(args.tags) ? args.tags.filter(Boolean) : [];
+    const props = {
+      Name: { title: [{ text: { content: title } }] },
+      Date: { date: { start: todaySAST() } },
+      Done: { checkbox: false },
     };
-    b.parkingLot.unshift(item);
-    await saveBrain(b, `MCP add_parking_lot: ${item.title}`);
-    return `Parked: "${item.title}".`;
+    if (args.text) props.Notes = { rich_text: [{ text: { content: String(args.text).slice(0, 1900) } }] };
+    if (tags.length) props.Tags = { multi_select: tags.map((t) => ({ name: String(t) })) };
+    await notion('/pages', 'POST', { parent: { database_id: PARKING_DB }, properties: props });
+    return `Parked: "${title}".`;
   }
 
   return { error: `Unknown tool: ${name}` };
@@ -248,8 +274,8 @@ async function handleRpc(msg) {
     return rpcResult(id, {
       protocolVersion: (params && params.protocolVersion) || PROTOCOL_VERSION,
       capabilities: { tools: { listChanged: false } },
-      serverInfo: { name: 'D1Brain', version: '1.0.0' },
-      instructions: "Darren's Central Brain. Use get_summary for an overview, list_tasks to read the list, add_task to capture anything he wants remembered, complete_task to tick things off, add_parking_lot for ideas.",
+      serverInfo: { name: 'D1Brain', version: '2.0.0' },
+      instructions: "Darren's Central Brain (Notion-backed). Use get_summary for an overview, list_tasks to read the list, add_task to capture anything he wants remembered, complete_task to tick things off, add_parking_lot for ideas.",
     });
   }
   if (method === 'ping') return rpcResult(id, {});
@@ -288,7 +314,7 @@ exports.handler = async (event) => {
   if (event.httpMethod === 'GET') {
     // Simple browser-visible health check (still requires token to avoid exposing existence casually)
     if (provided !== MCP_TOKEN) return { statusCode: 401, headers: { ...CORS, 'Content-Type': 'text/plain' }, body: 'Unauthorized' };
-    return { statusCode: 200, headers: { ...CORS, 'Content-Type': 'text/plain' }, body: 'D1Brain MCP server is live. POST JSON-RPC (MCP Streamable HTTP) to this URL.' };
+    return { statusCode: 200, headers: { ...CORS, 'Content-Type': 'text/plain' }, body: 'D1Brain MCP server is live (Notion-backed). POST JSON-RPC (MCP Streamable HTTP) to this URL.' };
   }
   if (event.httpMethod !== 'POST') return { statusCode: 405, headers: CORS, body: 'Method Not Allowed' };
   if (provided !== MCP_TOKEN) return { statusCode: 401, headers: JSON_HEADERS, body: JSON.stringify(rpcError(null, -32001, 'Unauthorized')) };
