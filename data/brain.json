@@ -2,7 +2,7 @@
   "meta": {
     "title": "D-One + Darren — Central Brain",
     "owner": "Darren",
-    "updated": "2026-09-20",
+    "updated": "2026-09-22",
     "rule": "Nothing lives in my head. It lives here, or it doesn't exist.",
     "sitsAbove": "This is the source of truth. Tasks and priorities both live here now."
   },
@@ -3506,6 +3506,17 @@
         "odoo": null,
         "done": false,
         "url": ""
+      },
+      {
+        "title": "Check with Jon Ratcliffe about a surf or walk",
+        "context": "Cape Town monthly catch-up rotation (Brett Jordaan → Jon Ratcliffe → Brad Morgan).",
+        "tags": [
+          "social"
+        ],
+        "flag": false,
+        "due": "2026-09-22",
+        "odoo": null,
+        "done": false
       }
     ],
     "waitingOn": [],
